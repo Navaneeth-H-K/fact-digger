@@ -149,3 +149,11 @@ def test_oversized_upload_is_rejected(tmp_path: Path, sample_pdf_bytes: bytes) -
 def test_health_reports_database_and_llm_mode(client: TestClient) -> None:
     body = client.get("/health").json()
     assert body["database"] == "ok" and body["llm_mode"] == "off"
+
+
+def test_root_serves_the_single_page_ui(client: TestClient) -> None:
+    response = client.get("/")
+    assert response.status_code == 200
+    assert response.headers["content-type"].startswith("text/html")
+    assert "Fact Knowledge Layer" in response.text
+    assert client.get("/static/app.js").status_code == 200

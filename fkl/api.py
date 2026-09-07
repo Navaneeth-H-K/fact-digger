@@ -9,10 +9,13 @@ from collections.abc import AsyncIterator, Iterator
 from contextlib import asynccontextmanager
 from dataclasses import replace
 from datetime import UTC, date, datetime
+from pathlib import Path
 from typing import Annotated, Any
 
 from fastapi import Depends, FastAPI, HTTPException, Query, Request, Response, UploadFile
 from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 from sqlalchemy import case, func, or_, select, text
 from sqlalchemy.orm import Session, aliased
 
@@ -39,6 +42,8 @@ from fkl.schemas import (
     UploadTicket,
 )
 
+STATIC_DIR = Path(__file__).parent / "static"
+
 
 def create_app(runtime: Runtime | None = None) -> FastAPI:
     @asynccontextmanager
@@ -49,6 +54,7 @@ def create_app(runtime: Runtime | None = None) -> FastAPI:
     app = FastAPI(title="Fact Knowledge Layer", version="0.1.0", lifespan=lifespan)
     app.add_middleware(GZipMiddleware, minimum_size=1024)
     _register_routes(app)
+    app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
     return app
 
 
@@ -138,6 +144,10 @@ def _get_document(db: Session, document_id: str) -> Document:
 
 
 def _register_routes(app: FastAPI) -> None:
+    @app.get("/", include_in_schema=False)
+    def index() -> FileResponse:
+        return FileResponse(STATIC_DIR / "index.html", media_type="text/html")
+
     @app.get("/health")
     def health(runtime: RuntimeDep, db: DbDep) -> dict[str, str]:
         try:

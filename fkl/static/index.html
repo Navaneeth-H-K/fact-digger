@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fact Knowledge Layer</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">FKL</span>
+      <span class="brand-name">Fact Knowledge Layer</span>
+      <span class="brand-sub">facts &rarr; evidence &rarr; tie-out &rarr; explained variances</span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-tab="upload" class="active">Upload</button>
+      <button data-tab="documents">Documents</button>
+      <button data-tab="facts">Facts</button>
+      <button data-tab="relations">Relations</button>
+      <button data-tab="failures">Failures</button>
+      <button data-tab="schema">Schema</button>
+    </nav>
+    <div class="health" id="health">checking&hellip;</div>
+  </header>
+
+  <main class="layout">
+    <section class="panel" id="panel-upload">
+      <h2>Add PDFs to the knowledge layer</h2>
+      <p class="muted">
+        Each file is uploaded straight to storage, inventoried, then processed page by page
+        (image + text &rarr; model &rarr; verified facts). When a document finishes, linking runs
+        and only genuinely ambiguous pairs go to the adjudicator.
+      </p>
+      <label class="dropzone" id="dropzone">
+        <input type="file" id="file-input" accept="application/pdf" multiple hidden />
+        <span>Drop PDFs here or click to choose</span>
+      </label>
+      <div id="upload-jobs" class="jobs"></div>
+    </section>
+
+    <section class="panel hidden" id="panel-documents">
+      <div class="panel-head">
+        <h2>Documents</h2>
+        <div class="actions">
+          <button id="btn-link" class="secondary">Run linking</button>
+          <button id="btn-refresh-docs" class="secondary">Refresh</button>
+        </div>
+      </div>
+      <div id="documents-table"></div>
+    </section>
+
+    <section class="panel hidden" id="panel-facts">
+      <div class="panel-head">
+        <h2>Facts</h2>
+        <div class="filters">
+          <select id="facts-doc"><option value="">All documents</option></select>
+          <input id="facts-q" placeholder="search entity, attribute, quote" />
+          <select id="facts-verified">
+            <option value="">Any evidence</option>
+            <option value="true">Verified only</option>
+            <option value="false">Unverified only</option>
+          </select>
+          <button id="btn-facts" class="secondary">Apply</button>
+        </div>
+      </div>
+      <div id="facts-table"></div>
+    </section>
+
+    <section class="panel hidden" id="panel-relations">
+      <div class="panel-head">
+        <h2>Relations</h2>
+        <div class="filters">
+          <select id="relations-verdict">
+            <option value="">All verdicts</option>
+            <option value="contradicts">contradicts</option>
+            <option value="unresolved">unresolved</option>
+            <option value="superseded">superseded</option>
+            <option value="context_explained">context explained</option>
+            <option value="corroborates">corroborates</option>
+            <option value="derived">derived (arithmetic)</option>
+          </select>
+          <select id="relations-doc"><option value="">All documents</option></select>
+          <input id="relations-attr" placeholder="attribute contains" />
+          <button id="btn-relations" class="secondary">Apply</button>
+        </div>
+      </div>
+      <div id="relations-list"></div>
+    </section>
+
+    <section class="panel hidden" id="panel-failures">
+      <div class="panel-head">
+        <h2>What the system could not do, and what it did instead</h2>
+        <div class="filters">
+          <select id="failures-stage">
+            <option value="">All stages</option>
+            <option>extract</option><option>parse</option><option>verify</option>
+            <option>validate</option><option>meta</option><option>link</option>
+          </select>
+          <button id="btn-failures" class="secondary">Apply</button>
+        </div>
+      </div>
+      <div id="failures-table"></div>
+    </section>
+
+    <section class="panel hidden" id="panel-schema">
+      <div class="panel-head">
+        <h2>Discovered attribute vocabulary</h2>
+        <p class="muted">Nothing here is predefined; it grows as documents are processed.</p>
+      </div>
+      <div id="schema-table"></div>
+    </section>
+
+    <aside class="evidence hidden" id="evidence">
+      <div class="evidence-head">
+        <strong id="evidence-title">Evidence</strong>
+        <button id="evidence-close" class="icon" title="close">&times;</button>
+      </div>
+      <div id="evidence-body"></div>
+    </aside>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
