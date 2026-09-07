@@ -28,7 +28,7 @@ from fkl.compare import (
 )
 from fkl.db import session_scope
 from fkl.llm.adjudicate import adjudicate
-from fkl.llm.client import LLMClient, LLMJsonError, LLMQuotaError
+from fkl.llm.client import LLMCacheMissError, LLMClient, LLMJsonError, LLMQuotaError
 from fkl.llm.extract import extract_page
 from fkl.llm.prompts import DocumentContext, extraction_request, meta_request
 from fkl.llm.structured import call_structured
@@ -241,6 +241,8 @@ def _failure_kind(error: Exception) -> str:
         return "llm_quota"
     if isinstance(error, LLMJsonError):
         return "llm_json"
+    if isinstance(error, LLMCacheMissError):
+        return "llm_cache_miss"
     return "llm_other"
 
 

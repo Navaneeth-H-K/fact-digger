@@ -28,3 +28,7 @@ warn_unused_ignores = false
 testpaths = ["tests"]
 addopts = "-q"
 filterwarnings = ["ignore::DeprecationWarning"]
+
+[[tool.mypy.overrides]]
+module = "fkl.pdf"
+disallow_untyped_calls = false
