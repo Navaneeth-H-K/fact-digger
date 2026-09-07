@@ -26,7 +26,7 @@ class PageInfo:
 
 def _printed_label(page: fitz.Page, text: str) -> str | None:
     """Prefer the PDF's own page label; else a bare number or roman numeral at the page edge."""
-    label = page.get_label()
+    label: str = page.get_label()
     if label:
         return label
     lines = [line.strip() for line in text.splitlines() if line.strip()]
