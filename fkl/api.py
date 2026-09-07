@@ -4,25 +4,31 @@ from __future__ import annotations
 
 import hashlib
 import uuid
+from collections import Counter
 from collections.abc import AsyncIterator, Iterator
 from contextlib import asynccontextmanager
 from dataclasses import replace
-from typing import Annotated
+from typing import Annotated, Any
 
 from fastapi import Depends, FastAPI, HTTPException, Query, Request, Response, UploadFile
-from sqlalchemy import func, select, text
-from sqlalchemy.orm import Session
+from sqlalchemy import case, func, or_, select, text
+from sqlalchemy.orm import Session, aliased
 
 from fkl.db import session_scope
-from fkl.models import Document, Fact, Page
+from fkl.models import Document, Fact, Failure, Page, Relation
 from fkl.pdf import inventory, render_jpeg
-from fkl.pipeline import process_document
+from fkl.pipeline import link, process_document
 from fkl.runtime import Runtime, build_runtime
 from fkl.schemas import (
     DocumentOut,
+    FactDetailOut,
     FactOut,
+    FailureOut,
+    LinkProgressOut,
     PageOut,
     ProgressOut,
+    RelationOut,
+    SchemaEntry,
     UploadRequest,
     UploadTargetOut,
     UploadTicket,
@@ -72,6 +78,49 @@ def _document_out(db: Session, document: Document) -> DocumentOut:
         **scalar_fields,
         pages={status: count for status, count in page_rows},
         facts_count=facts_count or 0,
+    )
+
+
+_SEVERITY = (
+    "contradicts",
+    "unresolved",
+    "superseded",
+    "context_explained",
+    "corroborates",
+    "derived",
+)
+
+
+def _severity_order() -> Any:
+    return case(
+        {verdict: rank for rank, verdict in enumerate(_SEVERITY)},
+        value=Relation.verdict,
+        else_=len(_SEVERITY),
+    )
+
+
+def _fact_out(fact: Fact, filename: str | None) -> FactOut:
+    out = FactOut.model_validate(fact)
+    out.document_filename = filename
+    return out
+
+
+def _relation_out(db: Session, relation: Relation) -> RelationOut:
+    fact_a, fact_b = db.get(Fact, relation.fact_a_id), db.get(Fact, relation.fact_b_id)
+    assert fact_a is not None and fact_b is not None
+    document_a, document_b = (
+        db.get(Document, fact_a.document_id),
+        db.get(Document, fact_b.document_id),
+    )
+    scalar_fields = {
+        name: getattr(relation, name)
+        for name in RelationOut.model_fields
+        if name not in ("fact_a", "fact_b")
+    }
+    return RelationOut(
+        **scalar_fields,
+        fact_a=_fact_out(fact_a, document_a.filename if document_a else None),
+        fact_b=_fact_out(fact_b, document_b.filename if document_b else None),
     )
 
 
@@ -229,6 +278,142 @@ def _register_routes(app: FastAPI) -> None:
             raise HTTPException(status_code=404, detail="page not found")
         data = render_jpeg(runtime.storage.get(document.storage_path), index, width=width)
         return Response(content=data, media_type="image/jpeg")
+
+    @app.post("/link", response_model=LinkProgressOut)
+    def link_documents(
+        runtime: RuntimeDep, db: DbDep, budget_s: float | None = Query(default=None, gt=0, le=290)
+    ) -> LinkProgressOut:
+        db.close()
+        deps = runtime.deps if budget_s is None else replace(runtime.deps, budget_s=budget_s)
+        return LinkProgressOut.model_validate(link(runtime.engine, deps))
+
+    @app.get("/relations", response_model=list[RelationOut])
+    def list_relations(
+        db: DbDep,
+        verdict: str | None = None,
+        status: str | None = None,
+        document_id: str | None = None,
+        attribute: str | None = None,
+        limit: int = Query(default=200, ge=1, le=1000),
+        offset: int = Query(default=0, ge=0),
+    ) -> list[RelationOut]:
+        fact_a = aliased(Fact)
+        fact_b = aliased(Fact)
+        query = (
+            select(Relation)
+            .join(fact_a, Relation.fact_a_id == fact_a.id)
+            .join(fact_b, Relation.fact_b_id == fact_b.id)
+        )
+        if verdict:
+            query = query.where(Relation.verdict == verdict)
+        if status:
+            query = query.where(Relation.status == status)
+        if document_id:
+            query = query.where(
+                or_(fact_a.document_id == document_id, fact_b.document_id == document_id)
+            )
+        if attribute:
+            pattern = f"%{attribute.lower()}%"
+            query = query.where(
+                or_(fact_a.attribute_key.like(pattern), fact_b.attribute_key.like(pattern))
+            )
+        query = query.order_by(_severity_order(), Relation.confidence.desc(), Relation.id)
+        relations = db.scalars(query.limit(limit).offset(offset)).all()
+        return [_relation_out(db, relation) for relation in relations]
+
+    @app.get("/facts", response_model=list[FactOut])
+    def list_facts(
+        db: DbDep,
+        document_id: str | None = None,
+        attribute: str | None = None,
+        entity: str | None = None,
+        verified: bool | None = None,
+        q: str | None = None,
+        include_duplicates: bool = False,
+        limit: int = Query(default=200, ge=1, le=1000),
+        offset: int = Query(default=0, ge=0),
+    ) -> list[FactOut]:
+        query = select(Fact, Document.filename).join(Document, Fact.document_id == Document.id)
+        if not include_duplicates:
+            query = query.where(Fact.is_duplicate.is_(False))
+        if document_id:
+            query = query.where(Fact.document_id == document_id)
+        if attribute:
+            query = query.where(Fact.attribute_key.like(f"%{attribute.lower()}%"))
+        if entity:
+            query = query.where(Fact.entity_key.like(f"%{entity.lower()}%"))
+        if verified is not None:
+            query = query.where(Fact.evidence_verified.is_(verified))
+        if q:
+            pattern = f"%{q}%"
+            query = query.where(
+                or_(
+                    Fact.entity.ilike(pattern),
+                    Fact.attribute.ilike(pattern),
+                    Fact.quote.ilike(pattern),
+                )
+            )
+        rows = db.execute(query.order_by(Fact.id).limit(limit).offset(offset)).all()
+        return [_fact_out(fact, filename) for fact, filename in rows]
+
+    @app.get("/facts/{fact_id}", response_model=FactDetailOut)
+    def get_fact(fact_id: int, db: DbDep) -> FactDetailOut:
+        fact = db.get(Fact, fact_id)
+        if fact is None:
+            raise HTTPException(status_code=404, detail="fact not found")
+        document = db.get(Document, fact.document_id)
+        detail = FactDetailOut.model_validate(fact)
+        detail.document_filename = document.filename if document else None
+        relations = db.scalars(
+            select(Relation)
+            .where(or_(Relation.fact_a_id == fact_id, Relation.fact_b_id == fact_id))
+            .order_by(_severity_order(), Relation.id)
+        ).all()
+        detail.relations = [_relation_out(db, relation) for relation in relations]
+        return detail
+
+    @app.get("/failures", response_model=list[FailureOut])
+    def list_failures(
+        db: DbDep,
+        stage: str | None = None,
+        kind: str | None = None,
+        document_id: str | None = None,
+        limit: int = Query(default=500, ge=1, le=2000),
+    ) -> list[FailureOut]:
+        query = select(Failure)
+        if stage:
+            query = query.where(Failure.stage == stage)
+        if kind:
+            query = query.where(Failure.kind == kind)
+        if document_id:
+            query = query.where(Failure.document_id == document_id)
+        failures = db.scalars(query.order_by(Failure.id.desc()).limit(limit)).all()
+        return [FailureOut.model_validate(failure) for failure in failures]
+
+    @app.get("/schema", response_model=list[SchemaEntry])
+    def get_schema(db: DbDep) -> list[SchemaEntry]:
+        rows = db.execute(
+            select(
+                Fact.attribute_key, Fact.attribute, Fact.unit, Fact.entity, Fact.estimate_type
+            ).where(Fact.is_duplicate.is_(False))
+        ).all()
+        groups: dict[str, list[tuple[str, str, str, str]]] = {}
+        for key, attribute, unit, entity, estimate_type in rows:
+            groups.setdefault(key, []).append((attribute, unit, entity, estimate_type))
+        entries = []
+        for key, members in groups.items():
+            names = Counter(attribute for attribute, *_ in members)
+            entries.append(
+                SchemaEntry(
+                    attribute_key=key,
+                    display_name=names.most_common(1)[0][0],
+                    count=len(members),
+                    units=sorted({unit for _, unit, *_ in members}),
+                    entities=sorted({entity for *_, entity, _ in members})[:10],
+                    estimate_types=sorted({estimate for *_, estimate in members}),
+                )
+            )
+        return sorted(entries, key=lambda entry: (-entry.count, entry.attribute_key))
 
 
 app = create_app()

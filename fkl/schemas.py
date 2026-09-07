@@ -6,7 +6,7 @@ instructions to the model.
 
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, datetime
 from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -223,6 +223,7 @@ class FactOut(BaseModel):
     verify_method: str
     is_duplicate: bool
     validator_flags: list[str]
+    document_filename: str | None = None
 
 
 class PageOut(BaseModel):
@@ -236,3 +237,59 @@ class PageOut(BaseModel):
     last_error: str | None
     text: str
     facts: list[FactOut] = Field(default_factory=list)
+
+
+class RelationOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    verdict: str
+    status: str
+    method: str
+    dimension: str | None
+    explanation: str
+    confidence: float
+    winner_fact_id: int | None
+    rule_hypothesis: str | None
+    attempts: int
+    fact_a: FactOut
+    fact_b: FactOut
+
+
+class FactDetailOut(FactOut):
+    relations: list[RelationOut] = Field(default_factory=list)
+
+
+class LinkProgressOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    total_relations: int
+    final: int
+    pending_llm: int
+    failed: int
+    adjudicated_this_call: int
+    by_verdict: dict[str, int]
+
+
+class FailureOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    document_id: str | None
+    page_index: int | None
+    fact_id: int | None
+    relation_id: int | None
+    stage: str
+    kind: str
+    message: str
+    handled: str
+    created_at: datetime
+
+
+class SchemaEntry(BaseModel):
+    attribute_key: str
+    display_name: str
+    count: int
+    units: list[str]
+    entities: list[str]
+    estimate_types: list[str]
