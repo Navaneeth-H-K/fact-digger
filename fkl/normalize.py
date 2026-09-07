@@ -6,7 +6,10 @@ turns them into comparable numbers, units, scales, periods and keys.
 
 from __future__ import annotations
 
+import calendar
 import re
+from dataclasses import dataclass
+from datetime import date, timedelta
 
 # A printed number: Western grouping (1,234,567.89), Indian grouping (3,25,540), or plain.
 _NUMBER = r"(?:\d{1,3}(?:,\d{2,3})+(?:\.\d+)?|\d+(?:\.\d+)?|\.\d+)"
@@ -158,3 +161,149 @@ def to_base_value(value_raw: str, unit_raw: str | None, scale_raw: str | None) -
     explicit = normalize_scale(scale_raw) if scale_raw else None
     factor = explicit if explicit is not None else _embedded_scale(unit_raw, value_raw)
     return number * factor
+
+
+# --------------------------------------------------------------------------------------------
+# Periods
+# --------------------------------------------------------------------------------------------
+
+
+_MONTHS = {
+    name.lower(): number
+    for number, names in enumerate(zip(calendar.month_name, calendar.month_abbr, strict=True))
+    if number
+    for name in names
+}
+_MONTHS["sept"] = 9
+_MONTH_WORD = r"(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sept?(?:ember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)"
+_YEAR2 = r"(\d{2}|\d{4})"
+_FY_TAIL = rf"{_YEAR2}(?:\s*[-/]\s*{_YEAR2})?"
+_NUMBER_WORDS = {"three": 3, "six": 6, "nine": 9, "twelve": 12}
+
+
+@dataclass(frozen=True)
+class Period:
+    """A closed date interval with the kind of period the document expressed."""
+
+    start: date
+    end: date
+    kind: str  # fy | quarter | half | month | calendar | asof | range
+
+
+def period_key(period: Period | None) -> str:
+    return f"{period.start.isoformat()}:{period.end.isoformat()}" if period else "unknown"
+
+
+def _end_of_month(year: int, month: int) -> date:
+    return date(year, month, calendar.monthrange(year, month)[1])
+
+
+def _add_months(day: date, months: int) -> date:
+    month_index = day.month - 1 + months
+    year, month = day.year + month_index // 12, month_index % 12 + 1
+    return date(year, month, min(day.day, calendar.monthrange(year, month)[1]))
+
+
+def _full_year(printed: str) -> int:
+    year = int(printed)
+    return year + 2000 if year < 100 else year
+
+
+def _fy_end_year(first: str, second: str | None) -> int:
+    return _full_year(second) if second else _full_year(first)
+
+
+def _fiscal_year(end_year: int, fy_start_month: int) -> Period:
+    if fy_start_month == 1:
+        return Period(date(end_year, 1, 1), date(end_year, 12, 31), "fy")
+    start = date(end_year - 1, fy_start_month, 1)
+    return Period(start, _add_months(start, 12) - timedelta(days=1), "fy")
+
+
+def _fiscal_span(
+    end_year: int, fy_start_month: int, first_month: int, months: int, kind: str
+) -> Period:
+    start = _add_months(_fiscal_year(end_year, fy_start_month).start, first_month)
+    return Period(start, _add_months(start, months) - timedelta(days=1), kind)
+
+
+def _parse_date(text: str) -> date | None:
+    text = text.strip().rstrip(".")
+    patterns = (
+        (rf"^(\d{{1,2}})\s+({_MONTH_WORD})[,\s]+(\d{{4}})$", ("d", "m", "y")),
+        (rf"^({_MONTH_WORD})\s+(\d{{1,2}})[,\s]+(\d{{4}})$", ("m", "d", "y")),
+        (r"^(\d{1,2})[./-](\d{1,2})[./-](\d{4})$", ("d", "n", "y")),
+        (r"^(\d{4})-(\d{2})-(\d{2})$", ("y", "n", "d")),
+    )
+    for pattern, order in patterns:
+        match = re.match(pattern, text, re.IGNORECASE)
+        if not match:
+            continue
+        parts = dict(zip(order, match.groups(), strict=True))
+        month = _MONTHS[parts["m"].lower()] if "m" in parts else int(parts["n"])
+        return date(int(parts["y"]), month, int(parts["d"]))
+    month_year = re.match(rf"^({_MONTH_WORD})\s+(\d{{4}})$", text, re.IGNORECASE)
+    if month_year:
+        return _end_of_month(int(month_year.group(2)), _MONTHS[month_year.group(1).lower()])
+    return None
+
+
+def parse_period(text: str | None, fy_start_month: int = 4) -> Period | None:
+    """Parse a printed period ("FY24", "Q3:2024-25", "April-December 2024", "as on 31 March 2025").
+
+    Two-digit years are read as 20xx. Fiscal labels resolve with the document's fiscal-year start
+    month, so "FY24" is April 2023–March 2024 for Indian issuers and calendar 2024 when the year
+    starts in January.
+    """
+    if not text:
+        return None
+    t = (
+        re.sub(r"\s+", " ", text.replace("–", "-").replace("—", "-").replace(":", " "))
+        .strip()
+        .lower()
+    )
+
+    if m := re.match(r"^(?:as (?:on|at|of)|at|end[- ]?(?:of )?)\s*(.+)$", t):
+        day = _parse_date(m.group(1))
+        return Period(day, day, "asof") if day else None
+    if m := re.match(r"^(\w+) months? (?:period )?(?:ended|ending|to) (.+)$", t):
+        count = _NUMBER_WORDS.get(m.group(1)) or (int(m.group(1)) if m.group(1).isdigit() else None)
+        end = _parse_date(m.group(2))
+        if count and end:
+            return Period(_add_months(end + timedelta(days=1), -count), end, "range")
+        return None
+    if m := re.match(r"^(?:financial year|fiscal year|year) (?:ended|ending) (.+)$", t):
+        end = _parse_date(m.group(1))
+        return Period(_add_months(end + timedelta(days=1), -12), end, "fy") if end else None
+    if m := re.match(rf"^q([1-4]) ?(?:of )?(?:fy ?)?{_FY_TAIL}$", t):
+        quarter = int(m.group(1))
+        end_year = _fy_end_year(m.group(2), m.group(3))
+        return _fiscal_span(end_year, fy_start_month, 3 * (quarter - 1), 3, "quarter")
+    if m := re.match(r"^(\d{4}) ?q([1-4])$", t):
+        quarter, year = int(m.group(2)), int(m.group(1))
+        return _fiscal_span(year, 1, 3 * (quarter - 1), 3, "quarter")
+    if m := re.match(rf"^h([12]) ?(?:of )?(?:fy ?)?{_FY_TAIL}$", t):
+        half = int(m.group(1))
+        return _fiscal_span(
+            _fy_end_year(m.group(2), m.group(3)), fy_start_month, 6 * (half - 1), 6, "half"
+        )
+    if m := re.match(rf"^(\d{{1,2}})m ?(?:fy ?)?{_FY_TAIL}$", t):
+        return _fiscal_span(
+            _fy_end_year(m.group(2), m.group(3)), fy_start_month, 0, int(m.group(1)), "range"
+        )
+    if m := re.match(rf"^({_MONTH_WORD}) ?(?:-|to) ?({_MONTH_WORD}) (\d{{4}})$", t):
+        first, last, year = _MONTHS[m.group(1)], _MONTHS[m.group(2)], int(m.group(3))
+        start_year = year - 1 if last < first else year
+        return Period(date(start_year, first, 1), _end_of_month(year, last), "range")
+    if m := re.match(rf"^(?:fy|f\.y\.|fiscal|financial year) ?'?{_FY_TAIL}$", t):
+        return _fiscal_year(_fy_end_year(m.group(1), m.group(2)), fy_start_month)
+    if m := re.match(r"^(\d{4}) ?[-/] ?(\d{2}|\d{4})$", t):
+        first, second = int(m.group(1)), _full_year(m.group(2))
+        return _fiscal_year(second, fy_start_month) if second == first + 1 else None
+    if m := re.match(r"^(?:cy ?)?(\d{4})$", t):
+        year = int(m.group(1))
+        return Period(date(year, 1, 1), date(year, 12, 31), "calendar")
+    if m := re.match(rf"^({_MONTH_WORD}) (\d{{4}})$", t):
+        month, year = _MONTHS[m.group(1)], int(m.group(2))
+        return Period(date(year, month, 1), _end_of_month(year, month), "month")
+    return None
