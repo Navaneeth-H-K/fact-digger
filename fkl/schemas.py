@@ -169,3 +169,70 @@ class DocumentOut(BaseModel):
     meta_done: bool
     pages: dict[str, int] = Field(default_factory=dict, description="Page counts by status.")
     facts_count: int = 0
+
+
+class ProgressOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    document_id: str
+    status: str
+    total_pages: int
+    done: int
+    failed: int
+    skipped: int
+    pending: int
+    processed_this_call: int
+    estimated_calls_remaining: int
+    last_errors: list[str]
+
+
+class FactOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    document_id: str
+    page_index: int
+    page_label: str | None
+    entity: str
+    attribute: str
+    value_raw: str
+    value_kind: str
+    unit_raw: str | None
+    scale_raw: str | None
+    period_raw: str | None
+    estimate_type: str
+    measurement_basis: str | None
+    attributed_to: str | None
+    quote: str
+    quote_source: str
+    confidence: float
+    notes: str | None
+    value_num: float | None
+    unit: str
+    scale: str | None
+    period_start: date | None
+    period_end: date | None
+    period_kind: str
+    entity_key: str
+    attribute_key: str
+    period_key: str
+    basis_key: str
+    fact_key: str
+    evidence_verified: bool
+    verify_score: float
+    verify_method: str
+    is_duplicate: bool
+    validator_flags: list[str]
+
+
+class PageOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    index: int
+    label: str | None
+    status: str
+    attempts: int
+    char_count: int
+    last_error: str | None
+    text: str
+    facts: list[FactOut] = Field(default_factory=list)

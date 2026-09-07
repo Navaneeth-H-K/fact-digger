@@ -6,6 +6,7 @@ import hashlib
 import uuid
 from collections.abc import AsyncIterator, Iterator
 from contextlib import asynccontextmanager
+from dataclasses import replace
 from typing import Annotated
 
 from fastapi import Depends, FastAPI, HTTPException, Query, Request, Response, UploadFile
@@ -14,9 +15,18 @@ from sqlalchemy.orm import Session
 
 from fkl.db import session_scope
 from fkl.models import Document, Fact, Page
-from fkl.pdf import inventory
+from fkl.pdf import inventory, render_jpeg
+from fkl.pipeline import process_document
 from fkl.runtime import Runtime, build_runtime
-from fkl.schemas import DocumentOut, UploadRequest, UploadTargetOut, UploadTicket
+from fkl.schemas import (
+    DocumentOut,
+    FactOut,
+    PageOut,
+    ProgressOut,
+    UploadRequest,
+    UploadTargetOut,
+    UploadTicket,
+)
 
 
 def create_app(runtime: Runtime | None = None) -> FastAPI:
@@ -172,6 +182,53 @@ def _register_routes(app: FastAPI) -> None:
     def delete_document(document_id: str, db: DbDep) -> Response:
         db.delete(_get_document(db, document_id))
         return Response(status_code=204)
+
+    @app.post("/documents/{document_id}/process", response_model=ProgressOut)
+    def process(
+        document_id: str,
+        runtime: RuntimeDep,
+        db: DbDep,
+        budget_s: float | None = Query(default=None, gt=0, le=290),
+        retry_failed: bool = False,
+    ) -> ProgressOut:
+        document = _get_document(db, document_id)
+        if document.status == "uploading":
+            raise HTTPException(status_code=409, detail="finalize the upload first")
+        pdf_bytes = runtime.storage.get(document.storage_path)
+        db.close()  # the batch runner opens its own sessions, one per page
+        deps = runtime.deps
+        if budget_s is not None:
+            deps = replace(deps, budget_s=budget_s)
+        progress = process_document(
+            runtime.engine, document_id, pdf_bytes, deps, retry_failed=retry_failed
+        )
+        return ProgressOut.model_validate(progress)
+
+    @app.get("/documents/{document_id}/pages/{index}", response_model=PageOut)
+    def get_page(document_id: str, index: int, db: DbDep) -> PageOut:
+        page = db.scalars(
+            select(Page).where(Page.document_id == document_id, Page.index == index)
+        ).first()
+        if page is None:
+            raise HTTPException(status_code=404, detail="page not found")
+        facts = db.scalars(select(Fact).where(Fact.page_id == page.id).order_by(Fact.id)).all()
+        out = PageOut.model_validate(page)
+        out.facts = [FactOut.model_validate(fact) for fact in facts]
+        return out
+
+    @app.get("/documents/{document_id}/pages/{index}/image.jpg")
+    def get_page_image(
+        document_id: str,
+        index: int,
+        runtime: RuntimeDep,
+        db: DbDep,
+        width: int = Query(default=1200, ge=200, le=2400),
+    ) -> Response:
+        document = _get_document(db, document_id)
+        if document.page_count is None or not 0 <= index < document.page_count:
+            raise HTTPException(status_code=404, detail="page not found")
+        data = render_jpeg(runtime.storage.get(document.storage_path), index, width=width)
+        return Response(content=data, media_type="image/jpeg")
 
 
 app = create_app()
