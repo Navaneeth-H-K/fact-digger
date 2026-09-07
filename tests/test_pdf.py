@@ -1,6 +1,6 @@
 """PDF inventory (text, labels, blank detection) and page rendering via PyMuPDF."""
 
-import fitz
+import pymupdf
 
 from fkl.pdf import inventory, render_jpeg
 from tests.conftest import PAGE_ONE_LABEL
@@ -28,6 +28,6 @@ def test_blank_page_is_flagged_but_image_only_page_is_not(sample_pdf_bytes: byte
 def test_render_jpeg_produces_jpeg_of_requested_width(sample_pdf_bytes: bytes) -> None:
     data = render_jpeg(sample_pdf_bytes, page_index=0, width=600)
     assert data[:2] == b"\xff\xd8"
-    pixmap = fitz.Pixmap(data)
+    pixmap = pymupdf.Pixmap(data)
     assert abs(pixmap.width - 600) <= 1
     assert pixmap.height > pixmap.width  # portrait page keeps its aspect ratio

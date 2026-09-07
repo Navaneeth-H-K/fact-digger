@@ -1,6 +1,6 @@
 """Shared pytest fixtures. Tests never touch the network or a real database."""
 
-import fitz
+import pymupdf
 import pytest
 
 PAGE_ONE_TEXT = (
@@ -11,8 +11,8 @@ PAGE_ONE_TEXT = (
 PAGE_ONE_LABEL = "212"
 
 
-def _image_only_pixmap() -> fitz.Pixmap:
-    pixmap = fitz.Pixmap(fitz.csRGB, fitz.IRect(0, 0, 120, 80), False)
+def _image_only_pixmap() -> pymupdf.Pixmap:
+    pixmap = pymupdf.Pixmap(pymupdf.csRGB, pymupdf.IRect(0, 0, 120, 80), False)
     pixmap.clear_with(200)
     return pixmap
 
@@ -20,7 +20,7 @@ def _image_only_pixmap() -> fitz.Pixmap:
 @pytest.fixture(scope="session")
 def sample_pdf_bytes() -> bytes:
     """Three pages: prose with a printed page number, a truly blank page, an image-only page."""
-    document = fitz.open()
+    document = pymupdf.open()
     page = document.new_page(width=595, height=842)
     y = 72
     for line in PAGE_ONE_TEXT.split("\n"):
@@ -29,7 +29,7 @@ def sample_pdf_bytes() -> bytes:
     page.insert_text((290, 820), PAGE_ONE_LABEL, fontsize=9)
     document.new_page(width=595, height=842)
     image_page = document.new_page(width=595, height=842)
-    image_page.insert_image(fitz.Rect(72, 72, 372, 272), pixmap=_image_only_pixmap())
+    image_page.insert_image(pymupdf.Rect(72, 72, 372, 272), pixmap=_image_only_pixmap())
     data: bytes = document.tobytes()
     document.close()
     return data

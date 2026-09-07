@@ -13,3 +13,4 @@ node_modules/
 # provided by Superjoin; not ours to redistribute
 Dataset/
 superjoin-vit-2026-assignment.pdf
+.claude/
