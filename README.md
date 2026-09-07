@@ -6,7 +6,7 @@ data vintage differs. Built for the Superjoin engineering-intern assignment, in 
 tick-and-tie: every number is traced to its source, tied out against other sources, and every
 variance is explained or flagged.
 
-> Live demo: _(URL added at v1)_ · Video (≤3 min): _(link added at v1)_
+> Live demo: https://fact-knowledge-layer.vercel.app · Video (≤3 min): _(link added at v1)_
 
 ## What it does
 
@@ -56,7 +56,7 @@ Open http://127.0.0.1:8765 and drop a PDF on the page.
 |---|---|
 | `LLM_MODE` | `live` (call the model), `record` (call and cache responses), `replay` (cache only, no key needed) |
 | `AGENTROUTER_API_KEY` / `AGENTROUTER_BASE_URL` | Anthropic-compatible endpoint for Claude (any Anthropic-compatible URL works) |
-| `EXTRACT_MODEL` / `ADJUDICATE_MODEL` | model per stage; defaults `claude-sonnet-4-5-20250929` and `claude-opus-4-8` |
+| `EXTRACT_MODEL` / `ADJUDICATE_MODEL` | model per stage; the committed run used `claude-opus-4-8` for both, the only Claude model routed to the key used |
 | `LLM_PROVIDER` | `anthropic` (default) or `openai_compat` to use a local model through Ollama/vLLM (`OPENAI_COMPAT_BASE_URL`) |
 | `DATABASE_URL` | SQLite file locally; a Postgres URL in production |
 | `STORAGE_BACKEND` | `local` directory or `supabase` bucket |
@@ -146,9 +146,10 @@ _(Filled from the starter-set run at v1, with fact and relation ids linking into
 - **Building:** Claude Code (Claude Fable 5.1) as the coding agent, working test-first from a
   written plan; every module was written against a failing test, then linted and type-checked
   before commit.
-- **At runtime:** Claude Sonnet 4.5 for page extraction and Claude Opus 4.8 for adjudication,
-  reached through AgentRouter's Anthropic-compatible endpoint. Any OpenAI-compatible local model
-  can be substituted with `LLM_PROVIDER=openai_compat`.
+- **At runtime:** Claude Opus 4.8 for both page extraction and adjudication, reached through
+  AgentRouter's Anthropic-compatible endpoint (the models are configurable per stage; Sonnet was
+  planned for extraction but is not routed on the key used). Any OpenAI-compatible local model can
+  be substituted with `LLM_PROVIDER=openai_compat`.
 
 ## Limitations and next steps
 
@@ -170,6 +171,24 @@ same-document contradiction detection; identifier-anchored entity resolution; fo
 attachment; a tick-and-tie report per target document exportable to CSV/XLSX; evidence bounding
 boxes on the page image; an evaluation harness with a labelled pair set reporting precision and
 recall per verdict.
+
+## Deployment
+
+The live instance runs on Vercel's Python runtime with Supabase for Postgres and file storage:
+
+- `app.py` is the entrypoint; dependencies come from `pyproject.toml`; `vercel.json` raises the
+  function limit to 120 s and adds a daily cron on `/health` so the free Supabase project never
+  pauses for inactivity.
+- Uploads never pass through Vercel: the API issues a signed Supabase Storage URL and the browser
+  PUTs the file there, so the 4.5 MB request limit does not apply.
+- Processing and linking are time-boxed (45 s per call by default) and resumable, so the client
+  loops until nothing is pending; a killed function loses at most the pages in flight.
+- Environment variables (set in Vercel, never committed): `DATABASE_URL` (Supabase transaction
+  pooler, port 6543), `STORAGE_BACKEND=supabase`, `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`,
+  `SUPABASE_BUCKET`, `LLM_MODE=live`, `AGENTROUTER_API_KEY`, `AGENTROUTER_BASE_URL`,
+  `EXTRACT_MODEL`, `ADJUDICATE_MODEL`.
+- `scripts/sync_to_production.py` seeds the live layer from a local run with ids preserved, so
+  the committed `samples/export.json` and the live site agree.
 
 ## Additional notes
 
