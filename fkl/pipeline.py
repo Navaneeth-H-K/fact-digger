@@ -7,17 +7,23 @@ normalisation, keys, plausibility flags and duplicate detection. The model only 
 from __future__ import annotations
 
 import hashlib
+import math
+import time
+from concurrent.futures import FIRST_COMPLETED, Future, ThreadPoolExecutor, wait
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime, timedelta
+from typing import Any
 
-from sqlalchemy import func, select
+from sqlalchemy import Engine, and_, func, or_, select, update
 from sqlalchemy.orm import Session
 
 from fkl.compare import FactView, validate_fact, values_equal
+from fkl.db import session_scope
 from fkl.llm.client import LLMClient, LLMJsonError, LLMQuotaError
 from fkl.llm.extract import extract_page
-from fkl.llm.prompts import DocumentContext, extraction_request
-from fkl.models import Document, Fact, Failure, Page
+from fkl.llm.prompts import DocumentContext, extraction_request, meta_request
+from fkl.llm.structured import call_structured
+from fkl.models import Document, Fact, Failure, Page, utcnow
 from fkl.normalize import (
     Period,
     canonical_key,
@@ -27,7 +33,7 @@ from fkl.normalize import (
     to_base_value,
 )
 from fkl.pdf import render_jpeg
-from fkl.schemas import ExtractedFact
+from fkl.schemas import DocumentMeta, ExtractedFact
 from fkl.verify import verify_quote
 
 MAX_PAGE_ATTEMPTS = 3
@@ -295,3 +301,204 @@ def process_page(
     page.last_error = None
     db.flush()
     return stored
+
+
+# --------------------------------------------------------------------------------------------
+# Document-level batch processing (time-boxed, idempotent, resumable)
+# --------------------------------------------------------------------------------------------
+
+STALE_PROCESSING_SECONDS = 300
+_MAX_REPORTED_ERRORS = 5
+
+
+@dataclass(frozen=True)
+class ProcessProgress:
+    document_id: str
+    status: str
+    total_pages: int
+    done: int
+    failed: int
+    skipped: int
+    pending: int
+    processed_this_call: int
+    estimated_calls_remaining: int
+    last_errors: list[str]
+
+
+def ensure_document_meta(db: Session, document: Document, deps: PipelineDeps) -> None:
+    """Read title, publisher, publication date and fiscal-year convention from the first pages.
+
+    Failure here is logged and tolerated: extraction still works, only vintage reasoning weakens.
+    """
+    if document.meta_done:
+        return
+    first_pages = db.scalars(
+        select(Page).where(Page.document_id == document.id).order_by(Page.index).limit(3)
+    ).all()
+    request = meta_request(
+        model=deps.extract_model,
+        filename=document.filename,
+        first_pages_text="\n\n".join(page.text for page in first_pages),
+    )
+    try:
+        meta = call_structured(deps.client, request, DocumentMeta)
+    except Exception as error:  # noqa: BLE001 - recorded, never fatal
+        db.add(
+            Failure(
+                document_id=document.id,
+                stage="meta",
+                kind=_failure_kind(error),
+                message=str(error)[:2000],
+                handled="continuing without metadata; unknown publication date weakens vintage rules",
+            )
+        )
+        return
+    document.title = meta.title or document.title
+    document.publisher = meta.publisher or document.publisher
+    document.publication_date = _iso(meta.publication_date) or document.publication_date
+    document.document_type = meta.document_type or document.document_type
+    document.fiscal_year_start_month = meta.fiscal_year_start_month or deps.fiscal_year_start_month
+    document.meta_done = True
+
+
+def _stale_cutoff() -> datetime:
+    return utcnow() - timedelta(seconds=STALE_PROCESSING_SECONDS)
+
+
+def _claimable_condition() -> Any:
+    return or_(
+        Page.status == "pending",
+        and_(Page.status == "failed", Page.attempts < MAX_PAGE_ATTEMPTS),
+        and_(Page.status == "processing", Page.updated_at < _stale_cutoff()),
+    )
+
+
+def _claimable_page_ids(db: Session, document_id: str, retry_failed: bool) -> list[int]:
+    if retry_failed:
+        db.execute(
+            update(Page)
+            .where(Page.document_id == document_id, Page.status == "failed")
+            .values(attempts=0)
+        )
+    query = (
+        select(Page.id)
+        .where(Page.document_id == document_id, _claimable_condition())
+        .order_by(Page.index)
+    )
+    return list(db.scalars(query))
+
+
+def _claim(db: Session, page_id: int) -> bool:
+    """Atomically take ownership of a page so overlapping calls never process it twice."""
+    result = db.execute(
+        update(Page)
+        .where(Page.id == page_id, _claimable_condition())
+        .values(status="processing", updated_at=utcnow())
+    )
+    db.commit()
+    return bool(getattr(result, "rowcount", 0) == 1)
+
+
+def _run_page(
+    engine: Engine, document_id: str, page_id: int, pdf_bytes: bytes, deps: PipelineDeps
+) -> tuple[bool, str | None]:
+    """Worker: claim, process and commit one page in its own transaction."""
+    with session_scope(engine) as db:
+        if not _claim(db, page_id):
+            return False, None
+        document = db.get(Document, document_id)
+        page = db.get(Page, page_id)
+        if document is None or page is None:
+            return False, "document or page vanished"
+        try:
+            process_page(db, document, page, pdf_bytes, deps)
+        except Exception as error:  # noqa: BLE001 - keep the batch alive, report the page
+            page.status = "failed"
+            page.last_error = str(error)[:2000]
+            db.flush()
+        return True, page.last_error
+
+
+def _progress(
+    engine: Engine, document_id: str, processed: int, errors: list[str]
+) -> ProcessProgress:
+    with session_scope(engine) as db:
+        rows = db.execute(
+            select(Page.status, func.count())
+            .where(Page.document_id == document_id)
+            .group_by(Page.status)
+        ).all()
+        counts: dict[str, int] = {status: count for status, count in rows}
+        remaining = (
+            db.scalar(
+                select(func.count()).where(Page.document_id == document_id, _claimable_condition())
+            )
+            or 0
+        )
+        document = db.get(Document, document_id)
+        assert document is not None
+        pending = counts.get("pending", 0) + counts.get("processing", 0)
+        document.status = "extracted" if pending == 0 and remaining == 0 else "processing"
+        return ProcessProgress(
+            document_id=document_id,
+            status=document.status,
+            total_pages=sum(counts.values()),
+            done=counts.get("done", 0),
+            failed=counts.get("failed", 0),
+            skipped=counts.get("skipped", 0),
+            pending=pending,
+            processed_this_call=processed,
+            estimated_calls_remaining=math.ceil(remaining / max(processed, 1)) if remaining else 0,
+            last_errors=errors[-_MAX_REPORTED_ERRORS:],
+        )
+
+
+def process_document(
+    engine: Engine,
+    document_id: str,
+    pdf_bytes: bytes,
+    deps: PipelineDeps,
+    *,
+    retry_failed: bool = False,
+) -> ProcessProgress:
+    """Process as many claimable pages as the time budget allows; safe to call repeatedly.
+
+    Each page is committed on its own, so a killed invocation loses at most the pages in flight,
+    and the next call simply continues.
+    """
+    deadline = time.monotonic() + deps.budget_s
+    with session_scope(engine) as db:
+        document = db.get(Document, document_id)
+        if document is None:
+            raise LookupError(f"unknown document {document_id}")
+        if document.status == "uploaded":
+            document.status = "processing"
+        ensure_document_meta(db, document, deps)
+        queue = iter(_claimable_page_ids(db, document_id, retry_failed))
+
+    processed = 0
+    errors: list[str] = []
+    with ThreadPoolExecutor(max_workers=deps.page_concurrency) as pool:
+        in_flight: set[Future[tuple[bool, str | None]]] = set()
+
+        def submit_next() -> bool:
+            if time.monotonic() >= deadline:
+                return False
+            page_id = next(queue, None)
+            if page_id is None:
+                return False
+            in_flight.add(pool.submit(_run_page, engine, document_id, page_id, pdf_bytes, deps))
+            return True
+
+        for _ in range(deps.page_concurrency):
+            if not submit_next():
+                break
+        while in_flight:
+            finished, in_flight = wait(in_flight, return_when=FIRST_COMPLETED)
+            for future in finished:
+                claimed, error = future.result()
+                processed += int(claimed)
+                if error:
+                    errors.append(error)
+                submit_next()
+    return _progress(engine, document_id, processed, errors)
