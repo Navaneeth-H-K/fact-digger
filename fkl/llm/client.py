@@ -31,6 +31,18 @@ class LLMCacheMissError(LLMError):
     pass
 
 
+class LLMQuotaError(LLMError):
+    """Rate limited or out of quota (HTTP 402/429) after all retries."""
+
+
+class LLMTransientError(LLMError):
+    """Server or network trouble after all retries."""
+
+
+class LLMJsonError(LLMError):
+    """The model's output could not be turned into the requested structure."""
+
+
 @dataclass(frozen=True)
 class LLMRequest:
     purpose: str
