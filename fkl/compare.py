@@ -243,3 +243,61 @@ def build_candidates(
             partner_count[g.id] = partner_count.get(g.id, 0) + 1
             pairs.append((f, g) if f.id < g.id else (g, f))
     return sorted(pairs, key=lambda p: (p[0].id, p[1].id))
+
+
+# --------------------------------------------------------------------------------------------
+# Arithmetic tie-out: parts that sum to a total across documents
+# --------------------------------------------------------------------------------------------
+
+_ADDITIVE_UNITS = frozenset({"count", "INR", "USD", "sq_ft"})
+_MAX_GROUP_SIZE = 40
+
+
+@dataclass(frozen=True)
+class ArithmeticEdge:
+    parts: tuple[FactView, FactView]
+    total: FactView
+    explanation: str
+
+
+def _fmt(value: float) -> str:
+    return f"{value:,.0f}" if abs(value) >= 100 else f"{value:g}"
+
+
+def find_arithmetic_relations(facts: Sequence[FactView]) -> list[ArithmeticEdge]:
+    """Find triples where two parts printed somewhere add up to a total printed elsewhere.
+
+    Only absolute quantities take part (counts, money, area), never percentages or ratios where
+    coincidental sums are common. Each triple must span at least two documents and use three
+    distinct attributes, so it ties one document's breakdown to another's headline figure.
+    """
+    groups: dict[tuple[str, str, str], list[FactView]] = {}
+    for f in facts:
+        if f.unit in _ADDITIVE_UNITS and f.value_num is not None and f.value_num > 0:
+            groups.setdefault((f.entity_key, f.period_key, f.unit), []).append(f)
+
+    edges: list[ArithmeticEdge] = []
+    for members in groups.values():
+        if len(members) < 3 or len(members) > _MAX_GROUP_SIZE:
+            continue
+        ordered = sorted(members, key=lambda f: f.value_num or 0.0)
+        for total in ordered:
+            for i, a in enumerate(ordered):
+                if a.value_num is None or total.value_num is None or a.value_num >= total.value_num:
+                    break
+                for b in ordered[i + 1 :]:
+                    if b.value_num is None or b.value_num >= total.value_num:
+                        break
+                    if len({a.attribute_key, b.attribute_key, total.attribute_key}) < 3:
+                        continue
+                    if len({a.document_id, b.document_id, total.document_id}) < 2:
+                        continue
+                    if values_equal(a.value_num + b.value_num, total.value_num, total.unit):
+                        big, small = b, a  # ascending order, so b is the larger part
+                        explanation = (
+                            f"{_fmt(big.value_num or 0)} + {_fmt(small.value_num or 0)} = "
+                            f"{_fmt(total.value_num)} ({big.attribute_key} + "
+                            f"{small.attribute_key} = {total.attribute_key})"
+                        )
+                        edges.append(ArithmeticEdge((big, small), total, explanation))
+    return edges

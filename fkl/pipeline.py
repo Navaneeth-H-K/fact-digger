@@ -18,7 +18,14 @@ from typing import Any
 from sqlalchemy import Engine, and_, func, or_, select, update
 from sqlalchemy.orm import Session
 
-from fkl.compare import FactView, build_candidates, classify_pair, validate_fact, values_equal
+from fkl.compare import (
+    FactView,
+    build_candidates,
+    classify_pair,
+    find_arithmetic_relations,
+    validate_fact,
+    values_equal,
+)
 from fkl.db import session_scope
 from fkl.llm.adjudicate import adjudicate
 from fkl.llm.client import LLMClient, LLMJsonError, LLMQuotaError
@@ -581,7 +588,8 @@ def rule_pass(db: Session) -> int:
         (a, b) for a, b in db.execute(select(Relation.fact_a_id, Relation.fact_b_id)).all()
     }
     created = 0
-    for a, b in build_candidates(_fact_views(db)):
+    views = _fact_views(db)
+    for a, b in build_candidates(views):
         if (a.id not in unpaired and b.id not in unpaired) or (a.id, b.id) in existing:
             continue
         result = classify_pair(a, b)
@@ -603,6 +611,29 @@ def rule_pass(db: Session) -> int:
         )
         existing.add((a.id, b.id))
         created += 1
+    for edge in find_arithmetic_relations(views):
+        involved = {edge.total.id, *(part.id for part in edge.parts)}
+        if not involved & unpaired:
+            continue
+        for part in edge.parts:
+            key = (min(part.id, edge.total.id), max(part.id, edge.total.id))
+            if key in existing:
+                continue
+            db.add(
+                Relation(
+                    fact_a_id=key[0],
+                    fact_b_id=key[1],
+                    verdict="derived",
+                    status="final",
+                    method="arithmetic",
+                    dimension="none",
+                    explanation=edge.explanation,
+                    confidence=0.85,
+                    rule_hypothesis="arithmetic tie-out: parts sum to total",
+                )
+            )
+            existing.add(key)
+            created += 1
     db.execute(update(Fact).where(Fact.paired_at.is_(None)).values(paired_at=utcnow()))
     db.flush()
     return created

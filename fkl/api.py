@@ -364,17 +364,17 @@ def _register_routes(app: FastAPI) -> None:
 
     @app.get("/facts/timeline", response_model=TimelineOut)
     def fact_timeline(db: DbDep, entity_key: str, attribute_key: str) -> TimelineOut:
-        rows = db.execute(
-            select(Fact, Document)
-            .join(Document, Fact.document_id == Document.id)
-            .where(
-                Fact.entity_key == entity_key,
-                Fact.attribute_key == attribute_key,
-                Fact.is_duplicate.is_(False),
-            )
-        ).all()
-        rows.sort(
-            key=lambda row: (row[0].period_key, row[1].publication_date or date.min, row[0].id)
+        rows = sorted(
+            db.execute(
+                select(Fact, Document)
+                .join(Document, Fact.document_id == Document.id)
+                .where(
+                    Fact.entity_key == entity_key,
+                    Fact.attribute_key == attribute_key,
+                    Fact.is_duplicate.is_(False),
+                )
+            ).all(),
+            key=lambda row: (row[0].period_key, row[1].publication_date or date.min, row[0].id),
         )
         latest_per_period: dict[str, int] = {}
         for fact, _document in rows:
