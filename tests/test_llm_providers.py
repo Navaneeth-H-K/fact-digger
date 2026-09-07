@@ -186,3 +186,60 @@ def test_call_structured_gives_up_after_one_repair() -> None:
     client = LLMClient(mode="off", fake=lambda req: {"facts": "still wrong"})
     with pytest.raises(LLMJsonError):
         call_structured(client, request(), Page)
+
+
+# --------------------------------------------------------------------------------------------
+# OpenAI-compatible provider (local models via Ollama / vLLM, or any OpenAI-style gateway)
+# --------------------------------------------------------------------------------------------
+
+
+def openai_tool_message(arguments: str) -> Any:
+    tool_call = SimpleNamespace(
+        function=SimpleNamespace(name="record_page_facts", arguments=arguments)
+    )
+    message = SimpleNamespace(tool_calls=[tool_call], content=None)
+    return SimpleNamespace(
+        choices=[SimpleNamespace(message=message, finish_reason="tool_calls")],
+        usage=SimpleNamespace(prompt_tokens=7, completion_tokens=3),
+    )
+
+
+def test_openai_compat_provider_sends_chat_completion_with_forced_function_call() -> None:
+    from fkl.llm.providers import OpenAICompatProvider
+
+    captured: dict[str, Any] = {}
+
+    def create(**kwargs: Any) -> Any:
+        captured.update(kwargs)
+        return openai_tool_message('{"facts": [1]}')
+
+    provider = OpenAICompatProvider(
+        api_key="none", base_url="http://localhost:11434/v1", create=create
+    )
+    result = provider.complete(request())
+    assert result["tool_input"] == {"facts": [1]}
+    assert result["usage"] == {"input_tokens": 7, "output_tokens": 3}
+    assert captured["model"] == "claude-sonnet-4-5-20250929" and captured["max_tokens"] == 1234
+    system, user = captured["messages"]
+    assert system == {"role": "system", "content": "sys"}
+    image, text = user["content"]
+    assert image["type"] == "image_url" and image["image_url"]["url"].startswith(
+        "data:image/jpeg;base64,"
+    )
+    assert text == {"type": "text", "text": "page text"}
+    assert captured["tools"][0]["function"]["parameters"] == SCHEMA
+    assert captured["tool_choice"] == {
+        "type": "function",
+        "function": {"name": "record_page_facts"},
+    }
+
+
+def test_openai_compat_provider_falls_back_to_json_in_content() -> None:
+    from fkl.llm.providers import OpenAICompatProvider
+
+    def create(**kwargs: Any) -> Any:
+        message = SimpleNamespace(tool_calls=None, content='{"facts": []}')
+        return SimpleNamespace(choices=[SimpleNamespace(message=message)], usage=None)
+
+    provider = OpenAICompatProvider(api_key="none", base_url="http://x/v1", create=create)
+    assert provider.complete(request())["tool_input"] == {"facts": []}

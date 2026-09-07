@@ -155,3 +155,127 @@ class AnthropicProvider:
             },
             "stop_reason": getattr(message, "stop_reason", None),
         }
+
+
+class OpenAICompatProvider:
+    """Any OpenAI-style chat-completions endpoint: Ollama, vLLM, LM Studio, or a gateway.
+
+    Lets the whole system run fully offline with a local vision model (slower, less accurate).
+    Structured output is requested as a forced function call and, failing that, parsed from the
+    message content.
+    """
+
+    def __init__(
+        self,
+        api_key: str,
+        base_url: str,
+        *,
+        create: Callable[..., Any] | None = None,
+        sleep: Callable[[float], None] = time.sleep,
+        max_attempts: int = 4,
+        timeout: float = 300.0,
+    ) -> None:
+        self._create: Callable[..., Any]
+        if create is None:
+            import openai
+
+            client = openai.OpenAI(
+                api_key=api_key, base_url=base_url, max_retries=0, timeout=timeout
+            )
+            self._create = client.chat.completions.create
+        else:
+            self._create = create
+        self._sleep = sleep
+        self._max_attempts = max_attempts
+
+    @staticmethod
+    def _user_content(blocks: list[ContentBlock]) -> list[dict[str, Any]]:
+        converted: list[dict[str, Any]] = []
+        for block in blocks:
+            if block["type"] == "image":
+                encoded = base64.b64encode(block["data"]).decode("ascii")
+                converted.append(
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": f"data:{block['media_type']};base64,{encoded}"},
+                    }
+                )
+            else:
+                converted.append({"type": "text", "text": block["text"]})
+        return converted
+
+    def _send(self, req: LLMRequest) -> Any:
+        return self._create(
+            model=req.model,
+            max_tokens=req.max_tokens,
+            messages=[
+                {"role": "system", "content": req.system},
+                {"role": "user", "content": self._user_content(req.content)},
+            ],
+            tools=[
+                {
+                    "type": "function",
+                    "function": {
+                        "name": req.tool_name,
+                        "description": f"Record the structured result of the {req.purpose} step.",
+                        "parameters": req.tool_schema,
+                    },
+                }
+            ],
+            tool_choice={"type": "function", "function": {"name": req.tool_name}},
+        )
+
+    def _send_with_retries(self, req: LLMRequest) -> Any:
+        import openai
+
+        last_error: Exception | None = None
+        for attempt in range(self._max_attempts):
+            try:
+                return self._send(req)
+            except openai.RateLimitError as error:
+                last_error = error
+            except openai.APIStatusError as error:
+                if error.status_code < 500 and error.status_code != 402:
+                    raise LLMTransientError(f"unexpected status {error.status_code}") from error
+                last_error = error
+            except (openai.APIConnectionError, openai.APITimeoutError) as error:
+                last_error = error
+            if attempt < self._max_attempts - 1:
+                self._sleep(_backoff_seconds(attempt))
+        assert last_error is not None
+        if getattr(last_error, "status_code", None) in _QUOTA_STATUSES:
+            raise LLMQuotaError("quota exhausted") from last_error
+        raise LLMTransientError(f"gave up after {self._max_attempts} attempts") from last_error
+
+    @staticmethod
+    def _tool_input(completion: Any, tool_name: str) -> dict[str, Any]:
+        message = completion.choices[0].message
+        for call in getattr(message, "tool_calls", None) or []:
+            if call.function.name == tool_name:
+                try:
+                    parsed = json.loads(call.function.arguments)
+                except json.JSONDecodeError as error:
+                    raise LLMJsonError("function arguments were not valid JSON") from error
+                if isinstance(parsed, dict):
+                    return parsed
+        match = _JSON_OBJECT_RE.search(getattr(message, "content", None) or "")
+        if match:
+            try:
+                parsed = json.loads(match.group(0))
+            except json.JSONDecodeError as error:
+                raise LLMJsonError("response content contained malformed JSON") from error
+            if isinstance(parsed, dict):
+                return parsed
+        raise LLMJsonError("response contained neither a function call nor a JSON object")
+
+    def complete(self, req: LLMRequest) -> dict[str, Any]:
+        completion = self._send_with_retries(req)
+        usage = getattr(completion, "usage", None)
+        return {
+            "tool_input": self._tool_input(completion, req.tool_name),
+            "usage": {
+                "input_tokens": getattr(usage, "prompt_tokens", 0) or 0,
+                "output_tokens": getattr(usage, "completion_tokens", 0) or 0,
+            },
+            "stop_reason": getattr(completion.choices[0], "finish_reason", None),
+        }

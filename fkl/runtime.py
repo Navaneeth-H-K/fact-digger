@@ -15,7 +15,7 @@ from fkl.config import Settings
 from fkl.db import make_engine
 from fkl.llm.cache import DbCache, JsonDirCache, LLMCache
 from fkl.llm.client import LLMClient, Provider
-from fkl.llm.providers import AnthropicProvider
+from fkl.llm.providers import AnthropicProvider, OpenAICompatProvider
 from fkl.pipeline import PipelineDeps
 from fkl.storage import LocalDirStorage, Storage, SupabaseStorage
 
@@ -41,7 +41,12 @@ def build_storage(settings: Settings) -> Storage:
 
 def build_provider(settings: Settings) -> Provider:
     if settings.llm_provider == "openai_compat":
-        raise NotImplementedError("the openai_compat provider is not available yet")
+        if not settings.openai_compat_base_url:
+            raise ValueError("OPENAI_COMPAT_BASE_URL is required for the openai_compat provider")
+        return OpenAICompatProvider(
+            api_key=settings.openai_compat_api_key or "none",
+            base_url=settings.openai_compat_base_url,
+        )
     if not settings.agentrouter_api_key:
         raise ValueError("AGENTROUTER_API_KEY is required for live or record mode")
     return AnthropicProvider(
