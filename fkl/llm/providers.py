@@ -69,12 +69,14 @@ class AnthropicProvider:
         max_attempts: int = 4,
         timeout: float = 120.0,
     ) -> None:
+        self._create: Callable[..., Any]
         if create is None:
             client = anthropic.Anthropic(
                 api_key=api_key, base_url=base_url, max_retries=0, timeout=timeout
             )
-            create = client.messages.create
-        self._create = create
+            self._create = client.messages.create
+        else:
+            self._create = create
         self._sleep = sleep
         self._max_attempts = max_attempts
         self._strict_supported = True

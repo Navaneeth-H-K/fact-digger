@@ -3,13 +3,10 @@
 from __future__ import annotations
 
 from dataclasses import replace
-from typing import TypeVar
 
 from pydantic import BaseModel, ValidationError
 
 from fkl.llm.client import LLMClient, LLMJsonError, LLMRequest
-
-ModelT = TypeVar("ModelT", bound=BaseModel)
 
 _REPAIR_TEMPLATE = (
     "Your previous tool call failed validation with these errors:\n{errors}\n"
@@ -22,7 +19,9 @@ def _repair_request(req: LLMRequest, previous: object, errors: str) -> LLMReques
     return replace(req, content=[*req.content, note])
 
 
-def call_structured(client: LLMClient, req: LLMRequest, model_cls: type[ModelT]) -> ModelT:
+def call_structured[ModelT: BaseModel](
+    client: LLMClient, req: LLMRequest, model_cls: type[ModelT]
+) -> ModelT:
     """Return a validated `model_cls`; one repair round-trip is allowed before giving up."""
     result = client.call(req)
     try:
