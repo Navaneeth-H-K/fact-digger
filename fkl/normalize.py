@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import calendar
 import re
+import unicodedata
 from dataclasses import dataclass
 from datetime import date, timedelta
 
@@ -307,3 +308,56 @@ def parse_period(text: str | None, fy_start_month: int = 4) -> Period | None:
         month, year = _MONTHS[m.group(1)], int(m.group(2))
         return Period(date(year, month, 1), _end_of_month(year, month), "month")
     return None
+
+
+# --------------------------------------------------------------------------------------------
+# Keys
+# --------------------------------------------------------------------------------------------
+
+# Generic finance/statistics vocabulary: expanded phrases collapse to their usual acronym so that
+# "gross domestic product growth" and "GDP growth" share a key. Nothing here is document-specific.
+_ACRONYMS: tuple[tuple[str, str], ...] = (
+    ("gross domestic product", "gdp"),
+    ("gross value added", "gva"),
+    ("consumer price index", "cpi"),
+    ("wholesale price index", "wpi"),
+    ("current account deficit", "cad"),
+    ("current account balance", "cab"),
+    ("foreign direct investment", "fdi"),
+    ("foreign portfolio investment", "fpi"),
+    ("external commercial borrowing", "ecb"),
+    ("non performing asset", "npa"),
+    ("capital expenditure", "capex"),
+    ("earnings per share", "eps"),
+    ("profit after tax", "pat"),
+    ("earnings before interest tax depreciation and amortisation", "ebitda"),
+    ("earnings before interest tax depreciation and amortization", "ebitda"),
+    ("year on year", "yoy"),
+    ("y o y", "yoy"),
+    ("quarter on quarter", "qoq"),
+    ("q o q", "qoq"),
+)
+_STOPWORDS = frozenset(
+    {"the", "of", "in", "for", "and", "a", "an", "to", "on", "at", "by", "from", "as", "per", "or"}
+)
+_BRACKETED_RE = re.compile(r"\([^)]*\)|\[[^\]]*\]")
+_NON_ALNUM_RE = re.compile(r"[^a-z0-9]+")
+
+
+def _singular(token: str) -> str:
+    if len(token) > 3 and token.endswith("s") and not token.endswith(("ss", "is", "us")):
+        return token[:-1]
+    return token
+
+
+def canonical_key(text: str | None) -> str:
+    """Order-free, case-free, acronym-normalised key for an entity or attribute name."""
+    if not text:
+        return ""
+    lowered = unicodedata.normalize("NFKC", text).lower()
+    lowered = _BRACKETED_RE.sub(" ", lowered)
+    lowered = _NON_ALNUM_RE.sub(" ", lowered).strip()
+    for phrase, acronym in _ACRONYMS:
+        lowered = re.sub(rf"\b{phrase}\b", acronym, lowered)
+    tokens = {_singular(tok) for tok in lowered.split() if tok not in _STOPWORDS}
+    return " ".join(sorted(tokens))
