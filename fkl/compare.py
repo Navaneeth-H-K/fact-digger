@@ -7,9 +7,12 @@ superseded) and hands only the genuinely ambiguous pairs to the LLM with a state
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass
 from datetime import date, timedelta
 from typing import Literal
+
+from rapidfuzz import fuzz
 
 Verdict = Literal["corroborates", "contradicts", "superseded", "context_explained", "unresolved"]
 Status = Literal["final", "pending_llm"]
@@ -166,3 +169,77 @@ def validate_fact(
     if fact.unit in {"INR", "USD"} and not scale_known:
         flags.append("scale_missing_for_currency")
     return flags
+
+
+# --------------------------------------------------------------------------------------------
+# Candidate blocking
+# --------------------------------------------------------------------------------------------
+
+_MIN_JACCARD = 0.5
+_MIN_TOKEN_SET_RATIO = 85
+
+
+def _tokens(key: str) -> frozenset[str]:
+    return frozenset(key.split())
+
+
+def _entities_match(a: FactView, b: FactView) -> bool:
+    left, right = _tokens(a.entity_key), _tokens(b.entity_key)
+    return left == right or left <= right or right <= left
+
+
+def _attribute_score(a: FactView, b: FactView) -> float:
+    """1.0 for identical keys, else Jaccard overlap, else a fuzzy ratio; 0.0 when not a match."""
+    if a.attribute_key == b.attribute_key:
+        return 1.0
+    left, right = _tokens(a.attribute_key), _tokens(b.attribute_key)
+    union = left | right
+    jaccard = len(left & right) / len(union) if union else 0.0
+    if jaccard >= _MIN_JACCARD:
+        return jaccard
+    ratio = fuzz.token_set_ratio(a.attribute_key, b.attribute_key)
+    return ratio / 100 if ratio >= _MIN_TOKEN_SET_RATIO else 0.0
+
+
+def build_candidates(
+    facts: Sequence[FactView], max_partners: int = 50
+) -> list[tuple[FactView, FactView]]:
+    """Pairs worth classifying: different documents, same unit, matching entity and attribute.
+
+    Attributes are matched through an inverted index over their tokens, using each fact's two
+    rarest tokens as anchors, so the cost stays near-linear in the number of facts and no attribute
+    name is ever hard-coded. Each fact keeps at most `max_partners` best-scoring partners.
+    """
+    eligible = [f for f in facts if f.value_num is not None and f.attribute_key]
+    postings: dict[str, list[FactView]] = {}
+    for f in eligible:
+        for token in _tokens(f.attribute_key):
+            postings.setdefault(token, []).append(f)
+
+    seen: set[tuple[int, int]] = set()
+    partner_count: dict[int, int] = {}
+    pairs: list[tuple[FactView, FactView]] = []
+    for f in eligible:
+        anchors = sorted(_tokens(f.attribute_key), key=lambda t: len(postings[t]))[:2]
+        candidates = {g.id: g for token in anchors for g in postings[token] if g.id != f.id}
+        scored = (
+            (score, g)
+            for g in candidates.values()
+            if g.document_id != f.document_id
+            and g.unit == f.unit
+            and _entities_match(f, g)
+            and (score := _attribute_score(f, g)) > 0.0
+        )
+        for _, g in sorted(scored, key=lambda item: (-item[0], item[1].id)):
+            key = (min(f.id, g.id), max(f.id, g.id))
+            if key in seen:
+                continue
+            if partner_count.get(f.id, 0) >= max_partners:
+                break
+            if partner_count.get(g.id, 0) >= max_partners:
+                continue
+            seen.add(key)
+            partner_count[f.id] = partner_count.get(f.id, 0) + 1
+            partner_count[g.id] = partner_count.get(g.id, 0) + 1
+            pairs.append((f, g) if f.id < g.id else (g, f))
+    return sorted(pairs, key=lambda p: (p[0].id, p[1].id))
