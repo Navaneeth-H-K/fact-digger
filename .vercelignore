@@ -1,0 +1,11 @@
+.venv/
+data/
+samples/
+tests/
+docs/
+local_storage/
+Dataset/
+*.pdf
+*.db
+.env
+.claude/
