@@ -9,6 +9,7 @@ from __future__ import annotations
 import hashlib
 import math
 import time
+from collections.abc import Callable
 from concurrent.futures import FIRST_COMPLETED, Future, ThreadPoolExecutor, wait
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -17,13 +18,14 @@ from typing import Any
 from sqlalchemy import Engine, and_, func, or_, select, update
 from sqlalchemy.orm import Session
 
-from fkl.compare import FactView, validate_fact, values_equal
+from fkl.compare import FactView, build_candidates, classify_pair, validate_fact, values_equal
 from fkl.db import session_scope
+from fkl.llm.adjudicate import adjudicate
 from fkl.llm.client import LLMClient, LLMJsonError, LLMQuotaError
 from fkl.llm.extract import extract_page
 from fkl.llm.prompts import DocumentContext, extraction_request, meta_request
 from fkl.llm.structured import call_structured
-from fkl.models import Document, Fact, Failure, Page, utcnow
+from fkl.models import Document, Fact, Failure, Page, Relation, utcnow
 from fkl.normalize import (
     Period,
     canonical_key,
@@ -399,9 +401,48 @@ def _claim(db: Session, page_id: int) -> bool:
     return bool(getattr(result, "rowcount", 0) == 1)
 
 
+WorkResult = tuple[bool, str | None]
+
+
+def _run_time_boxed(
+    item_ids: list[int],
+    work: Callable[[int], WorkResult],
+    deadline: float,
+    concurrency: int,
+) -> tuple[int, list[str]]:
+    """Dispatch items to a small pool until the deadline; report how many were claimed."""
+    queue = iter(item_ids)
+    processed = 0
+    errors: list[str] = []
+    with ThreadPoolExecutor(max_workers=concurrency) as pool:
+        in_flight: set[Future[WorkResult]] = set()
+
+        def submit_next() -> bool:
+            if time.monotonic() >= deadline:
+                return False
+            item_id = next(queue, None)
+            if item_id is None:
+                return False
+            in_flight.add(pool.submit(work, item_id))
+            return True
+
+        for _ in range(concurrency):
+            if not submit_next():
+                break
+        while in_flight:
+            finished, in_flight = wait(in_flight, return_when=FIRST_COMPLETED)
+            for future in finished:
+                claimed, error = future.result()
+                processed += int(claimed)
+                if error:
+                    errors.append(error)
+                submit_next()
+    return processed, errors
+
+
 def _run_page(
     engine: Engine, document_id: str, page_id: int, pdf_bytes: bytes, deps: PipelineDeps
-) -> tuple[bool, str | None]:
+) -> WorkResult:
     """Worker: claim, process and commit one page in its own transaction."""
     with session_scope(engine) as db:
         if not _claim(db, page_id):
@@ -474,31 +515,193 @@ def process_document(
         if document.status == "uploaded":
             document.status = "processing"
         ensure_document_meta(db, document, deps)
-        queue = iter(_claimable_page_ids(db, document_id, retry_failed))
+        page_ids = _claimable_page_ids(db, document_id, retry_failed)
 
-    processed = 0
-    errors: list[str] = []
-    with ThreadPoolExecutor(max_workers=deps.page_concurrency) as pool:
-        in_flight: set[Future[tuple[bool, str | None]]] = set()
-
-        def submit_next() -> bool:
-            if time.monotonic() >= deadline:
-                return False
-            page_id = next(queue, None)
-            if page_id is None:
-                return False
-            in_flight.add(pool.submit(_run_page, engine, document_id, page_id, pdf_bytes, deps))
-            return True
-
-        for _ in range(deps.page_concurrency):
-            if not submit_next():
-                break
-        while in_flight:
-            finished, in_flight = wait(in_flight, return_when=FIRST_COMPLETED)
-            for future in finished:
-                claimed, error = future.result()
-                processed += int(claimed)
-                if error:
-                    errors.append(error)
-                submit_next()
+    processed, errors = _run_time_boxed(
+        page_ids,
+        lambda page_id: _run_page(engine, document_id, page_id, pdf_bytes, deps),
+        deadline,
+        deps.page_concurrency,
+    )
     return _progress(engine, document_id, processed, errors)
+
+
+# --------------------------------------------------------------------------------------------
+# Cross-document linking: rule pass, then LLM adjudication of the ambiguous residue
+# --------------------------------------------------------------------------------------------
+
+MAX_ADJUDICATION_ATTEMPTS = 3
+
+
+@dataclass(frozen=True)
+class LinkProgress:
+    total_relations: int
+    final: int
+    pending_llm: int
+    failed: int
+    adjudicated_this_call: int
+    by_verdict: dict[str, int]
+
+
+def _fact_views(db: Session) -> list[FactView]:
+    rows = db.execute(
+        select(Fact, Document.publication_date)
+        .join(Document, Fact.document_id == Document.id)
+        .where(Fact.is_duplicate.is_(False), Fact.value_num.is_not(None))
+    ).all()
+    return [
+        FactView(
+            id=fact.id,
+            document_id=fact.document_id,
+            entity_key=fact.entity_key,
+            attribute_key=fact.attribute_key,
+            value_num=fact.value_num,
+            unit=fact.unit,
+            period_key=fact.period_key,
+            estimate_type=fact.estimate_type,
+            basis_key=fact.basis_key,
+            attributed_to=fact.attributed_to,
+            evidence_verified=fact.evidence_verified,
+            publication_date=published,
+        )
+        for fact, published in rows
+    ]
+
+
+def rule_pass(db: Session) -> int:
+    """Pair every not-yet-paired fact against the whole layer and classify by rules.
+
+    Only pairs that involve at least one new fact are considered, which is what makes adding a
+    document incremental: existing relations are never recomputed.
+    """
+    unpaired = set(db.scalars(select(Fact.id).where(Fact.paired_at.is_(None))).all())
+    if not unpaired:
+        return 0
+    existing: set[tuple[int, int]] = {
+        (a, b) for a, b in db.execute(select(Relation.fact_a_id, Relation.fact_b_id)).all()
+    }
+    created = 0
+    for a, b in build_candidates(_fact_views(db)):
+        if (a.id not in unpaired and b.id not in unpaired) or (a.id, b.id) in existing:
+            continue
+        result = classify_pair(a, b)
+        if result is None:
+            continue
+        db.add(
+            Relation(
+                fact_a_id=a.id,
+                fact_b_id=b.id,
+                verdict=result.verdict,
+                status=result.status,
+                method=result.method,
+                dimension=result.dimension,
+                explanation=result.hypothesis,
+                confidence=result.confidence,
+                winner_fact_id=result.winner_id,
+                rule_hypothesis=result.hypothesis,
+            )
+        )
+        existing.add((a.id, b.id))
+        created += 1
+    db.execute(update(Fact).where(Fact.paired_at.is_(None)).values(paired_at=utcnow()))
+    db.flush()
+    return created
+
+
+def _adjudicate_relation(engine: Engine, relation_id: int, deps: PipelineDeps) -> WorkResult:
+    with session_scope(engine) as db:
+        relation = db.get(Relation, relation_id)
+        if relation is None or relation.status != "pending_llm":
+            return False, None
+        fact_a, fact_b = db.get(Fact, relation.fact_a_id), db.get(Fact, relation.fact_b_id)
+        if fact_a is None or fact_b is None:
+            return False, "facts vanished"
+        document_a, document_b = (
+            db.get(Document, fact_a.document_id),
+            db.get(Document, fact_b.document_id),
+        )
+        assert document_a is not None and document_b is not None
+        relation.attempts += 1
+        try:
+            verdict = adjudicate(
+                deps.client,
+                deps.adjudicate_model,
+                fact_a,
+                document_a,
+                fact_b,
+                document_b,
+                relation.rule_hypothesis or "",
+            )
+        except Exception as error:  # noqa: BLE001 - recorded; the relation keeps its hypothesis
+            exhausted = relation.attempts >= MAX_ADJUDICATION_ATTEMPTS
+            if exhausted:
+                relation.status = "failed"
+            db.add(
+                Failure(
+                    document_id=fact_a.document_id,
+                    fact_id=fact_a.id,
+                    relation_id=relation.id,
+                    stage="link",
+                    kind="adjudicate_failed",
+                    message=str(error)[:2000],
+                    handled=(
+                        "kept the rule hypothesis as the verdict and marked the relation failed"
+                        if exhausted
+                        else f"attempt {relation.attempts} of {MAX_ADJUDICATION_ATTEMPTS}; will retry"
+                    ),
+                )
+            )
+            return True, str(error)
+        both_verified = fact_a.evidence_verified and fact_b.evidence_verified
+        relation.verdict = verdict.verdict
+        relation.dimension = verdict.dimension
+        relation.explanation = verdict.explanation
+        relation.confidence = verdict.confidence if both_verified else verdict.confidence / 2
+        relation.winner_fact_id = {"a": fact_a.id, "b": fact_b.id}.get(verdict.newer_fact)
+        relation.method = "llm"
+        relation.status = "final"
+        relation.llm_raw = verdict.model_dump()
+        return True, None
+
+
+def _link_progress(engine: Engine, adjudicated: int) -> LinkProgress:
+    with session_scope(engine) as db:
+        status_rows = db.execute(
+            select(Relation.status, func.count()).group_by(Relation.status)
+        ).all()
+        by_status: dict[str, int] = {status: count for status, count in status_rows}
+        verdict_rows = db.execute(
+            select(Relation.verdict, func.count()).group_by(Relation.verdict)
+        ).all()
+        return LinkProgress(
+            total_relations=sum(by_status.values()),
+            final=by_status.get("final", 0),
+            pending_llm=by_status.get("pending_llm", 0),
+            failed=by_status.get("failed", 0),
+            adjudicated_this_call=adjudicated,
+            by_verdict={verdict: count for verdict, count in verdict_rows},
+        )
+
+
+def link(engine: Engine, deps: PipelineDeps) -> LinkProgress:
+    """Run the rule pass over new facts, then adjudicate pending pairs within the time budget."""
+    deadline = time.monotonic() + deps.budget_s
+    with session_scope(engine) as db:
+        rule_pass(db)
+        pending = list(
+            db.scalars(
+                select(Relation.id)
+                .where(
+                    Relation.status == "pending_llm",
+                    Relation.attempts < MAX_ADJUDICATION_ATTEMPTS,
+                )
+                .order_by(Relation.id)
+            )
+        )
+    adjudicated, _errors = _run_time_boxed(
+        pending,
+        lambda relation_id: _adjudicate_relation(engine, relation_id, deps),
+        deadline,
+        deps.page_concurrency,
+    )
+    return _link_progress(engine, adjudicated)
