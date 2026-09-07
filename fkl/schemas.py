@@ -6,6 +6,7 @@ instructions to the model.
 
 from __future__ import annotations
 
+from datetime import date
 from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -126,3 +127,45 @@ def tool_schema(model: type[BaseModel]) -> dict[str, Any]:
         if definition.get("type") == "object":
             definition["additionalProperties"] = False
     return schema
+
+
+# --------------------------------------------------------------------------------------------
+# API models
+# --------------------------------------------------------------------------------------------
+
+
+class UploadRequest(BaseModel):
+    filename: str = Field(min_length=1, max_length=255)
+    size_bytes: int = Field(gt=0)
+    sha256: str = Field(pattern=r"^[0-9a-fA-F]{64}$")
+
+
+class UploadTargetOut(BaseModel):
+    url: str
+    method: str
+    token: str | None = None
+
+
+class UploadTicket(BaseModel):
+    document_id: str
+    existing: bool
+    upload: UploadTargetOut | None
+
+
+class DocumentOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: str
+    filename: str
+    size_bytes: int
+    sha256: str
+    status: str
+    page_count: int | None
+    title: str | None
+    publisher: str | None
+    publication_date: date | None
+    document_type: str | None
+    fiscal_year_start_month: int | None
+    meta_done: bool
+    pages: dict[str, int] = Field(default_factory=dict, description="Page counts by status.")
+    facts_count: int = 0
