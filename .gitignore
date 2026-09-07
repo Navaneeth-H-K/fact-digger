@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+*.db
+*.db-journal
+local_storage/
+.vercel/
+node_modules/
+# provided by Superjoin; not ours to redistribute
+Dataset/
+superjoin-vit-2026-assignment.pdf
