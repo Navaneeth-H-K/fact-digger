@@ -293,3 +293,28 @@ class SchemaEntry(BaseModel):
     units: list[str]
     entities: list[str]
     estimate_types: list[str]
+
+
+class TimelineEntry(BaseModel):
+    fact: FactOut
+    period_key: str
+    publication_date: date | None
+    document_title: str | None
+    is_current: bool
+    superseded_by: int | None
+
+
+class TimelineOut(BaseModel):
+    entity_key: str
+    attribute_key: str
+    entries: list[TimelineEntry]
+
+
+class ExportOut(BaseModel):
+    generated_at: datetime
+    documents: list[DocumentOut]
+    pages: list[dict[str, Any]]
+    facts: list[FactOut]
+    relations: list[RelationOut]
+    failures: list[FailureOut]
+    attribute_schema: list[SchemaEntry] = Field(serialization_alias="schema")

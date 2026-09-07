@@ -8,9 +8,11 @@ from collections import Counter
 from collections.abc import AsyncIterator, Iterator
 from contextlib import asynccontextmanager
 from dataclasses import replace
+from datetime import UTC, date, datetime
 from typing import Annotated, Any
 
 from fastapi import Depends, FastAPI, HTTPException, Query, Request, Response, UploadFile
+from fastapi.middleware.gzip import GZipMiddleware
 from sqlalchemy import case, func, or_, select, text
 from sqlalchemy.orm import Session, aliased
 
@@ -21,6 +23,7 @@ from fkl.pipeline import link, process_document
 from fkl.runtime import Runtime, build_runtime
 from fkl.schemas import (
     DocumentOut,
+    ExportOut,
     FactDetailOut,
     FactOut,
     FailureOut,
@@ -29,6 +32,8 @@ from fkl.schemas import (
     ProgressOut,
     RelationOut,
     SchemaEntry,
+    TimelineEntry,
+    TimelineOut,
     UploadRequest,
     UploadTargetOut,
     UploadTicket,
@@ -42,6 +47,7 @@ def create_app(runtime: Runtime | None = None) -> FastAPI:
         yield
 
     app = FastAPI(title="Fact Knowledge Layer", version="0.1.0", lifespan=lifespan)
+    app.add_middleware(GZipMiddleware, minimum_size=1024)
     _register_routes(app)
     return app
 
@@ -356,6 +362,60 @@ def _register_routes(app: FastAPI) -> None:
         rows = db.execute(query.order_by(Fact.id).limit(limit).offset(offset)).all()
         return [_fact_out(fact, filename) for fact, filename in rows]
 
+    @app.get("/facts/timeline", response_model=TimelineOut)
+    def fact_timeline(db: DbDep, entity_key: str, attribute_key: str) -> TimelineOut:
+        rows = db.execute(
+            select(Fact, Document)
+            .join(Document, Fact.document_id == Document.id)
+            .where(
+                Fact.entity_key == entity_key,
+                Fact.attribute_key == attribute_key,
+                Fact.is_duplicate.is_(False),
+            )
+        ).all()
+        rows.sort(
+            key=lambda row: (row[0].period_key, row[1].publication_date or date.min, row[0].id)
+        )
+        latest_per_period: dict[str, int] = {}
+        for fact, _document in rows:
+            latest_per_period[fact.period_key] = fact.id  # sorted ascending, so the last wins
+        winners = {
+            loser: winner
+            for loser, winner in db.execute(
+                select(
+                    case(
+                        (Relation.winner_fact_id == Relation.fact_a_id, Relation.fact_b_id),
+                        else_=Relation.fact_a_id,
+                    ),
+                    Relation.winner_fact_id,
+                ).where(
+                    Relation.verdict == "superseded",
+                    Relation.winner_fact_id.is_not(None),
+                    or_(
+                        Relation.fact_a_id.in_([f.id for f, _ in rows]),
+                        Relation.fact_b_id.in_([f.id for f, _ in rows]),
+                    ),
+                )
+            ).all()
+        }
+        entries = []
+        for fact, document in rows:
+            current = latest_per_period[fact.period_key] == fact.id
+            superseded_by = (
+                None if current else winners.get(fact.id, latest_per_period[fact.period_key])
+            )
+            entries.append(
+                TimelineEntry(
+                    fact=_fact_out(fact, document.filename),
+                    period_key=fact.period_key,
+                    publication_date=document.publication_date,
+                    document_title=document.title,
+                    is_current=current,
+                    superseded_by=superseded_by,
+                )
+            )
+        return TimelineOut(entity_key=entity_key, attribute_key=attribute_key, entries=entries)
+
     @app.get("/facts/{fact_id}", response_model=FactDetailOut)
     def get_fact(fact_id: int, db: DbDep) -> FactDetailOut:
         fact = db.get(Fact, fact_id)
@@ -414,6 +474,55 @@ def _register_routes(app: FastAPI) -> None:
                 )
             )
         return sorted(entries, key=lambda entry: (-entry.count, entry.attribute_key))
+
+    @app.get("/export", response_model=ExportOut)
+    def export_layer(db: DbDep, document_id: str | None = None) -> ExportOut:
+        documents = db.scalars(select(Document).order_by(Document.created_at)).all()
+        if document_id:
+            documents = [d for d in documents if d.id == document_id]
+        ids = [d.id for d in documents]
+        pages = db.execute(
+            select(Page.document_id, Page.index, Page.label, Page.status, Page.facts_count)
+            .where(Page.document_id.in_(ids))
+            .order_by(Page.document_id, Page.index)
+        ).all()
+        fact_rows = db.execute(
+            select(Fact, Document.filename)
+            .join(Document, Fact.document_id == Document.id)
+            .where(Fact.document_id.in_(ids))
+            .order_by(Fact.id)
+        ).all()
+        fact_a, fact_b = aliased(Fact), aliased(Fact)
+        relations = db.scalars(
+            select(Relation)
+            .join(fact_a, Relation.fact_a_id == fact_a.id)
+            .join(fact_b, Relation.fact_b_id == fact_b.id)
+            .where(or_(fact_a.document_id.in_(ids), fact_b.document_id.in_(ids)))
+            .order_by(_severity_order(), Relation.id)
+        ).all()
+        failures = db.scalars(
+            select(Failure)
+            .where(or_(Failure.document_id.in_(ids), Failure.document_id.is_(None)))
+            .order_by(Failure.id)
+        ).all()
+        return ExportOut(
+            generated_at=datetime.now(UTC),
+            documents=[_document_out(db, d) for d in documents],
+            pages=[
+                {
+                    "document_id": doc,
+                    "index": index,
+                    "label": label,
+                    "status": status,
+                    "facts_count": count,
+                }
+                for doc, index, label, status, count in pages
+            ],
+            facts=[_fact_out(fact, filename) for fact, filename in fact_rows],
+            relations=[_relation_out(db, relation) for relation in relations],
+            failures=[FailureOut.model_validate(failure) for failure in failures],
+            attribute_schema=get_schema(db),
+        )
 
 
 app = create_app()
