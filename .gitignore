@@ -17,3 +17,5 @@ superjoin-vit-2026-assignment.pdf
 
 .vercel
 .env*
+*.db-shm
+*.db-wal
