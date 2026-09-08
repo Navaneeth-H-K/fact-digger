@@ -62,11 +62,21 @@ def upload(client: httpx.Client, base: str, pdf: Path) -> str:
     return document_id
 
 
-def process(client: httpx.Client, base: str, document_id: str, budget_s: float) -> dict[str, Any]:
+def process(
+    client: httpx.Client,
+    base: str,
+    document_id: str,
+    budget_s: float,
+    retry_failed: bool = False,
+) -> dict[str, Any]:
+    first = True
     while True:
         response = client.post(
-            f"{base}/documents/{document_id}/process", timeout=request_timeout(budget_s)
+            f"{base}/documents/{document_id}/process",
+            params={"retry_failed": "true"} if retry_failed and first else None,
+            timeout=request_timeout(budget_s),
         )
+        first = False
         response.raise_for_status()
         progress: dict[str, Any] = response.json()
         log(
