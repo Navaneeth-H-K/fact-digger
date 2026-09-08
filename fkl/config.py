@@ -33,3 +33,4 @@ class Settings(BaseSettings):
     batch_budget_s: float = 45.0
     image_width: int = 1200
     upload_max_bytes: int = 50 * 1024 * 1024
+    diagnostics_token: str | None = None

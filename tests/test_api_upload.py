@@ -157,3 +157,25 @@ def test_root_serves_the_single_page_ui(client: TestClient) -> None:
     assert response.headers["content-type"].startswith("text/html")
     assert "Fact Knowledge Layer" in response.text
     assert client.get("/static/app.js").status_code == 200
+
+
+def test_llm_diagnostic_is_hidden_without_a_configured_token(client: TestClient) -> None:
+    assert client.get("/diagnostics/llm", params={"token": "x"}).status_code == 404
+
+
+def test_llm_diagnostic_reports_provider_outcome_when_token_matches(
+    tmp_path: Path, sample_pdf_bytes: bytes
+) -> None:
+    from fkl.llm.client import LLMQuotaError
+
+    def quota_gone(req: LLMRequest) -> dict[str, Any]:
+        raise LLMQuotaError("model quota exhausted: 402 Budget pool quota has been exhausted")
+
+    runtime = make_runtime(tmp_path, fake=quota_gone)
+    runtime.settings.diagnostics_token = "secret-token"
+    with TestClient(create_app(runtime)) as diag_client:
+        assert diag_client.get("/diagnostics/llm", params={"token": "wrong"}).status_code == 403
+        body = diag_client.get("/diagnostics/llm", params={"token": "secret-token"}).json()
+        assert body["ok"] is False and body["error_type"] == "LLMQuotaError"
+        assert "402" in body["error"] and body["model"] == "m"
+        assert body["elapsed_s"] >= 0

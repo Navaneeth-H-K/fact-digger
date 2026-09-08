@@ -76,11 +76,16 @@ class AnthropicProvider:
         sleep: Callable[[float], None] = time.sleep,
         max_attempts: int = 4,
         timeout: float = 180.0,
+        user_agent: str | None = None,
     ) -> None:
         self._create: Callable[..., Any]
         if create is None:
             client = anthropic.Anthropic(
-                api_key=api_key, base_url=base_url, max_retries=0, timeout=timeout
+                api_key=api_key,
+                base_url=base_url,
+                max_retries=0,
+                timeout=timeout,
+                default_headers={"User-Agent": user_agent} if user_agent else None,
             )
             self._create = client.messages.create
         else:

@@ -39,7 +39,7 @@ def build_storage(settings: Settings) -> Storage:
     return LocalDirStorage(Path(settings.local_storage_dir))
 
 
-def build_provider(settings: Settings) -> Provider:
+def build_provider(settings: Settings, user_agent: str | None = None) -> Provider:
     if settings.llm_provider == "openai_compat":
         if not settings.openai_compat_base_url:
             raise ValueError("OPENAI_COMPAT_BASE_URL is required for the openai_compat provider")
@@ -50,7 +50,9 @@ def build_provider(settings: Settings) -> Provider:
     if not settings.agentrouter_api_key:
         raise ValueError("AGENTROUTER_API_KEY is required for live or record mode")
     return AnthropicProvider(
-        api_key=settings.agentrouter_api_key, base_url=settings.agentrouter_base_url
+        api_key=settings.agentrouter_api_key,
+        base_url=settings.agentrouter_base_url,
+        user_agent=user_agent,
     )
 
 

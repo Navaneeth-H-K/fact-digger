@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import hashlib
+import secrets
+import time
 import uuid
 from collections import Counter
 from collections.abc import AsyncIterator, Iterator
@@ -20,11 +22,15 @@ from sqlalchemy import case, func, or_, select, text
 from sqlalchemy.orm import Session, aliased
 
 from fkl.db import session_scope
+from fkl.llm.client import LLMClient
+from fkl.llm.prompts import meta_request
+from fkl.llm.structured import call_structured
 from fkl.models import Document, Fact, Failure, Page, Relation
 from fkl.pdf import inventory, render_jpeg
 from fkl.pipeline import link, process_document
-from fkl.runtime import Runtime, build_runtime
+from fkl.runtime import Runtime, build_provider, build_runtime
 from fkl.schemas import (
+    DocumentMeta,
     DocumentOut,
     ExportOut,
     FactDetailOut,
@@ -160,6 +166,39 @@ def _register_routes(app: FastAPI) -> None:
             "llm_mode": runtime.deps.client.mode,
             "storage": runtime.settings.storage_backend,
         }
+
+    @app.get("/diagnostics/llm", include_in_schema=False)
+    def llm_diagnostic(
+        runtime: RuntimeDep, token: str = Query(min_length=1), user_agent: str | None = None
+    ) -> dict[str, Any]:
+        """One tiny model call, so a deployment can be checked without reading host logs.
+
+        Enabled only when DIAGNOSTICS_TOKEN is set; the token must match exactly.
+        """
+        expected = runtime.settings.diagnostics_token
+        if not expected:
+            raise HTTPException(status_code=404, detail="not found")
+        if not secrets.compare_digest(token, expected):
+            raise HTTPException(status_code=403, detail="bad token")
+        client = runtime.deps.client
+        if user_agent and client.mode in ("live", "record"):
+            client = LLMClient(
+                mode="live", provider=build_provider(runtime.settings, user_agent=user_agent)
+            )
+        request = meta_request(
+            model=runtime.deps.extract_model,
+            filename="diagnostic.pdf",
+            first_pages_text="Annual Report 2023-24. Published July 2024 by Example Limited.",
+        )
+        started = time.monotonic()
+        result: dict[str, Any] = {"model": request.model, "user_agent": user_agent}
+        try:
+            data = call_structured(client, request, DocumentMeta)
+            result.update(ok=True, data=data.model_dump())
+        except Exception as error:  # noqa: BLE001 - the whole point is to report it
+            result.update(ok=False, error_type=type(error).__name__, error=str(error)[:600])
+        result["elapsed_s"] = round(time.monotonic() - started, 2)
+        return result
 
     @app.post("/documents", response_model=UploadTicket, status_code=201)
     def create_document(
