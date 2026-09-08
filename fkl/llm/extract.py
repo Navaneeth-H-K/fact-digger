@@ -20,13 +20,18 @@ class ExtractionOutcome:
     problems: list[str] = field(default_factory=list)
 
 
+def coerce_fact(raw: dict[str, Any]) -> ExtractedFact:
+    """Validate one fact; explicit nulls for optional fields mean 'use the default'."""
+    return ExtractedFact.model_validate({k: v for k, v in raw.items() if v is not None})
+
+
 def extract_page(client: LLMClient, req: LLMRequest) -> ExtractionOutcome:
     """One malformed fact must not cost the whole page, so facts are validated individually."""
     loose = call_structured(client, req, PageExtractionLoose)
     outcome = ExtractionOutcome(page_kind=loose.page_kind, facts=[], problems=list(loose.problems))
     for raw in loose.facts:
         try:
-            outcome.facts.append(ExtractedFact.model_validate(raw))
+            outcome.facts.append(coerce_fact(raw))
         except ValidationError as error:
             outcome.invalid.append((raw, str(error)))
     return outcome

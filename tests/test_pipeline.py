@@ -164,3 +164,18 @@ def test_process_page_marks_failure_when_model_raises(
         assert "proxy down" in (page.last_error or "")
         failure = db.scalars(select(Failure)).one()
         assert (failure.stage, failure.kind) == ("extract", "llm_other")
+
+
+def test_null_optional_fields_from_the_model_fall_back_to_defaults() -> None:
+    from fkl.llm.extract import coerce_fact
+
+    raw = {
+        **REVENUE_FACT,
+        "quote_source": None,
+        "value_kind": None,
+        "estimate_type": None,
+        "scale": None,
+    }
+    fact = coerce_fact(raw)
+    assert fact.quote_source == "text" and fact.value_kind == "number"
+    assert fact.estimate_type == "unknown" and fact.scale is None
