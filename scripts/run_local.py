@@ -22,8 +22,9 @@ import httpx
 
 
 def request_timeout(budget_s: float) -> float:
-    """A process/link call may run the whole budget plus one in-flight model call."""
-    return budget_s + 300
+    """A call may run the whole budget plus one in-flight page, which can itself sit through
+    several rate-limit pauses and cap retries; be generous rather than abort a live batch."""
+    return budget_s + 1200
 
 
 def log(message: str) -> None:
@@ -110,6 +111,9 @@ def main(argv: list[str]) -> int:
     parser.add_argument("--out", type=Path, default=Path("samples/export.json"))
     parser.add_argument("--skip-link", action="store_true")
     parser.add_argument("--budget-s", type=float, default=600, help="server BATCH_BUDGET_S")
+    parser.add_argument(
+        "--retry-failed", action="store_true", help="reset failed pages before processing"
+    )
     args = parser.parse_args(argv)
 
     with httpx.Client(timeout=120) as client:
@@ -117,7 +121,7 @@ def main(argv: list[str]) -> int:
         log(f"server: {health}")
         for pdf in args.pdfs:
             document_id = upload(client, args.base, pdf)
-            process(client, args.base, document_id, args.budget_s)
+            process(client, args.base, document_id, args.budget_s, args.retry_failed)
         if not args.skip_link:
             link(client, args.base, args.budget_s)
         export = client.get(f"{args.base}/export", timeout=600)
