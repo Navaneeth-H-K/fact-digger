@@ -304,7 +304,11 @@ class OpenAICompatProvider:
                     },
                 }
             ],
-            tool_choice={"type": "function", "function": {"name": req.tool_name}},
+            tool_choice=(
+                "auto"
+                if self._strict_schema
+                else {"type": "function", "function": {"name": req.tool_name}}
+            ),
         )
 
     def _send_with_retries(self, req: LLMRequest) -> Any:

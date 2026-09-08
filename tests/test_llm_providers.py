@@ -407,3 +407,36 @@ def test_inline_schema_refs_strips_keys_gemini_rejects() -> None:
     assert "additionalProperties" not in text and "$defs" not in text and "$ref" not in text
     # enums and required stay; they are valid OpenAPI subset that Gemini accepts
     assert flat["properties"]["facts"]["items"]["properties"]["value_kind"]["enum"]
+
+
+def test_strict_schema_provider_uses_required_tool_choice() -> None:
+    from fkl.llm.providers import OpenAICompatProvider
+
+    captured: dict[str, Any] = {}
+
+    def create(**kwargs: Any) -> Any:
+        captured.update(kwargs)
+        return openai_tool_message('{"facts": []}')
+
+    provider = OpenAICompatProvider(
+        api_key="k", base_url="http://x/v1", create=create, strict_schema=True
+    )
+    provider.complete(request())
+    assert captured["tool_choice"] == "auto"
+
+
+def test_default_provider_still_names_the_tool() -> None:
+    from fkl.llm.providers import OpenAICompatProvider
+
+    captured: dict[str, Any] = {}
+
+    def create(**kwargs: Any) -> Any:
+        captured.update(kwargs)
+        return openai_tool_message('{"facts": []}')
+
+    provider = OpenAICompatProvider(api_key="k", base_url="http://x/v1", create=create)
+    provider.complete(request())
+    assert captured["tool_choice"] == {
+        "type": "function",
+        "function": {"name": "record_page_facts"},
+    }
