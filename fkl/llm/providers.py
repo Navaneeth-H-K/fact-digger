@@ -58,6 +58,14 @@ def _looks_like_strict_rejection(error: anthropic.BadRequestError) -> bool:
     return "strict" in str(error).lower()
 
 
+def _require_message_shape(response: Any, attribute: str) -> None:
+    """Proxies sometimes answer 2xx with an HTML/text page or a bare JSON string; the SDK then
+    hands back a str (or a message with no content). Surface the body instead of crashing."""
+    payload = getattr(response, attribute, None)
+    if isinstance(response, str) or not payload:
+        raise LLMJsonError(f"proxy returned a non-message response: {str(response)[:300]}")
+
+
 class AnthropicProvider:
     def __init__(
         self,
@@ -112,6 +120,8 @@ class AnthropicProvider:
                     continue
                 raise LLMJsonError(f"request rejected: {error}") from error
             except anthropic.APIStatusError as error:
+                if error.status_code == 402:
+                    raise LLMQuotaError(f"model quota exhausted: {error}") from error
                 if error.status_code not in _QUOTA_STATUSES and error.status_code < 500:
                     raise LLMTransientError(f"unexpected status {error.status_code}") from error
                 last_error = error
@@ -129,6 +139,7 @@ class AnthropicProvider:
 
     @staticmethod
     def _tool_input(message: Any, tool_name: str) -> dict[str, Any]:
+        _require_message_shape(message, "content")
         for block in message.content:
             if getattr(block, "type", None) == "tool_use" and block.name == tool_name:
                 data: dict[str, Any] = dict(block.input)
@@ -235,7 +246,9 @@ class OpenAICompatProvider:
             except openai.RateLimitError as error:
                 last_error = error
             except openai.APIStatusError as error:
-                if error.status_code < 500 and error.status_code != 402:
+                if error.status_code == 402:
+                    raise LLMQuotaError(f"model quota exhausted: {error}") from error
+                if error.status_code < 500:
                     raise LLMTransientError(f"unexpected status {error.status_code}") from error
                 last_error = error
             except (openai.APIConnectionError, openai.APITimeoutError) as error:
@@ -249,6 +262,7 @@ class OpenAICompatProvider:
 
     @staticmethod
     def _tool_input(completion: Any, tool_name: str) -> dict[str, Any]:
+        _require_message_shape(completion, "choices")
         message = completion.choices[0].message
         for call in getattr(message, "tool_calls", None) or []:
             if call.function.name == tool_name:

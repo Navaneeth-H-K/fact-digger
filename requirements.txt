@@ -4,7 +4,8 @@ sqlalchemy>=2.0
 psycopg[binary]>=3.2
 pydantic>=2.9
 pydantic-settings>=2.6
-anthropic>=0.40
+anthropic==1.4.0
+httpx==0.28.1
 openai>=1.50
 rapidfuzz>=3.10
 python-multipart>=0.0.12

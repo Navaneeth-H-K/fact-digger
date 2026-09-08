@@ -98,19 +98,48 @@ def test_request_is_sent_as_forced_tool_use_with_base64_image() -> None:
     assert "temperature" not in captured
 
 
-def test_quota_error_is_retried_with_backoff_then_succeeds() -> None:
+def test_quota_exhausted_402_fails_fast_without_backoff() -> None:
+    attempts = {"n": 0}
+
+    def create(**kwargs: Any) -> Any:
+        attempts["n"] += 1
+        raise api_error(402, "Budget pool quota exhausted")
+
+    sleeps: list[float] = []
+    with pytest.raises(LLMQuotaError):
+        make_provider(create, sleeps).complete(request())
+    assert attempts["n"] == 1 and sleeps == []
+
+
+def test_rate_limit_429_is_retried_with_backoff_then_succeeds() -> None:
     attempts = {"n": 0}
 
     def create(**kwargs: Any) -> Any:
         attempts["n"] += 1
         if attempts["n"] == 1:
-            raise api_error(402, "Budget pool quota exhausted")
+            raise api_error(429)
         return tool_message({"facts": [1]})
 
     sleeps: list[float] = []
     result = make_provider(create, sleeps).complete(request())
     assert result["tool_input"] == {"facts": [1]}
     assert attempts["n"] == 2 and len(sleeps) == 1 and 0 < sleeps[0] <= 30
+
+
+def test_non_message_response_body_is_reported_as_json_error() -> None:
+    def create(**kwargs: Any) -> Any:
+        return "<html><body>Just a moment...</body></html>"
+
+    with pytest.raises(LLMJsonError, match="non-message response.*Just a moment"):
+        make_provider(create).complete(request())
+
+
+def test_message_without_content_is_reported_as_json_error() -> None:
+    def create(**kwargs: Any) -> Any:
+        return SimpleNamespace(content=None, stop_reason=None, usage=None)
+
+    with pytest.raises(LLMJsonError, match="non-message response"):
+        make_provider(create).complete(request())
 
 
 def test_persistent_rate_limit_raises_quota_error_after_max_attempts() -> None:
