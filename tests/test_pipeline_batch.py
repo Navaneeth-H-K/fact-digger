@@ -140,3 +140,33 @@ def test_meta_failure_is_logged_and_does_not_block_extraction(sample_pdf_bytes: 
         assert document is not None and document.meta_done is False
         failure = db.scalars(select(Failure).where(Failure.stage == "meta")).one()
         assert "no meta" in failure.message
+
+
+def test_quota_exhaustion_pauses_the_batch_without_spending_page_attempts(
+    sample_pdf_bytes: bytes,
+) -> None:
+    from fkl.llm.client import LLMQuotaError
+
+    engine = make_engine("sqlite://")
+    doc_id = seed(engine, sample_pdf_bytes, meta_done=True)
+
+    class QuotaGone(Fake):
+        def __call__(self, req: LLMRequest) -> dict[str, Any]:
+            self.calls.append(req.purpose)
+            raise LLMQuotaError("model quota exhausted: 402")
+
+    fake = QuotaGone()
+    progress = process_document(engine, doc_id, sample_pdf_bytes, make_deps(fake))
+    assert progress.paused_reason is not None and "quota" in progress.paused_reason
+    assert (
+        progress.processed_this_call == 0 and len(fake.calls) == 1
+    )  # circuit breaker: one attempt
+    assert progress.pending == 2 and progress.failed == 0 and progress.status == "processing"
+    with session_scope(engine) as db:
+        pages = db.scalars(select(Page).where(Page.status != "skipped").order_by(Page.index)).all()
+        assert all(p.status == "pending" and p.attempts == 0 for p in pages)
+        failure = db.scalars(select(Failure).where(Failure.kind == "llm_quota")).one()
+        assert "retried" in failure.handled
+
+    resumed = process_document(engine, doc_id, sample_pdf_bytes, make_deps(Fake()))
+    assert resumed.paused_reason is None and resumed.status == "extracted" and resumed.done == 2

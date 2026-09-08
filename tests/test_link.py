@@ -188,3 +188,24 @@ def test_failed_adjudication_is_retried_then_marked_failed() -> None:
         failures = db.scalars(select(Failure).where(Failure.stage == "link")).all()
         assert len(failures) == MAX_ADJUDICATION_ATTEMPTS
         assert failures[0].kind == "adjudicate_failed"
+
+
+def test_quota_exhaustion_pauses_adjudication_without_spending_attempts() -> None:
+    from fkl.llm.client import LLMQuotaError
+
+    engine = make_engine("sqlite://")
+    seed_documents(engine)
+
+    def quota_gone(req: LLMRequest) -> dict[str, Any]:
+        raise LLMQuotaError("model quota exhausted: 402")
+
+    progress = link(engine, deps_for(quota_gone))
+    assert progress.paused_reason is not None and "quota" in progress.paused_reason
+    assert (
+        progress.pending_llm == 1 and progress.failed == 0 and progress.adjudicated_this_call == 0
+    )
+    with session_scope(engine) as db:
+        relation = db.scalars(select(Relation).where(Relation.status == "pending_llm")).one()
+        assert relation.attempts == 0
+    resumed = link(engine, deps_for(Adjudicator()))
+    assert resumed.paused_reason is None and resumed.pending_llm == 0

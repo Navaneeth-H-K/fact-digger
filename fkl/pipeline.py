@@ -46,6 +46,13 @@ from fkl.schemas import DocumentMeta, ExtractedFact
 from fkl.verify import verify_quote
 
 MAX_PAGE_ATTEMPTS = 3
+QUOTA_PAUSE_REASON = "model quota exhausted; processing paused, retry later"
+
+
+class BatchPausedError(Exception):
+    """Raised inside a worker when the model quota is exhausted: stop claiming more work."""
+
+
 _CURRENCY_UNITS = frozenset({"INR", "USD"})
 
 
@@ -264,6 +271,22 @@ def process_page(
             vocabulary=attribute_vocabulary(db),
         )
         outcome = extract_page(deps.client, request)
+    except LLMQuotaError as error:
+        page.status = "pending"
+        page.attempts -= 1
+        page.last_error = str(error)[:2000]
+        db.add(
+            Failure(
+                document_id=document.id,
+                page_index=page.index,
+                stage="extract",
+                kind="llm_quota",
+                message=str(error)[:2000],
+                handled="paused the batch; the page stays pending and is retried when quota reopens",
+            )
+        )
+        db.flush()
+        raise BatchPausedError(QUOTA_PAUSE_REASON) from error
     except Exception as error:  # noqa: BLE001 - every failure is recorded, never raised
         page.status = "failed"
         page.last_error = str(error)[:2000]
@@ -334,6 +357,7 @@ class ProcessProgress:
     processed_this_call: int
     estimated_calls_remaining: int
     last_errors: list[str]
+    paused_reason: str | None = None
 
 
 def ensure_document_meta(db: Session, document: Document, deps: PipelineDeps) -> None:
@@ -353,6 +377,17 @@ def ensure_document_meta(db: Session, document: Document, deps: PipelineDeps) ->
     )
     try:
         meta = call_structured(deps.client, request, DocumentMeta)
+    except LLMQuotaError as error:
+        db.add(
+            Failure(
+                document_id=document.id,
+                stage="meta",
+                kind="llm_quota",
+                message=str(error)[:2000],
+                handled="paused the batch before touching pages; retried when quota reopens",
+            )
+        )
+        raise BatchPausedError(QUOTA_PAUSE_REASON) from error
     except Exception as error:  # noqa: BLE001 - recorded, never fatal
         db.add(
             Failure(
@@ -410,7 +445,7 @@ def _claim(db: Session, page_id: int) -> bool:
     return bool(getattr(result, "rowcount", 0) == 1)
 
 
-WorkResult = tuple[bool, str | None]
+WorkResult = tuple[bool, str | None, bool]  # (claimed, error, halt)
 
 
 def _run_time_boxed(
@@ -418,16 +453,17 @@ def _run_time_boxed(
     work: Callable[[int], WorkResult],
     deadline: float,
     concurrency: int,
-) -> tuple[int, list[str]]:
-    """Dispatch items to a small pool until the deadline; report how many were claimed."""
+) -> tuple[int, list[str], bool]:
+    """Dispatch items to a small pool until the deadline or until a worker asks to halt."""
     queue = iter(item_ids)
     processed = 0
+    halted = False
     errors: list[str] = []
     with ThreadPoolExecutor(max_workers=concurrency) as pool:
         in_flight: set[Future[WorkResult]] = set()
 
         def submit_next() -> bool:
-            if time.monotonic() >= deadline:
+            if halted or time.monotonic() >= deadline:
                 return False
             item_id = next(queue, None)
             if item_id is None:
@@ -441,12 +477,13 @@ def _run_time_boxed(
         while in_flight:
             finished, in_flight = wait(in_flight, return_when=FIRST_COMPLETED)
             for future in finished:
-                claimed, error = future.result()
+                claimed, error, halt = future.result()
                 processed += int(claimed)
+                halted = halted or halt
                 if error:
                     errors.append(error)
                 submit_next()
-    return processed, errors
+    return processed, errors, halted
 
 
 def _run_page(
@@ -455,22 +492,28 @@ def _run_page(
     """Worker: claim, process and commit one page in its own transaction."""
     with session_scope(engine) as db:
         if not _claim(db, page_id):
-            return False, None
+            return False, None, False
         document = db.get(Document, document_id)
         page = db.get(Page, page_id)
         if document is None or page is None:
-            return False, "document or page vanished"
+            return False, "document or page vanished", False
         try:
             process_page(db, document, page, pdf_bytes, deps)
+        except BatchPausedError:
+            return False, None, True
         except Exception as error:  # noqa: BLE001 - keep the batch alive, report the page
             page.status = "failed"
             page.last_error = str(error)[:2000]
             db.flush()
-        return True, page.last_error
+        return True, page.last_error, False
 
 
 def _progress(
-    engine: Engine, document_id: str, processed: int, errors: list[str]
+    engine: Engine,
+    document_id: str,
+    processed: int,
+    errors: list[str],
+    paused_reason: str | None = None,
 ) -> ProcessProgress:
     with session_scope(engine) as db:
         rows = db.execute(
@@ -500,6 +543,7 @@ def _progress(
             processed_this_call=processed,
             estimated_calls_remaining=math.ceil(remaining / max(processed, 1)) if remaining else 0,
             last_errors=errors[-_MAX_REPORTED_ERRORS:],
+            paused_reason=paused_reason,
         )
 
 
@@ -523,16 +567,20 @@ def process_document(
             raise LookupError(f"unknown document {document_id}")
         if document.status == "uploaded":
             document.status = "processing"
-        ensure_document_meta(db, document, deps)
+        try:
+            ensure_document_meta(db, document, deps)
+        except BatchPausedError as paused:
+            db.commit()
+            return _progress(engine, document_id, 0, [], str(paused))
         page_ids = _claimable_page_ids(db, document_id, retry_failed)
 
-    processed, errors = _run_time_boxed(
+    processed, errors, halted = _run_time_boxed(
         page_ids,
         lambda page_id: _run_page(engine, document_id, page_id, pdf_bytes, deps),
         deadline,
         deps.page_concurrency,
     )
-    return _progress(engine, document_id, processed, errors)
+    return _progress(engine, document_id, processed, errors, QUOTA_PAUSE_REASON if halted else None)
 
 
 # --------------------------------------------------------------------------------------------
@@ -550,6 +598,7 @@ class LinkProgress:
     failed: int
     adjudicated_this_call: int
     by_verdict: dict[str, int]
+    paused_reason: str | None = None
 
 
 def _fact_views(db: Session) -> list[FactView]:
@@ -645,10 +694,10 @@ def _adjudicate_relation(engine: Engine, relation_id: int, deps: PipelineDeps) -
     with session_scope(engine) as db:
         relation = db.get(Relation, relation_id)
         if relation is None or relation.status != "pending_llm":
-            return False, None
+            return False, None, False
         fact_a, fact_b = db.get(Fact, relation.fact_a_id), db.get(Fact, relation.fact_b_id)
         if fact_a is None or fact_b is None:
-            return False, "facts vanished"
+            return False, "facts vanished", False
         document_a, document_b = (
             db.get(Document, fact_a.document_id),
             db.get(Document, fact_b.document_id),
@@ -665,6 +714,19 @@ def _adjudicate_relation(engine: Engine, relation_id: int, deps: PipelineDeps) -
                 document_b,
                 relation.rule_hypothesis or "",
             )
+        except LLMQuotaError as error:
+            relation.attempts -= 1
+            db.add(
+                Failure(
+                    document_id=fact_a.document_id,
+                    relation_id=relation.id,
+                    stage="link",
+                    kind="llm_quota",
+                    message=str(error)[:2000],
+                    handled="paused adjudication; the pair stays pending and is retried when quota reopens",
+                )
+            )
+            return False, None, True
         except Exception as error:  # noqa: BLE001 - recorded; the relation keeps its hypothesis
             exhausted = relation.attempts >= MAX_ADJUDICATION_ATTEMPTS
             if exhausted:
@@ -684,7 +746,7 @@ def _adjudicate_relation(engine: Engine, relation_id: int, deps: PipelineDeps) -
                     ),
                 )
             )
-            return True, str(error)
+            return True, str(error), False
         both_verified = fact_a.evidence_verified and fact_b.evidence_verified
         relation.verdict = verdict.verdict
         relation.dimension = verdict.dimension
@@ -694,10 +756,12 @@ def _adjudicate_relation(engine: Engine, relation_id: int, deps: PipelineDeps) -
         relation.method = "llm"
         relation.status = "final"
         relation.llm_raw = verdict.model_dump()
-        return True, None
+        return True, None, False
 
 
-def _link_progress(engine: Engine, adjudicated: int) -> LinkProgress:
+def _link_progress(
+    engine: Engine, adjudicated: int, paused_reason: str | None = None
+) -> LinkProgress:
     with session_scope(engine) as db:
         status_rows = db.execute(
             select(Relation.status, func.count()).group_by(Relation.status)
@@ -713,6 +777,7 @@ def _link_progress(engine: Engine, adjudicated: int) -> LinkProgress:
             failed=by_status.get("failed", 0),
             adjudicated_this_call=adjudicated,
             by_verdict={verdict: count for verdict, count in verdict_rows},
+            paused_reason=paused_reason,
         )
 
 
@@ -731,10 +796,10 @@ def link(engine: Engine, deps: PipelineDeps) -> LinkProgress:
                 .order_by(Relation.id)
             )
         )
-    adjudicated, _errors = _run_time_boxed(
+    adjudicated, _errors, halted = _run_time_boxed(
         pending,
         lambda relation_id: _adjudicate_relation(engine, relation_id, deps),
         deadline,
         deps.page_concurrency,
     )
-    return _link_progress(engine, adjudicated)
+    return _link_progress(engine, adjudicated, QUOTA_PAUSE_REASON if halted else None)

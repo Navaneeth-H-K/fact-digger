@@ -184,6 +184,7 @@ class ProgressOut(BaseModel):
     processed_this_call: int
     estimated_calls_remaining: int
     last_errors: list[str]
+    paused_reason: str | None = None
 
 
 class FactOut(BaseModel):
@@ -269,6 +270,7 @@ class LinkProgressOut(BaseModel):
     failed: int
     adjudicated_this_call: int
     by_verdict: dict[str, int]
+    paused_reason: str | None = None
 
 
 class FailureOut(BaseModel):
