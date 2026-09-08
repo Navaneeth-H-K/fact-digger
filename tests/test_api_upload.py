@@ -182,3 +182,21 @@ def test_llm_diagnostic_reports_provider_outcome_when_token_matches(
         assert body["ok"] is False and body["error_type"] == "LLMQuotaError"
         assert "402" in body["error"] and body["model"] == "m"
         assert body["elapsed_s"] >= 0
+
+
+def test_finalize_state_is_committed_before_the_response_returns(
+    tmp_path: Path, sample_pdf_bytes: bytes
+) -> None:
+    from sqlalchemy import select
+    from sqlalchemy.orm import Session
+
+    from fkl.models import Document
+
+    runtime = make_runtime(tmp_path)
+    with TestClient(create_app(runtime)) as api:
+        ticket = upload(api, sample_pdf_bytes)
+        assert api.post(f"/documents/{ticket['document_id']}/finalize").status_code == 200
+        with Session(runtime.engine) as fresh:
+            document = fresh.scalars(select(Document)).one()
+            assert document.status == "uploaded" and document.page_count == 3
+        assert api.post(f"/documents/{ticket['document_id']}/process").status_code == 200

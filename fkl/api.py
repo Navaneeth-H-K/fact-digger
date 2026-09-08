@@ -223,7 +223,7 @@ def _register_routes(app: FastAPI) -> None:
                 storage_path=f"pdfs/{document_id}.pdf",
             )
             db.add(document)
-            db.flush()
+            db.commit()
         target = runtime.storage.create_upload_target(document.storage_path)
         return UploadTicket(
             document_id=document.id,
@@ -270,7 +270,7 @@ def _register_routes(app: FastAPI) -> None:
             )
         document.page_count = len(pages)
         document.status = "uploaded"
-        db.flush()
+        db.commit()  # the client may call /process the instant this response lands
         return _document_out(db, document)
 
     @app.get("/documents", response_model=list[DocumentOut])
