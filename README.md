@@ -153,6 +153,16 @@ _(Filled from the starter-set run at v1, with fact and relation ids linking into
 
 ## Limitations and next steps
 
+**Live extraction is blocked on the hosted site.** The model endpoint used here (AgentRouter) sits
+behind Alibaba Cloud's WAF, which answers requests from Vercel's data-centre IP ranges with an HTTP
+200 bot-challenge page instead of the API (verified with a diagnostic endpoint from two Vercel
+regions and with several User-Agents). The same requests from a residential machine work. The
+hosted instance therefore runs in **replay mode**: it serves the layer processed locally from the
+starter set, and a new upload is inventoried and then paused with the reason shown in the UI.
+Running the project locally with a key, or pointing it at any Anthropic-compatible endpoint that
+does not block cloud egress, restores live processing without code changes.
+
+
 _(Expanded with measured numbers after the starter-set run.)_
 
 Known limits of v1:

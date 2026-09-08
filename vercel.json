@@ -7,6 +7,9 @@
     }
   },
   "crons": [
-    { "path": "/health", "schedule": "0 9 * * *" }
+    {
+      "path": "/health",
+      "schedule": "0 9 * * *"
+    }
   ]
 }
