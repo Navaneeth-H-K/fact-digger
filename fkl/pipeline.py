@@ -74,6 +74,8 @@ class PipelineDeps:
     page_concurrency: int = 4
     budget_s: float = 45.0
     image_width: int = 1200
+    extract_max_tokens: int = 6000
+    max_facts_per_page: int = 25
 
 
 def document_context(document: Document, default_fy_start: int) -> DocumentContext:
@@ -279,6 +281,8 @@ def process_page(
             page_index=page.index,
             page_label=page.label,
             vocabulary=attribute_vocabulary(db),
+            max_facts=deps.max_facts_per_page,
+            max_tokens=deps.extract_max_tokens,
         )
         outcome = extract_page(deps.client, request)
     except (LLMQuotaError, LLMCacheMissError) as error:

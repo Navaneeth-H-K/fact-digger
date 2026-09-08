@@ -33,5 +33,7 @@ class Settings(BaseSettings):
     page_concurrency: int = 4
     batch_budget_s: float = 45.0
     image_width: int = 1200
+    extract_max_tokens: int = 6000
+    max_facts_per_page: int = 25
     upload_max_bytes: int = 50 * 1024 * 1024
     diagnostics_token: str | None = None

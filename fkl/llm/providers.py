@@ -303,6 +303,10 @@ class OpenAICompatProvider:
             try:
                 return self._send(req)
             except openai.RateLimitError as error:
+                if "too large" in str(error).lower():
+                    raise LLMTransientError(
+                        f"request too large for the model's limits: {error}"
+                    ) from error
                 last_error = error
                 wait = _rate_limit_wait(error, attempt)
             except openai.APIStatusError as error:

@@ -338,3 +338,45 @@ def test_openai_compat_429_waits_for_the_reset_header_then_succeeds() -> None:
     assert provider.complete(request())["tool_input"] == {"facts": []}
     assert attempts["n"] == 3 and len(sleeps) == 2
     assert all(2.0 <= s <= 3.0 for s in sleeps)  # retry-after wins, plus a little jitter
+
+
+def test_request_too_large_429_fails_the_page_without_pausing_the_batch() -> None:
+    import openai
+
+    from fkl.llm.providers import OpenAICompatProvider
+
+    def create(**kwargs: Any) -> Any:
+        response = httpx.Response(429, request=httpx.Request("POST", "https://api.groq.com"))
+        raise openai.RateLimitError(
+            "Request too large for model on output tokens per minute (OTPM): Limit 1000, "
+            "Requested 1602. reduce max_tokens",
+            response=response,
+            body=None,
+        )
+
+    sleeps: list[float] = []
+    provider = OpenAICompatProvider(
+        api_key="k", base_url="http://x/v1", create=create, sleep=sleeps.append
+    )
+    with pytest.raises(LLMTransientError, match="too large"):
+        provider.complete(request())
+    assert sleeps == []
+
+
+def test_extraction_request_honours_fact_cap_and_output_budget() -> None:
+    from fkl.llm.prompts import DocumentContext, extraction_request
+
+    req = extraction_request(
+        model="m",
+        image_jpeg=b"\xff\xd8",
+        page_text="t",
+        document=DocumentContext("f.pdf", None, None, None, 4),
+        page_index=0,
+        page_label=None,
+        vocabulary=[],
+        max_facts=12,
+        max_tokens=1000,
+    )
+    assert req.max_tokens == 1000
+    assert "at most 12 facts" in req.system
+    assert req.tool_schema["properties"]["facts"]["maxItems"] == 12

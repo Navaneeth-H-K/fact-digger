@@ -82,6 +82,8 @@ def build_deps(settings: Settings, client: LLMClient) -> PipelineDeps:
         page_concurrency=settings.page_concurrency,
         budget_s=settings.batch_budget_s,
         image_width=settings.image_width,
+        extract_max_tokens=settings.extract_max_tokens,
+        max_facts_per_page=settings.max_facts_per_page,
     )
 
 

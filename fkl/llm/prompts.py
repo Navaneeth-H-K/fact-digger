@@ -29,7 +29,7 @@ categorical statement such as a rating, a rank or a classification) that another
 agree or disagree with. Include prose numbers, headline table cells (totals, latest period, named
 indicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,
 chart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables
-prefer the latest period and totals. Return at most 25 facts, most important first.
+prefer the latest period and totals. Return at most {max_facts} facts, most important first.
 
 Fields:
 - entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase
@@ -98,6 +98,8 @@ def extraction_request(
     page_index: int,
     page_label: str | None,
     vocabulary: list[str],
+    max_facts: int = 25,
+    max_tokens: int = 6000,
 ) -> LLMRequest:
     terms = ", ".join(vocabulary[:MAX_VOCABULARY_TERMS]) or "(none yet)"
     text = (
@@ -110,14 +112,16 @@ def extraction_request(
         {"type": "image", "media_type": "image/jpeg", "data": image_jpeg},
         {"type": "text", "text": text},
     ]
+    schema = tool_schema(PageExtraction)
+    schema["properties"]["facts"]["maxItems"] = max_facts
     return LLMRequest(
         purpose="extract",
         model=model,
-        system=EXTRACTION_SYSTEM,
+        system=EXTRACTION_SYSTEM.replace("{max_facts}", str(max_facts)),
         content=content,
         tool_name=RECORD_PAGE_FACTS,
-        tool_schema=tool_schema(PageExtraction),
-        max_tokens=6000,
+        tool_schema=schema,
+        max_tokens=max_tokens,
     )
 
 
