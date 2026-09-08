@@ -68,8 +68,15 @@ def process(client: httpx.Client, base: str, document_id: str) -> dict[str, Any]
         )
         if progress["last_errors"]:
             log(f"  last error: {progress['last_errors'][-1][:160]}")
-        if progress["pending"] == 0 or progress["processed_this_call"] == 0:
+        if progress.get("paused_reason"):
+            log(f"  paused: {progress['paused_reason']}")
             return progress
+        if progress["pending"] == 0:
+            return progress
+        if progress["processed_this_call"] == 0 and progress["estimated_calls_remaining"] == 0:
+            return progress  # nothing claimable is left (exhausted retries)
+        if progress["processed_this_call"] == 0:
+            time.sleep(2)  # the deadline hit before anything was dispatched; try again
 
 
 def link(client: httpx.Client, base: str) -> dict[str, Any]:
@@ -82,6 +89,9 @@ def link(client: httpx.Client, base: str) -> dict[str, Any]:
             f"{progress['pending_llm']} pending, {progress['failed']} failed; "
             f"verdicts {progress['by_verdict']}"
         )
+        if progress.get("paused_reason"):
+            log(f"  paused: {progress['paused_reason']}")
+            return progress
         if progress["pending_llm"] == 0 or progress["adjudicated_this_call"] == 0:
             return progress
 

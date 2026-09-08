@@ -560,7 +560,6 @@ def process_document(
     Each page is committed on its own, so a killed invocation loses at most the pages in flight,
     and the next call simply continues.
     """
-    deadline = time.monotonic() + deps.budget_s
     with session_scope(engine) as db:
         document = db.get(Document, document_id)
         if document is None:
@@ -574,6 +573,8 @@ def process_document(
             return _progress(engine, document_id, 0, [], str(paused))
         page_ids = _claimable_page_ids(db, document_id, retry_failed)
 
+    # The budget starts here: a slow metadata call must not starve the pages of their time.
+    deadline = time.monotonic() + deps.budget_s
     processed, errors, halted = _run_time_boxed(
         page_ids,
         lambda page_id: _run_page(engine, document_id, page_id, pdf_bytes, deps),

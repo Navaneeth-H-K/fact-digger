@@ -25,6 +25,8 @@
     return Number.isInteger(value) ? value.toLocaleString() : value.toLocaleString(undefined, { maximumFractionDigits: 3 });
   };
 
+  class PausedError extends Error {}
+
   const printedValue = (fact) => [fact.value_raw, fact.unit_raw, fact.scale_raw].filter(Boolean).join(" ");
 
   // ---------------------------------------------------------------- tabs
@@ -89,7 +91,12 @@
           (progress.last_errors.length ? ` · last error: ${progress.last_errors[0].slice(0, 80)}` : ""),
         20 + (70 * finished) / total,
       );
-      if (progress.pending === 0 || progress.processed_this_call === 0) return progress;
+      if (progress.paused_reason) {
+        job.set(`paused: ${progress.paused_reason}. Use Process on the Documents tab to resume later.`, 20 + (70 * finished) / total, true);
+        throw new PausedError(progress.paused_reason);
+      }
+      if (progress.pending === 0) return progress;
+      if (progress.processed_this_call === 0 && progress.estimated_calls_remaining === 0) return progress;
     }
   }
 
@@ -97,6 +104,10 @@
     for (let i = 0; i < 50; i += 1) {
       const progress = await api("/link", { method: "POST" });
       if (job) job.set(`linking: ${progress.final} final, ${progress.pending_llm} awaiting adjudication`, 95);
+      if (progress.paused_reason) {
+        if (job) job.set(`linking paused: ${progress.paused_reason}. Run linking again later from the Documents tab.`, 95, true);
+        return progress;
+      }
       if (progress.pending_llm === 0 || progress.adjudicated_this_call === 0) return progress;
     }
     return null;
@@ -127,7 +138,7 @@
       job.set(`done: ${progress.done} pages extracted, ${progress.failed} failed. See Facts and Relations.`, 100);
       refreshDocumentOptions();
     } catch (error) {
-      job.set(`error: ${error.message}`, 100, true);
+      if (!(error instanceof PausedError)) job.set(`error: ${error.message}`, 100, true);
     }
   }
 

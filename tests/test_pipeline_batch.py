@@ -170,3 +170,19 @@ def test_quota_exhaustion_pauses_the_batch_without_spending_page_attempts(
 
     resumed = process_document(engine, doc_id, sample_pdf_bytes, make_deps(Fake()))
     assert resumed.paused_reason is None and resumed.status == "extracted" and resumed.done == 2
+
+
+def test_time_budget_starts_after_the_metadata_call(sample_pdf_bytes: bytes) -> None:
+    engine = make_engine("sqlite://")
+    doc_id = seed(engine, sample_pdf_bytes)  # meta not done yet
+
+    class SlowMeta(Fake):
+        def __call__(self, req: LLMRequest) -> dict[str, Any]:
+            if req.purpose == "meta":
+                time.sleep(0.2)
+            return super().__call__(req)
+
+    progress = process_document(
+        engine, doc_id, sample_pdf_bytes, make_deps(SlowMeta(), budget_s=0.1)
+    )
+    assert progress.processed_this_call >= 1  # pages still get their own budget

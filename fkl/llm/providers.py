@@ -75,7 +75,7 @@ class AnthropicProvider:
         create: Callable[..., Any] | None = None,
         sleep: Callable[[float], None] = time.sleep,
         max_attempts: int = 4,
-        timeout: float = 120.0,
+        timeout: float = 180.0,
     ) -> None:
         self._create: Callable[..., Any]
         if create is None:
