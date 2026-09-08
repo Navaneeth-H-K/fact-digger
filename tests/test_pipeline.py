@@ -179,3 +179,37 @@ def test_null_optional_fields_from_the_model_fall_back_to_defaults() -> None:
     fact = coerce_fact(raw)
     assert fact.quote_source == "text" and fact.value_kind == "number"
     assert fact.estimate_type == "unknown" and fact.scale is None
+
+
+def test_tool_call_overflow_retries_with_a_smaller_fact_cap(
+    sample_pdf_bytes: bytes,
+) -> None:
+    from fkl.llm.client import LLMTransientError
+
+    caps_seen: list[int] = []
+
+    def overflowing(req: LLMRequest) -> dict[str, Any]:
+        cap = req.tool_schema["properties"]["facts"]["maxItems"]
+        caps_seen.append(cap)
+        if cap > 4:
+            raise LLMTransientError(
+                "unexpected status 400: tool_use_failed: Failed to call a function"
+            )
+        return {"page_kind": "table", "facts": [REVENUE_FACT], "problems": []}
+
+    deps = PipelineDeps(
+        client=LLMClient(mode="off", fake=overflowing),
+        extract_model="m",
+        adjudicate_model="m",
+        fiscal_year_start_month=4,
+        max_facts_per_page=12,
+    )
+    engine = make_engine("sqlite://")
+    with session_scope(engine) as db:
+        document = seed_document(db, sample_pdf_bytes)
+        page = db.scalars(select(Page).where(Page.index == 0)).one()
+        assert process_page(db, document, page, sample_pdf_bytes, deps) == 1
+        assert caps_seen == [12, 6, 3]
+        assert page.status == "done"
+        note = db.scalars(select(Failure).where(Failure.kind == "fact_cap_reduced")).one()
+        assert "3" in note.handled

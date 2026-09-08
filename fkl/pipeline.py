@@ -28,7 +28,13 @@ from fkl.compare import (
 )
 from fkl.db import session_scope
 from fkl.llm.adjudicate import adjudicate
-from fkl.llm.client import LLMCacheMissError, LLMClient, LLMJsonError, LLMQuotaError
+from fkl.llm.client import (
+    LLMCacheMissError,
+    LLMClient,
+    LLMJsonError,
+    LLMQuotaError,
+    LLMTransientError,
+)
 from fkl.llm.extract import extract_page
 from fkl.llm.prompts import DocumentContext, extraction_request, meta_request
 from fkl.llm.structured import call_structured
@@ -46,6 +52,7 @@ from fkl.schemas import DocumentMeta, ExtractedFact
 from fkl.verify import verify_quote
 
 MAX_PAGE_ATTEMPTS = 3
+MIN_FACTS_PER_PAGE = 3
 QUOTA_PAUSE_REASON = "model quota exhausted; processing paused, retry later"
 REPLAY_PAUSE_REASON = (
     "no cached model response for this page (replay mode); processing paused until a live "
@@ -273,18 +280,39 @@ def process_page(
     context = document_context(document, deps.fiscal_year_start_month)
     try:
         image = render_jpeg(pdf_bytes, page.index, width=deps.image_width)
-        request = extraction_request(
-            model=deps.extract_model,
-            image_jpeg=image,
-            page_text=page.text,
-            document=context,
-            page_index=page.index,
-            page_label=page.label,
-            vocabulary=attribute_vocabulary(db),
-            max_facts=deps.max_facts_per_page,
-            max_tokens=deps.extract_max_tokens,
-        )
-        outcome = extract_page(deps.client, request)
+        vocabulary = attribute_vocabulary(db)
+        cap = deps.max_facts_per_page
+        while True:
+            request = extraction_request(
+                model=deps.extract_model,
+                image_jpeg=image,
+                page_text=page.text,
+                document=context,
+                page_index=page.index,
+                page_label=page.label,
+                vocabulary=vocabulary,
+                max_facts=cap,
+                max_tokens=deps.extract_max_tokens,
+            )
+            try:
+                outcome = extract_page(deps.client, request)
+                break
+            except LLMTransientError as error:
+                # The tool call overflowed the output budget: ask for fewer facts and retry.
+                if "tool_use_failed" not in str(error) or cap <= MIN_FACTS_PER_PAGE:
+                    raise
+                cap = max(MIN_FACTS_PER_PAGE, cap // 2)
+        if cap < deps.max_facts_per_page:
+            db.add(
+                Failure(
+                    document_id=document.id,
+                    page_index=page.index,
+                    stage="extract",
+                    kind="fact_cap_reduced",
+                    message="the model's tool call overflowed the output budget",
+                    handled=f"retried with a cap of {cap} facts; the page may hold more",
+                )
+            )
     except (LLMQuotaError, LLMCacheMissError) as error:
         kind, reason = _PAUSE_REASONS[type(error)]
         page.status = "pending"
