@@ -166,7 +166,7 @@ def test_quota_exhaustion_pauses_the_batch_without_spending_page_attempts(
         pages = db.scalars(select(Page).where(Page.status != "skipped").order_by(Page.index)).all()
         assert all(p.status == "pending" and p.attempts == 0 for p in pages)
         failure = db.scalars(select(Failure).where(Failure.kind == "llm_quota")).one()
-        assert "retried" in failure.handled
+        assert "retry" in failure.handled
 
     resumed = process_document(engine, doc_id, sample_pdf_bytes, make_deps(Fake()))
     assert resumed.paused_reason is None and resumed.status == "extracted" and resumed.done == 2
@@ -186,3 +186,28 @@ def test_time_budget_starts_after_the_metadata_call(sample_pdf_bytes: bytes) -> 
         engine, doc_id, sample_pdf_bytes, make_deps(SlowMeta(), budget_s=0.1)
     )
     assert progress.processed_this_call >= 1  # pages still get their own budget
+
+
+def test_cache_miss_in_replay_mode_pauses_instead_of_failing_pages(sample_pdf_bytes: bytes) -> None:
+    from pathlib import Path
+
+    from fkl.llm.cache import JsonDirCache
+
+    engine = make_engine("sqlite://")
+    doc_id = seed(engine, sample_pdf_bytes, meta_done=True)
+    empty_cache = JsonDirCache(Path("does-not-exist-cache-dir"))
+    deps = PipelineDeps(
+        client=LLMClient(mode="replay", cache=empty_cache),
+        extract_model="m",
+        adjudicate_model="m",
+        page_concurrency=1,
+    )
+    progress = process_document(engine, doc_id, sample_pdf_bytes, deps)
+    assert progress.paused_reason is not None and "replay" in progress.paused_reason
+    assert progress.failed == 0 and progress.pending == 2
+    with session_scope(engine) as db:
+        assert all(
+            p.attempts == 0 for p in db.scalars(select(Page).where(Page.status != "skipped"))
+        )
+        failure = db.scalars(select(Failure).where(Failure.kind == "llm_cache_miss")).one()
+        assert "replay" in failure.handled

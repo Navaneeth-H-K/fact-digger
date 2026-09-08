@@ -31,9 +31,12 @@ def make_engine(url: str) -> Engine:
     """Create an engine for the URL and make sure the schema exists."""
     url = normalize_database_url(url)
     options: dict[str, Any] = {}
+    in_memory = url in ("sqlite://", "sqlite:///:memory:")
     if url.startswith("sqlite"):
-        options["connect_args"] = {"check_same_thread": False}
-        if url in ("sqlite://", "sqlite:///:memory:"):
+        # Workers wait on the model for a long time; a generous busy timeout lets short writes
+        # queue behind each other instead of failing with "database is locked".
+        options["connect_args"] = {"check_same_thread": False, "timeout": 30}
+        if in_memory:
             options["poolclass"] = StaticPool
     else:
         options["poolclass"] = NullPool
@@ -41,16 +44,19 @@ def make_engine(url: str) -> Engine:
         options["connect_args"] = {"prepare_threshold": None}
     engine = create_engine(url, future=True, **options)
     if url.startswith("sqlite"):
-        _enable_sqlite_foreign_keys(engine)
+        _configure_sqlite(engine, wal=not in_memory)
     Base.metadata.create_all(engine)
     return engine
 
 
-def _enable_sqlite_foreign_keys(engine: Engine) -> None:
+def _configure_sqlite(engine: Engine, wal: bool) -> None:
     @event.listens_for(engine, "connect")
-    def _set_pragma(dbapi_connection: Any, _record: Any) -> None:
+    def _set_pragmas(dbapi_connection: Any, _record: Any) -> None:
         cursor = dbapi_connection.cursor()
         cursor.execute("PRAGMA foreign_keys=ON")
+        cursor.execute("PRAGMA busy_timeout=30000")
+        if wal:
+            cursor.execute("PRAGMA journal_mode=WAL")  # readers never block the writer
         cursor.close()
 
 

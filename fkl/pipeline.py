@@ -47,6 +47,15 @@ from fkl.verify import verify_quote
 
 MAX_PAGE_ATTEMPTS = 3
 QUOTA_PAUSE_REASON = "model quota exhausted; processing paused, retry later"
+REPLAY_PAUSE_REASON = (
+    "no cached model response for this page (replay mode); processing paused until a live "
+    "model endpoint is configured"
+)
+_PAUSE_REASONS: dict[type[Exception], tuple[str, str]] = {
+    LLMQuotaError: ("llm_quota", QUOTA_PAUSE_REASON),
+    LLMCacheMissError: ("llm_cache_miss", REPLAY_PAUSE_REASON),
+}
+_KNOWN_PAUSE_REASONS = frozenset(reason for _, reason in _PAUSE_REASONS.values())
 
 
 class BatchPausedError(Exception):
@@ -258,6 +267,7 @@ def process_page(
 ) -> int:
     """Extract, verify, normalise and store the facts of one page. Returns facts stored."""
     page.attempts += 1
+    db.commit()  # release the write lock before the long model call
     context = document_context(document, deps.fiscal_year_start_month)
     try:
         image = render_jpeg(pdf_bytes, page.index, width=deps.image_width)
@@ -271,7 +281,8 @@ def process_page(
             vocabulary=attribute_vocabulary(db),
         )
         outcome = extract_page(deps.client, request)
-    except LLMQuotaError as error:
+    except (LLMQuotaError, LLMCacheMissError) as error:
+        kind, reason = _PAUSE_REASONS[type(error)]
         page.status = "pending"
         page.attempts -= 1
         page.last_error = str(error)[:2000]
@@ -280,13 +291,13 @@ def process_page(
                 document_id=document.id,
                 page_index=page.index,
                 stage="extract",
-                kind="llm_quota",
+                kind=kind,
                 message=str(error)[:2000],
-                handled="paused the batch; the page stays pending and is retried when quota reopens",
+                handled=f"paused the batch; the page stays pending. Reason: {reason}",
             )
         )
-        db.flush()
-        raise BatchPausedError(QUOTA_PAUSE_REASON) from error
+        db.commit()
+        raise BatchPausedError(reason) from error
     except Exception as error:  # noqa: BLE001 - every failure is recorded, never raised
         page.status = "failed"
         page.last_error = str(error)[:2000]
@@ -377,17 +388,18 @@ def ensure_document_meta(db: Session, document: Document, deps: PipelineDeps) ->
     )
     try:
         meta = call_structured(deps.client, request, DocumentMeta)
-    except LLMQuotaError as error:
+    except (LLMQuotaError, LLMCacheMissError) as error:
+        kind, reason = _PAUSE_REASONS[type(error)]
         db.add(
             Failure(
                 document_id=document.id,
                 stage="meta",
-                kind="llm_quota",
+                kind=kind,
                 message=str(error)[:2000],
-                handled="paused the batch before touching pages; retried when quota reopens",
+                handled=f"paused the batch before touching pages. Reason: {reason}",
             )
         )
-        raise BatchPausedError(QUOTA_PAUSE_REASON) from error
+        raise BatchPausedError(reason) from error
     except Exception as error:  # noqa: BLE001 - recorded, never fatal
         db.add(
             Failure(
@@ -477,7 +489,10 @@ def _run_time_boxed(
         while in_flight:
             finished, in_flight = wait(in_flight, return_when=FIRST_COMPLETED)
             for future in finished:
-                claimed, error, halt = future.result()
+                try:
+                    claimed, error, halt = future.result()
+                except Exception as crash:  # noqa: BLE001 - reported, never propagated
+                    claimed, error, halt = False, str(crash)[:2000], False
                 processed += int(claimed)
                 halted = halted or halt
                 if error:
@@ -499,13 +514,23 @@ def _run_page(
             return False, "document or page vanished", False
         try:
             process_page(db, document, page, pdf_bytes, deps)
-        except BatchPausedError:
-            return False, None, True
+        except BatchPausedError as paused:
+            return False, str(paused), True
         except Exception as error:  # noqa: BLE001 - keep the batch alive, report the page
-            page.status = "failed"
-            page.last_error = str(error)[:2000]
-            db.flush()
+            db.rollback()
+            page = db.get(Page, page_id)
+            if page is not None:
+                page.status = "failed"
+                page.last_error = str(error)[:2000]
+                db.commit()
+            return True, str(error)[:2000], False
         return True, page.last_error, False
+
+
+def _pause_reason(halted: bool, errors: list[str]) -> str | None:
+    if not halted:
+        return None
+    return next((e for e in reversed(errors) if e in _KNOWN_PAUSE_REASONS), QUOTA_PAUSE_REASON)
 
 
 def _progress(
@@ -581,7 +606,7 @@ def process_document(
         deadline,
         deps.page_concurrency,
     )
-    return _progress(engine, document_id, processed, errors, QUOTA_PAUSE_REASON if halted else None)
+    return _progress(engine, document_id, processed, errors, _pause_reason(halted, errors))
 
 
 # --------------------------------------------------------------------------------------------
@@ -715,19 +740,20 @@ def _adjudicate_relation(engine: Engine, relation_id: int, deps: PipelineDeps) -
                 document_b,
                 relation.rule_hypothesis or "",
             )
-        except LLMQuotaError as error:
+        except (LLMQuotaError, LLMCacheMissError) as error:
+            kind, reason = _PAUSE_REASONS[type(error)]
             relation.attempts -= 1
             db.add(
                 Failure(
                     document_id=fact_a.document_id,
                     relation_id=relation.id,
                     stage="link",
-                    kind="llm_quota",
+                    kind=kind,
                     message=str(error)[:2000],
-                    handled="paused adjudication; the pair stays pending and is retried when quota reopens",
+                    handled=f"paused adjudication; the pair stays pending. Reason: {reason}",
                 )
             )
-            return False, None, True
+            return False, reason, True
         except Exception as error:  # noqa: BLE001 - recorded; the relation keeps its hypothesis
             exhausted = relation.attempts >= MAX_ADJUDICATION_ATTEMPTS
             if exhausted:
@@ -797,10 +823,10 @@ def link(engine: Engine, deps: PipelineDeps) -> LinkProgress:
                 .order_by(Relation.id)
             )
         )
-    adjudicated, _errors, halted = _run_time_boxed(
+    adjudicated, errors, halted = _run_time_boxed(
         pending,
         lambda relation_id: _adjudicate_relation(engine, relation_id, deps),
         deadline,
         deps.page_concurrency,
     )
-    return _link_progress(engine, adjudicated, QUOTA_PAUSE_REASON if halted else None)
+    return _link_progress(engine, adjudicated, _pause_reason(halted, errors))

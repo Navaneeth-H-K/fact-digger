@@ -23,7 +23,10 @@ def fake_model(req: LLMRequest) -> dict[str, Any]:
 
 def make_runtime(tmp_path: Path, fake: Any = fake_model) -> Runtime:
     settings = Settings(
-        database_url="sqlite://", storage_backend="local", local_storage_dir=str(tmp_path)
+        _env_file=None,  # tests never read the developer's .env
+        database_url="sqlite://",
+        storage_backend="local",
+        local_storage_dir=str(tmp_path),
     )
     return Runtime(
         settings=settings,
