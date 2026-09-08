@@ -272,3 +272,36 @@ def test_openai_compat_provider_falls_back_to_json_in_content() -> None:
 
     provider = OpenAICompatProvider(api_key="none", base_url="http://x/v1", create=create)
     assert provider.complete(request())["tool_input"] == {"facts": []}
+
+
+def test_openai_compat_provider_inlines_schema_refs() -> None:
+    from fkl.llm.providers import OpenAICompatProvider, inline_schema_refs
+    from fkl.schemas import PageExtraction, tool_schema
+
+    nested = tool_schema(PageExtraction)
+    assert "$defs" in nested and "$ref" in str(nested)
+    flat = inline_schema_refs(nested)
+    assert "$defs" not in flat and "$ref" not in str(flat)
+    fact_schema = flat["properties"]["facts"]["items"]
+    assert fact_schema["type"] == "object" and "quote" in fact_schema["properties"]
+
+    captured: dict[str, Any] = {}
+
+    def create(**kwargs: Any) -> Any:
+        captured.update(kwargs)
+        return openai_tool_message('{"facts": []}')
+
+    provider = OpenAICompatProvider(api_key="none", base_url="http://x/v1", create=create)
+    req = request()
+    provider.complete(
+        LLMRequest(
+            purpose=req.purpose,
+            model=req.model,
+            system=req.system,
+            content=req.content,
+            tool_name="record_page_facts",
+            tool_schema=nested,
+            max_tokens=100,
+        )
+    )
+    assert "$defs" not in captured["tools"][0]["function"]["parameters"]

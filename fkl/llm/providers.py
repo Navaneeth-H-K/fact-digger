@@ -173,6 +173,29 @@ class AnthropicProvider:
         }
 
 
+def inline_schema_refs(schema: dict[str, Any]) -> dict[str, Any]:
+    """Resolve local `$ref`s into the schema tree and drop `$defs`.
+
+    OpenAI-compatible gateways (Groq, Gemini, Ollama) often reject the referenced form that
+    Pydantic emits for nested models; the inlined form is equivalent.
+    """
+    definitions = schema.get("$defs", {})
+
+    def resolve(node: Any) -> Any:
+        if isinstance(node, dict):
+            if "$ref" in node:
+                name = node["$ref"].rsplit("/", 1)[-1]
+                merged = {**definitions[name], **{k: v for k, v in node.items() if k != "$ref"}}
+                return resolve(merged)
+            return {k: resolve(v) for k, v in node.items() if k != "$defs"}
+        if isinstance(node, list):
+            return [resolve(item) for item in node]
+        return node
+
+    result: dict[str, Any] = resolve(schema)
+    return result
+
+
 class OpenAICompatProvider:
     """Any OpenAI-style chat-completions endpoint: Ollama, vLLM, LM Studio, or a gateway.
 
@@ -234,7 +257,7 @@ class OpenAICompatProvider:
                     "function": {
                         "name": req.tool_name,
                         "description": f"Record the structured result of the {req.purpose} step.",
-                        "parameters": req.tool_schema,
+                        "parameters": inline_schema_refs(req.tool_schema),
                     },
                 }
             ],

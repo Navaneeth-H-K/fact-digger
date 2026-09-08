@@ -24,6 +24,7 @@ class Settings(BaseSettings):
     agentrouter_base_url: str = "https://agentrouter.org"
     openai_compat_base_url: str | None = None
     openai_compat_api_key: str | None = None
+    groq_api_key: str | None = None  # shortcut: sets the openai_compat endpoint to Groq
     extract_model: str = "claude-sonnet-4-5-20250929"
     adjudicate_model: str = "claude-opus-4-8"
     llm_cache_dir: str | None = None
