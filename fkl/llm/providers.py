@@ -205,11 +205,17 @@ class AnthropicProvider:
         }
 
 
-def inline_schema_refs(schema: dict[str, Any]) -> dict[str, Any]:
+_GEMINI_UNSUPPORTED_KEYS = frozenset(
+    {"additionalProperties", "title", "default", "$schema", "discriminator"}
+)
+
+
+def inline_schema_refs(schema: dict[str, Any], strip_unsupported: bool = False) -> dict[str, Any]:
     """Resolve local `$ref`s into the schema tree and drop `$defs`.
 
-    OpenAI-compatible gateways (Groq, Gemini, Ollama) often reject the referenced form that
-    Pydantic emits for nested models; the inlined form is equivalent.
+    OpenAI-compatible gateways (Groq, Gemini, Ollama) reject the referenced form that Pydantic
+    emits for nested models; the inlined form is equivalent. With `strip_unsupported`, also drop
+    keys that Gemini's stricter OpenAPI subset rejects (additionalProperties, title, default, ...).
     """
     definitions = schema.get("$defs", {})
 
@@ -219,7 +225,8 @@ def inline_schema_refs(schema: dict[str, Any]) -> dict[str, Any]:
                 name = node["$ref"].rsplit("/", 1)[-1]
                 merged = {**definitions[name], **{k: v for k, v in node.items() if k != "$ref"}}
                 return resolve(merged)
-            return {k: resolve(v) for k, v in node.items() if k != "$defs"}
+            skip = {"$defs"} | (_GEMINI_UNSUPPORTED_KEYS if strip_unsupported else set())
+            return {k: resolve(v) for k, v in node.items() if k not in skip}
         if isinstance(node, list):
             return [resolve(item) for item in node]
         return node
@@ -245,7 +252,9 @@ class OpenAICompatProvider:
         sleep: Callable[[float], None] = time.sleep,
         max_attempts: int = 8,
         timeout: float = 300.0,
+        strict_schema: bool = False,
     ) -> None:
+        self._strict_schema = strict_schema
         self._create: Callable[..., Any]
         if create is None:
             import openai
@@ -289,7 +298,9 @@ class OpenAICompatProvider:
                     "function": {
                         "name": req.tool_name,
                         "description": f"Record the structured result of the {req.purpose} step.",
-                        "parameters": inline_schema_refs(req.tool_schema),
+                        "parameters": inline_schema_refs(
+                            req.tool_schema, strip_unsupported=self._strict_schema
+                        ),
                     },
                 }
             ],

@@ -20,6 +20,7 @@ from fkl.pipeline import PipelineDeps
 from fkl.storage import LocalDirStorage, Storage, SupabaseStorage
 
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
+GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai"
 
 
 @dataclass
@@ -45,11 +46,18 @@ def build_provider(settings: Settings, user_agent: str | None = None) -> Provide
     if settings.llm_provider == "openai_compat":
         base_url = settings.openai_compat_base_url
         api_key = settings.openai_compat_api_key
-        if settings.groq_api_key and not base_url:
+        strict_schema = False
+        if settings.gemini_api_key and not base_url:
+            base_url, api_key, strict_schema = GEMINI_BASE_URL, settings.gemini_api_key, True
+        elif settings.groq_api_key and not base_url:
             base_url, api_key = GROQ_BASE_URL, settings.groq_api_key
         if not base_url:
-            raise ValueError("OPENAI_COMPAT_BASE_URL (or GROQ_API_KEY) is required")
-        return OpenAICompatProvider(api_key=api_key or "none", base_url=base_url)
+            raise ValueError(
+                "OPENAI_COMPAT_BASE_URL (or GEMINI_API_KEY / GROQ_API_KEY) is required"
+            )
+        return OpenAICompatProvider(
+            api_key=api_key or "none", base_url=base_url, strict_schema=strict_schema
+        )
     if not settings.agentrouter_api_key:
         raise ValueError("AGENTROUTER_API_KEY is required for live or record mode")
     return AnthropicProvider(

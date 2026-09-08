@@ -396,3 +396,14 @@ def test_gateway_4xx_errors_keep_the_upstream_message() -> None:
     provider = OpenAICompatProvider(api_key="k", base_url="http://x/v1", create=create)
     with pytest.raises(LLMTransientError, match="400.*adjust your prompt"):
         provider.complete(request())
+
+
+def test_inline_schema_refs_strips_keys_gemini_rejects() -> None:
+    from fkl.llm.providers import inline_schema_refs
+    from fkl.schemas import PageExtraction, tool_schema
+
+    flat = inline_schema_refs(tool_schema(PageExtraction), strip_unsupported=True)
+    text = str(flat)
+    assert "additionalProperties" not in text and "$defs" not in text and "$ref" not in text
+    # enums and required stay; they are valid OpenAPI subset that Gemini accepts
+    assert flat["properties"]["facts"]["items"]["properties"]["value_kind"]["enum"]
