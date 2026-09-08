@@ -158,7 +158,9 @@ class AnthropicProvider:
                 if error.status_code == 402:
                     raise LLMQuotaError(f"model quota exhausted: {error}") from error
                 if error.status_code not in _QUOTA_STATUSES and error.status_code < 500:
-                    raise LLMTransientError(f"unexpected status {error.status_code}") from error
+                    raise LLMTransientError(
+                        f"unexpected status {error.status_code}: {str(error)[:400]}"
+                    ) from error
                 last_error = error
             except (anthropic.APIConnectionError, anthropic.APITimeoutError) as error:
                 last_error = error
@@ -313,7 +315,9 @@ class OpenAICompatProvider:
                 if error.status_code == 402:
                     raise LLMQuotaError(f"model quota exhausted: {error}") from error
                 if error.status_code < 500:
-                    raise LLMTransientError(f"unexpected status {error.status_code}") from error
+                    raise LLMTransientError(
+                        f"unexpected status {error.status_code}: {str(error)[:400]}"
+                    ) from error
                 last_error = error
             except (openai.APIConnectionError, openai.APITimeoutError) as error:
                 last_error = error

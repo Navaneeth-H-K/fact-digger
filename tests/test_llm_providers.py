@@ -380,3 +380,19 @@ def test_extraction_request_honours_fact_cap_and_output_budget() -> None:
     assert req.max_tokens == 1000
     assert "at most 12 facts" in req.system
     assert req.tool_schema["properties"]["facts"]["maxItems"] == 12
+
+
+def test_gateway_4xx_errors_keep_the_upstream_message() -> None:
+    import openai
+
+    from fkl.llm.providers import OpenAICompatProvider
+
+    def create(**kwargs: Any) -> Any:
+        response = httpx.Response(400, request=httpx.Request("POST", "https://api.groq.com"))
+        raise openai.BadRequestError(
+            "Failed to call a function. Please adjust your prompt.", response=response, body=None
+        )
+
+    provider = OpenAICompatProvider(api_key="k", base_url="http://x/v1", create=create)
+    with pytest.raises(LLMTransientError, match="400.*adjust your prompt"):
+        provider.complete(request())

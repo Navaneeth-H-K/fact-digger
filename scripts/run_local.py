@@ -21,6 +21,11 @@ from typing import Any
 import httpx
 
 
+def request_timeout(budget_s: float) -> float:
+    """A process/link call may run the whole budget plus one in-flight model call."""
+    return budget_s + 300
+
+
 def log(message: str) -> None:
     print(f"[{time.strftime('%H:%M:%S')}] {message}", flush=True)
 
@@ -56,9 +61,11 @@ def upload(client: httpx.Client, base: str, pdf: Path) -> str:
     return document_id
 
 
-def process(client: httpx.Client, base: str, document_id: str) -> dict[str, Any]:
+def process(client: httpx.Client, base: str, document_id: str, budget_s: float) -> dict[str, Any]:
     while True:
-        response = client.post(f"{base}/documents/{document_id}/process", timeout=600)
+        response = client.post(
+            f"{base}/documents/{document_id}/process", timeout=request_timeout(budget_s)
+        )
         response.raise_for_status()
         progress: dict[str, Any] = response.json()
         log(
@@ -79,9 +86,9 @@ def process(client: httpx.Client, base: str, document_id: str) -> dict[str, Any]
             time.sleep(2)  # the deadline hit before anything was dispatched; try again
 
 
-def link(client: httpx.Client, base: str) -> dict[str, Any]:
+def link(client: httpx.Client, base: str, budget_s: float) -> dict[str, Any]:
     while True:
-        response = client.post(f"{base}/link", timeout=600)
+        response = client.post(f"{base}/link", timeout=request_timeout(budget_s))
         response.raise_for_status()
         progress: dict[str, Any] = response.json()
         log(
@@ -102,6 +109,7 @@ def main(argv: list[str]) -> int:
     parser.add_argument("--base", default="http://127.0.0.1:8765")
     parser.add_argument("--out", type=Path, default=Path("samples/export.json"))
     parser.add_argument("--skip-link", action="store_true")
+    parser.add_argument("--budget-s", type=float, default=600, help="server BATCH_BUDGET_S")
     args = parser.parse_args(argv)
 
     with httpx.Client(timeout=120) as client:
@@ -109,9 +117,9 @@ def main(argv: list[str]) -> int:
         log(f"server: {health}")
         for pdf in args.pdfs:
             document_id = upload(client, args.base, pdf)
-            process(client, args.base, document_id)
+            process(client, args.base, document_id, args.budget_s)
         if not args.skip_link:
-            link(client, args.base)
+            link(client, args.base, args.budget_s)
         export = client.get(f"{args.base}/export", timeout=600)
         export.raise_for_status()
         args.out.parent.mkdir(parents=True, exist_ok=True)
