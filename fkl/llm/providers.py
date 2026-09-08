@@ -28,6 +28,7 @@ from fkl.llm.client import (
 
 _QUOTA_STATUSES = frozenset({402, 429})
 _MAX_BACKOFF_SECONDS = 30.0
+_MAX_RATE_LIMIT_WAIT_SECONDS = 90.0
 _JSON_OBJECT_RE = re.compile(r"\{.*\}", re.DOTALL)
 
 
@@ -64,6 +65,35 @@ def _require_message_shape(response: Any, attribute: str) -> None:
     payload = getattr(response, attribute, None)
     if isinstance(response, str) or not payload:
         raise LLMJsonError(f"proxy returned a non-message response: {str(response)[:300]}")
+
+
+_DURATION_RE = re.compile(r"(\d+(?:\.\d+)?)(ms|s|m|h)")
+
+
+def parse_reset_seconds(value: str | None) -> float | None:
+    """Parse rate-limit reset hints such as '142ms', '12m57.599s', '2.5s' or a bare '7'."""
+    if value is None:
+        return None
+    text = value.strip().lower()
+    if not text:
+        return None
+    if re.fullmatch(r"\d+(?:\.\d+)?", text):
+        return float(text)
+    factors = {"ms": 0.001, "s": 1.0, "m": 60.0, "h": 3600.0}
+    parts = _DURATION_RE.findall(text)
+    if not parts:
+        return None
+    return sum(float(amount) * factors[unit] for amount, unit in parts)
+
+
+def _rate_limit_wait(error: Any, attempt: int) -> float:
+    """Wait as long as the gateway asks (retry-after or reset headers), else back off."""
+    headers = getattr(getattr(error, "response", None), "headers", None) or {}
+    for name in ("retry-after", "x-ratelimit-reset-tokens", "x-ratelimit-reset-requests"):
+        hinted = parse_reset_seconds(headers.get(name))
+        if hinted is not None and hinted > 0:
+            return min(hinted + random.uniform(0.1, 1.0), _MAX_RATE_LIMIT_WAIT_SECONDS)
+    return _backoff_seconds(attempt)
 
 
 class AnthropicProvider:
@@ -211,7 +241,7 @@ class OpenAICompatProvider:
         *,
         create: Callable[..., Any] | None = None,
         sleep: Callable[[float], None] = time.sleep,
-        max_attempts: int = 4,
+        max_attempts: int = 8,
         timeout: float = 300.0,
     ) -> None:
         self._create: Callable[..., Any]
@@ -269,10 +299,12 @@ class OpenAICompatProvider:
 
         last_error: Exception | None = None
         for attempt in range(self._max_attempts):
+            wait: float | None = None
             try:
                 return self._send(req)
             except openai.RateLimitError as error:
                 last_error = error
+                wait = _rate_limit_wait(error, attempt)
             except openai.APIStatusError as error:
                 if error.status_code == 402:
                     raise LLMQuotaError(f"model quota exhausted: {error}") from error
@@ -282,11 +314,13 @@ class OpenAICompatProvider:
             except (openai.APIConnectionError, openai.APITimeoutError) as error:
                 last_error = error
             if attempt < self._max_attempts - 1:
-                self._sleep(_backoff_seconds(attempt))
+                self._sleep(wait if wait is not None else _backoff_seconds(attempt))
         assert last_error is not None
         if getattr(last_error, "status_code", None) in _QUOTA_STATUSES:
-            raise LLMQuotaError("quota exhausted") from last_error
-        raise LLMTransientError(f"gave up after {self._max_attempts} attempts") from last_error
+            raise LLMQuotaError(f"quota exhausted: {str(last_error)[:400]}") from last_error
+        raise LLMTransientError(
+            f"gave up after {self._max_attempts} attempts: {str(last_error)[:300]}"
+        ) from last_error
 
     @staticmethod
     def _tool_input(completion: Any, tool_name: str) -> dict[str, Any]:

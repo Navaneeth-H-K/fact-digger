@@ -305,3 +305,36 @@ def test_openai_compat_provider_inlines_schema_refs() -> None:
         )
     )
     assert "$defs" not in captured["tools"][0]["function"]["parameters"]
+
+
+def test_openai_compat_429_waits_for_the_reset_header_then_succeeds() -> None:
+    import openai
+
+    from fkl.llm.providers import OpenAICompatProvider, parse_reset_seconds
+
+    assert parse_reset_seconds("142ms") == pytest.approx(0.142)
+    assert parse_reset_seconds("12m57.599s") == pytest.approx(777.599)
+    assert parse_reset_seconds("2.5s") == pytest.approx(2.5)
+    assert parse_reset_seconds("7") == pytest.approx(7.0)
+    assert parse_reset_seconds(None) is None
+
+    attempts = {"n": 0}
+
+    def create(**kwargs: Any) -> Any:
+        attempts["n"] += 1
+        if attempts["n"] <= 2:
+            response = httpx.Response(
+                429,
+                request=httpx.Request("POST", "https://api.groq.com"),
+                headers={"x-ratelimit-reset-tokens": "1.5s", "retry-after": "2"},
+            )
+            raise openai.RateLimitError("Rate limit reached", response=response, body=None)
+        return openai_tool_message('{"facts": []}')
+
+    sleeps: list[float] = []
+    provider = OpenAICompatProvider(
+        api_key="k", base_url="http://x/v1", create=create, sleep=sleeps.append, max_attempts=8
+    )
+    assert provider.complete(request())["tool_input"] == {"facts": []}
+    assert attempts["n"] == 3 and len(sleeps) == 2
+    assert all(2.0 <= s <= 3.0 for s in sleeps)  # retry-after wins, plus a little jitter
