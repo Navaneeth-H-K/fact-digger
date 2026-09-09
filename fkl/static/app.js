@@ -33,9 +33,11 @@
   function showTab(name) {
     $$("#tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === name));
     $$(".panel").forEach((p) => p.classList.toggle("hidden", p.id !== `panel-${name}`));
-    const loaders = { documents: loadDocuments, facts: loadFacts, relations: loadRelations, failures: loadFailures, schema: loadSchema };
+    const loaders = { overview: loadOverview, documents: loadDocuments, facts: loadFacts, relations: loadRelations, failures: loadFailures, schema: loadSchema };
     if (loaders[name]) loaders[name]();
   }
+  const VERDICTS = ["corroborates", "contradicts", "superseded", "context_explained", "derived", "unresolved"];
+  const OP = { corroborates: "=", contradicts: "≠", superseded: "→", context_explained: "≈", derived: "Σ", unresolved: "?" };
   $("#tabs").addEventListener("click", (event) => {
     if (event.target.dataset.tab) showTab(event.target.dataset.tab);
   });
@@ -44,6 +46,56 @@
   api("/health")
     .then((h) => { $("#health").textContent = `db ${h.database} · llm ${h.llm_mode} · storage ${h.storage}`; })
     .catch((e) => { $("#health").textContent = `health: ${e.message}`; });
+
+  // ---------------------------------------------------------------- overview
+  async function loadOverview() {
+    const tiles = $("#tiles");
+    tiles.innerHTML = `<div class="tile"><div class="num mono">…</div></div>`;
+    let s;
+    try { s = await api("/stats"); } catch (e) { tiles.innerHTML = `<div class="empty">${esc(e.message)}</div>`; return; }
+    const tile = (num, cap, cls = "") => `<div class="tile ${cls}"><div class="num mono">${num.toLocaleString()}</div><div class="cap">${cap}</div></div>`;
+    tiles.innerHTML =
+      tile(s.documents, "documents", "g-accent") +
+      tile(s.pages, "pages") +
+      tile(s.facts, "facts", "g-accent") +
+      tile(s.relations, "relations") +
+      tile(s.failures, "logged failures", "g-bad");
+
+    const total = Math.max(VERDICTS.reduce((a, v) => a + (s.by_verdict[v] || 0), 0), 1);
+    $("#verdict-bar").innerHTML = VERDICTS.map((v) => {
+      const n = s.by_verdict[v] || 0;
+      return n ? `<span class="v-${v}" style="width:${(100 * n / total).toFixed(2)}%;background:var(--v)" title="${v}: ${n}"></span>` : "";
+    }).join("");
+    $("#verdict-legend").innerHTML = VERDICTS.filter((v) => s.by_verdict[v]).map((v) =>
+      `<span class="item v-${v}"><span class="dot" style="background:var(--v)"></span>${v.replace("_", " ")} <span class="n mono">${s.by_verdict[v]}</span></span>`).join("");
+
+    const [corr, contra, ctx] = await Promise.all([
+      api("/relations?verdict=corroborates&status=final&limit=1").catch(() => []),
+      api("/relations?verdict=contradicts&status=final&limit=1").catch(() => []),
+      api("/relations?verdict=context_explained&status=final&limit=1").catch(() => []),
+    ]);
+    const oneLine = (rs) => {
+      if (!rs.length) return "explore the linked pairs";
+      const r = rs[0], a = r.fact_a, b = r.fact_b;
+      return `${esc((a.attribute || "").slice(0, 34))} — ${esc(printedValue(a))} vs ${esc(printedValue(b))}`;
+    };
+    const card = (verdict, title, desc, go, tab, filter) =>
+      `<div class="case-card v-${verdict}" style="border-left-color:var(--v)" data-tab="${tab}" data-filter="${filter}">
+        <div class="k tint">${title}</div><div class="t">${desc}</div><div class="d">${go}</div>
+        <div class="go">Open ${tab} →</div></div>`;
+    $("#case-cards").innerHTML =
+      card("corroborates", "Corroborated", "Same fact, expressed differently", oneLine(corr), "relations", "corroborates") +
+      card("contradicts", "Contradiction", "Same period, incompatible values", oneLine(contra), "relations", "contradicts") +
+      card("context_explained", "Explained by context", "Differs by period, scope or vintage", oneLine(ctx), "relations", "context_explained") +
+      card("unresolved", "Handled failure", `${s.by_failure_kind.quote_not_found || 0} unverifiable, ${s.by_failure_kind.image_only_evidence || 0} visual-only`, "how the system stayed honest", "failures", "");
+  }
+  $("#btn-refresh-overview").addEventListener("click", loadOverview);
+  $("#case-cards").addEventListener("click", (event) => {
+    const card = event.target.closest(".case-card");
+    if (!card) return;
+    if (card.dataset.filter) { const sel = $("#relations-verdict"); if (sel) sel.value = card.dataset.filter; }
+    showTab(card.dataset.tab);
+  });
 
   // ---------------------------------------------------------------- upload + processing loop
   async function sha256Hex(file) {
@@ -261,10 +313,11 @@
     const groups = new Map(order.map((v) => [v, []]));
     relations.forEach((r) => { if (!groups.has(r.verdict)) groups.set(r.verdict, []); groups.get(r.verdict).push(r); });
     const html = Array.from(groups.entries()).filter(([, items]) => items.length).map(([verdict, items]) => `
-      <div class="verdict-group"><h3>${esc(verdict.replace("_", " "))} <span class="muted">(${items.length})</span></h3>
-      ${items.map((r) => `<div class="relation vd-${esc(r.verdict)}" data-relation='${esc(JSON.stringify({ a: r.fact_a, b: r.fact_b }))}'>
-        <div class="relation-facts">${relationFact(r.fact_a, "a")}${relationFact(r.fact_b, "b")}</div>
+      <div class="verdict-group v-${esc(verdict)}"><h3><span class="spine"></span>${esc(verdict.replace("_", " "))} <span class="count">${items.length}</span></h3>
+      ${items.map((r) => `<div class="relation v-${esc(r.verdict)}" data-relation='${esc(JSON.stringify({ a: r.fact_a, b: r.fact_b }))}'>
+        <div class="relation-facts">${relationFact(r.fact_a, "a")}<div class="rel-mid"><span class="op">${OP[r.verdict] || "·"}</span></div>${relationFact(r.fact_b, "b")}</div>
         <div class="relation-meta">
+          <span class="badge solid">${esc(r.verdict.replace("_", " "))}</span>
           <span class="badge">${esc(r.method)}</span>
           ${r.dimension && r.dimension !== "none" ? `<span class="badge info">differs by ${esc(r.dimension)}</span>` : ""}
           <span class="badge">confidence ${(r.confidence * 100).toFixed(0)}%</span>
@@ -361,4 +414,5 @@
   });
 
   refreshDocumentOptions().catch(() => {});
+  loadOverview().catch(() => {});
 })();

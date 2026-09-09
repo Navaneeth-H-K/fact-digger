@@ -82,3 +82,12 @@ def test_schema_aggregates_discovered_attributes(client: TestClient) -> None:
     assert entry["count"] == 2 and entry["units"] == ["percent"]
     assert entry["entities"] == ["India"] and entry["estimate_types"] == ["actual"]
     assert entry["display_name"] == "cpi headline inflation"
+
+
+def test_stats_endpoint_returns_layer_counts(client: TestClient) -> None:
+    linked(client)
+    s = client.get("/stats").json()
+    assert s["documents"] == 2 and s["facts"] == 7 and s["relations"] == 3
+    assert s["by_verdict"] == {"contradicts": 1, "corroborates": 1, "superseded": 1}
+    assert s["failures"] >= 1 and isinstance(s["by_failure_kind"], dict)
+    assert s["attributes"] >= 1 and s["pages"] == 2

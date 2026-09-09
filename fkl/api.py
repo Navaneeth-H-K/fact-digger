@@ -41,6 +41,7 @@ from fkl.schemas import (
     ProgressOut,
     RelationOut,
     SchemaEntry,
+    StatsOut,
     TimelineEntry,
     TimelineOut,
     UploadRequest,
@@ -152,7 +153,13 @@ def _get_document(db: Session, document_id: str) -> Document:
 def _register_routes(app: FastAPI) -> None:
     @app.api_route("/", methods=["GET", "HEAD"], include_in_schema=False)
     def index() -> FileResponse:
-        return FileResponse(STATIC_DIR / "index.html", media_type="text/html")
+        # The HTML must always revalidate so a new deploy's versioned asset URLs
+        # (style.css?v=N, app.js?v=N) are picked up; the assets themselves cache.
+        return FileResponse(
+            STATIC_DIR / "index.html",
+            media_type="text/html",
+            headers={"Cache-Control": "no-cache"},
+        )
 
     @app.get("/health")
     def health(runtime: RuntimeDep, db: DbDep) -> dict[str, str]:
@@ -523,6 +530,35 @@ def _register_routes(app: FastAPI) -> None:
                 )
             )
         return sorted(entries, key=lambda entry: (-entry.count, entry.attribute_key))
+
+    @app.get("/stats", response_model=StatsOut)
+    def stats(db: DbDep) -> StatsOut:
+        docs = db.scalar(select(func.count()).select_from(Document)) or 0
+        pages = db.scalar(select(func.count()).select_from(Page)) or 0
+        facts = db.scalar(select(func.count()).where(Fact.is_duplicate.is_(False))) or 0
+        relations = db.scalar(select(func.count()).select_from(Relation)) or 0
+        verdict_rows = db.execute(
+            select(Relation.verdict, func.count()).group_by(Relation.verdict)
+        ).all()
+        failure_rows = db.execute(select(Failure.kind, func.count()).group_by(Failure.kind)).all()
+        attributes = (
+            db.scalar(
+                select(func.count(func.distinct(Fact.attribute_key))).where(
+                    Fact.is_duplicate.is_(False)
+                )
+            )
+            or 0
+        )
+        return StatsOut(
+            documents=docs,
+            pages=pages,
+            facts=facts,
+            relations=relations,
+            by_verdict={v: c for v, c in verdict_rows},
+            failures=sum(c for _, c in failure_rows),
+            by_failure_kind={k: c for k, c in failure_rows},
+            attributes=attributes,
+        )
 
     @app.get("/export", response_model=ExportOut)
     def export_layer(db: DbDep, document_id: str | None = None) -> ExportOut:

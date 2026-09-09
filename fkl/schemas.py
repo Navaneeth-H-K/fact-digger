@@ -320,3 +320,14 @@ class ExportOut(BaseModel):
     relations: list[RelationOut]
     failures: list[FailureOut]
     attribute_schema: list[SchemaEntry] = Field(serialization_alias="schema")
+
+
+class StatsOut(BaseModel):
+    documents: int
+    pages: int
+    facts: int
+    relations: int
+    by_verdict: dict[str, int]
+    failures: int
+    by_failure_kind: dict[str, int]
+    attributes: int

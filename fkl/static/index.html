@@ -4,38 +4,62 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Fact Knowledge Layer</title>
-  <link rel="stylesheet" href="/static/style.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%231b1f24%27/%3E%3Ctext x=%2716%27 y=%2721%27 font-size=%2714%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27 font-weight=%27700%27%3EF%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css?v=2" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%235b8bff%27/%3E%3Ctext x=%2716%27 y=%2721%27 font-size=%2713%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27 font-weight=%27800%27%3EF%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
       <span class="brand-mark">FKL</span>
-      <span class="brand-name">Fact Knowledge Layer</span>
-      <span class="brand-sub">facts &rarr; evidence &rarr; tie-out &rarr; explained variances</span>
+      <div>
+        <div class="brand-name">Fact Knowledge Layer</div>
+        <div class="brand-sub">facts &rarr; evidence &rarr; tie-out &rarr; explained variances</div>
+      </div>
     </div>
     <nav class="tabs" id="tabs">
-      <button data-tab="upload" class="active">Upload</button>
+      <button data-tab="overview" class="active">Overview</button>
+      <button data-tab="upload">Upload</button>
       <button data-tab="documents">Documents</button>
       <button data-tab="facts">Facts</button>
       <button data-tab="relations">Relations</button>
       <button data-tab="failures">Failures</button>
       <button data-tab="schema">Schema</button>
     </nav>
-    <div class="health" id="health">checking&hellip;</div>
+    <div class="health" id="health">connecting&hellip;</div>
   </header>
 
   <main class="layout">
-    <section class="panel" id="panel-upload">
+    <section class="panel" id="panel-overview">
+      <div class="hero">
+        <div>
+          <div class="label">Cross-document intelligence</div>
+          <h1>Reconciliation overview</h1>
+          <div class="flow">Every number <b>traced to its page</b>, tied out across documents, and each variance <b>explained or flagged</b>.</div>
+        </div>
+        <button class="secondary" id="btn-refresh-overview">Refresh</button>
+      </div>
+      <div class="tiles" id="tiles"></div>
+      <div class="label" style="margin-bottom:10px">Relationship verdicts</div>
+      <div class="verdict-bar" id="verdict-bar"></div>
+      <div class="legend" id="verdict-legend"></div>
+      <div class="label" style="margin:24px 0 10px">The four cases &mdash; click to explore</div>
+      <div class="cards" id="case-cards"></div>
+    </section>
+
+    <section class="panel hidden" id="panel-upload">
       <h2>Add PDFs to the knowledge layer</h2>
       <p class="muted">
         Each file is uploaded straight to storage, inventoried, then processed page by page
-        (image + text &rarr; model &rarr; verified facts). When a document finishes, linking runs
-        and only genuinely ambiguous pairs go to the adjudicator.
+        (image + text &rarr; model &rarr; verified facts). When a document finishes, linking runs and
+        only genuinely ambiguous pairs go to the adjudicator.
       </p>
       <label class="dropzone" id="dropzone">
         <input type="file" id="file-input" accept="application/pdf" multiple hidden />
-        <span>Drop PDFs here or click to choose</span>
+        <span class="big">Drop PDFs here</span>
+        <span>or click to choose</span>
       </label>
       <div id="upload-jobs" class="jobs"></div>
     </section>
@@ -121,6 +145,6 @@
     </aside>
   </main>
 
-  <script src="/static/app.js"></script>
+  <script src="/static/app.js?v=2"></script>
 </body>
 </html>
