@@ -267,6 +267,42 @@
     return badges.join("");
   }
 
+  // The printed value, shown once and cleanly: verbatim digits with a lightly tidied unit
+  // (Rs./INR → ₹, percent → %). The normalised base-unit magnitude stays in the evidence panel.
+  function factValue(fact) {
+    const raw = esc(fact.value_raw);
+    const unit = (fact.unit_raw || "").trim();
+    const scale = fact.scale_raw ? " " + esc(fact.scale_raw) : "";
+    if (/^(rs\.?|inr|₹)$/i.test(unit)) return `₹${raw}${scale}`;
+    if (/^(us\$|usd|\$)$/i.test(unit)) return `$${raw}${scale}`;
+    if (/^(percent|per\s?cent|%)$/i.test(unit) || fact.unit === "percent") return `${raw}%${scale}`;
+    if (/^(x|times)$/i.test(unit) || fact.unit === "ratio") return `${raw}×${scale}`;
+    const tail = unit && !/^count$/i.test(unit) ? " " + esc(unit) : "";
+    return `${raw}${tail}${scale}`;
+  }
+
+  const factEvidenceClass = (fact) =>
+    fact.evidence_verified ? "ev-ok" : fact.verify_method === "image_only" ? "ev-visual" : "ev-bad";
+
+  function factCard(fact) {
+    const quoteBlock = fact.quote_source === "image" || !fact.quote
+      ? `<div class="visual">visual evidence — value read from the page image</div>`
+      : `<div class="quote">“${highlight(fact.quote.slice(0, 260), fact.value_raw)}${fact.quote.length > 260 ? "…" : ""}”</div>`;
+    const meta = [
+      fact.period_raw ? esc(fact.period_raw) : "",
+      fact.estimate_type && fact.estimate_type !== "actual" ? esc(fact.estimate_type) : "",
+      fact.measurement_basis ? esc(fact.measurement_basis) : "",
+      fact.attributed_to ? "per " + esc(fact.attributed_to) : "",
+      `p. ${esc(fact.page_label || fact.page_index)}`,
+    ].filter(Boolean).join(`<span class="sep">·</span>`);
+    return `<div class="fact-card ${factEvidenceClass(fact)}${fact.is_duplicate ? " is-dup" : ""}" data-fact='${esc(JSON.stringify(fact))}'>
+      <div class="val">${factValue(fact)}</div>
+      <div class="who"><b>${esc(fact.entity)}</b> · ${esc(fact.attribute)}</div>
+      ${quoteBlock}
+      <div class="fact-meta">${meta} ${evidenceBadges(fact)}</div>
+    </div>`;
+  }
+
   async function loadFacts() {
     const params = new URLSearchParams();
     if ($("#facts-doc").value) params.set("document_id", $("#facts-doc").value);
@@ -274,21 +310,22 @@
     if ($("#facts-verified").value) params.set("verified", $("#facts-verified").value);
     params.set("limit", "300");
     const facts = await api(`/facts?${params}`);
-    const rows = facts.map((f) => `<tr class="clickable" data-fact='${esc(JSON.stringify(f))}'>
-      <td>${esc(f.entity)}</td><td>${esc(f.attribute)}</td>
-      <td class="num"><strong>${esc(printedValue(f))}</strong><div class="muted">${esc(fmtNum(f.value_num))} ${esc(f.unit)}</div></td>
-      <td>${esc(f.period_raw || "")}<div class="muted">${esc(f.period_kind)} · ${esc(f.estimate_type)}</div></td>
-      <td>${esc(f.document_filename || f.document_id)}<div class="muted">p. ${esc(f.page_label || f.page_index)}</div></td>
-      <td>${evidenceBadges(f)}</td></tr>`);
-    $("#facts-table").innerHTML = rows.length
-      ? `<div class="wrap"><table><thead><tr><th>Entity</th><th>Attribute</th><th>Value</th><th>Period</th><th>Source</th><th>Evidence</th></tr></thead><tbody>${rows.join("")}</tbody></table></div>`
-      : `<div class="empty">No facts match.</div>`;
+    if (!facts.length) { $("#facts-table").innerHTML = `<div class="empty">No facts match.</div>`; return; }
+    const groups = new Map();
+    facts.forEach((f) => {
+      const key = f.document_filename || f.document_id;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(f);
+    });
+    $("#facts-table").innerHTML = Array.from(groups.entries()).map(([doc, items]) =>
+      `<div class="fact-group"><h3><span class="doc-dot"></span>${esc(doc)} <span class="count">${items.length} facts</span></h3>
+      <div class="fact-cards">${items.map(factCard).join("")}</div></div>`).join("");
   }
   $("#btn-facts").addEventListener("click", loadFacts);
   $("#facts-q").addEventListener("keydown", (e) => { if (e.key === "Enter") loadFacts(); });
   $("#facts-table").addEventListener("click", (event) => {
-    const row = event.target.closest("tr[data-fact]");
-    if (row) showEvidence(JSON.parse(row.dataset.fact));
+    const card = event.target.closest("[data-fact]");
+    if (card) showEvidence(JSON.parse(card.dataset.fact));
   });
 
   // ---------------------------------------------------------------- relations
