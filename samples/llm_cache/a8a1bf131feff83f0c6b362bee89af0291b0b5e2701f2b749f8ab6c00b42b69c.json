@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "a8a1bf131feff83f0c6b362bee89af0291b0b5e2701f2b749f8ab6c00b42b69c",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: Central Government\nattribute: Non-tax Revenue\nvalue: 1.6 per cent one\nnormalised value: 1.6 percent\nperiod: 2024-25 (RE) (2024-04-01 to 2025-03-31)\nestimate type: provisional\nmeasurement basis: Per cent of GDP\nattributed to: the document itself\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 65\nevidence verified: True (normalized)\nquote: \"IV. Non-tax Revenue 1.5 1.6 1.0 1.5 1.1 1.3 1.6 1.6\"\n\nFACT B:\nentity: Central Government\nattribute: Revenue\nvalue: 9.2 per cent\nnormalised value: 9.2 percent\nperiod: 2024/25 (2024-04-01 to 2025-03-31)\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-imf-india-2025-article-iv-excerpt.pdf; publisher: International Monetary Fund; published: 2025-11-01\npage label: A3: 42\nevidence verified: True (normalized)\nquote: \"Revenue 9.4 9.0 9.3 9.2 9.0 8.9\"\n\nRule-engine hypothesis: revision suspected; publication order unclear\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "dimension": "estimate_type",
+  "explanation": "Fact A is 'Non-tax Revenue' while Fact B is total 'Revenue'. They refer to different economic attributes.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 755,
+  "output_tokens": 65
  }
 }

@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "9954376bcdc7fded2ebb1510e3b81e7c49482087c3074aa86096811bbfd719e3",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: India textile export basket\nattribute: Apparel export share percentage\nvalue: 42 per cent one\nnormalised value: 42.0 percent\nperiod: 2023 (2023-01-01 to 2023-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-india-economic-survey-2024-25-excerpt.pdf; publisher: Government of India; published: 2024-07-01\npage label: 94\nevidence verified: True (normalized)\nquote: \"with apparel constituting 42 per cent of the export basket (USD 14.6 billion)\"\n\nFACT B:\nentity: India\nattribute: global market share of apparel exports\nvalue: 2.6 per cent\nnormalised value: 2.6 percent\nperiod: 2023 (2023-01-01 to 2023-12-31)\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: World Intellectual Property Organisation\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 25\nevidence verified: True (normalized)\nquote: \"rose from 2.1 per cent in 2000 to 2.6 per cent in 2023 (World Intellectual Property Organisation, 2024)\"\n\nRule-engine hypothesis: attributed figure differs from first-party\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "dimension": "attribution",
+  "explanation": "Fact A refers to apparel's share of India's total textile export basket (\"apparel constituting 42 per cent of the export basket\"), whereas Fact B refers to India's global market share of apparel exports (\"global market share of apparel exports... rose... to 2.6 per cent\"). The two facts measure entirely different metrics.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 744,
+  "output_tokens": 109
  }
 }

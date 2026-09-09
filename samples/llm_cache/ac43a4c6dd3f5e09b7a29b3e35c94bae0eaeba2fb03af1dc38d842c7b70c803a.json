@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "ac43a4c6dd3f5e09b7a29b3e35c94bae0eaeba2fb03af1dc38d842c7b70c803a",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Adjusted EBITDA margin\nvalue: (-) 9.11 per cent\nnormalised value: -9.11 percent\nperiod: Fiscal 2020 (2019-04-01 to 2020-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 229\nevidence verified: True (normalized)\nquote: \"from (11.35%) in Fiscal 2019 to (9.11%) in Fiscal 2020 and to (6.95%) in Fiscal 2021\"\n\nFACT B:\nentity: Delhivery Limited\nattribute: Service EBITDA margin\nvalue: 3.2 per cent one\nnormalised value: 3.2 percent\nperiod: FY20 (2019-04-01 to 2020-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 10\nevidence verified: False (image_only)\nquote: \"3.2 FY20\"\n\nRule-engine hypothesis: same period and basis, values differ\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "dimension": "basis",
+  "explanation": "Fact A refers to 'Adjusted EBITDA margin' of (-) 9.11 per cent, whereas Fact B refers to 'Service EBITDA margin' of 3.2 per cent. The differing attributes/basis explain the different values.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 742,
+  "output_tokens": 87
  }
 }

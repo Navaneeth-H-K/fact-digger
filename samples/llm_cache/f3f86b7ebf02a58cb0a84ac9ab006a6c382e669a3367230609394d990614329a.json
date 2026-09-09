@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "f3f86b7ebf02a58cb0a84ac9ab006a6c382e669a3367230609394d990614329a",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: India\nattribute: GDP growth rate\nvalue: 7.2 per cent\nnormalised value: 7.2 percent\nperiod: FY25 (2024-04-01 to 2025-03-31)\nestimate type: projection\nmeasurement basis: not stated\nattributed to: Reserve Bank of India\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 33\nevidence verified: True (normalized)\nquote: \"The Reserve Bank of India has projected India’s GDP to grow at 7.2%1 in FY25.\"\n\nFACT B:\nentity: India\nattribute: GDP growth rate\nvalue: 6.4 per cent\nnormalised value: 6.4 percent\nperiod: FY25 (2024-04-01 to 2025-03-31)\nestimate type: advance_estimate\nmeasurement basis: real\nattributed to: the document itself\ndocument: 01-india-economic-survey-2024-25-excerpt.pdf; publisher: Government of India; published: 2024-07-01\npage label: 11\nevidence verified: True (normalized)\nquote: \"real gross domestic product (GDP) growth for FY25 is estimated to be 6.4 per cent.\"\n\nRule-engine hypothesis: attributed figure differs from first-party\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "dimension": "attribution",
+  "explanation": "Fact A is a projection by the Reserve Bank of India (\"projected India’s GDP to grow at 7.2%\"), while Fact B is an estimate by the Economic Survey/Government of India (\"GDP growth for FY25 is estimated to be 6.4 per cent\"). The difference in attribution and estimate type explains the value discrepancy.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 727,
+  "output_tokens": 110
  }
 }

@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "6ed65ee26e5e262a3a8e8f15001b1f627e9dd6a340db3d8d4cacb1933db088e8",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: India\nattribute: Current Account Deficit (CAD) as % of GDP\nvalue: 1.3 per cent\nnormalised value: 1.3 percent\nperiod: April-December 2024 (2024-04-01 to 2024-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 6\nevidence verified: True (normalized)\nquote: \"India’s CAD to remain within sustainable level at 1.3 per cent of GDP during April-December 2024 (1.1 per cent a year ago).\"\n\nFACT B:\nentity: India\nattribute: Current account deficit (CAD) as % of GDP\nvalue: 2 per cent\nnormalised value: 2.0 percent\nperiod: medium term\nestimate type: projection\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-imf-india-2025-article-iv-excerpt.pdf; publisher: International Monetary Fund; published: 2025-11-01\npage label: A3: 9\nevidence verified: True (normalized)\nquote: \"The CAD is expected to widen and converge close to its norm of 2 percent of GDP over the medium term.\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -75,12 +75,12 @@
  },
  "response": {
   "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "explanation": "Fact A refers to the actual period \"April-December 2024\", whereas Fact B refers to projections over the \"medium term\". This difference in period and estimate type explains the different values without contradiction.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 724,
+  "output_tokens": 82
  }
 }

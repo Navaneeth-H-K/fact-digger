@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "d445423e0b3f362506fd3cbd566d45a361c5479f65099add007ac1c75fad8bfc",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: Central Government\nattribute: Total Expenditure\nvalue: 14.2 per cent one\nnormalised value: 14.2 percent\nperiod: 2024-25 (RE) (2024-04-01 to 2025-03-31)\nestimate type: provisional\nmeasurement basis: Per cent of GDP\nattributed to: the document itself\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 65\nevidence verified: True (normalized)\nquote: \"VI. Total Expenditure 12.6 13.4 17.7 16.1 15.6 14.8 14.2 14.2\"\n\nFACT B:\nentity: Central Government\nattribute: Expenditure\nvalue: 14.1 per cent\nnormalised value: 14.1 percent\nperiod: 2024/25 (2024-04-01 to 2025-03-31)\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-imf-india-2025-article-iv-excerpt.pdf; publisher: International Monetary Fund; published: 2025-11-01\npage label: A3: 42\nevidence verified: True (normalized)\nquote: \"Expenditure 16.1 15.6 14.8 14.1 13.4 13.4\"\n\nRule-engine hypothesis: revision suspected; publication order unclear\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
-  "verdict": "context_explained"
+  "dimension": "value",
+  "explanation": "Fact A gives 14.2 per cent (\"14.2\") for Total Expenditure in 2024-25 (RE), whereas Fact B gives 14.1 per cent (\"14.1\") for Expenditure in 2024/25. The values differ slightly due to different estimates/sources.",
+  "newer_fact": "none",
+  "verdict": "contradicts"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 770,
+  "output_tokens": 109
  }
 }

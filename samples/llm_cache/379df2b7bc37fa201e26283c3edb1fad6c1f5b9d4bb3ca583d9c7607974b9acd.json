@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "379df2b7bc37fa201e26283c3edb1fad6c1f5b9d4bb3ca583d9c7607974b9acd",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: Delhivery Freight Services Private Limited\nattribute: Equity share capital\nvalue: 100,000 ₹ one\nnormalised value: 100000.0 INR\nperiod: As on the date of this Prospectus\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 254\nevidence verified: True (normalized)\nquote: \"issued, subscribed and paid-up equity share capital of DFSPL is ₹100,000 divided into 10,000 equity shares of ₹10 each.\"\n\nFACT B:\nentity: Delhivery Limited (Total)\nattribute: Authorised share capital\nvalue: 1,342.53 ₹ million\nnormalised value: 1342530000.0 INR\nperiod: March 31, 2024 (2024-03-31 to 2024-03-31)\nestimate type: actual\nmeasurement basis: Consolidated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 82\nevidence verified: True (normalized)\nquote: \"1,342.53\t1,342.53\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "dimension": "none",
+  "explanation": "Fact A refers to the equity share capital of Delhivery Freight Services Private Limited (\"issued, subscribed and paid-up equity share capital of DFSPL is ₹100,000\"), whereas Fact B refers to the Authorised share capital of Delhivery Limited (Total). The entities, attributes, and periods are completely different.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 754,
+  "output_tokens": 106
  }
 }

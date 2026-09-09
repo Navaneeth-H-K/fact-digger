@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "713e9b32583b92e8d2c44823cb13dcfdd9153e29fabe5d50f90a87db96ba5385",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: Central Government\nattribute: gross fiscal deficit (GFD) as % of GDP\nvalue: 4.7 per cent one\nnormalised value: 4.7 percent\nperiod: 2024-25 (RE) (2024-04-01 to 2025-03-31)\nestimate type: provisional\nmeasurement basis: Per cent of GDP\nattributed to: the document itself\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 65\nevidence verified: True (normalized)\nquote: \"X. Gross Fiscal Deficit 3.5 4.6 9.2 6.7 6.5 5.5 4.7 4.4\"\n\nFACT B:\nentity: India central government\nattribute: gross fiscal deficit (GFD) as % of GDP\nvalue: 4.9 per cent\nnormalised value: 4.9 percent\nperiod: FY2024/25 (2024-04-01 to 2025-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-imf-india-2025-article-iv-excerpt.pdf; publisher: International Monetary Fund; published: 2025-11-01\npage label: A3: 5\nevidence verified: True (normalized)\nquote: \"its deficit declined further to 4.9 percent of GDP (4.8 percent of GDP per the authorities’ definition).\"\n\nRule-engine hypothesis: revision suspected; publication order unclear\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "dimension": "estimate_type",
+  "explanation": "Fact A is Revised Estimates (RE) at 4.7% for 2024-25 (\"4.7\"), while Fact B is an IMF estimate/actual at 4.9% (\"4.9 percent of GDP\"), representing different data vintages or definitions.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 771,
+  "output_tokens": 100
  }
 }

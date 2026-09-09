@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "1dea044c91dfe7b45d71886312c06ddcf009950aaf27935e085e1c5ddf450714",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: World\nattribute: GDP growth rate\nvalue: 3.3 per cent\nnormalised value: 3.3 percent\nperiod: 2023 (2023-01-01 to 2023-12-31)\nestimate type: third_party\nmeasurement basis: not stated\nattributed to: IMF WEO\ndocument: 01-india-economic-survey-2024-25-excerpt.pdf; publisher: Government of India; published: 2024-07-01\npage label: 3\nevidence verified: False (image_only)\nquote: \"3.3 1.7 4.4 World AEs EMDEs Growth (%) 2023 2024 2025 Source: IMF WEO (January 2025)\"\n\nFACT B:\nentity: world\nattribute: GDP growth rate\nvalue: 1.7 per cent\nnormalised value: 1.7 percent\nperiod: 2023 (2023-01-01 to 2023-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: IMF\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 71\nevidence verified: True (normalized)\nquote: \"with 1.7 per cent in 2023, while that in emerging market and developing economies (EMDEs) moderated to 4.3 per cent from 4.7 per cent.\"\n\nRule-engine hypothesis: revision suspected; publication order unclear\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,12 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
-  "verdict": "context_explained"
+  "explanation": "Fact A states a GDP growth rate of 3.3 per cent for the World in 2023, citing IMF WEO (January 2025). Fact B states 1.7 per cent for 2023, attributed to the IMF. These values contradict each other for the same entity and period.",
+  "newer_fact": "none",
+  "verdict": "contradicts"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 765,
+  "output_tokens": 101
  }
 }

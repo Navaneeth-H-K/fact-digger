@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "baaac43feeebda34939c382cbc02befd6e608a0b11a1e2fe57e64a9f00f856a1",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: India\nattribute: real GDP growth rate\nvalue: 7.2 per cent\nnormalised value: 7.2 percent\nperiod: FY25 (2024-04-01 to 2025-03-31)\nestimate type: projection\nmeasurement basis: not stated\nattributed to: Reserve Bank of India\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 34\nevidence verified: True (normalized)\nquote: \"Economic growth: The Reserve Bank of India has projected a 7.2% growth rate for India in FY25.\"\n\nFACT B:\nentity: India\nattribute: GDP growth rate\nvalue: 9.8 per cent\nnormalised value: 9.8 percent\nperiod: FY2024/25 (2024-04-01 to 2025-03-31)\nestimate type: actual\nmeasurement basis: Nominal GDP growth\nattributed to: the document itself\ndocument: 03-imf-india-2025-article-iv-excerpt.pdf; publisher: International Monetary Fund; published: 2025-11-01\npage label: A3: 5\nevidence verified: True (normalized)\nquote: \"Nominal GDP growth moderated to 8.8 percent in 2025Q2, down from 9.8 percent in FY2024/25\"\n\nRule-engine hypothesis: attributed figure differs from first-party\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,14 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "confidence": 1,
+  "dimension": "basis",
+  "explanation": "Fact A refers to a real GDP growth rate projection of 7.2% (\"projected a 7.2% growth rate\"). Fact B refers to an actual nominal GDP growth rate of 9.8% for the same period (\"Nominal GDP growth... 9.8 percent in FY2024/25\"). They measure different economic bases (real vs. nominal).",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 749,
+  "output_tokens": 123
  }
 }

@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "9eb9714e3e96ddcbdd3f39208a2a12872b4962184377b90efcdb96bc67dfad32",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: Combined Receipts and Disbursements of the Central and State Governments\nattribute: gross fiscal deficit (GFD) as % of GDP\nvalue: 8.8 per cent one\nnormalised value: 8.8 percent\nperiod: 2023-24 RE (2023-04-01 to 2024-03-31)\nestimate type: revised\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 288\nevidence verified: True (exact)\nquote: \"8.8\"\n\nFACT B:\nentity: Central Government\nattribute: gross fiscal deficit (GFD) as % of GDP\nvalue: 5.5 per cent\nnormalised value: 5.5 percent\nperiod: FY 2023/24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: as % of GDP\nattributed to: the document itself\ndocument: 03-imf-india-2025-article-iv-excerpt.pdf; publisher: International Monetary Fund; published: 2025-11-01\npage label: A3: 11\nevidence verified: True (normalized)\nquote: \"Central Government (CG) Fiscal Deficit 5.5 5.0 4.7 4.9 4.4 4.5\"\n\nRule-engine hypothesis: revision suspected; publication order unclear\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "dimension": "attribution",
+  "explanation": "Fact A covers combined receipts and disbursements of both Central and State Governments (\"8.8\"), whereas Fact B covers only the \"Central Government\" (\"5.5\"). Thus, the difference is due to the scope/basis of the entity.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 752,
+  "output_tokens": 87
  }
 }

@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "85da8ed38ea14d6be7e478704e4a199c53628f7038131c4d3ea54fca55812257",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: India\nattribute: GDP Growth rate\nvalue: 8.2 per cent\nnormalised value: 8.2 percent\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 33\nevidence verified: True (normalized)\nquote: \"During FY24, India demonstrated remarkable resilience in navigating global headwinds and registered a Growth rate of 8.2%,\"\n\nFACT B:\nentity: India\nattribute: GDP growth rate\nvalue: 9.2 per cent\nnormalised value: 9.2 percent\nperiod: 2023/24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-imf-india-2025-article-iv-excerpt.pdf; publisher: International Monetary Fund; published: 2025-11-01\npage label: A2: 3\nevidence verified: True (exact)\nquote: \"9.2\"\n\nRule-engine hypothesis: same period and basis, values differ\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,14 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
-  "verdict": "context_explained"
+  "confidence": 1,
+  "dimension": "value",
+  "explanation": "Fact A reports India's FY24 GDP growth rate as '8.2%' ('Growth rate of 8.2%'), while Fact B reports it as '9.2' ('9.2') for the same period (2023/24). Since they refer to the same period with differing values, they contradict each other.",
+  "newer_fact": "none",
+  "verdict": "contradicts"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 713,
+  "output_tokens": 115
  }
 }

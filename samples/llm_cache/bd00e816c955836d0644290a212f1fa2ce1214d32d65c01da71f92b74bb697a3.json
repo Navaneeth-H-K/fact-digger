@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "bd00e816c955836d0644290a212f1fa2ce1214d32d65c01da71f92b74bb697a3",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: Advanced Economies (AEs)\nattribute: GDP growth rate\nvalue: 1.7 per cent\nnormalised value: 1.7 percent\nperiod: 2024 (2024-01-01 to 2024-12-31)\nestimate type: third_party\nmeasurement basis: not stated\nattributed to: IMF WEO\ndocument: 01-india-economic-survey-2024-25-excerpt.pdf; publisher: Government of India; published: 2024-07-01\npage label: 3\nevidence verified: False (image_only)\nquote: \"3.2 1.7 4.2 World AEs EMDEs Growth (%) 2023 2024 2025 Source: IMF WEO (January 2025)\"\n\nFACT B:\nentity: advanced economies (AEs)\nattribute: GDP growth rate\nvalue: 1.8 per cent\nnormalised value: 1.8 percent\nperiod: 2024 (2024-01-01 to 2024-12-31)\nestimate type: third_party\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 2029\nevidence verified: True (normalized)\nquote: \"Output growth in advanced economies (AEs) increased marginally to 1.8 per cent in 2024\"\n\nRule-engine hypothesis: attributed figure differs from first-party\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,12 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
-  "verdict": "context_explained"
+  "explanation": "Fact A gives a GDP growth rate of 1.7 per cent for Advanced Economies in 2024 (\"1.7 ... AEs\"), while Fact B states 1.8 per cent (\"1.8 per cent in 2024\"). These are incompatible values for the same quantity and period from different sources.",
+  "newer_fact": "none",
+  "verdict": "contradicts"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 764,
+  "output_tokens": 100
  }
 }

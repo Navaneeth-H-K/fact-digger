@@ -1,11 +1,11 @@
 {
- "key": "14790a2e49d4a1b83aa47ef5630fbdc87e75b564e10ecedb236a6d12a9024c6b",
+ "key": "80529ceaec18dc728ec71b94c21b00280e0de3f381cdc7546ba3ce2915a789f9",
  "model": "gemini-3.5-flash-lite",
  "purpose": "adjudicate",
  "request": {
   "content": [
    {
-    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 17,488\nnormalised value: 17488.0 count\nperiod: as on December 31, 2021 (2021-12-31 to 2021-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 212\nevidence verified: False (not_found)\nquote: \"17,488 Pin-codes covered(3)\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "text": "FACT A:\nentity: global merchandise import index\nattribute: merchandise import growth rate\nvalue: 3 per cent one\nnormalised value: 3.0 percent\nperiod: Q3 of 2024 (2023-10-01 to 2023-12-31)\nestimate type: actual\nmeasurement basis: seasonally adjusted, 2005 Q1=100\nattributed to: World Trade Organisation\ndocument: 01-india-economic-survey-2024-25-excerpt.pdf; publisher: Government of India; published: 2024-07-01\npage label: 83\nevidence verified: True (normalized)\nquote: \"shows a year-on-year (YoY) growth of 3.5 per cent and 3 per cent, respectively, in global merchandise export and import indices in Q3 of 2024\"\n\nFACT B:\nentity: Merchandise Imports\nattribute: merchandise imports growth rate\nvalue: -9.9 per cent\nnormalised value: -9.9 percent\nperiod: Q2 2023-24 (2023-10-01 to 2023-12-31)\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-rbi-annual-report-2024-25-excerpt.pdf; publisher: Reserve Bank of India; published: unknown\npage label: 27\nevidence verified: True (normalized)\nquote: \"Merchandise Imports -12.8 -9.9 0.0 2.7 7.6 9.7 6.5 1.2\"\n\nRule-engine hypothesis: attributed figure differs from first-party\n\nDecide the verdict.",
     "type": "text"
    }
   ],
@@ -74,13 +74,13 @@
   }
  },
  "response": {
-  "dimension": "period",
-  "explanation": "Fact A gives the pin-code reach \"as on December 31, 2021\" while Fact B is from an annual report published in 2024 with an unknown period. They pertain to different time periods or vintages.",
-  "newer_fact": "b",
+  "dimension": "attribution",
+  "explanation": "Fact A refers to the global merchandise import index attributed to the World Trade Organisation (\"global merchandise import indices in Q3 of 2024\"), whereas Fact B refers specifically to India's Merchandise Imports growth rate (\"Merchandise Imports -12.8 -9.9...\"). The scope and attribution differ.",
+  "newer_fact": "none",
   "verdict": "context_explained"
  },
  "usage": {
-  "input_tokens": 700,
-  "output_tokens": 91
+  "input_tokens": 781,
+  "output_tokens": 103
  }
 }
