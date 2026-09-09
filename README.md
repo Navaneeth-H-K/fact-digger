@@ -1,4 +1,4 @@
-# Fact Knowledge Layer
+# Fact Digger
 
 Upload PDFs. Get facts with page-level evidence, and see where documents **corroborate**,
 **contradict**, or only *appear* to contradict each other because the period, scope, unit or
