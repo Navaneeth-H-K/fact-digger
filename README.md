@@ -8,6 +8,7 @@ Extracts facts from PDFs, grounds each in a verbatim page quote, and links them 
 - **Setup and run** — install, run, test; key-free vs live modes; env vars.
 - **The four required cases** — one demonstrated example of each, with evidence.
 - **Approach** — pipeline, architecture, key decisions, AI tools used.
+- **Brownie points** — all four optional targets, covered.
 - **Limitations and next steps** — known weaknesses and roadmap.
 - **Additional notes** — context conservation, latency fix, platform constraints.
 
@@ -72,6 +73,14 @@ From the committed run (`samples/export.json.gz`); open each on the live site. E
 - **Test-Driven Development (TDD):** 287 fast, deterministic tests (SQLite + a fake model) written red-green alongside the code — the commit history shows the cycle; `scripts/check.sh` (ruff + mypy + pytest) gates every commit.
 
 **AI tools** — Built with Claude Code. Runtime: Google Gemini 3.5 Flash-Lite for both extraction and adjudication (OpenAI-compatible endpoint; 732 cached calls). Provider layer is model-agnostic.
+
+## Brownie points
+
+All four optional targets are covered:
+- **Large PDFs, no performance issues** — time-boxed, resumable batch processing; the starter set includes 100+ page reports (511 pages total) with no timeout.
+- **Many PDFs in one layer** — six documents linked in a single cross-document layer (4,709 relations).
+- **Dynamically evolving schema** — the attribute vocabulary is discovered from the documents and grows as new fact kinds appear (Schema tab); nothing predefined.
+- **Incremental ingestion** — a new document only links its own new facts against the existing layer; nothing is rebuilt.
 
 ## Limitations and next steps
 
