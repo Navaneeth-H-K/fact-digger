@@ -20,3 +20,6 @@ superjoin-vit-2026-assignment.pdf
 *.db-shm
 *.db-wal
 samples/export.json
+
+# Local build hand-off doc; intentionally untracked
+CONTEXT.md
