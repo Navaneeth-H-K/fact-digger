@@ -5,7 +5,7 @@ contradicted in another. Fact Digger ingests PDFs, extracts numerical and semant
 fact to a verbatim quote on its source page, and links facts across documents as **corroborating**,
 **contradicting**, **superseded**, **explained by context**, or **arithmetically derived**.
 
-**Live:** https://fact-digger.navaneethhk.in (fallback: https://fact-knowledge-layer.vercel.app) ·
+**Live:** https://fact-digger.navaneethhk.in ·
 **Repo:** https://github.com/Navaneeth-H-K/fact-digger · **Video:** _(to be added)_
 
 The live instance is preloaded with the six starter PDFs: **3,419 facts** and **4,709 cross-document
