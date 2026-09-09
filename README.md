@@ -1,6 +1,6 @@
 # Fact Digger
 
-**Live** https://fact-digger.navaneethhk.in · **Repo** https://github.com/Navaneeth-H-K/fact-digger · **Video** _(to be added)_
+**Live** https://fact-digger.navaneethhk.in · **Repo** https://github.com/Navaneeth-H-K/fact-digger · **Video** https://youtu.be/DYR_ES0ouIw
 
 Extracts facts from PDFs, grounds each in a verbatim page quote, and links them across documents (corroborates / contradicts / superseded / context-explained / derived).
 
@@ -38,7 +38,10 @@ bash scripts/check.sh                                   # ruff + mypy + pytest
 
 ## Video demo
 
-_(to be added — ≤3 min: a PDF processed live, then the four cases.)_ Meanwhile, all four are on the live site under **Relations** and **Facts**.
+A PDF processed live, then the four cases (under 2:30).
+
+- YouTube: https://youtu.be/DYR_ES0ouIw
+- Google Drive: https://drive.google.com/file/d/10Uhq-9hk6HrDL-Qh64IzjQa3Q2eYJ20c/view?usp=sharing
 
 ## The four required cases
 
