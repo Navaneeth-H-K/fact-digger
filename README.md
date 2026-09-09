@@ -1,16 +1,17 @@
 # Fact Digger
 
-Important facts are scattered across documents, written differently, supported in one place and
-contradicted in another. Fact Digger ingests PDFs, extracts numerical and semantic facts, ties every
-fact to a verbatim quote on its source page, and links facts across documents as **corroborating**,
-**contradicting**, **superseded**, **explained by context**, or **arithmetically derived**.
+**Live** https://fact-digger.navaneethhk.in · **Repo** https://github.com/Navaneeth-H-K/fact-digger · **Video** _(to be added)_
 
-**Live:** https://fact-digger.navaneethhk.in ·
-**Repo:** https://github.com/Navaneeth-H-K/fact-digger · **Video:** _(to be added)_
+Extracts facts from PDFs, grounds each in a verbatim page quote, and links them across documents (corroborates / contradicts / superseded / context-explained / derived).
 
-The live instance is preloaded with the six starter PDFs: **3,419 facts** and **4,709 cross-document
-relations** over **511 pages**. Open **Facts** and click any card to see its page image with the quote
-highlighted; open **Relations** and filter by verdict.
+**Sections**
+- **Setup and run** — install, run, test; key-free vs live modes; env vars.
+- **The four required cases** — one demonstrated example of each, with evidence.
+- **Approach** — pipeline, architecture, key decisions, AI tools used.
+- **Limitations and next steps** — known weaknesses and roadmap.
+- **Additional notes** — context conservation, latency fix, platform constraints.
+
+Live instance is preloaded with the six starter PDFs: 3,419 facts, 4,709 relations, 511 pages.
 
 ## Setup and run
 
@@ -21,119 +22,66 @@ python -m venv .venv
 .venv\Scripts\pip install -r requirements-dev.txt      # Windows
 # source .venv/bin/activate && pip install -r requirements-dev.txt   # macOS/Linux
 copy .env.example .env                                  # cp on macOS/Linux
+.venv\Scripts\python -m uvicorn app:app --port 8765     # → http://localhost:8765
+bash scripts/check.sh                                   # ruff + mypy + pytest
 ```
 
-Run the app, then open http://localhost:8765:
+- **Key-free (reviewers):** `LLM_MODE=replay`, `LLM_CACHE_DIR=samples/llm_cache` replays the committed run. `python scripts/run_local.py` rebuilds `samples/export.json` from cache — no API key.
+- **Live:** `LLM_MODE=live`, `LLM_PROVIDER=openai_compat`, `GEMINI_API_KEY=…`, `EXTRACT_MODEL=ADJUDICATE_MODEL=gemini-3.5-flash-lite`. Provider layer is model-agnostic (Anthropic / Groq / Ollama / vLLM also work).
 
-```bash
-.venv\Scripts\python -m uvicorn app:app --port 8765
-```
-
-**Reviewing without an API key.** The full demo run is committed as a record/replay cache, so you can
-reproduce it offline. In `.env` set `LLM_MODE=replay` and `LLM_CACHE_DIR=samples/llm_cache`, then either
-browse the seeded local layer or rebuild the export:
-
-```bash
-.venv\Scripts\python scripts/run_local.py              # uploads data/starter PDFs, processes, links, writes samples/export.json
-```
-
-**Running live.** Set `LLM_MODE=live` and a provider. The committed run used Google Gemini:
-`LLM_PROVIDER=openai_compat`, `GEMINI_API_KEY=…`, `EXTRACT_MODEL=ADJUDICATE_MODEL=gemini-3.5-flash-lite`.
-The provider layer is model-agnostic — Anthropic-compatible endpoints and any OpenAI-compatible server
-(Groq, Ollama, vLLM) also work.
-
-**Tests / quality gate** (ruff, ruff format, mypy, pytest):
-
-```bash
-bash scripts/check.sh
-```
-
-**Environment variables** (names only; see `.env.example`):
-
-| Group | Variables |
+| Env group | Variables (names only) |
 |---|---|
-| Local | `DATABASE_URL` (SQLite or Postgres), `STORAGE_BACKEND` (`local`/`supabase`), `LOCAL_STORAGE_DIR` |
-| LLM | `LLM_MODE` (`off`/`live`/`record`/`replay`), `LLM_PROVIDER` (`anthropic`/`openai_compat`), `LLM_CACHE_DIR`, `EXTRACT_MODEL`, `ADJUDICATE_MODEL`, `GEMINI_API_KEY` / `GROQ_API_KEY` / `OPENAI_COMPAT_BASE_URL` / `AGENTROUTER_API_KEY`, `PAGE_CONCURRENCY`, `BATCH_BUDGET_S`, `FISCAL_YEAR_START_MONTH` |
-| Production (Supabase) | `DATABASE_URL` (transaction pooler, port 6543), `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `SUPABASE_BUCKET` |
+| Local | `DATABASE_URL`, `STORAGE_BACKEND`, `LOCAL_STORAGE_DIR` |
+| LLM | `LLM_MODE`, `LLM_PROVIDER`, `LLM_CACHE_DIR`, `EXTRACT_MODEL`, `ADJUDICATE_MODEL`, `GEMINI_API_KEY`/`GROQ_API_KEY`/`AGENTROUTER_API_KEY`, `PAGE_CONCURRENCY`, `BATCH_BUDGET_S`, `FISCAL_YEAR_START_MONTH` |
+| Production (Supabase) | `DATABASE_URL` (pooler:6543), `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `SUPABASE_BUCKET` |
 
 ## Video demo
 
-_(to be added — ≤3 minutes: a PDF processed live, then the four cases below.)_ Until then, the four cases
-are all reachable on the live instance via the **Relations** and **Facts** tabs.
+_(to be added — ≤3 min: a PDF processed live, then the four cases.)_ Meanwhile, all four are on the live site under **Relations** and **Facts**.
 
 ## The four required cases
 
-All from the committed run over the six starter PDFs (`samples/export.json.gz`); each is a real relation
-you can open on the live site at `/relations` (or a fact at `/facts/{id}`). Source evidence — the page
-image with the quote highlighted — is shown in the UI for the first three.
+From the committed run (`samples/export.json.gz`); open each on the live site. Evidence (page image + highlighted quote) is shown in-app for cases 1–3.
 
-| Case | What | Evidence | System's reasoning |
-|---|---|---|---|
-| **1. Corroborated, expressed differently** | Relation **#1** — Delhivery FY24 EBITDA: **₹127 crore** (Q4 deck) vs **₹1,266 million** (annual report) | Verbatim quote on each source page | Normaliser converts both units to ~₹1.27 billion; same period/basis/value → **corroborates** (rule) |
-| **2. Genuine contradiction** | Relation **#3450** — India FY24 GDP growth: **8.2%** (Delhivery AR macro section) vs **9.2%** (IMF Article IV, 2023/24) | Both quotes cited in the verdict | Same entity, period and unit, incompatible values → adjudicator confirms **contradicts** (LLM) |
-| **3. Apparent contradiction, explained by context** | Relation **#9** — Delhivery EBITDA **₹(452) crore (FY23)** vs **₹1,266 million (FY24)** | Both source pages | Periods differ → **context_explained**, `dimension = period` (rule). This is the largest class (4,490 relations) |
-| **4. Extraction/reasoning failure, handled** | The **Failures** tab | Logged with stage, kind, and what the system did | Corrupt text layers: **105** facts whose value was read but whose quote couldn't be matched (kept, flagged *unverified*, relations down-weighted) and **63** read from the page image only (kept, badged *visual evidence*). Nothing is silently dropped |
+| Case | Fact | Verdict |
+|---|---|---|
+| **Corroborated, expressed differently** | Rel **#1** — Delhivery FY24 EBITDA: ₹127 crore (deck) vs ₹1,266 million (annual report) | Both normalize to ~₹1.27 bn → **corroborates** (rule) |
+| **Genuine contradiction** | Rel **#3450** — India FY24 GDP growth: 8.2% (Delhivery AR) vs 9.2% (IMF) | Same entity/period/unit, incompatible → **contradicts** (LLM) |
+| **Explained by context** | Rel **#9** — Delhivery EBITDA: ₹(452) cr FY23 vs ₹1,266 mn FY24 | Different periods → **context_explained** (`dimension=period`) |
+| **Handled failure** | Failures tab | 105 quotes unmatched (kept, flagged *unverified*); 63 image-only (badged *visual evidence*). Never silently dropped |
 
 ## Approach
 
-**How it works.** A PDF is uploaded straight to storage and inventoried page by page. For each page the
-model receives the **rendered image and the text layer** and returns candidate facts (entity, attribute,
-value, period, a verbatim quote). Our code then does the deciding: it **verifies the quote against the
-page text** (exact → normalized → fuzzy → image-only → not-found), normalizes value/unit/scale/period into
-canonical keys, runs validators, de-duplicates, and stores the fact with its evidence. Linking is
-**rules-first**: candidate pairs are blocked by entity/attribute/period, compared deterministically, and
-only genuinely ambiguous pairs are sent to the LLM adjudicator with a hypothesis. Arithmetic tie-outs
-(sums that reconcile across documents) and a per-fact vintage timeline round out the relations.
+**Pipeline**
+1. **Extract** — each page's image + text → model → candidate facts (entity, attribute, value, period, quote).
+2. **Ground** — verify the quote against page text in code: exact → normalized → fuzzy → image-only → not-found.
+3. **Normalize** — value/unit/scale/period → canonical keys; validate; de-duplicate; store with evidence.
+4. **Link** — rules-first pairing; only ambiguous pairs go to the LLM adjudicator (with a hypothesis); plus arithmetic tie-outs and a per-fact vintage timeline.
 
-**Architecture.** FastAPI backend + a dependency-free vanilla-JS single-page UI, served together.
-SQLAlchemy over SQLite (tests/local) or Postgres (Supabase, production); PDFs in local disk or Supabase
-Storage; PyMuPDF for inventory and page rendering. Modules under `fkl/`: `normalize`, `verify`, `compare`
-(pure, unit-tested logic), `pipeline` (extraction + linking), `llm/*` (provider-agnostic client, cache,
-prompts), `api` (routes). Deployed on Vercel; ~260 tests run under `scripts/check.sh`.
+**Architecture**
+- FastAPI + dependency-free vanilla-JS UI, served together; deployed on Vercel (Seoul region).
+- SQLAlchemy over SQLite (tests/local) or Postgres/Supabase (prod); PyMuPDF for inventory + page rendering; storage in local dir or Supabase.
+- `fkl/`: `normalize`, `verify`, `compare` (pure logic) · `pipeline` · `llm/*` (provider-agnostic client, cache, prompts) · `api`. ~260 tests via `scripts/check.sh`.
 
-**Key decisions and trade-offs.**
-- **The LLM reads; our code decides.** Quote verification, normalization, comparison, confidence and the
-  failure log are deterministic. The model extracts and adjudicates; it never has the last word on grounding.
-- **Rules-first linking** finalizes most pairs without a model call — cheaper, faster, and auditable; the
-  LLM is reserved for the genuinely ambiguous minority.
-- **Forced tool-use JSON** with one repair round-trip; a bad fact is dropped individually, never the page.
-- **Dynamic schema.** No attribute list is hard-coded; the vocabulary grows from the documents and feeds
-  back into later extraction (visible on the **Schema** tab). Nothing is filename- or document-specific.
-- **Serverless-shaped ingestion:** time-boxed, resumable batches; browser-direct-to-storage upload.
+**Key decisions**
+- The LLM reads; our code decides — grounding, comparison, confidence and the failure log are deterministic.
+- Rules-first linking finalizes most pairs without a model call; the LLM handles only the ambiguous minority.
+- Forced tool-use JSON with one repair; a bad fact drops alone, never the page.
+- Dynamic schema grown from the documents — nothing filename- or document-specific.
+- Serverless-shaped ingestion: time-boxed resumable batches; browser-direct-to-storage upload.
 
-**AI tools used.** Built with **Claude Code**. At runtime, the committed run used **Google Gemini 3.5
-Flash-Lite** through its OpenAI-compatible endpoint for **both** page extraction and pair adjudication
-(732 cached calls: 514 extract, 212 adjudicate, 6 metadata). The provider layer is model-agnostic.
+**AI tools** — Built with Claude Code. Runtime: Google Gemini 3.5 Flash-Lite for both extraction and adjudication (OpenAI-compatible endpoint; 732 cached calls). Provider layer is model-agnostic.
 
 ## Limitations and next steps
 
-- **PDF text layers are corrupt.** The ₹ glyph is dropped or rendered as a stray letter, table rows shift,
-  and some pages are pure images. This is the source of the grounding failures in Case 4; reading the page
-  image (not just the text) mitigates but does not eliminate it.
-- **Flash-Lite is fast and cheap but not a frontier model.** Extraction and adjudication are less accurate
-  than a larger model would be. Free-tier rate limits also cause `llm_quota` pauses (302 logged), which the
-  pipeline retries rather than failing.
-- **`context_explained` dominates (4,490).** Many are legitimately period-differing pairs, but precision
-  per verdict is **not formally measured** — there is no evaluation harness yet.
-- **Next:** a labelled eval harness with per-verdict precision/recall; a qualifier miner
-  (excluding/including/pro-forma/restated); same-document contradiction detection; identifier-anchored
-  entity resolution (DIN/CIN); evidence bounding boxes on the page image.
+- Corrupt PDF text layers (dropped ₹ glyph, shifted rows, image-only pages) cause the Case-4 grounding failures; reading the page image mitigates but doesn't fix it.
+- Flash-Lite is fast and cheap but less accurate than a frontier model; free-tier rate limits cause `llm_quota` pauses (302 logged, retried).
+- `context_explained` dominates (4,490); per-verdict precision is not formally measured — no eval harness yet.
+- Next: labelled eval harness (precision/recall per verdict); qualifier miner; same-document contradictions; identifier-anchored entity resolution; evidence bounding boxes.
 
 ## Additional notes
 
-- **Conserving context during development.** The build ran across many agent sessions. Two things kept it
-  coherent and reproducible: a living *state-of-record* document that let each session resume without
-  re-reading the whole history, and a **record/replay LLM cache** (committed under `samples/llm_cache`) that
-  lets the entire demo be rebuilt with **no API key** (`LLM_MODE=replay`). Tests inject a fake model, so the
-  suite is deterministic and offline.
-- **Cutting site latency.** The site was slow because the function ran in a US region while the Supabase
-  database is in Seoul, so every DB round-trip crossed the Pacific — a bare `SELECT 1` took ~1.7 s. Pinning
-  the Vercel function to Seoul (`vercel.json` `regions: ["icn1"]`) cut endpoint latency 3–5× (`/stats`
-  ~2.9 s → ~0.25 s). Static assets are versioned and the HTML shell sends `Cache-Control: no-cache`, so a
-  redeploy is picked up immediately; a daily cron on `/health` keeps Supabase's free tier from pausing
-  after 7 idle days.
-- **Platform constraints shaped the design.** Vercel's 4.5 MB request limit → the browser uploads PDFs
-  straight to storage; the 300 s function limit → time-boxed, resumable batches; no persistent disk → page
-  images are rendered on demand. The Supabase pooler needs `NullPool` and `prepare_threshold=None`.
-- **Credentials are kept out of the repository.** The committed export and cache let the project be
-  evaluated without any account or key.
+- **Context conservation.** A living state-of-record doc let agent sessions resume without re-reading everything; a committed **record/replay LLM cache** makes the whole demo reproducible with no API key. Tests inject a fake model — deterministic and offline.
+- **Latency fix.** Function ran in the US, Supabase DB in Seoul → every round-trip crossed the Pacific (~1.7 s for `SELECT 1`). Pinning the function to Seoul (`regions: ["icn1"]`) cut endpoint latency 3–5× (`/stats` ~2.9 s → ~0.25 s). Versioned assets + `no-cache` HTML shell = instant redeploys; a daily `/health` cron keeps Supabase from pausing.
+- **Platform constraints.** Vercel 4.5 MB body → browser uploads straight to storage; 300 s limit → time-boxed batches; no disk → page images rendered on demand; Supabase pooler → `NullPool` + `prepare_threshold=None`.
+- Credentials kept out of the repo; committed samples + cache allow evaluation without an account.
