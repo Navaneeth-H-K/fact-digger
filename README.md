@@ -1,6 +1,6 @@
 # Fact Digger
 
-**Live** https://fact-digger.navaneethhk.in · **Repo** https://github.com/Navaneeth-H-K/fact-digger · **Video** https://youtu.be/DYR_ES0ouIw
+**Live** https://fact-digger.navaneethhk.in · **Repo** https://github.com/Navaneeth-H-K/fact-digger · **Video** [YouTube](https://youtu.be/DYR_ES0ouIw) / [Google Drive](https://drive.google.com/file/d/10Uhq-9hk6HrDL-Qh64IzjQa3Q2eYJ20c/view?usp=sharing)
 
 Extracts facts from PDFs, grounds each in a verbatim page quote, and links them across documents (corroborates / contradicts / superseded / context-explained / derived).
 
