@@ -27,7 +27,7 @@ copy .env.example .env                                  # cp on macOS/Linux
 bash scripts/check.sh                                   # ruff + mypy + pytest
 ```
 
-- **Key-free (reviewers):** `LLM_MODE=replay`, `LLM_CACHE_DIR=samples/llm_cache` replays the committed run. `python scripts/run_local.py` rebuilds `samples/export.json` from cache — no API key. See [`samples/preview.json`](samples/preview.json) for a readable snapshot (counts + the four cases); the full run is `samples/export.json.gz`.
+- **Key-free (reviewers):** `LLM_MODE=replay` + `LLM_CACHE_DIR=samples/llm_cache` replays the committed run from cache — no API key (`python scripts/run_local.py` rebuilds `samples/export.json`). Readable snapshot: [`samples/preview.json`](samples/preview.json); full run: `samples/export.json.gz`.
 - **Live:** `LLM_MODE=live`, `LLM_PROVIDER=openai_compat`, `GEMINI_API_KEY=…`, `EXTRACT_MODEL=ADJUDICATE_MODEL=gemini-3.5-flash-lite`. Provider layer is model-agnostic (Anthropic / Groq / Ollama / vLLM also work).
 
 | Env group | Variables (names only) |
@@ -91,7 +91,7 @@ All four optional targets are covered:
 
 ## Additional notes
 
-- **Context conservation.** A living state-of-record doc let agent sessions resume without re-reading everything; a committed **record/replay LLM cache** makes the whole demo reproducible with no API key. Tests inject a fake model — deterministic and offline.
+- **Context conservation.** A living state-of-record doc let agent sessions resume without re-reading everything; the committed **record/replay LLM cache** makes the demo reproducible with no API key. Tests inject a fake model — deterministic and offline.
 - **Latency fix.** Function ran in the US, Supabase DB in Seoul → every round-trip crossed the Pacific (~1.7 s for `SELECT 1`). Pinning the function to Seoul (`regions: ["icn1"]`) cut endpoint latency 3–5× (`/stats` ~2.9 s → ~0.25 s). Versioned assets + `no-cache` HTML shell = instant redeploys; a daily `/health` cron keeps Supabase from pausing.
 - **Platform constraints.** Vercel 4.5 MB body → browser uploads straight to storage; 300 s limit → time-boxed batches; no disk → page images rendered on demand; Supabase pooler → `NullPool` + `prepare_threshold=None`.
-- Credentials kept out of the repo; committed samples + cache allow evaluation without an account.
+- No credentials in the repo; the committed samples and cache cover the paid-service requirement — reviewers can evaluate it without an account.
