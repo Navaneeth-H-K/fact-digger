@@ -61,7 +61,7 @@ From the committed run (`samples/export.json.gz`); open each on the live site. E
 **Architecture**
 - FastAPI + dependency-free vanilla-JS UI, served together; deployed on Vercel (Seoul region).
 - SQLAlchemy over SQLite (tests/local) or Postgres/Supabase (prod); PyMuPDF for inventory + page rendering; storage in local dir or Supabase.
-- `fkl/`: `normalize`, `verify`, `compare` (pure logic) · `pipeline` · `llm/*` (provider-agnostic client, cache, prompts) · `api`. ~260 tests via `scripts/check.sh`.
+- `fkl/`: `normalize`, `verify`, `compare` (pure logic) · `pipeline` · `llm/*` (provider-agnostic client, cache, prompts) · `api`.
 
 **Key decisions**
 - The LLM reads; our code decides — grounding, comparison, confidence and the failure log are deterministic.
@@ -69,6 +69,7 @@ From the committed run (`samples/export.json.gz`); open each on the live site. E
 - Forced tool-use JSON with one repair; a bad fact drops alone, never the page.
 - Dynamic schema grown from the documents — nothing filename- or document-specific.
 - Serverless-shaped ingestion: time-boxed resumable batches; browser-direct-to-storage upload.
+- Test-driven: ~260 fast, deterministic tests (SQLite + a fake model) written red-green alongside the code; `scripts/check.sh` (ruff + mypy + pytest) gates every commit.
 
 **AI tools** — Built with Claude Code. Runtime: Google Gemini 3.5 Flash-Lite for both extraction and adjudication (OpenAI-compatible endpoint; 732 cached calls). Provider layer is model-agnostic.
 
