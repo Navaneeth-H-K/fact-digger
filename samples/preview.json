@@ -1,0 +1,240 @@
+{
+  "about": "Human-readable preview of the committed Fact Digger run. Full data: samples/export.json.gz (18 MB uncompressed; reproduce with LLM_MODE=replay). This file exists so the run is viewable on GitHub.",
+  "model": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-09T00:39:16.272738Z",
+  "counts": {
+    "documents": 6,
+    "pages": 511,
+    "facts": 3507,
+    "relations": 4709,
+    "failures": 867
+  },
+  "relations_by_verdict": {
+    "contradicts": 5,
+    "unresolved": 29,
+    "superseded": 59,
+    "context_explained": 4490,
+    "corroborates": 87,
+    "derived": 39
+  },
+  "failures_by_kind": {
+    "llm_quota": 302,
+    "llm_other": 9,
+    "quote_not_found": 105,
+    "image_only_evidence": 63,
+    "validator": 326,
+    "llm_json": 59,
+    "adjudicate_failed": 3
+  },
+  "four_cases": [
+    {
+      "case": "Corroborated, expressed differently",
+      "relation_id": 1,
+      "verdict": "corroborates",
+      "dimension": "none",
+      "method": "rule",
+      "explanation": "same period, basis and value",
+      "fact_a": {
+        "id": 1,
+        "entity": "Delhivery",
+        "attribute": "FY24 EBITDA",
+        "value": "127",
+        "unit": "Rs.",
+        "scale": "crore",
+        "period": "FY24",
+        "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+        "quote_source": "text",
+        "evidence": "exact",
+        "verified": true,
+        "source": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page": "2"
+      },
+      "fact_b": {
+        "id": 906,
+        "entity": "Delhivery Limited",
+        "attribute": "EBITDA",
+        "value": "1,266",
+        "unit": "₹",
+        "scale": "million",
+        "period": "FY24",
+        "quote": "₹1,266Mn \\nEBITDA",
+        "quote_source": "text",
+        "evidence": "fuzzy",
+        "verified": true,
+        "source": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page": "6"
+      }
+    },
+    {
+      "case": "Genuine contradiction",
+      "relation_id": 3450,
+      "verdict": "contradicts",
+      "dimension": "value",
+      "method": "llm",
+      "explanation": "Fact A reports India's FY24 GDP growth rate as '8.2%' ('Growth rate of 8.2%'), while Fact B reports it as '9.2' ('9.2') for the same period (2023/24). Since they refer to the same period with differing values, they contradict each other.",
+      "fact_a": {
+        "id": 1119,
+        "entity": "India",
+        "attribute": "GDP Growth rate",
+        "value": "8.2",
+        "unit": "per cent",
+        "scale": null,
+        "period": "FY24",
+        "quote": "During FY24, India demonstrated remarkable resilience in navigating global headwinds and registered a Growth rate of 8.2%,",
+        "quote_source": "text",
+        "evidence": "normalized",
+        "verified": true,
+        "source": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page": null
+      },
+      "fact_b": {
+        "id": 3101,
+        "entity": "India",
+        "attribute": "GDP growth rate",
+        "value": "9.2",
+        "unit": "per cent",
+        "scale": null,
+        "period": "2023/24",
+        "quote": "9.2",
+        "quote_source": "text",
+        "evidence": "exact",
+        "verified": true,
+        "source": "03-imf-india-2025-article-iv-excerpt.pdf",
+        "page": "A2: 3"
+      }
+    },
+    {
+      "case": "Apparent contradiction explained by context",
+      "relation_id": 9,
+      "verdict": "context_explained",
+      "dimension": "period",
+      "method": "rule",
+      "explanation": "values cover different periods",
+      "fact_a": {
+        "id": 2,
+        "entity": "Delhivery",
+        "attribute": "FY23 EBITDA",
+        "value": "(452)",
+        "unit": "Rs.",
+        "scale": "crore",
+        "period": "FY23",
+        "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+        "quote_source": "text",
+        "evidence": "exact",
+        "verified": true,
+        "source": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+        "page": "2"
+      },
+      "fact_b": {
+        "id": 906,
+        "entity": "Delhivery Limited",
+        "attribute": "EBITDA",
+        "value": "1,266",
+        "unit": "₹",
+        "scale": "million",
+        "period": "FY24",
+        "quote": "₹1,266Mn \\nEBITDA",
+        "quote_source": "text",
+        "evidence": "fuzzy",
+        "verified": true,
+        "source": "02-delhivery-annual-report-fy24-excerpt.pdf",
+        "page": "6"
+      }
+    }
+  ],
+  "handled_failures": [
+    {
+      "stage": "verify",
+      "kind": "quote_not_found",
+      "message": "quote not found on page (score 0.8254): 180 201 176 Q4 FY23 Q3 FY24 Q4 FY24 Express Parcel shipments (Mn)",
+      "handled": "kept the fact, flagged unverified; relations involving it get half confidence",
+      "document_id": "34938859",
+      "page_index": 10
+    },
+    {
+      "stage": "verify",
+      "kind": "image_only_evidence",
+      "message": "value read from the page image, absent from text layer: (217) Q1 FY23",
+      "handled": "kept the fact; evidence is the page image, shown with a 'visual evidence' badge",
+      "document_id": "34938859",
+      "page_index": 12
+    }
+  ],
+  "sample_facts": [
+    {
+      "id": 1,
+      "entity": "Delhivery",
+      "attribute": "FY24 EBITDA",
+      "value": "127",
+      "unit": "Rs.",
+      "scale": "crore",
+      "period": "FY24",
+      "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+      "quote_source": "text",
+      "evidence": "exact",
+      "verified": true,
+      "source": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+      "page": "2"
+    },
+    {
+      "id": 2,
+      "entity": "Delhivery",
+      "attribute": "FY23 EBITDA",
+      "value": "(452)",
+      "unit": "Rs.",
+      "scale": "crore",
+      "period": "FY23",
+      "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+      "quote_source": "text",
+      "evidence": "exact",
+      "verified": true,
+      "source": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+      "page": "2"
+    },
+    {
+      "id": 6,
+      "entity": "Express Parcel",
+      "attribute": "Express Parcel Service EBITDA profitability",
+      "value": "18+",
+      "unit": "per cent",
+      "scale": null,
+      "period": "FY24",
+      "quote": "Express Parcel: 18%+ Service EBITDA profitability; robust growth in key segments",
+      "quote_source": "text",
+      "evidence": "exact",
+      "verified": true,
+      "source": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+      "page": "2"
+    },
+    {
+      "id": 7,
+      "entity": "PTL",
+      "attribute": "PTL YoY revenue growth",
+      "value": "30+",
+      "unit": "per cent",
+      "scale": null,
+      "period": "FY24",
+      "quote": "PTL: 30%+ YoY growth with significant improvement in profitability and market share",
+      "quote_source": "text",
+      "evidence": "exact",
+      "verified": true,
+      "source": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+      "page": "2"
+    },
+    {
+      "id": 115,
+      "entity": "Delhivery",
+      "attribute": "Adjusted EBITDA",
+      "value": "(217)",
+      "unit": "₹",
+      "scale": "crore",
+      "period": "Q1 FY23",
+      "quote": "(217) Q1 FY23",
+      "quote_source": "image",
+      "evidence": "image_only",
+      "verified": false,
+      "source": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+      "page": "76"
+    }
+  ]
+}

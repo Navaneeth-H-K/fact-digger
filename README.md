@@ -26,7 +26,7 @@ copy .env.example .env                                  # cp on macOS/Linux
 bash scripts/check.sh                                   # ruff + mypy + pytest
 ```
 
-- **Key-free (reviewers):** `LLM_MODE=replay`, `LLM_CACHE_DIR=samples/llm_cache` replays the committed run. `python scripts/run_local.py` rebuilds `samples/export.json` from cache — no API key.
+- **Key-free (reviewers):** `LLM_MODE=replay`, `LLM_CACHE_DIR=samples/llm_cache` replays the committed run. `python scripts/run_local.py` rebuilds `samples/export.json` from cache — no API key. See [`samples/preview.json`](samples/preview.json) for a readable snapshot (counts + the four cases); the full run is `samples/export.json.gz`.
 - **Live:** `LLM_MODE=live`, `LLM_PROVIDER=openai_compat`, `GEMINI_API_KEY=…`, `EXTRACT_MODEL=ADJUDICATE_MODEL=gemini-3.5-flash-lite`. Provider layer is model-agnostic (Anthropic / Groq / Ollama / vLLM also work).
 
 | Env group | Variables (names only) |
