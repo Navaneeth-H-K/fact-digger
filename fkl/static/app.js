@@ -1,4 +1,4 @@
-/* Fact Knowledge Layer — single-page inspector. Plain JS, talks to the JSON API. */
+/* Fact Excavator — single-page inspector. Plain JS, talks to the JSON API. */
 (() => {
   "use strict";
 
