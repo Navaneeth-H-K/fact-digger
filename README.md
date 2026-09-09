@@ -69,7 +69,7 @@ From the committed run (`samples/export.json.gz`); open each on the live site. E
 - Forced tool-use JSON with one repair; a bad fact drops alone, never the page.
 - Dynamic schema grown from the documents — nothing filename- or document-specific.
 - Serverless-shaped ingestion: time-boxed resumable batches; browser-direct-to-storage upload.
-- Test-driven: 287 fast, deterministic tests (SQLite + a fake model) written red-green alongside the code — the commit history shows the cycle; `scripts/check.sh` (ruff + mypy + pytest) gates every commit.
+- **Test-Driven Development (TDD):** 287 fast, deterministic tests (SQLite + a fake model) written red-green alongside the code — the commit history shows the cycle; `scripts/check.sh` (ruff + mypy + pytest) gates every commit.
 
 **AI tools** — Built with Claude Code. Runtime: Google Gemini 3.5 Flash-Lite for both extraction and adjudication (OpenAI-compatible endpoint; 732 cached calls). Provider layer is model-agnostic.
 
