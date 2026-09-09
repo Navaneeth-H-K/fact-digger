@@ -19,3 +19,4 @@ superjoin-vit-2026-assignment.pdf
 .env*
 *.db-shm
 *.db-wal
+samples/export.json

@@ -76,7 +76,35 @@ few seconds with SQLite in memory and a fake model).
 
 ## Video demo
 
-_(3-minute link added at v1: a PDF being processed live, then the four cases below.)_
+_(3-minute link: a PDF processed live on the site, then the four cases below.)_
+
+Live instance: **https://fact-knowledge-layer.vercel.app** — already loaded with the six starter
+documents (3,419 facts, 4,709 cross-document relations). Open **Relations** and filter by verdict, or
+**Facts** and click any row to see its page image with the quote highlighted.
+
+## The four required cases
+
+All four come from the committed run over the six starter PDFs (`samples/export.json.gz`). Each is a
+real relation with an id you can open on the live site at `/relations` or `/facts/{id}`.
+
+1. **Corroborated across documents, expressed differently** — relation **#1**. FY24 EBITDA is printed as
+   **₹127 crore** in the Q4 earnings deck and **₹1,266.41 million** in the annual report. Different unit
+   systems (crore vs million), same quantity: the normaliser converts both to ₹1.27 billion and the rule
+   engine marks them *corroborates*. Evidence: the quote on each source page.
+2. **Genuine / likely contradiction** — relation **#3450**. India's FY24 GDP growth is stated as
+   **8.2%** (quoted in the Delhivery annual report's macro section) and **9.2%** (IMF Article IV, 2023/24).
+   Same country, same year, same unit, materially different. Rules flag it as a same-key value conflict
+   and the adjudicator confirms *contradicts*, citing both quotes.
+3. **Apparent contradiction explained by context** — relation **#9** and thousands like it. EBITDA reads
+   **₹(452) crore** and **₹1,266 million**; rather than a conflict, the engine sees the periods differ
+   (**FY23** vs **FY24**) and returns *context_explained* with `dimension = period`. The macro set adds
+   scope and vintage cases (e.g. first vs second advance estimates), the largest verdict class at 4,490.
+4. **An extraction / reasoning failure and how it was handled** — the **Failures** tab. The text layers of
+   these PDFs are corrupt: the ₹ glyph is dropped or rendered as a stray letter, table rows shift, some
+   pages are pure images. Two honest outcomes are logged: **105 facts** whose value was read but whose
+   verbatim quote could not be matched against the mangled text (kept, flagged *unverified*, and their
+   relations down-weighted to half confidence); and **63 facts** read from the page image because the
+   text layer held nothing (kept and badged *visual evidence*). Nothing is silently dropped.
 
 ## Approach
 
@@ -153,17 +181,24 @@ _(Filled from the starter-set run at v1, with fact and relation ids linking into
 
 ## Limitations and next steps
 
-**Live extraction is blocked on the hosted site.** The model endpoint used here (AgentRouter) sits
-behind Alibaba Cloud's WAF, which answers requests from Vercel's data-centre IP ranges with an HTTP
-200 bot-challenge page instead of the API (verified with a diagnostic endpoint from two Vercel
-regions and with several User-Agents). The same requests from a residential machine work. The
-hosted instance therefore runs in **replay mode**: it serves the layer processed locally from the
-starter set, and a new upload is inventoried and then paused with the reason shown in the UI.
-Running the project locally with a key, or pointing it at any Anthropic-compatible endpoint that
-does not block cloud egress, restores live processing without code changes.
+**The run and its numbers.** The six starter PDFs (511 pages) were processed with Google
+**Gemini 2.5 flash-lite** through its OpenAI-compatible endpoint, producing **3,419 facts** and
+**4,709 cross-document relations** (87 corroborates, 5 contradictions, 59 superseded, 4,490
+context-explained, 39 arithmetic tie-outs, 29 unresolved) plus **870 logged failures**. The whole
+run and the responses are committed (`samples/export.json.gz`, `samples/llm_cache/`), so the results
+can be inspected, and the starter PDFs reprocessed in `LLM_MODE=replay`, without an API key.
 
+**Model choice was pragmatic, not ideal.** Frontier vision models (Claude, GPT-4o) read these dense
+financial tables best but need paid credit. Among no-cost options, Gemini flash-lite was the only one
+that combined good page reading, reliable structured output, and a workable free rate limit; its
+newest sibling gives only 20 requests/day, Groq's free tier capped at 200k tokens/day and mishandled
+tool calls, and a local model did not fit the available 4 GB GPU. The provider layer is model-agnostic
+(`LLM_PROVIDER` + `*_MODEL`), so a better key changes only configuration.
 
-_(Expanded with measured numbers after the starter-set run.)_
+**Precision is looser than recall.** With 3,419 facts, the rule engine finds many true relations but
+also some noise: a few arithmetic tie-outs are numeric coincidences, and a handful of pairs compare
+related-but-distinct metrics (EBITDA vs Adjusted EBITDA). The five demonstrated cases are hand-picked
+clean examples; a v2 evaluation harness would measure and tighten this.
 
 Known limits of v1:
 
