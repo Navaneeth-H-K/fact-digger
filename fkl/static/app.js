@@ -1,4 +1,4 @@
-/* Fact Excavator — single-page inspector. Plain JS, talks to the JSON API. */
+/* Fact Digger — single-page inspector. Plain JS, talks to the JSON API. */
 (() => {
   "use strict";
 

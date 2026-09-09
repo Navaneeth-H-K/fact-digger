@@ -58,7 +58,7 @@ def create_app(runtime: Runtime | None = None) -> FastAPI:
         app.state.runtime = runtime or build_runtime()
         yield
 
-    app = FastAPI(title="Fact Knowledge Layer", version="0.1.0", lifespan=lifespan)
+    app = FastAPI(title="Fact Digger", version="0.1.0", lifespan=lifespan)
     app.add_middleware(GZipMiddleware, minimum_size=1024)
     _register_routes(app)
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")

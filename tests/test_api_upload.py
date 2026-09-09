@@ -158,7 +158,7 @@ def test_root_serves_the_single_page_ui(client: TestClient) -> None:
     response = client.get("/")
     assert response.status_code == 200
     assert response.headers["content-type"].startswith("text/html")
-    assert "Fact Excavator" in response.text
+    assert "Fact Digger" in response.text
     assert client.get("/static/app.js").status_code == 200
 
 
