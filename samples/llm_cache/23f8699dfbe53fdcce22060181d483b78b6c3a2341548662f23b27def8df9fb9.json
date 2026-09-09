@@ -1,0 +1,86 @@
+{
+ "key": "23f8699dfbe53fdcce22060181d483b78b6c3a2341548662f23b27def8df9fb9",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "adjudicate",
+ "request": {
+  "content": [
+   {
+    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Net cash from / (used in) operating activities\nvalue: 472 ₹ crore\nnormalised value: 4720000000.0 INR\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-delhivery-q4-fy24-earnings-presentation.pdf; publisher: Delhivery Limited; published: 2024-05-01\npage label: 20\nevidence verified: True (normalized)\nquote: \"Net cash from / (used in) operating activities (30) 472\"\n\nFACT B:\nentity: Delhivery Limited\nattribute: Net cash from / (used in) investing activities\nvalue: (990.92) ₹ million\nnormalised value: -990920000.0 INR\nperiod: for the year ended March 31, 2024 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 68\nevidence verified: True (normalized)\nquote: \"Net cash used in investing activities (B) (990.92) (34,107.48)\"\n\nRule-engine hypothesis: same period and basis, values differ\n\nDecide the verdict.",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You compare two facts extracted from two documents and decide how they relate.\n\nVerdicts:\n- corroborates: same quantity, same period, same basis, compatible values (allow rounding).\n- superseded: same quantity and period, but a later data vintage or a revision replaces the\n  earlier value; name which fact is newer.\n- context_explained: the values differ because the period, scope/basis, unit or attribution\n  differs; name that dimension. This is not a contradiction.\n- contradicts: same quantity, period, basis and unit carry incompatible values.\n- unresolved: the evidence does not settle it; give your best hypothesis in the explanation.\n\nUse only the fields and quotes provided. Keep the explanation under 60 words and cite the\ndistinguishing phrase from each quote.",
+  "tool_name": "record_verdict",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "confidence": {
+     "default": 0.5,
+     "maximum": 1.0,
+     "minimum": 0.0,
+     "title": "Confidence",
+     "type": "number"
+    },
+    "dimension": {
+     "default": "none",
+     "enum": [
+      "period",
+      "estimate_type",
+      "basis",
+      "unit",
+      "vintage",
+      "attribution",
+      "value",
+      "none"
+     ],
+     "title": "Dimension",
+     "type": "string"
+    },
+    "explanation": {
+     "maxLength": 800,
+     "minLength": 1,
+     "title": "Explanation",
+     "type": "string"
+    },
+    "newer_fact": {
+     "default": "none",
+     "enum": [
+      "a",
+      "b",
+      "none"
+     ],
+     "title": "Newer Fact",
+     "type": "string"
+    },
+    "verdict": {
+     "enum": [
+      "corroborates",
+      "contradicts",
+      "superseded",
+      "context_explained",
+      "unresolved"
+     ],
+     "title": "Verdict",
+     "type": "string"
+    }
+   },
+   "required": [
+    "verdict",
+    "explanation"
+   ],
+   "title": "Verdict",
+   "type": "object"
+  }
+ },
+ "response": {
+  "dimension": "none",
+  "explanation": "Fact A refers to net cash from operating activities (472 ₹ crore), whereas Fact B refers to net cash used in investing activities (-990.92 ₹ million). They represent completely different financial metrics and do not contradict each other.",
+  "newer_fact": "none",
+  "verdict": "context_explained"
+ },
+ "usage": {
+  "input_tokens": 773,
+  "output_tokens": 89
+ }
+}

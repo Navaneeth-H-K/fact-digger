@@ -1,0 +1,390 @@
+{
+ "key": "260736965a9eb5875b626a728ae7640356b351577d5ddc93e6b0fd6003efc4e1",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "9eda3e78dc74aeca160a775c2708013cb66c592ccb002135aed3c848b82e631d",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 26, printed label 102.\nExisting attribute vocabulary (reuse a name when it means the same thing): Weighted average cost of acquisition per Equity Share, Remuneration to key management personnel, Adjusted EBITDA, revenue from services, Adjusted EBITDA margin, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Total revenue from customers, PTL freight tonnage, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Re-measurement (loss) / gain on defined benefit plans, Cash & cash equivalents at the end of the year, NWC days, Total equity and liabilities, Total equity, express parcel shipments, Total liabilities, Networth, Basic loss per share, Restated loss before tax, Capital Expenditure as % of Revenue from Services, Equity share capital, Supply Chain Services revenue, Revenue from contract with customers, Diluted loss per share, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Restated loss for the period / year, TL revenue, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, revenue from services growth rate, Active Customers, Aggregate amount involved in litigation, Cost of performance-based options, Cross Border Services revenue, Pin-code reach, Freight, handling and servicing cost, Revenue from customers, Fresh Issue size, Infrastructure, Total cash balance, Deemed investment, Reported EBITDA, Fresh Issue volume, TL YoY revenue growth, Offer for Sale size, Services provided, Weighted average cost of acquisition, Depreciation and amortisation expense, Right of use asset, Closing cash balance at the end of the year, Employee benefit expense, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Express parcel shipments growth rate, PTL freight tonnage growth rate, Loan given, Goodwill, PTL YoY revenue growth, Interest income, Other income, Total income, Term loan, Packing material, Rent, Stores and spares, Consumer cases filed against Company amount, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Automated sort centers, Fleet size - daily average, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, market CAGR, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Income from lorry hire charges, Contingent liabilities - Others, Corporate overheads, Deferred tax credit, Current tax, CWIP, ESOPs ungranted total as % of fully diluted shares, direct spend of logistics sector forecast, direct spend of logistics sector, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Employee Reservation Portion size, Employee Reservation Portion volume, Investment in equity, Offer of Equity Shares size, Offer of Equity Shares volume, Other equity, Team size holding ESOPs, ESOPs ungranted total, Other expenses, Total tax expense, Total expenses, Express Parcel revenue growth rate, Express parcel shipments since inception, organized players market share forecast, PTL freight tonnage since inception, FY23 PAT loss, Gateways, PAT loss reduction, organized players market share, Net Offer size, Net Offer volume, Offer for Sale volume, Total Offer size, Team size\n\nTEXT LAYER:\n \n102 \nPROFORMA SUMMARY CONSOLIDATED PROFIT AND LOSS DATA FOR THE NINE MONTHS \nPERIOD ENDED DECEMBER 31, 2021 \n \n(amount in ₹ million, unless otherwise stated) \n  \nRestated \nConsolida\nted \nSummary \nStatement \nof Profit \nand Loss \nof \nDelhivery \nLimited \nfor nine \nmonths \nperiod \nended \nDecember \n31, 2021 \nSpoton Logistics \nPrivate Limited \nSpecial purpose \ninterim \nconsolidated \nstatement of \nProfit and Loss \nfor the nine \nmonths period \nended \nDecember 31, \n2021 \nAdjustment \nfor Spoton \nLogistics \nPrivate \nLimited \nInterim \nConsolidated \nProfit and \nLoss for \nperiod  \nAugust 24, \n2021 to  \nDecember 31, \n2021 \nIntragroup \nelimination \nfor period \nApril 1, \n2021 to \nAugust 23, \n2021 \n \nAcquisiti\non \nAdjustm\nents for \nperiod  \nApril 1, \n2021 to \nAugust \n23, 2021 \nTotal \nAdjustment\ns \nProforma \nConsolida\nted \nStatement \nof Profit \nand Loss  \nfor the \nnine \nmonths \nperiod \nended  \nDecember \n31, 2021 \n  \n(A) \n(B) \n(C) \n(D) \n(E) \n(F=C+D+E) \n(G=A+B+F\n) \nIncome: \n \n \n \n \n \n \n \nRevenue from \ncontract with \ncustomers \n   \n48,105.30  \n   \n7,575.11  \n   \n(3,973.94) \n   \n(9.92) \n   \n-   \n   \n(3,983.86) \n   \n51,696.55  \nOther income \n   \n1,008.76  \n   \n11.55  \n   \n(10.05) \n   \n-   \n   \n-   \n   \n(10.05) \n   \n1,010.26  \nTotal income \n(I) \n   \n49,114.06  \n   \n7,586.66  \n   \n(3,983.99) \n   \n(9.92) \n   \n-   \n   \n(3,993.91) \n   \n52,706.81  \n \nExpenses: \nFreight, \nhandling and \nservicing cost \n   \n34,786.36  \n   \n5,446.88  \n   \n(2,838.88) \n   \n(9.92) \n   \n-   \n   \n(2,848.80) \n   \n37,384.44  \nPurchase of \ntraded goods \n   \n1,750.22  \n   \n-   \n   \n-   \n   \n-   \n   \n-   \n   \n-   \n   \n1,750.22  \nChange in \ninventory of \ntraded goods \n   \n(28.75) \n   \n-   \n   \n-   \n   \n-   \n   \n-   \n   \n-   \n   \n(28.75) \nEmployee \nbenefit \nexpense \n   \n9,726.30  \n   \n838.93  \n   \n(400.19) \n   \n-   \n   \n45.73  \n   \n(354.45) \n   \n10,210.77  \nFair value loss \non financial \nliabilities at \nfair value \nthrough profit \nor loss \n   \n2,997.39  \n   \n-   \n   \n-   \n-   \n-   \n   \n-   \n   \n-   \n   \n2,997.39  \nFinance costs \n   \n762.29  \n   \n413.01  \n   \n(102.68) \n   \n-   \n   \n-   \n   \n(102.68) \n   \n1,072.62  \nDepreciation \nand \namortisation \nexpense \n   \n3,881.75  \n   \n592.05  \n   \n(284.45) \n   \n-   \n   \n524.46  \n   \n240.01  \n   \n4,713.81  \nOther \nexpenses \n   \n4,225.95  \n   \n468.20  \n   \n(266.73) \n   \n-   \n   \n-   \n   \n(266.73) \n   \n4,427.42  \nTotal \nexpenses (II) \n   \n58,101.51  \n   \n7,759.07  \n   \n(3,892.93) \n   \n(9.92) \n   \n570.19  \n   \n(3,332.66) \n   \n62,527.92  \n \nLoss before \nexceptional \nitem and tax \n(III) \n   \n(8,987.45) \n   \n(172.41) \n   \n(91.06) \n   \n-   \n   \n(570.19) \n   \n(661.25) \n   \n(9,821.11) \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Revenue from contract with customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited (Restated Consolidated Summary Statement of Profit and Loss)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "48,105.30",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "48,105.30",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other income",
+    "confidence": 1,
+    "entity": "Delhivery Limited (Restated Consolidated Summary Statement of Profit and Loss)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "1,008.76",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,008.76",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total income",
+    "confidence": 1,
+    "entity": "Delhivery Limited (Restated Consolidated Summary Statement of Profit and Loss)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "49,114.06",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "49,114.06",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited (Restated Consolidated Summary Statement of Profit and Loss)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "58,101.51",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "58,101.51",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Revenue from contract with customers",
+    "confidence": 1,
+    "entity": "Proforma Consolidated Statement of Profit and Loss",
+    "estimate_type": "actual",
+    "measurement_basis": "proforma",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "51,696.55",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "51,696.55",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other income",
+    "confidence": 1,
+    "entity": "Proforma Consolidated Statement of Profit and Loss",
+    "estimate_type": "actual",
+    "measurement_basis": "proforma",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "1,010.26",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,010.26",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total income",
+    "confidence": 1,
+    "entity": "Proforma Consolidated Statement of Profit and Loss",
+    "estimate_type": "actual",
+    "measurement_basis": "proforma",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "52,706.81",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "52,706.81",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total expenses",
+    "confidence": 1,
+    "entity": "Proforma Consolidated Statement of Profit and Loss",
+    "estimate_type": "actual",
+    "measurement_basis": "proforma",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "62,527.92",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "62,527.92",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4843,
+  "output_tokens": 1240
+ }
+}

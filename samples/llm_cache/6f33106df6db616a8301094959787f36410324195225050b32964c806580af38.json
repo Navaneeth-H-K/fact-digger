@@ -1,0 +1,263 @@
+{
+ "key": "6f33106df6db616a8301094959787f36410324195225050b32964c806580af38",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "1b8533990e51c44208a68e0667b73adc853c6eb1383ed7b26909e52854de386f",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 40, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Team size, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Automated sort centers, Revenue from contracts with customers, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, Networth, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, Equity Shares held, organized players market share, Count of 46-ft tractors, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, express parcel shipments since inception, Other income, Investments in technology, allowance for doubtful debts, Amount spent for the project, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, market CAGR, Sortation capacity utilisation, Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Property, plant and equipment, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Board members count, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, private consumption expenditure growth rate, Contractual manpower expenses, Deferred tax credit, Current tax, Net debt, direct spend of logistics sector, Foreign exchange earnings, Foreign exchange outgo, Line haul expenses, Lost shipment expense (net), Other expenses, Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, GDP growth rate, Global logistics market size, Goodwill, Interest income\n\nTEXT LAYER:\nInter-se relationship among Directors\nNone of the directors of the Company are related to each other.\nParticulars of Senior Management \nSenior Management plays a critical role in the strategic and \noperational leadership of the Company, ensuring alignment \nwith the Company’s business objectives and regulatory \nrequirements. In accordance with the SEBI Listing Regulations, \nSenior Management comprises the core management team of \nthe Company, excluding the Board of Directors.\nThe following are the particulars of Senior Management of \nthe Company, including any changes since the close of the \nprevious financial year:\nSl. \nNo.\nName of Senior \nManagement Personnel\nCategory\n1\nAjith Pai Mangalore\nChief Operating Officer\n2\nAmit Agarwal\nChief Financial Officer\n3\nUday Sharma1\nHead-Business Development\n4\nVarun Bakshi2\nSVP-Business Development\n5\nPooja Gupta3\nChief People Officer\n6\nSuraj Saharan4\nChief People Officer\n7\nSunil Bansal5\nCompany Secretary &  \nCompliance Officer\n8\nVivek Kumar6\nCompany Secretary &  \nCompliance Officer\n9\nMadhulika Rawat7\nCompany Secretary &  \nCompliance Officer\n1 \u0007Mr. Uday Sharma, Head of Business Development of the Company, ceased \nto be associated with the Company with effect from January 09, 2024.\n2 \u0007Mr. Varun Bakshi, who was associated with the Company as Head of \nTreasury and Investor Relations took over the new role of SVP-Business \nDevelopment with effect from January 09, 2024.\n3 \u0007Ms. Pooja Gupta, Chief People Officer of the Company, ceased to be \nassociated with the Company with effect from January 15, 2024.\n4 \u0007Mr. Suraj Saharan, who was associated with the Company as Head of \nNew Ventures took over the new role of the Chief People Officer of the \nCompany with effect from January 15, 2024. \n5 \u0007Mr. Sunil Kumar Bansal, who held the position of Company Secretary \nand Compliance Officer, ceased to be a part of the Company with effect \nfrom May 31, 2023.\n6 \u0007Mr. Vivek Kumar, who was associated with the Company as Deputy \nCompany Secretary, was appointed as the Company Secretary and \nCompliance Officer with effect from June 01, 2023. Further, Mr. Vivek \nKumar resigned from the position of Company Secretary & Compliance \nOfficer with effect from March 27, 2024.\n7 \u0007Ms. Madhulika Rawat has been appointed as Company Secretary & \nCompliance Officer with effect from May 17, 2024.\nIndependent Directors\nThe Independent Directors of the Company have been appointed \nin compliance with the requirements of the Act and SEBI Listing \nRegulations. The Company has issued a letter of appointment to \nall the Independent Directors and terms and conditions thereof \nhave been disclosed on the website of the Company at https://\nwww.delhivery.com/company/investor-relations.\nAt the time of appointment and thereafter at the beginning of \neach financial year, the Independent Directors submit a self-\ndeclaration confirming their independence and compliance \nwith eligibility criteria mentioned under the Act and the SEBI \nListing Regulations including registration of their names as \nan Independent Director in the data bank maintained with the \nIndian Institute of Corporate Affairs. Based on the disclosures \nreceived from all the Independent Directors, the Board is of the \nopinion that the Independent Directors fulfil the conditions \nspecified in the Act and the SEBI Listing Regulations and are \nindependent of the management of the Company. During \nFY24, none of the Independent Directors resigned before \nexpiry of his/her term.\nThe Independent Directors under Regulation 25(8) of the \nSEBI Listing Regulations have confirmed that they are not \naware of any circumstance or situation which exists or may \nbe reasonably anticipated, that could impair or impact their \nability to discharge their duties with an objective, independent \njudgement and without any external influence. \nSelection of new Directors and Board Membership \ncriteria \nThe Nomination and Remuneration Committee of the Board \n(“NRC”) plays a vital role in formulating and recommending \nto the Board the necessary qualifications, positive attributes, \ncharacteristics, skills and experience required for the Board \nas a whole as well as its individual members. The objective \nis to ensure that the Board comprises professionals with \ndiverse backgrounds and experience in key areas such as \nbusiness leadership, strategy, operations, technology, finance \n& accounts, governance and government/regulatory affairs.\nThe NRC focuses on creating a well-rounded and effective \nBoard by assessing the desired skills and expertise needed \nto drive your Company’s growth and success. This approach \nhelps to maintain a balanced and competent Board that \ncan provide strategic guidance and oversight in a dynamic \nbusiness environment.\nFurthermore, the Policy for appointment and removal of \nDirectors and determining Directors’ independence is available \non the website of your Company at https://www.delhivery.\ncom/company/investor-relations. This policy outlines the \nframework and criteria used to evaluate potential Directors \nand assess their independence, ensuring that the highest \nstandards of corporate governance are upheld.\nKey Board qualifications, expertise and attributes\nThe Members of the Board are committed towards ensuring \nthat the Board is in compliance with the highest standards \nof Corporate Governance. The Board consists of eminent \nindividuals from diverse backgrounds with skills, experience, \nand expertise in various areas. The table below summarises \nthe key skills, expertise, competencies and attributes which \nare taken into consideration by the NRC while recommending \nthe appointment of Directors to the Board.\nDirector skills, expertise, competencies and attributes desirable in Company’s business and sector in which it \nfunctions \nAreas of Skills/Expertise/Competence\nName of Directors\nLeadership\nStrategy\nOperations\nTechnology\nFinance & \nAccounts\nGovernance\nGovernment/\nRegulatory \nAffairs\nMr. Deepak Kapoor\n\n\n-\n-\n\n\n\nMr. Srivatsan Rajan\n\n\n\n-\n\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [],
+  "page_kind": "mixed",
+  "problems": [
+   "Page does not contain numeric financial metrics or key performance indicators suitable for extraction."
+  ]
+ },
+ "usage": {
+  "input_tokens": 4745,
+  "output_tokens": 43
+ }
+}

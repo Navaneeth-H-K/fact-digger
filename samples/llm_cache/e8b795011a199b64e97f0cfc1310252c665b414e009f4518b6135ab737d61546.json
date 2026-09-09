@@ -1,0 +1,261 @@
+{
+ "key": "e8b795011a199b64e97f0cfc1310252c665b414e009f4518b6135ab737d61546",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "98922876bc44d8af9b2cc68b01a94fcc8a5e8813f434a2596ebe98f9c6fb66c7",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 71, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Total revenue from customers, Equity Shares held, Total equity, Number of preference shares acquired, Total assets, Restated other comprehensive income / (loss) for the period / year, NWC days, Gateways, Total income, Net cash from / (used in) operating activities, Automated sort centers, Basic loss per share, Restated loss before tax, Revenue from contracts with customers, Total equity and liabilities, Total liabilities, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cash & cash equivalents at the end of the year, Total Compensation, Restated total comprehensive loss for the period / year, Diluted loss per share, Networth, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, TL revenue, Count of 46-ft tractors, Offer for Sale amount, Authorised share capital, Share based payment, Board members count, Cross Border Services revenue, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Profit/(loss) after tax, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Freight, handling and servicing cost, express parcel shipments since inception, Other income, Investments in technology, Retention rate, Return to work rate, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Property, plant and equipment, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Number of days of accounts payables, Weighted average cost of acquisition, Waste intensity per rupee of turnover adjusted for Purchasing Power Parity, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Carbon Monoxide (CO) air emissions, Hydrocarbons (HC) air emissions, Particulate matter (PM) air emissions, NOx air emissions, SOx air emissions, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count\n\nTEXT LAYER:\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n\t\nAcquisition method\n\t\n\u0007The acquisition method of accounting is used to account \nfor all business combinations. The consideration \ntransferred for the acquisition of a subsidiary \ncomprises the:\n\t\n\u0007(i)\t\nfair values of the assets transferred;\n\t\n\u0007(ii)\t \u0007liabilities incurred to the former owners of the \nacquired business;\n\t\n\u0007(iii)\t equity interests issued by the group; and\n\t\n\u0007(iv)\t \u0007fair value of any asset or liability resulting from a \ncontingent consideration arrangement.\n\t\n\u0007However, the following assets and liabilities acquired \nin a business combination are measured at the basis \nindicated below:\n\t\n\u0007i)\t\n\u0007Deferred tax assets or liabilities, and the assets or \nliabilities related to employee benefit arrangements \nare recognised and measured in accordance with \nInd AS 12 Income Tax and Ind AS 19 Employee \nBenefits respectively.\n\t\n\u0007The excess of the\n\t\n\u0007(i)\t\nconsideration transferred;\n\t\n\u0007(ii)\t \u0007amount of any non-controlling interest in the \nacquired entity, and\n\t\n(iii)\t \u0007acquisition-date fair value of any previous equity \ninterest in the acquired entity.\n\t\n\u0007over the fair value of the net identifiable assets acquired \nand liabilities assumed is recorded as goodwill. If \nthose amounts are less than the fair value of the net \nidentifiable assets of the business acquired, the \ndifference is recognised in other comprehensive income \nand accumulated in equity as capital reserve provided \nthere is clear evidence of the underlying reasons for \nclassifying the business combination as a bargain \npurchase. In other cases, the bargain purchase gain is \nrecognised directly in equity as capital reserve.\n\t\n\u0007After initial recognition, goodwill is measured at cost less \nany accumulated impairment losses. For the purpose \nof impairment testing, goodwill acquired in a business \ncombination is, from the acquisition date, allocated \nto each of the Group cash-generating units that are \nexpected to benefit from the combination, irrespective \nof whether other assets or liabilities of the acquiree are \nassigned to those units. A cash generating unit to which \ngoodwill has been allocated is tested for impairment \nannually, or more frequently when there is an indication \nthat the unit may be impaired.\n\t\n\u0007Where settlement of any part of cash consideration \nis deferred, the amounts payable in the future are \ndiscounted to their present value as at the date of \nexchange. The discount rate used is the entity’s \nincremental borrowing rate, being the rate at which a \nsimilar borrowing could be obtained from an independent \nfinancier under comparable terms and conditions.\n\t\n\u0007Any contingent consideration to be transferred by the \nacquirer is recognised at fair value at the acquisition \ndate. Contingent consideration is classified either \nas equity or a financial liability. Amounts classified \nas a financial liability are subsequently remeasured \nto fair value with changes in fair value recognised \nin Consolidated statement of profit and loss. \nContingent consideration that is classified as equity \nis not re-measured at subsequent reporting dates and \nsubsequent its settlement is accounted for within equity.\n\t\n\u0007If the business combination is achieved in stages, \nthe acquisition date carrying value of the acquirer’s \npreviously held equity interest in the acquiree is \nremeasured to fair value at the acquisition date. Any \ngains or losses arising from such remeasurement are \nrecognised Consolidated statement of profit and loss \nor other comprehensive income, as appropriate.\nc)\t\nCurrent versus non- current classification\n\t\n\u0007The Group presents assets and liabilities in the \nconsolidated balance sheet based on current/ non-\ncurrent classification. An asset is treated as current \nwhen it is:\n\t\ni)\t\n\u0007Expected to be realised or intended to be sold or \nconsumed in normal operating cycle.\n\t\nii)\t\n\u0007Held primarily for the purpose of trading.\n\t\niii)\t\n\u0007It is expected to be realised within twelve months \nafter the reporting period, or\n\t\niv)\t\n\u0007Cash or cash equivalent unless restricted from \nbeing exchanged or used to settle a liability for at \nleast twelve months after the reporting period.\n\t\n\u0007All other assets are classified as non-current.\n\t\n\u0007A liability is current when:\n\t\n\u0007i)\t\nIt is expected to be settled in normal operating cycle.\n\t\n\u0007ii)\t\nHeld primarily for the purpose of trading.\n\t\n\u0007iii)\t\n\u0007It is due to be settled within twelve months after the \nreporting period, or\n\t\n\u0007iv)\t\n\u0007There is no unconditional right to defer the \nsettlement of the liability for at least twelve months \nafter the reporting period.\n\t\n\t\n\u0007The Group classifies all other liabilities as non-\ncurrent. Deferred tax assets and liabilities are \nclassified as non-current assets and liabilities.\n\t\n\t\n\u0007The operating cycle is the time between the \nacquisition of assets for processing and their \nrealisation in cash and cash equivalents. The group \nhas identified twelve months as its operating cycle.\nd)\t\nForeign currencies\n\t\n\u0007The Group’s Consolidated Financial Statements are \npresented in Rs, which is also the Parent Company’s \nfunctional currency. The financial statements of each \nof the Group entity are measured using the currency \nof the primary economic environment in which the \nentities forming part of the Group operates (“functional \ncurrency”). The functional currency is normally the \ncurrency in which the entities forming part of Group \nprimarily generates and expends cash.\n\t\n\u0007Transactions and balances\n\t\n\u0007Transactions in foreign currencies are initially recorded \nat their respective functional currencies using their spot \nrates at the date when the transaction first qualifies for \nrecognition. However, for practical reasons, the Group ",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4938,
+  "output_tokens": 27
+ }
+}

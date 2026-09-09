@@ -1,0 +1,263 @@
+{
+ "key": "c1373e6b539040a20b66e3b0748f31bfbe5f68ebc5c02f9bca19e63f70a2d1f6",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "bfcf62ddf8055dfad1a0096565a1164ed68286c6a88aab72d793e84eff91db14",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 48, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Team size, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Automated sort centers, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Total Compensation, Revenue from contracts with customers, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, Networth, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Count of 46-ft tractors, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Other income, Investments in technology, allowance for doubtful debts, Amount spent for the project, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Board members count, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, market CAGR, Sortation capacity utilisation, Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, No. of ESOPs vested as on March 31, 2024, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Stock Code, private consumption expenditure growth rate, Contractual manpower expenses, Deferred tax credit, Current tax, Net debt, direct spend of logistics sector, No. of ESOPs exercised during FY24, Foreign exchange earnings, Foreign exchange outgo, Line haul expenses, Lost shipment expense (net), Other expenses, Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate\n\nTEXT LAYER:\n(also being the “Managing Director”) and the Chief Financial \nOfficer have given appropriate certifications to the Board.\nThe Certificate duly signed by Mr. Sahil Barua, Managing \nDirector and Chief Executive Officer and Mr. Amit Agarwal, \nChief Financial Officer of the Company was placed before \nthe Board along with the Annual Financial Statement for \nthe year ended March 31, 2024 at its meeting held on \nMay 17, 2024. The said Certificate is annexed to this report \nas Annexure-4.\nSecretarial Audit & Secretarial Compliance \nReport\nThe Board had appointed M/s VAPN and Associates \n(ICSI Unique Code: P2015DE045500), Practicing Company \nSecretaries, to conduct secretarial audit of the company’s \nrecords and documents for FY24. In terms of Regulation 24A \nof the SEBI Listing Regulations, Secretarial Audit Report for \nFY24 has been issued by M/s VAPN & Associates, Practicing \nCompany Secretaries. The aforesaid Secretarial Audit report \nforms part of the Director’s Report.\nThe Annual Secretarial Compliance Report for FY24 in \ncompliance with Regulation 24A of the SEBI Listing Regulations \nissued by M/s VAPN & Associates, Practicing Company \nSecretaries was duly submitted to the Stock Exchanges and \nthe same is available on the website of the Company at https://\nwww.delhivery.com/company/investor-relations.\nReporting as per Para F of Schedule V of the SEBI \nListing Regulations\nAs required under Para F of Schedule V of the SEBI Listing \nRegulations, the requirement of reporting details of shares \nin suspense account, i.e. shares issued pursuant to the \npublic issues or any other issue which remain unclaimed are \nnot applicable.\nDesignated email address for investor services\nTo better serve investors and as required under Regulation \n46(2)(j) of the SEBI Listing Regulations, the designated email \naddress for investor complaints is corporateaffairs@delhivery.\ncom. This email address is monitored by the Company’s \nCompliance Officer. The grievance redressal email address \nand other relevant details are available on the Company’s \nwebsite at www.delhivery.com.\nSEBI Complaints Redressal System (SCORES)\nThe investor complaints are processed by SEBI in a centralised \nweb- based complaints redressal system. The salient features \nof this system are: Centralised database of all complaints, \nonline upload of Action Taken Reports (ATRs) by concerned \ncompanies and online viewing by investors of actions taken \non the complaint and its current status. The Company has \nregistered itself at SCORES.\nIn accordance with the SEBI Circular SEBI/HO/OIAE/OIAE_\nIAD-1/P/CIR/2023/131 dated July 31, 2023, the Company has \nregistered on the new SMART ODR Portal (Securities Market \nApproach for Resolution through ODR Portal), which has been \ndeveloped to enhance the resolution of investor grievances.\nLegal proceedings in respect of title of shares\nThere are no pending cases related to disputes over title to \nshares in which the Company has been made a party.\nTransfer of Unclaimed Dividend and Shares to \nInvestor Education and Protection Fund\nNot Applicable\nGreen Initiative\nAs a responsible corporate citizen, the Company welcomes \nand supports the ‘Green Initiative’ undertaken by the Ministry \nof Corporate Affairs, Government of India, enabling electronic \ndelivery of documents including the Annual Report, quarterly \nand half-yearly results, amongst others, to Members at their \ne-mail address previously registered with the DPs and RTAs. \nMembers who have not registered their e-mail addresses so \nfar are requested to do the same. Those Members holding \nshares in demat form can register their e-mail address with \ntheir concerned DPs. Members who hold shares in physical \nform are requested to register their e-mail addresses with the \nRTA, by sending a letter, duly signed by the first/sole holder \nquoting details of Folio No.\nAnnexure-1\nDeclaration under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 regarding \nadherence to the Code of Conduct\nI, Sahil Barua, Managing Director and Chief Executive Officer of the Company, hereby declare that the Board of Directors have \nlaid down a Code of Conduct for its Board Members, Key Managerial Personnel and Senior Management Personnel of the \nCompany and they have affirmed compliance with the said code of conduct.\nFor Delhivery Limited\n\t\nSahil Barua\nDate: July 05, 2024\t\nManaging Director and Chief Executive Officer\nPlace: Goa \t\nDIN: 05131571\nAnnexure-2\nCertificate on Compliance with the Conditions of Corporate Governance as per Provisions of Chapter IV of Securities \nand Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, (as amended)\nTo,\nThe Members\nDelhivery Limited\nCIN: L63090DL2011PLC221234\nN24-N34, S24-S34, Air Cargo Logistics Centre-II,\nOpposite Gate 6 Cargo Terminal, IGI Airport, New Delhi 110037\n1.\t\n\u0007We have examined the compliance of conditions of \nCorporate Governance of Delhivery Limited (“the \nCompany”) for the year ended on March 31, 2024 as \nstipulated in Regulations 17 to 27 and clauses (b) to (i) and \n(t) of Regulation 46 (2) and other applicable regulations \nof Chapter IV pertaining to Corporate Governance and \nparagraphs C, D and E of Schedule V of the Securities \nand Exchange Board of India (Listing Obligations and \nDisclosure Requirements) Regulations, 2015 (collectively \nreferred to as “SEBI Listing Regulations”).\nManagement Responsibility:\n2.\t\n\u0007The compliance with the conditions of Corporate \nGovernance is the responsibility of the management of \nthe Company, including the preparation and maintenance \nof all relevant supporting records and documents. This \nresponsibility includes the design, implementation and \nmaintenance of internal control and procedures to ensure \nthe compliance with the conditions of the Corporate \nGovernance stipulated in SEBI Listing Regulations.\nOur Responsibility:\n3.\t\n\u0007Our responsibility is limited to examining the procedures \nand implementation thereof, adopted by the Comp",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [],
+  "page_kind": "prose",
+  "problems": [
+   "This page contains corporate governance reports and declarations without financial tables or numerical metrics."
+  ]
+ },
+ "usage": {
+  "input_tokens": 4865,
+  "output_tokens": 44
+ }
+}

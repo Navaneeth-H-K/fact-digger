@@ -1,0 +1,86 @@
+{
+ "key": "bfe6c18f2f937da8b037cece385ef2af3ca8b816cb5eb299d457080f1d2d4351",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "adjudicate",
+ "request": {
+  "content": [
+   {
+    "text": "FACT A:\nentity: Delhivery\nattribute: revenue from services\nvalue: 8,142 ₹ crore\nnormalised value: 81420000000.0 INR\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-delhivery-q4-fy24-earnings-presentation.pdf; publisher: Delhivery Limited; published: 2024-05-01\npage label: 5\nevidence verified: True (exact)\nquote: \"₹8,142 Cr\nFY24 revenue from services\nYoY: 12.7%(2)\"\n\nFACT B:\nentity: Delhivery Limited\nattribute: Cross Border Services revenue\nvalue: 1,525.31 ₹ million\nnormalised value: 1525310000.0 INR\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: consolidated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 35\nevidence verified: True (normalized)\nquote: \"Revenues from cross-border services 1,525.31 1.87%\"\n\nRule-engine hypothesis: same period and basis, values differ\n\nDecide the verdict.",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You compare two facts extracted from two documents and decide how they relate.\n\nVerdicts:\n- corroborates: same quantity, same period, same basis, compatible values (allow rounding).\n- superseded: same quantity and period, but a later data vintage or a revision replaces the\n  earlier value; name which fact is newer.\n- context_explained: the values differ because the period, scope/basis, unit or attribution\n  differs; name that dimension. This is not a contradiction.\n- contradicts: same quantity, period, basis and unit carry incompatible values.\n- unresolved: the evidence does not settle it; give your best hypothesis in the explanation.\n\nUse only the fields and quotes provided. Keep the explanation under 60 words and cite the\ndistinguishing phrase from each quote.",
+  "tool_name": "record_verdict",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "confidence": {
+     "default": 0.5,
+     "maximum": 1.0,
+     "minimum": 0.0,
+     "title": "Confidence",
+     "type": "number"
+    },
+    "dimension": {
+     "default": "none",
+     "enum": [
+      "period",
+      "estimate_type",
+      "basis",
+      "unit",
+      "vintage",
+      "attribution",
+      "value",
+      "none"
+     ],
+     "title": "Dimension",
+     "type": "string"
+    },
+    "explanation": {
+     "maxLength": 800,
+     "minLength": 1,
+     "title": "Explanation",
+     "type": "string"
+    },
+    "newer_fact": {
+     "default": "none",
+     "enum": [
+      "a",
+      "b",
+      "none"
+     ],
+     "title": "Newer Fact",
+     "type": "string"
+    },
+    "verdict": {
+     "enum": [
+      "corroborates",
+      "contradicts",
+      "superseded",
+      "context_explained",
+      "unresolved"
+     ],
+     "title": "Verdict",
+     "type": "string"
+    }
+   },
+   "required": [
+    "verdict",
+    "explanation"
+   ],
+   "title": "Verdict",
+   "type": "object"
+  }
+ },
+ "response": {
+  "dimension": "attribution",
+  "explanation": "Fact A is total revenue from services (\"FY24 revenue from services\"), whereas Fact B is a specific segment revenue (\"Revenues from cross-border services\"). They refer to different revenue categories.",
+  "newer_fact": "none",
+  "verdict": "context_explained"
+ },
+ "usage": {
+  "input_tokens": 752,
+  "output_tokens": 78
+ }
+}

@@ -1,0 +1,444 @@
+{
+ "key": "5a364462bf86d451ec4184cc0639f0f69820e72b4efa2e5fe1df993575e017c8",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "bdddc9c8e7041ca6d6713e3271c7636e3358788634c29b795bbb750c4eb7e45d",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 22, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Weighted average cost of acquisition per Equity Share, Active Customers, Restated loss for the period / year, revenue from services, Pin-code reach, Team size, PTL freight tonnage, Adjusted EBITDA margin, express parcel shipments, Adjusted EBITDA, Infrastructure, Number of preference shares acquired, Total revenue from customers, NWC days, EBITDA margin, Restated other comprehensive income / (loss) for the period / year, EBITDA, Total equity and liabilities, Total equity, Gateways, Automated sort centers, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, Diluted loss per share, Service EBITDA margin, Service EBITDA, Express Parcel revenue, PTL freight revenue, Total income, Total liabilities, Networth, TL revenue, Amount underwritten, Authorised share capital, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, Restated total comprehensive loss for the period / year, express parcel shipments since inception, organized players market share, Count of 46-ft tractors, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Equity Shares held, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Investments in technology, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Aggregate compensation, Cost of performance-based options, Sortation capacity utilisation, Freight, handling and servicing cost, Revenue from customers, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Fulfilment centres aggregate floor area, Attrition of Key Managerial Personnel, Rated Automated Sort Capacity, Total cash balance, Revenue CAGR, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Total expenses, PTL freight tonnage since inception, Fresh Issue volume, PTL YoY revenue growth, TL YoY revenue growth, Other income, Offer for Sale size, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Gross termination compensation amount, Applications count, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Average shipments daily per centre, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Installed solar power capacity, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, Goodwill, Interest income, Sustainably sourced inputs share, Logistics intensity, Term loan, Packing material, Rent, Stores and spares, Contractual to permanent absorption count, Employees engaged across on-roll, off-roll, and agents, savings across lanes and vehicles, Active ESOP holders count, Active routes, subsidiary loan and advance utilisation threshold amount, subsidiary loan and advance utilisation threshold percentage, Consumer cases filed against Company amount, FedEx facilities aggregate floor area, exceptional items - allowance for doubtful debts\n\nTEXT LAYER:\nThe Scheme is subject to necessary statutory and regulatory \napprovals including the approvals of the Delhi Bench of \nNational Company Law Tribunal, the shareholders and \ncreditors of each of the Companies, as directed by the NCLT.\nTransfer to Reserves and Dividend\nAs your Company does not have profits in FY24, no amount \nis proposed to be transferred to reserves, except as required \nunder the statute. Accordingly, the Board of Directors does not \nrecommend any dividend for FY24.\nIn terms of Regulation 43A of the SEBI Listing Regulations, \nthe dividend distribution policy is available on the Company’s \nwebsite at https://www.delhivery.com/wp-content/\nuploads/2022/05/Dividend-Distribution-Policy_Final.pdf\nUtilisation of proceeds of Initial Public Offer \n(“IPO”) of Equity Shares\nYour Company floated an IPO of its equity shares during FY23. \nThere has been no deviation in the use of proceeds of the \nIPO from the objects stated in the Offer document as per \nRegulation 32 of the SEBI Listing Regulations.\nAxis Bank Limited was appointed as the Monitoring Agency \nin terms of Regulation 41(2) of the SEBI (Issue of Capital & \nDisclosure Requirements) Regulations, 2018, as amended, to \nmonitor the utilisation of IPO proceeds and the Company has \nobtained a monitoring report for every quarter and submitted \nthe same with the stock exchanges where the equity shares \nof the Company are listed, as required under the SEBI \nListing Regulations.\nThe statement of deviation/variation in utilisation of funds and \nthe Monitoring Agency Report is available at the Company’s \nwebsite at https://www.delhivery.com/company/investor-\nrelations.\nDetails of utilisation of IPO proceeds is given below:\n(₹ in million)\nSl. \nNo.\nObjects of fundraising\nOriginal allocation\nModified \nallocation\nFunds utilised as \non March 31, 2024\n1\nOrganic Growth Initiatives\nBuilding scale in existing business lines and developing new adjacent \nbusiness lines\n1,600.00\nNo change\n1,600.00\nExpanding network infrastructure of your Company\n13,600.00\nNo change\n12,013.371\nUpgrading and improving proprietary logistics operating system of your \nCompany\n4,800.00\nNo change\n4,800.00\n2\nFunding inorganic growth through acquisition and other strategic \nInitiatives\n10,000.00\nNo change\n911.16\n3\nGeneral Corporate purposes\n8,703.00\n8,863.032\n6,464.02\nTotal\n38,703.00\n25,788.55\n1 Lease payment also includes payment towards security deposit of ₹ 499.02 million from the date of IPO till the period ended March 31, 2024.\n2 During the quarter ended September 30, 2023, un-utilised IPO expenses of ₹ 160.03 million had been transferred to net IPO proceeds, thereby \nincreasing it from ₹ 8,703.00 million to ₹ 8,863.03 million and earmarked for general corporate purposes in accordance with the Objects of the Offer.\nChange in the nature of Business\nThere has been no change in the nature of business of your Company during the year under review.\nMaterial Changes and Commitment affecting financial position of the Company\nThere were no material changes between the end of the financial year and the date of this report, affecting the financial position \nof your Company other than issue of fresh equity shares pursuant to exercise of stock options by the employees as detailed \nin this report.\nShare Capital\nA.\t Authorised Share Capital\n\t\n\u0007There has been no change in the authorised share capital of the Company during FY24. The authorised share capital as \non March 31, 2024, was ₹1,342,535,980 divided into:\n\t\ny 873,502,280 Equity Shares of ₹1 each;\n\t\ny 300,000 Preference Shares of ₹10 each; and\n\t\ny 4,660,337 Preference Shares of ₹100 each.\nB.\t\n\u0007Changes in Issued, Subscribed and Paid-up Share Capital\n\t\n\u0007During FY24, the changes in Issued, Subscribed and Paid-up Share Capital of your Company are as follows:\nParticulars\nNo. of shares\nAmount (in K)\nIssued, Subscribed and Paid-up Equity Share Capital as on April 01, 2023\n728,715,149\n728,715,149\nEquity shares allotted pursuant to exercise of stock options by the employees during FY24\n8,070,106\n8,070,106\nIssued, Subscribed and Paid-up Equity Share Capital as on March 31, 2024\n736,785,255\n736,785,255\n\t\nDetails of equity shares issued/allotted during FY24 are as under:\nSI. \nNo.\nDate of allotment\nMode of issue/allotment\nNo. of equity \nshares allotted\nFace Value per \nequity share (in K)\nNature of \nconsideration\n1.\nApril 06, 2023\nEmployee Stock Options Exercised\n158,855\n1\nCash\n2.\nMay 06, 2023\nEmployee Stock Options Exercised\n385,739\n1\nCash\n3.\nJune 08, 2023\nEmployee Stock Options Exercised\n1,941,454\n1\nCash\n4.\nJuly 10, 2023\nEmployee Stock Options Exercised\n1,728,427\n1\nCash\n5.\nAugust 08, 2023\nEmployee Stock Options Exercised\n197,846\n1\nCash\n6.\nSeptember 11, 2023\nEmployee Stock Options Exercised\n709,556\n1\nCash\n7.\nOctober 09, 2023\nEmployee Stock Options Exercised\n599,172\n1\nCash\n8.\nNovember 07, 2023\nEmployee Stock Options Exercised\n113,136\n1\nCash\n9.\nDecember 07, 2023 \nEmployee Stock Options Exercised\n493,231\n1\nCash\n10.\nJanuary 08, 2024\nEmployee Stock Options Exercised\n1,344,686\n1\nCash\n11.\nFebruary 08, 2024\nEmployee Stock Options Exercised\n184,502\n1\nCash\n12.\nMarch 08, 2024\nEmployee Stock Options Exercised\n213,502\n1\nCash\nTotal\n8,070,106\n\t\nAfter the closure of the reporting period, your Company has allotted equity shares as per following details:\nSI. \nNo.\nDate of allotment\nMode of issue/allotment\nNo. of equity \nshares allotted\nFace Value per \nequity share (in K)\nNature of \nconsideration\n1.\nApril 10, 2024\nEmployee Stock Options Exercised\n126,118\n1\nCash\n2.\nMay 09, 2024\nEmployee Stock Options Exercised\n532,567\n1\nCash\n3.\nJune 10, 2024\nEmployee Stock Options Exercised\n1,106,060\n1\nCash\n\t\n\u0007As on the date of this report, your Company’s paid-up \nequity share capital amounts to ₹ 738,550,000/-.\n\t\n\u0007Alteration of Memorandum of Association (“MOA”) \n& Articles of Association (“AOA”)\n\t\n\u0007During the year under review, there was no alteration in \nMOA and AOA of your Company.\n\t\nEmployees’ Stock Option Plans (“ESOPs”)\n\t\n\u0007Your Company has four ESOPs, namely, Delhivery \nEmploy",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Authorised share capital",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "There has been no change in the authorised share capital of the Company during FY24. The authorised share capital as \non March 31, 2024, was ₹1,342,535,980 divided into:",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "1,342,535,980",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Authorised share capital - Equity Shares",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "y 873,502,280 Equity Shares of ₹1 each;",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "873,502,280",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Authorised share capital - Preference Shares (₹10 each)",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "y 300,000 Preference Shares of ₹10 each; and",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "300,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Authorised share capital - Preference Shares (₹100 each)",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "y 4,660,337 Preference Shares of ₹100 each.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "4,660,337",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Issued, Subscribed and Paid-up Equity Share Capital",
+    "entity": "Delhivery Limited",
+    "period": "as on April 01, 2023",
+    "period_end": "2023-04-01",
+    "period_start": "2023-04-01",
+    "quote": "Issued, Subscribed and Paid-up Equity Share Capital as on April 01, 2023\n728,715,149\n728,715,149",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "728,715,149",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity shares allotted pursuant to exercise of stock options",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Equity shares allotted pursuant to exercise of stock options by the employees during FY24\n8,070,106\n8,070,106",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "8,070,106",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Issued, Subscribed and Paid-up Equity Share Capital",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Issued, Subscribed and Paid-up Equity Share Capital as on March 31, 2024\n736,785,255\n736,785,255",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "736,785,255",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Paid-up equity share capital",
+    "entity": "Delhivery Limited",
+    "period": "as of the date of report",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "As on the date of this report, your Company’s paid-up \nequity share capital amounts to ₹ 738,550,000/-.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "738,550,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Funds utilised for Organic Growth Initiatives (Building scale...)",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Building scale in existing business lines and developing new adjacent \nbusiness lines\n1,600.00\nNo change\n1,600.00",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,600.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Funds utilised for Organic Growth Initiatives (Expanding network infrastructure...)",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Expanding network infrastructure of your Company\n13,600.00\nNo change\n12,013.37",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "12,013.37",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...)",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Upgrading and improving proprietary logistics operating system of your \nCompany\n4,800.00\nNo change\n4,800.00",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "4,800.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Funds utilised for Funding inorganic growth through acquisition...",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Funding inorganic growth through acquisition and other strategic \nInitiatives\n10,000.00\nNo change\n911.16",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "911.16",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Funds utilised for General Corporate purposes",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "General Corporate purposes\n8,703.00\n8,863.03\n6,464.02",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "6,464.02",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total funds utilised from IPO proceeds",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total\n38,703.00\n25,788.55",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "25,788.55",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5305,
+  "output_tokens": 2162
+ }
+}

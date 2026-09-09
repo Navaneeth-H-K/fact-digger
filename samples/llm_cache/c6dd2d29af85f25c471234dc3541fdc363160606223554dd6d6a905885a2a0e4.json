@@ -1,0 +1,582 @@
+{
+ "key": "c6dd2d29af85f25c471234dc3541fdc363160606223554dd6d6a905885a2a0e4",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "a3ef7db9ce00db00a3f62707ffe53c4ea52a7d0c83052ac8418c7187e20c66ee",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-delhivery-q4-fy24-earnings-presentation.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-05-01; fiscal year starts in month 4.\nPage index 23, printed label 23.\nExisting attribute vocabulary (reuse a name when it means the same thing): revenue from services, Adjusted EBITDA, Adjusted EBITDA margin, PTL freight tonnage, NWC days, express parcel shipments, Capital Expenditure as % of Revenue from Services, Supply Chain Services revenue, Express Parcel revenue, PTL freight revenue, TL revenue, EBITDA, EBITDA margin, revenue from services growth rate, Active Customers, Cross Border Services revenue, Pin-code reach, Revenue from customers, Infrastructure, Total cash balance, TL YoY revenue growth, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Total assets, Closing cash balance at the end of the year, Net change in cash, Cash & cash equivalents at the end of the year, Cash generated from / (used in) operations, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Total equity and liabilities, Total equity, Express parcel shipments growth rate, PTL freight tonnage growth rate, PTL YoY revenue growth, Total liabilities, Term loan, Networth, Automated sort centers, Fleet size - daily average, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Corporate overheads, CWIP, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Express Parcel revenue growth rate, Express parcel shipments since inception, PTL freight tonnage since inception, FY23 PAT loss, Gateways, PAT loss reduction, Team size\n\nTEXT LAYER:\nCost drivers – Q4 FY24 vs Q3 FY24\n(1)\nOn reported basis\n(2)\nBreakup as per notes to accounts\n₹ Cr\nQ4 FY22\nQ4 FY23\nQ3 FY24\nQ4 FY24\nFY23\nFY24\nFreight, Handling and Servicing Cost(1,2)\n1,502\n1,372\n1,572\n1,519\n5,669\n5,971\n% of Revenue from services(2)\n72.5%\n73.8%\n71.6%\n73.2%\n78.5%\n73.3%\nLine haul expenses\n724\n616\n696\n708\n2,517\n2,684\n% of revenue\n34.5%\n33.1%\n31.7%\n34.1%\n34.8%\n33.0%\nVehicle rental expenses\n419\n384\n434\n391\n1,523\n1,603\n% of revenue\n20.2%\n20.6%\n19.8%\n18.8%\n21.1%\n19.7%\nContractual manpower expenses\n222\n206\n268\n254\n893\n995\n% of revenue\n10.7%\n11.1%\n12.2%\n12.2%\n12.4%\n12.2%\nRent\n47\n65\n66\n76\n269\n282\n% of revenue\n2.3%\n3.5%\n3.0%\n3.6%\n3.7%\n3.5%\nSecurity expenses\n22\n21\n21\n21\n91\n85\n% of revenue\n1.0%\n1.2%\n1.0%\n1.0%\n1.3%\n1.0%\nPower, fuel & water charges\n39\n37\n52\n47\n168\n186\n% of revenue\n1.9%\n2.0%\n2.4%\n2.3%\n2.3%\n2.3%\nPacking material\n10\n6\n4\n3\n25\n19\n% of revenue\n0.5%\n0.3%\n0.2%\n0.2%\n0.3%\n0.2%\nStores and spares\n8\n4\n3\n2\n19\n17\n% of revenue\n0.4%\n0.2%\n0.1%\n0.1%\n0.3%\n0.2%\nLost shipment expense (net)\n10\n32\n27\n18\n163\n101\n% of revenue\n0.5%\n1.7%\n1.2%\n0.9%\n2.3%\n1.2%\n23\nNote: Due to rounding off, totals may not correspond with the sum of individual figures\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Freight, Handling and Servicing Cost",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "1,519",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "1,519",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Line haul expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "708",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "708",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Vehicle rental expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "391",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "391",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Contractual manpower expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "254",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "254",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Rent",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "76",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "76",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Security expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "21",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "21",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Power, fuel & water charges",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "47",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "47",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Packing material",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "3",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Stores and spares",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "2",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Lost shipment expense (net)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Q4 FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-01-01",
+    "quote": "18",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "18",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Freight, Handling and Servicing Cost",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "5,971",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "5,971",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Line haul expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "2,684",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "2,684",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Vehicle rental expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "1,603",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "1,603",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Contractual manpower expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "995",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "995",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Rent",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "282",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "282",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Security expenses",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "85",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "85",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Power, fuel & water charges",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "186",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "186",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Packing material",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "19",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "19",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Stores and spares",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "17",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "17",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Lost shipment expense (net)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "101",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "101",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 3605,
+  "output_tokens": 2474
+ }
+}

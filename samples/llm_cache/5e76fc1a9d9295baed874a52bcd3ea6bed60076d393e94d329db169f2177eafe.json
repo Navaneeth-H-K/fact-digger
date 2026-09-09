@@ -1,0 +1,503 @@
+{
+ "key": "5e76fc1a9d9295baed874a52bcd3ea6bed60076d393e94d329db169f2177eafe",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "fc8466bb60a3e58d8b6b3871cafda94db60a5c965e235b32d20eee006677de4f",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 21, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Weighted average cost of acquisition per Equity Share, Active Customers, Restated loss for the period / year, revenue from services, Pin-code reach, Team size, PTL freight tonnage, Adjusted EBITDA margin, express parcel shipments, Adjusted EBITDA, Infrastructure, Number of preference shares acquired, Total revenue from customers, NWC days, EBITDA margin, Restated other comprehensive income / (loss) for the period / year, EBITDA, Total equity and liabilities, Total equity, Gateways, Automated sort centers, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, Diluted loss per share, Service EBITDA margin, Service EBITDA, Express Parcel revenue, PTL freight revenue, Total income, Total liabilities, Networth, TL revenue, Amount underwritten, Authorised share capital, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, Restated total comprehensive loss for the period / year, express parcel shipments since inception, organized players market share, Count of 46-ft tractors, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Equity Shares held, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Investments in technology, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Aggregate compensation, Cost of performance-based options, Sortation capacity utilisation, Freight, handling and servicing cost, Revenue from customers, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Fulfilment centres aggregate floor area, Attrition of Key Managerial Personnel, Rated Automated Sort Capacity, Total cash balance, Revenue CAGR, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Total expenses, PTL freight tonnage since inception, Fresh Issue volume, PTL YoY revenue growth, TL YoY revenue growth, Other income, Offer for Sale size, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Gross termination compensation amount, Applications count, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Average shipments daily per centre, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Installed solar power capacity, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, Goodwill, Interest income, Sustainably sourced inputs share, Logistics intensity, Term loan, Packing material, Rent, Stores and spares, Contractual to permanent absorption count, Employees engaged across on-roll, off-roll, and agents, savings across lanes and vehicles, Active ESOP holders count, Active routes, subsidiary loan and advance utilisation threshold amount, subsidiary loan and advance utilisation threshold percentage, Consumer cases filed against Company amount, FedEx facilities aggregate floor area, exceptional items - allowance for doubtful debts\n\nTEXT LAYER:\nDirectors’ Report\nDear Members,\nDelhivery Limited (“Company”/“Delhivery”)\nThe Board of Directors (“the Board”) present the 13th Annual Report of your Company along with the Audited Financial \nStatements for the financial year (“FY”) ended March 31, 2024 (hereinafter referred as “FY24” or “during the year”).\nFinancial Performance\nKey highlights of the financial performance of your Company for the FY24 are as under:\n(₹ in Million)\nParticulars\nStandalone – FY ended\nConsolidated – FY ended\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nRevenue from Operations\n74,540.82\n66,586.61\n81,415.38\n72,253.01\nOther Income\n4,753.49\n3,311.74\n4,526.96\n3,049.48\nTotal Income\n79,294.31\n69,898.35\n85,942.34\n75,302.49\nLess: Total expenses\n80,235.00\n77,908.26\n88,249.67\n85,968.83\nLoss before exceptional items, share of profit of an \nassociate and tax\n(940.69)\n(8,009.91)\n(2,307.33)\n(10,666.34)\nLess: Exceptional Items\n738.99\n113.11\n224.10\n-\nLoss before tax and share of profit of associate\n(1,679.68)\n(8,123.02)\n(2,531.43)\n(10,666.34)\nLess: Tax Expense\n-\n-\n47.38\n(452.81)\nLoss after tax before share of profit of associate\n(1,679.68)\n(8,123.02)\n(2,578.81)\n(10,213.53)\nAdd: Share of profit of associate (net)\n-\n-\n86.95\n135.74\nLoss for the year\n(1,679.68)\n(8,123.02)\n(2,491.86)\n(10,077.79)\nOther Comprehensive (loss)/Income\n46.29\n(8.87)\n41.84\n12.30\nTotal Comprehensive Loss for the year\n(1,633.39)\n(8,131.89)\n(2,450.02)\n(10,065.49)\nThe Standalone and Consolidated Financial Statements of \nyour Company for FY24 are prepared in compliance with the \napplicable provisions of the Companies Act, 2013 (“the Act”), \nIndian Accounting Standards(“Ind AS”) and the Securities and \nExchange Board of India (Listing Obligations and Disclosure \nRequirements) Regulations, 2015, as amended (“SEBI Listing \nRegulations”).\n\t\ny The revenue from operations on standalone basis for FY24 \nstood at ₹ 74,540.82 million as against ₹66,586.61 million \nfor FY23, registering a growth of 11.95%. Whereas the loss \nfor FY24 stood at ₹ 1,679.68 million as against ₹8,123.02 \nmillion for FY23, a reduction of loss by 79.32%.\n\t\ny The revenue from operations on consolidated basis for \nFY24 stood at ₹ 81,415.38 million as against ₹72,253.01 \nmillion for FY23, registering a growth of 12.68%. Whereas \nthe loss for FY24 stood at ₹ 2,491.86 million as against \n₹10,077.79 million for FY23, a reduction of loss by 75.27%.\n\t\ny The increase in revenue from operations is on account of \nincrease in revenue from our Express Parcel, Part Truck \nLoad (“PTL”) services, Truck Load (“TL”) services and \nother services.\n\t\ny The increase in expenses is on account of increase in \nfreight, handling and servicing costs, employee benefit \nexpenses and other expenses attributable to the increase \nin revenues.\nState of affairs of the Company/Business \noperations\nAs of March 31, 2024, your Company provided logistics \nand supply chain solutions to a diverse base of over 33,000 \nactive customers such as e-commerce marketplaces, \ndirect-to-consumer e-tailers and enterprises and small \nand medium enterprises (“SMEs”) across several verticals \nsuch as fast-moving consumer goods (“FMCG”), consumer \ndurables, consumer electronics, lifestyle, retail, automotive \nand manufacturing.\nThis is achieved through high-quality logistics infrastructure \nand network engineering, a vast network of domestic and \nglobal partners and significant investments in automation, \nall of which are orchestrated by our self-developed logistics \noperating system that drives network synergies within and \nacross our services and enhances our value proposition \nto customers.\nThe key differentiators of business of your Company are:\n\t\ny Integrated solutions: Your Company provides a full range of \nlogistics services, including express parcel delivery, heavy \ngoods delivery, PTL freight, TL freight, warehousing, supply \nchain solutions, cross-border express and freight services \nand supply chain software, along with value added services \nsuch as e- commerce return services, payment collection \nand processing and fraud detection.\n\t\ny Proprietary logistics operating system: In-house logistics \ntechnology stack is built by your Company to meet the \ndynamic needs of modern supply chains. Your Company \nhas over 80 applications through which your Company \nprovides various services, orchestrated by the platform to \ngovern transaction flows from end to end. The platform of \nyour Company is designed as a set of foundational layers, \nlibraries and Application Programming Interfaces (“APIs”) \nthat form the building blocks for logistics applications \nand provides a configurable framework and tools to \nenable both internal and external developers to build \ncustom applications.\n\t\ny Data Intelligence: Your Company collects, structures, \nstores and processes vast amounts of transaction and \nenvironmental data to guide real-time operational decision \nmaking. We have used machine learning extensively to build \nvarious capabilities, including intelligent geo-location, \nnetwork design, route optimisation, load aggregation, \nExpected Time of Arrival (“ETA”) prediction, product \nidentification and fraud detection, which enabled us to \nexecute operations in an efficient and precise manner.\n\t\ny Automation: Your Company operated 29 fully and semi \nautomated sortation centres and 111 gateways across \nIndia as of March 31, 2024. We have a Rated Automated \nSort Capacity of 7.1 million shipments per day as of March \n31, 2024. We have automated material handling systems \nat gateways in Bhiwandi (Maharashtra), Tauru (Haryana) \nand Bengaluru (Karnataka). Your Company has expanded \nthe gateway infrastructure in Bhiwandi to 750,000 sq ft \nand is expanding to 1,000,000 sq ft in Bengaluru, which \nwill enable your Company to service the increasing demand \nfor its services. This automation, combined with system \ndirected floor operations, path expectation algorithms and \nmachine-vision guided truck loading systems, together \nenable the facility staff to be mor",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Revenue from Operations",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Revenue from Operations 74,540.82 66,586.61 81,415.38 72,253.01",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "74,540.82",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Revenue from Operations",
+    "entity": "Delhivery Limited",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Revenue from Operations 74,540.82 66,586.61 81,415.38 72,253.01",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "81,415.38",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other income",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Other Income 4,753.49 3,311.74 4,526.96 3,049.48",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "4,753.49",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other income",
+    "entity": "Delhivery Limited",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Other Income 4,753.49 3,311.74 4,526.96 3,049.48",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "4,526.96",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total income",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total Income 79,294.31 69,898.35 85,942.34 75,302.49",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "79,294.31",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total income",
+    "entity": "Delhivery Limited",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total Income 79,294.31 69,898.35 85,942.34 75,302.49",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "85,942.34",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total expenses",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Less: Total expenses 80,235.00 77,908.26 88,249.67 85,968.83",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "80,235.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total expenses",
+    "entity": "Delhivery Limited",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Less: Total expenses 80,235.00 77,908.26 88,249.67 85,968.83",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "88,249.67",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Loss for the year (1,679.68) (8,123.02) (2,491.86) (10,077.79)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(1,679.68)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "entity": "Delhivery Limited",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Loss for the year (1,679.68) (8,123.02) (2,491.86) (10,077.79)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(2,491.86)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated total comprehensive loss for the period / year",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total Comprehensive Loss for the year (1,633.39) (8,131.89) (2,450.02) (10,065.49)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(1,633.39)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated total comprehensive loss for the period / year",
+    "entity": "Delhivery Limited",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total Comprehensive Loss for the year (1,633.39) (8,131.89) (2,450.02) (10,065.49)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(2,450.02)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Active Customers",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "As of March 31, 2024, your Company provided logistics and supply chain solutions to a diverse base of over 33,000 active customers",
+    "quote_source": "text",
+    "scale": "thousand",
+    "unit": "None",
+    "value": "33",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Applications count",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Your Company has over 80 applications through which your Company provides various services",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "80",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Automated sort centers",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Your Company operated 29 fully and semi automated sortation centres and 111 gateways across India as of March 31, 2024.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "29",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Gateways",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Your Company operated 29 fully and semi automated sortation centres and 111 gateways across India as of March 31, 2024.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "111",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Rated Automated Sort Capacity",
+    "entity": "Delhivery Limited",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "We have a Rated Automated Sort Capacity of 7.1 million shipments per day as of March 31, 2024.",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "shipments per day",
+    "value": "7.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Fulfilment centres aggregate floor area",
+    "entity": "Delhivery Limited",
+    "measurement_basis": "Bhiwandi gateway infrastructure",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Your Company has expanded the gateway infrastructure in Bhiwandi to 750,000 sq ft",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "sq ft",
+    "value": "750,000",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5201,
+  "output_tokens": 2717
+ }
+}

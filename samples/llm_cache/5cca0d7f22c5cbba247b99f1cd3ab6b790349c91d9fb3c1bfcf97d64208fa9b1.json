@@ -1,0 +1,406 @@
+{
+ "key": "5cca0d7f22c5cbba247b99f1cd3ab6b790349c91d9fb3c1bfcf97d64208fa9b1",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "fab5479ca24c0541c820a40b36bf313c10b27c0eaf3b056370060c37142bf840",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 56, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Active Customers, Restated loss for the period / year, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Automated sort centers, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Total Compensation, Revenue from contracts with customers, Networth, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Count of 46-ft tractors, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Board members count, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Other income, Investments in technology, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, No. of ESOPs vested as on March 31, 2024, Number of days of accounts payables, Weighted average cost of acquisition, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Number of dealers/distributors to whom sales are made, Right of use asset, Consolidated Fees paid to Statutory Auditors, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Stock Code, private consumption expenditure growth rate, Contractual manpower expenses, Deferred tax credit, Current tax, Sales to dealers/distributors as % of total sales, Net debt, direct spend of logistics sector, No. of ESOPs exercised during FY24\n\nTEXT LAYER:\n5.\t\nReturn to work and Retention rates of permanent employees and workers that took parental leave.\nGender\nPermanent employees\nPermanent workers\nReturn to work rate\nRetention rate\nReturn to work rate\nRetention rate\nMale\n94.65%\n93.42%\n80.00%\n92.00%\nFemale\n90.48%\n83.58%\n93.41%\n80.00%\nTotal\n94.35%\n92.76%\n92.71%\n91.43%\n6.\t\n\u0007Is there a mechanism available to receive and redress grievances for the following categories of employees and \nworker? If yes, give details of the mechanism in brief.\nYes/No\n(If Yes, then give details of the mechanism in brief)\nPermanent Workers\nEmployees can reach out to the HR Helpline or submit grievances via the Employee Grievance \nRedressal email help desk. Alternatively they can scan a QR code, placed at all facilities. The HR \nHelpline & QR code system are designed to assist employees with a wide range of organisational \ninformation. Employees can directly call the helpline for any HR-related inquiries or to address \ngrievances, including but not limited to workplace issues, compensation & benefits, workplace \nsafety, HR compliance & payroll matters.\nThe support is available to all employees, regardless of geography, function or designation, \nincluding off-roll employees. Additionally, in line with our zero-tolerance policy for sexual \nharassment, the ‘Anti-Sexual Harassment Policy’ of the Company outlines the procedures for \npreventing & addressing any instances of sexual harassment within the organisation.\nOur Whistleblower Policy provides a confidential platform for employees & workers to report \nconcerns related to malpractice or impropriety. For more details, please refer to our Whistleblower \nPolicy document which can be accessed at the link below - \nhttps://www.delhivery.com/wp-content/uploads/2023/03/Delhivery_Whistle-Blower-Policy.pdf\nOther than Permanent Workers\nPermanent Employees\nOther than Permanent Employees\n7.\t\nMembership of employees and worker in association(s) or Unions recognised by the listed entity:\n\t\nEmployees of the Company are not part of any association or union. \n8.\t\nDetails of training given to employees and workers:\nCategory\nFY24\nFY23\nTotal (A)\nOn Health and \nsafety measures\nOn Skill \nupgradation\nTotal (A)\nOn Health and \nsafety measures\nOn Skill \nupgradation\nNo. (B)\n% (B/A)\nNo. (C)\n% (C/A)\nNo. (B)\n% (B/A)\nNo. (C)\n% (C/A)\nEmployees\nMale\n17,121\n2,827\n16.51%\n13,351\n77.98%\n14,398\n4,968\n34.50%\n7,994\n55.52%\nFemale\n1,483\n178\n12.00%\n725\n48.89%\n1,011\n182\n18.00%\n327\n32.34%\nTotal\n18,604\n3,005\n16.15%\n14,076\n75.67%\n15,409\n5,150\n33.42%\n8,321\n54.00%\nWorkers\nMale\n41,047\n15,042\n36.64%\n8,496\n20.70%\n39,390\n14,521\n36.86%\n8,587\n21.80%\nFemale\n4,139\n2,184\n52.77%\n1,834\n44.31%\n2,508\n1,544\n61.56%\n422\n16.82%\nTotal\n45,186 17,226** 38.12%\n10,330\n22.86%\n41,898* 16,065** 38.34%\n9,009\n21.50%\n\t\n* The details for FY23 (workers) is revised based on change in categorisation of “workers” \n\t\n** Incorporated workers safety training conducted by the security team for FY23 & FY24.\n9.\t\nDetails of performance and career development reviews of employees and worker:\n\t\nOur performance management system is designed keeping in mind:\n\t\ny Real time & flexible to changing business needs – Ability to seek/provide feedback on real time basis rather than just \nyear-end\n\t\ny Customised to roles – Scorecard based for standard KRA/KPI roles and Log-based goal setting for others \n\t\ny Enable Collaboration & Multi-rater feedback – Ability to assign collaborators or co-owners on particular goals\n\t\ny Ensure Goal Alignment – Ensuring individuals have visibility or understanding of functional & organisational goals\n\t\n\u0007For last mile field executives who are categorised under workers, we analyse their performance on a weekly basis & engage \nwith them to improve performance. We also provide them opportunities to learn in-house operations & many of them get \npromoted for entry level positions in DC operations.\nCategory\nFY24\nFY23\nTotal (A)\nNo. (B)\n% (B/A)\nTotal (C)\nNo. (D)\n% (D/C)\nEmployees\nMale\n17,071\n14,704\n86.13%\n14,398\n12,408\n86.18%\nFemale\n1,455\n1,126\n77.39%\n1,011\n793\n78.44%\nTotal\n18,526*\n15,830\n85.44%\n15,409\n13,201\n85.67%\nWorkers\nMale\n5,613\n2,433\n43.35%\n6,272\n2,050\n32.68%\nFemale\n285\n25\n8.77%\n79\n66\n83.54%\nTotal\n5,898*\n2,458\n41.68%\n6,351\n2,116\n33.32%\n\t\n* \u0007Figures are for on-roll & permanent workforce in the organisation. For performance management, the offroll manpower is managed through \nexternal vendors.\n10.\t Health and safety management system:\n\t\na.\t\n\u0007Whether an occupational health and safety management system has been implemented by the entity? (Yes/No). If \nyes, the coverage of such system?\n\t\n\t\n\u0007Yes, occupational health & safety management system has been implemented by Delhivery & has 100% coverage \nfor all facilities & employees.\n\t\nb.\t\n\u0007What are the processes used to identify work-related hazards and assess risks on a routine and non-routine basis \nby the entity?\n\t\n\t\n\u0007A detailed Hazard Identification & Risk Assessment (HIRA) is conducted periodically, in which potential hazards are \nidentified. These hazards are either mitigated with immediate effect or the concerned team takes charge & carries \nout steps to mitigate the risk in a time bound manner. Fire Risk, near miss, environmental related risks are some of \nthe aspects which are being monitored during the audits.\n\t\nc.\t\n\u0007Whether you have processes for workers to report the work related hazards and to remove themselves from such \nrisks. (Y/N)\n\t\n\t\nYes\n\t\ny Suggestion boxes have been put near the reception areas of warehouses to provide suggestions to improve health \n& safety management system.\n\t\ny All employees have the freedom to provide their valuable suggestions to the Company for which an HR helpline \nhas been setup.\n\t\ny Escalation matrix for complaints has been setup.\n\t\nd.\t\nDo the employees/worker of the entity have access to non-occupational medical and healthcare services? (Yes/No)\n\t\n\t\n\u0007Yes, Group Medical Coverage is provided to all on roll employees/workers of the company. This coverage provides \na comprehensive Delhivery sponsored insur",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Return to work rate",
+    "entity": "Permanent employees Male",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Male 94.65% 93.42% 80.00% 92.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "94.65",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Retention rate",
+    "entity": "Permanent employees Male",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Male 94.65% 93.42% 80.00% 92.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "93.42",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Return to work rate",
+    "entity": "Permanent workers Male",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Male 94.65% 93.42% 80.00% 92.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "80.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Retention rate",
+    "entity": "Permanent workers Male",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Male 94.65% 93.42% 80.00% 92.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "92.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Return to work rate",
+    "entity": "Permanent employees Female",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Female 90.48% 83.58% 93.41% 80.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "90.48",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Retention rate",
+    "entity": "Permanent employees Female",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Female 90.48% 83.58% 93.41% 80.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "83.58",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Return to work rate",
+    "entity": "Permanent workers Female",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Female 90.48% 83.58% 93.41% 80.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "93.41",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Retention rate",
+    "entity": "Permanent workers Female",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Female 90.48% 83.58% 93.41% 80.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "80.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Return to work rate",
+    "entity": "Permanent employees Total",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total 94.35% 92.76% 92.71% 91.43%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "94.35",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Retention rate",
+    "entity": "Permanent employees Total",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total 94.35% 92.76% 92.71% 91.43%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "92.76",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Return to work rate",
+    "entity": "Permanent workers Total",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total 94.35% 92.76% 92.71% 91.43%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "92.71",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Retention rate",
+    "entity": "Permanent workers Total",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total 94.35% 92.76% 92.71% 91.43%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "91.43",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5439,
+  "output_tokens": 1526
+ }
+}

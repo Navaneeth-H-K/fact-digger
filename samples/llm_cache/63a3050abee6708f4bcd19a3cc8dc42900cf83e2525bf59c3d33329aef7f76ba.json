@@ -1,0 +1,370 @@
+{
+ "key": "63a3050abee6708f4bcd19a3cc8dc42900cf83e2525bf59c3d33329aef7f76ba",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "e4b775c5e25fe251f72f89bfb44b4a6b01923825aeb7903dd2a13e4c8fcb12ea",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 51, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Team size, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Automated sort centers, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Total Compensation, Revenue from contracts with customers, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, Networth, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Count of 46-ft tractors, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Other income, Investments in technology, allowance for doubtful debts, Amount spent for the project, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Board members count, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, market CAGR, Sortation capacity utilisation, Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, No. of ESOPs vested as on March 31, 2024, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Consolidated Fees paid to Statutory Auditors, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Stock Code, private consumption expenditure growth rate, Contractual manpower expenses, Deferred tax credit, Current tax, Net debt, direct spend of logistics sector, No. of ESOPs exercised during FY24, Foreign exchange earnings, Foreign exchange outgo, Line haul expenses, Lost shipment expense (net), Other expenses, Vehicle rental expenses, Security expenses, Total tax expense\n\nTEXT LAYER:\n22.\t Turnover rate for permanent employees and workers\n\t\n(Disclose trends for the past 3 years)\nFY24\nFY23\nFY22\nMale\nFemale\nTotal\nMale\nFemale\nTotal\nMale\nFemale\nTotal\nPermanent Employees\n35.69%\n45.15%\n36.36%\n41.93%\n43.26%\n42.02%\n33.00%\n36.82%\n33.24%\nPermanent Workers\n32.02%\n33.82%\n32.24%\n31.75%\n56.49%\n31.91%\n30.55%\n18.51%\n30.26%\nNote: Data has been calculated as per BRSR Guidelines\nV.\t\nHolding, Subsidiary and Associate Companies (including joint ventures)\n23.\t (a)\t Names of holding/subsidiary/associate companies/joint ventures\nS.\nNo.\nName of the holding/subsidiary/associate companies/joint \nventures (A)\nIndicate whether \nholding/Subsidiary/\nAssociate/Joint \nVenture\n% of shares held by \nlisted entity\nDoes the entity indicated at \ncolumn A, participate in the \nBusiness Responsibility initiatives \nof the listed entity? (Yes/No)\n1.\nSpoton Logistics Private Limited\nSubsidiary\n100.00%\nYes\n2.\nDelhivery Freight Services Private Limited\nSubsidiary\n100.00%\nYes\n3.\nOrion Supply Chain Private Limited\nSubsidiary\n100.00%\nYes\n4.\nDelhivery Cross Border Services Private Limited\nSubsidiary\n100.00%\nYes\n5.\nSpoton Supply Chain Solutions Private Limited\nSubsidiary\n100.00%\nYes\n6.\nAlgorhythm Tech Private Limited\nSubsidiary\n100.00%\nYes\n7.\nDelhivery Corp Limited, United Kingdom\nSubsidiary\n100.00%\nYes \n8.\nDelhivery USA LLC\nSubsidiary\n100.00%\nYes\n9.\nDelhivery HK Pte. Limited\nSubsidiary\n100.00%\nYes\n10.\nDelhivery Singapore Pte. Ltd.\nSubsidiary\n100.00%\nYes\n11.\nDelhivery Robotics LLC\nSubsidiary\n100.00%\nYes\n12.\nDelhivery Logistics (Shenzhen) Company Limited\nSubsidiary\n100.00%\nYes\n13.\nDelhivery Bangladesh Logistics Pvt. Ltd.\nSubsidiary\n100.00%\nYes\n14.\nFalcon Autotech Private Limited\nAssociate\n39.34%\nNo\nVI.\t CSR Details\n24.\t (i)\t\n\u0007Whether CSR is applicable as per section 135 of Companies Act, 2013: (Yes/No) Yes, CSR provisions are applicable \nbut no monetary contribution required due to lack of PAT in last 3 FYs. However, the Company voluntarily spent \n₹ 12,842,738/- in FY24 on CSR related activities.\n\t\n(ii)\t Turnover (in ₹ million): J81,415.38\n\t\n(iii)\t Net worth (in ₹ million): J85,466.74\nVII.\t Transparency and Disclosures Compliances\n25.\t \u0007Complaints/Grievances on any of the principles (Principles 1 to 9) under the National Guidelines on \nResponsible Business Conduct:\nStakeholder \ngroup from whom \ncomplaint is \nreceived\nGrievance Redressal \nMechanism in Place (Yes/No) \n(If Yes, then provide web-link \nfor grievance redress policy)\nFY24\nFY23\nNumber of \ncomplaints \nfiled during \nthe year\nNumber of \ncomplaints \npending \nresolution at \nclose of the \nyear\nRemarks\nNumber of \ncomplaints \nfiled during \nthe year\nNumber of \ncomplaints \npending \nresolution at \nclose of the \nyear\nRemarks\nCommunities\nYes\nhttps://www.delhivery.\ncom/wp-content/\nuploads/2023/04/\ncommunity_grievance_\nredressal_policy_delhivery.pdf\n0\n0\nNA\n0\n0\nNA\nInvestors & \nShareholders\nYes\nhttps://www.delhivery.com/\ncompany/investor-relations\n0\nNA\nNA\n0\nNA\nNA\nEmployees/\nWorkers\nYes.\nhttps://www.delhivery.\ncom/wp-content/\nuploads/2023/03/Delhivery_\nWhistle-Blower-Policy.pdf\n779\n0\nNA\n536\n0\nNA\nCustomers/\nClients/\nConsignees*\nYes.\nhttps://www.delhivery.com/\nsupport\n40\n40\nLegal cases \nfiled before \nvarious courts \nhave been \nconsidered.\n14\n14\nLegal cases \nfiled before \nvarious courts \nhave been \nconsidered.\nValue Chain \nPartners\nYes. \nhttps://www.delhivery.\ncom/wp-content/\nuploads/2023/03/Delhivery_\nWhistle-Blower-Policy.pdf\n15\n1\nNA\n46\n0\nNA\n* \u0007We changed the criteria in FY24 to include only legal cases which have been filed before various courts, which is why there is a change in the numbers \nfor FY23.\nBusiness Responsibility & Sustainability Report (Contd.)\nAnnual Report 2023-24\n103\n102\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Turnover rate for permanent employees",
+    "entity": "Permanent Employees",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Permanent Employees 35.69% 45.15% 36.36%",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "36.36",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Turnover rate for permanent employees (Male)",
+    "entity": "Permanent Employees",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Permanent Employees 35.69% 45.15% 36.36%",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "35.69",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Turnover rate for permanent employees (Female)",
+    "entity": "Permanent Employees",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Permanent Employees 35.69% 45.15% 36.36%",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "45.15",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Turnover rate for permanent workers",
+    "entity": "Permanent Workers",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Permanent Workers 32.02% 33.82% 32.24%",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "32.24",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Turnover rate for permanent workers (Male)",
+    "entity": "Permanent Workers",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Permanent Workers 32.02% 33.82% 32.24%",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "32.02",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Turnover rate for permanent workers (Female)",
+    "entity": "Permanent Workers",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Permanent Workers 32.02% 33.82% 32.24%",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "33.82",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Amount spent for the project",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "₹ 12,842,738/- in FY24 on CSR related activities.",
+    "scale": "one",
+    "unit": "₹",
+    "value": "12,842,738",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Revenue from operations",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "(ii) Turnover (in ₹ million): J81,415.38",
+    "scale": "million",
+    "unit": "₹",
+    "value": "81,415.38",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Networth",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "(iii) Net worth (in ₹ million): J85,466.74",
+    "scale": "million",
+    "unit": "₹",
+    "value": "85,466.74",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4780,
+  "output_tokens": 1106
+ }
+}

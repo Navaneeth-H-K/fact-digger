@@ -1,0 +1,562 @@
+{
+ "key": "9bef76a987b8436ddaac6dc108a29bb2eab356479d8759a086abb2a16158afec",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "35b9003b86b4c039c4c82cee571aead69a695e548501fe0fa9c02bc49fe19205",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 5, printed label 10.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Weighted average cost of acquisition per Equity Share, Restated loss for the period / year, Active Customers, Team size, Pin-code reach, PTL freight tonnage, revenue from services, Adjusted EBITDA margin, express parcel shipments, Infrastructure, Adjusted EBITDA, Number of preference shares acquired, Total revenue from customers, Restated other comprehensive income / (loss) for the period / year, EBITDA margin, Total equity and liabilities, Total equity, Gateways, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Automated sort centers, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, NWC days, Diluted loss per share, Express Parcel revenue, PTL freight revenue, Total income, Total liabilities, Networth, TL revenue, Amount underwritten, Authorised share capital, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, Restated total comprehensive loss for the period / year, organized players market share, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fair value loss on financial liabilities as % of revenue from contract with customers, EBITDA, Equity Shares held, express parcel shipments since inception, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Investments in technology, Age, Aggregate amount involved in litigation, Aggregate compensation, Cost of performance-based options, Sortation capacity utilisation, Fulfilment centres operated, Freight, handling and servicing cost, Revenue from customers, Other equity, Fresh Issue size, Loan given, Share capital acquired in Falcon, Fulfilment centres aggregate floor area, Attrition of Key Managerial Personnel, Fleet size - daily average, Total cash balance, Revenue CAGR, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, Reported EBITDA, Total expenses, PTL freight tonnage growth rate, PTL freight tonnage since inception, Fresh Issue volume, TL YoY revenue growth, Other income, Offer for Sale size, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Gross termination compensation amount, Applications count, Right of use asset, Rated Automated Sort Capacity, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector forecast, direct spend of logistics sector, Service EBITDA margin, Service EBITDA, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, Goodwill, PTL YoY revenue growth, Interest income, Term loan, Packing material, Rent, Stores and spares, Count of 46-ft tractors, subsidiary loan and advance utilisation threshold amount, subsidiary loan and advance utilisation threshold percentage, Consumer cases filed against Company amount, FedEx facilities aggregate floor area, exceptional items - allowance for doubtful debts, Payment or benefit to Key Managerial Personnel amount, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Gateways equipped with automated parcel sorters, Automated parcel sorters, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted\n\nTEXT LAYER:\n* FY22 is on a pro forma basis\nFinancial \nPerformance\n895\n3.2\n3.7\n1,355\n7,557 4,219\n9,414\nService EBITDA (₹ million) \nand Service EBITDA margin (%)*\nFY20 FY21 FY22 FY23 FY24\n243\n374\n1,579\n1,101\n1,429\nPart-truckload tonnage* \n(thousand tonnes)\nFY20 FY21 FY22 FY23 FY24\nExpress parcel shipment volume \n(million)\n225\n289\n582\n663\n740\nFY20 FY21 FY22 FY23 FY24\n(1,720)\n(6.2)\n(3.9)\n(3.4)\n(6.3)\n1.6\n(1,229) (2,849) (4,516)\n1,266\nEBITDA (₹ million) \nand EBITDA margin (%)*\nFY20 FY21 FY22 FY23 FY24\n(6.9)\n(9.1)\n1.0\n(5.6)\n0.9\n(2,533)\n(2,532)\n715\n(4,039)\n758\nAdjusted EBITDA (₹ million) \nand adjusted EBITDA margin (%)*\nFY20 FY21 FY22 FY23 FY24\nNet working capital days\n73\n47\n37\n38\n31\nFY20 FY21 FY22 FY23 FY24\nContribution of top-five customers \nto the overall business (%)\n41.8\n42.7\n40.5\n39.1\n38.4\nFY20 FY21 FY22 FY23 FY24\nProfit after tax (₹ million) (%)*\n(2,689)\n(2.9)\n(10.8)\n(9.0)\n(4,157) (10,808) (10,078) (2,492)\nFY20 FY21 FY22 FY23 FY24\n(13.4)\n(14.6)\n11.6\n5.8\n10.4\nRevenue from services* (₹ million)\n72,236\nFY23\n70,536\nFY22\n81,415\nFY24\n27,748\nFY20\n36,355\nFY21\n13%\n70%\n70%\n11%\n11%\n8%\n5%\n24%\n59%\n6%\n11%\n16%\n63%\n62%\n19%\n7%\n10%\n Express parcel\n PTL\n TL\n SCS\n Cross-border\n11\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n10\nDelhivery Limited\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "revenue from services",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY20",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "27,748 FY20",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "27,748",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "revenue from services",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY21",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "36,355 FY21",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "36,355",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "revenue from services",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY22",
+    "period_end": "2022-03-31",
+    "period_start": "2021-04-01",
+    "quote": "70,536 FY22",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "70,536",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "revenue from services",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "72,236 FY23",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "72,236",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "revenue from services",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "81,415 FY24",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "81,415",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY20",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "895 FY20",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "895",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY21",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "1,355 FY21",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,355",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY22",
+    "period_end": "2022-03-31",
+    "period_start": "2021-04-01",
+    "quote": "7,557 FY22",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "7,557",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "4,219 FY23",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "4,219",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "9,414 FY24",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "9,414",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY20",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "3.2 FY20",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "3.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY21",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "3.7 FY21",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "3.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY22",
+    "period_end": "2022-03-31",
+    "period_start": "2021-04-01",
+    "quote": "10.4 FY22",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "10.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "5.8 FY23",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "5.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Service EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "11.6 FY24",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "11.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY20",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "(1,720) FY20",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(1,720)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY21",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "(1,229) FY21",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(1,229)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY22",
+    "period_end": "2022-03-31",
+    "period_start": "2021-04-01",
+    "quote": "(2,849) FY22",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(2,849)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "(4,516) FY23",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(4,516)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "1,266 FY24",
+    "quote_source": "image",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,266",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "chart",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4126,
+  "output_tokens": 2452
+ }
+}

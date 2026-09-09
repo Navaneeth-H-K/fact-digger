@@ -1,0 +1,517 @@
+{
+ "key": "9b029a414d75e644a0b9cacc658d3d58f121348d1eaf7a3cd8913ddd89c9d54a",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "0017c2d62e319efe6342354f74e465d69f7291a25efef8a0447eaf189a042d35",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-india-economic-survey-2024-25-excerpt.pdf; title: unknown; publisher: Government of India; published: 2024-07-01; fiscal year starts in month 4.\nPage index 51, printed label 94.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, revenue from services, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, PTL freight tonnage, GDP growth rate, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Total borrowings, Infrastructure, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Total expenses, Value of exports, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Debt to Equity, Outstanding at the end of the year, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Deemed investment, revenue from services growth rate, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, Foreign exchange reserves, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Trade payables, Applications count, Non - current operating assets, Attrition of Key Managerial Personnel, Attrition rate, Total cash balance, Revenue CAGR, Installed solar power capacity, Gross fixed capital formation growth rate, Express delivery centers, Freight service centers, Compensation paid, CRAR, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), GNPA, PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Own Tax Revenue as % of total tax receipts, Turnover rate for permanent workers (Male), Services provided, ROA, ROE\n\nTEXT LAYER:\nEconomic Survey 2024-25\n94\nTextile exports\n3.26\t\t India’s textile sector has been a matter of pride and strength to the nation for \ncenturies. From the unique prints and weaves to the rich dyes and handwork, the textile \nsector weaves various aspects of our cultural, social, and historical heritage. India is the \nsixth-largest exporter of textiles and apparel globally. The textile and apparel industry \ncontributes 2.3 per cent of GDP, 13 per cent to industrial production, and 12 per cent to \nexports.54 It is also one of the largest employment generators after agriculture, with over \n45 million people employed directly, including many women and the rural population.55 \nAs further evidence of the inclusive nature of this industry, nearly 80 per cent of its \ncapacity is spread across Micro, Small and Medium Enterprises (MSME) clusters in the \ncountry.56\n3.27\t  \tIndia exported textile items worth USD 34 billion in 2023, with apparel \nconstituting 42 per cent of the export basket (USD 14.6 billion), followed by raw \nmaterials/semi-finished materials at 34 per cent (USD 11.7 billion) and finished non-\napparel goods at 30 per cent (USD 7.8 billion).57 Europe and the US consumed nearly \n66 per cent of India’s apparel exports, 58 per cent of finished non-apparel goods and \n12 per cent of raw materials/semi-finished materials. Other prominent destinations \ninclude the UK (8 per cent of apparel exports) and the UAE (7 per cent). \nChart III.6: India's textile exports over the past decade\n15.8\n16.6\n17.2\n17.0\n17.4\n15.7\n16.3\n12.3\n15.3\n16.8\n14.6\n18.3\n15.9\n14.0\n12.4\n13.4\n14.6\n12.5\n11.0\n17.2\n13.7\n12.6\n0\n5\n10\n15\n20\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\nUSD billion\nApparel\nSemi-finished or raw textiles\nFinished textile products\nSource – Based on analysis at the HS-6 product level, data sourced from ITC Trademap\n3.28\t Generally, the Indian textile export basket is skewed towards cotton and cotton-\nbased products. In 2023, for example, eight out of the top 10 textile exports (by value) \nconsisted of cotton and cotton-based products. For India’s major textile export category, \n54  https://www.ibef.org/industry/textiles.\n55  Ibid note 54.\n56  Invest India report, ‘Textile & Apparel Industry: The Change Agent of India’, https://tinyurl.com/mtzhfarh.\n57  Analysis based on UN COMTRADE data at the tariff level.\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "GDP contribution percentage",
+    "confidence": 1,
+    "entity": "India textile and apparel industry",
+    "estimate_type": "actual",
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "contributes 2.3 per cent of GDP, 13 per cent to industrial production, and 12 per cent to exports.54",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "2.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "industrial production contribution percentage",
+    "confidence": 1,
+    "entity": "India textile and apparel industry",
+    "estimate_type": "actual",
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "contributes 2.3 per cent of GDP, 13 per cent to industrial production, and 12 per cent to exports.54",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "13",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "exports contribution percentage",
+    "confidence": 1,
+    "entity": "India textile and apparel industry",
+    "estimate_type": "actual",
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "contributes 2.3 per cent of GDP, 13 per cent to industrial production, and 12 per cent to exports.54",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "12",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "direct employment",
+    "confidence": 1,
+    "entity": "India textile and apparel industry",
+    "estimate_type": "actual",
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "with over 45 million people employed directly, including many women and the rural population.55",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "people",
+    "value": "45",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "MSME capacity share percentage",
+    "confidence": 1,
+    "entity": "India textile sector",
+    "estimate_type": "actual",
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "nearly 80 per cent of its capacity is spread across Micro, Small and Medium Enterprises (MSME) clusters in the country.56",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "80",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Value of exports",
+    "confidence": 1,
+    "entity": "India textile items",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "India exported textile items worth USD 34 billion in 2023",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "34",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Apparel export share percentage",
+    "confidence": 1,
+    "entity": "India textile export basket",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "with apparel constituting 42 per cent of the export basket (USD 14.6 billion)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "42",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Value of exports",
+    "confidence": 1,
+    "entity": "apparel exports",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "constituting 42 per cent of the export basket (USD 14.6 billion)",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "14.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Raw materials/semi-finished materials export share percentage",
+    "confidence": 1,
+    "entity": "India textile export basket",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "followed by raw materials/semi-finished materials at 34 per cent (USD 11.7 billion)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "34",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Value of exports",
+    "confidence": 1,
+    "entity": "raw materials and semi-finished materials exports",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "raw materials/semi-finished materials at 34 per cent (USD 11.7 billion)",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "11.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Finished non-apparel goods export share percentage",
+    "confidence": 1,
+    "entity": "India textile export basket",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "and finished non-apparel goods at 30 per cent (USD 7.8 billion).57",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "30",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Value of exports",
+    "confidence": 1,
+    "entity": "finished non-apparel goods exports",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "finished non-apparel goods at 30 per cent (USD 7.8 billion).57",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "7.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Apparel export consumption share percentage",
+    "confidence": 1,
+    "entity": "Europe and US",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "Europe and the US consumed nearly 66 per cent of India’s apparel exports",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "66",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Finished non-apparel goods consumption share percentage",
+    "confidence": 1,
+    "entity": "Europe and US",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "58 per cent of finished non-apparel goods",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "58",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Raw materials/semi-finished materials consumption share percentage",
+    "confidence": 1,
+    "entity": "Europe and US",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "12 per cent of raw materials/semi-finished materials.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "12",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Apparel exports consumption share percentage",
+    "confidence": 1,
+    "entity": "UK",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "Other prominent destinations include the UK (8 per cent of apparel exports)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Apparel exports consumption share percentage",
+    "confidence": 1,
+    "entity": "UAE",
+    "estimate_type": "actual",
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "and the UAE (7 per cent).",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "7",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4164,
+  "output_tokens": 2332
+ }
+}

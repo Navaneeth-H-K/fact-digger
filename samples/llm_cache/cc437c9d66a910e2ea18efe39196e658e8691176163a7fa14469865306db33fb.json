@@ -1,0 +1,653 @@
+{
+ "key": "cc437c9d66a910e2ea18efe39196e658e8691176163a7fa14469865306db33fb",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "f0f369e04933e99bb11769a73ea52dab325f9ac7017b2d42508782f51d96cb51",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 58, printed label 229.\nExisting attribute vocabulary (reuse a name when it means the same thing): Weighted average cost of acquisition per Equity Share, Remuneration to key management personnel, Active Customers, PTL freight tonnage, revenue from services, Pin-code reach, express parcel shipments, Infrastructure, Adjusted EBITDA, Adjusted EBITDA margin, Total revenue from customers, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Team size, Equity share capital, Gateways, Restated loss for the period / year, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Automated sort centers, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, NWC days, Diluted loss per share, Express Parcel revenue, PTL freight revenue, Total income, Total liabilities, Networth, TL revenue, Amount underwritten, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, Restated total comprehensive loss for the period / year, EBITDA margin, organized players market share, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, EBITDA, Sale of traded goods revenue, revenue from services growth rate, Investments in technology, Aggregate amount involved in litigation, Cost of performance-based options, Sortation capacity utilisation, Fulfilment centres operated, Freight, handling and servicing cost, Revenue from customers, Other equity, Fresh Issue size, Total cash balance, Revenue CAGR, Express delivery centers, Deemed investment, Reported EBITDA, Total expenses, Express parcel shipments since inception, PTL freight tonnage growth rate, Fresh Issue volume, TL YoY revenue growth, Other income, Offer for Sale size, Services provided, Weighted average cost of acquisition, Depreciation and amortisation expense, Right of use asset, Rated Automated Sort Capacity, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Freight service centers, Processing centers, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector forecast, direct spend of logistics sector, Service EBITDA margin, Service EBITDA, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, PTL freight tonnage since inception, Loan given, Goodwill, PTL YoY revenue growth, Interest income, Term loan, Packing material, Rent, Stores and spares, Share capital acquired in Falcon, Consumer cases filed against Company amount, Fulfilment centres aggregate floor area, Spoton fulfilment centres aggregate floor area, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Applications count, Gateways equipped with automated parcel sorters, Automated parcel sorters, Fleet size - daily average, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, Spoton fulfilment centres operated, Supply Chain Services EBITDA, Income from lorry hire charges, Pin-code reach percentage, Orders collected since inception, Contingent liabilities - Others, Corporate overheads, CWIP, ESOPs ungranted total as % of fully diluted shares, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA\n\nTEXT LAYER:\n \n229 \nDecember 31, 2021. Our fair value loss on financial liabilities at fair value through profit or loss as a percentage \nof revenue from contract with customers was 89.53%, nil, 0.25%, nil and 6.23% in Fiscal 2019, Fiscal 2020, \nFiscal 2021 and the nine months periods ended December 31, 2020 and December 31, 2021, respectively.Our \nprofit/(loss) after tax margin improved from (105.22)% in Fiscal 2019 to (9.00)% in Fiscal 2020 and decreased \nslightly to (10.83)% in Fiscal 2021, and further declined from (10.60)% in the nine months period ended \nDecember 31, 2020 to (18.14)% in the nine months period ended December 31, 2021. Our EBITDA margin \nimproved from (8.29)% in Fiscal 2019 to (6.19)% in Fiscal 2020 and to (2.75)% in Fiscal 2021, while declining \nfrom (3.37)% in the nine months period ended December 31, 2020 to (4.82)% in the nine months period ended \nDecember 31, 2021. Our Adjusted EBITDA Margin has improved from (11.35%) in Fiscal 2019 to (9.11%) in \nFiscal 2020 and to (6.95%) in Fiscal 2021 and from (8.06%) for the nine months period ended December 31, \n2020 to (0.72%) for the nine months period ended December 31, 2021. Further, our customer Retention Rate for \nmaterial customers, that is for the top 100 customers (by revenue in the respective Fiscal) was 93.00%, 100.00%, \nand 92.00% for Fiscal 2019, Fiscal 2020 and Fiscal 2021, respectively. \n \nStrong relationships with a diverse customer base \nWe served a diverse base of 23,113 Active Customers (excluding those serviced by Spoton) across e-commerce, \nconsumer durables, electronics, lifestyle, FMCG, industrial goods, automotives, healthcare and retail, for the nine \nmonths period ended December 31, 2021. As of December 31, 2021, this customer base included most of the key \ne-commerce players in India and over 750 D2C brands. In addition, Spoton offers PTL freight services to 5,533 \nActive Customers across industry verticals. Several of our customers use more than one of our service offerings, \nwith 58.13% of our revenue for the nine months period ended December 31, 2021 coming from customers who \nhad used at least two of our services. \n \nOur service quality, reach and efficiency, coupled with deep integration with customers’ ERP systems and \nbusiness processes have led to customer stickiness. In the first half of Fiscal 2022, 64.97% of our revenues were \nfrom customers who have been transacting with us for over three years. Our customers have also steadily \nincreased the volume of business they undertake with us over time.  \n \nExtensive ecosystem of partners, enabling an asset-light business model and extended reach \nWe have built an asset-light business model that has enabled us to scale up volumes rapidly, with lower fixed \ncosts and greater flexibility. While we design, operate and control our most critical network nodes (fulfilment \ncenters and gateways), partners play a significant role in all our other operations - pickup, mid-mile (trucking and \nair) and last-mile delivery. This enables us to maintain control over operational quality metrics and improve \noverall network performance. \nWe lease a majority of our network infrastructure and a majority of the vehicles operating in our network. As of \nDecember 31, 2021, excluding Spoton, we operated 14.27 million square ft. of leased infrastructure and partnered \nwith over 11,000 vendors and network partners who provide pickup, delivery services and truckload capacity. \nOur network partners are supported by our technology systems, empowering them to grow their business by \noffering multiple Delhivery services in their catchment areas. For example, last mile delivery agents in our \nConstellation program are also able to extend our last mile reach, capitalize on their local knowledge and \nautonomously offer express parcel, part-truckload freight and cross-border express and freight services to SME \nand retail customers in their catchment areas, backed by our full nationwide network, service precision and cost \nefficiency. \n \nOur ability to develop mutually beneficial partnerships and strategic alliances with large international players \nsuch as Aramex and FedEx has enabled us to further expand our reach outside India by leveraging their global \nnetworks without having to incur additional fixed costs.  \n \nHighly qualified, professional team \nOur biggest competitive advantage is, ultimately, our experienced and entrepreneurial team. \n \nOur teams are composed of people from diverse backgrounds who bring perspective from industries like global \nlogistics, \ntechnology \nservices, \nfinancial \nservices, \nmanagement \nconsulting, \ne-commerce, \nFMCG, \ntelecommunications and armed forces. We have also invested significantly in training and upskilling front-line \noperations personnel via the Delhivery Academy, with the aim of building our next generation of operational \nleadership from within the line organization. These teams have introduced and delivered a continuous stream of \ntechnology and operational innovations since our inception and built the “Delhivery” culture of first-principles \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Fair value loss on financial liabilities as % of revenue from contract with customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2019-04-01",
+    "quote": "Our fair value loss on financial liabilities at fair value through profit or loss as a percentage of revenue from contract with customers was 89.53%, nil, 0.25%, nil and 6.23% in Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months periods ended December 31, 2020 and December 31, 2021, respectively.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "89.53",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Fair value loss on financial liabilities as % of revenue from contract with customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2020-04-01",
+    "quote": "Our fair value loss on financial liabilities at fair value through profit or loss as a percentage of revenue from contract with customers was 89.53%, nil, 0.25%, nil and 6.23% in Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months periods ended December 31, 2020 and December 31, 2021, respectively.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "nil",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Fair value loss on financial liabilities as % of revenue from contract with customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2021-04-01",
+    "quote": "Our fair value loss on financial liabilities at fair value through profit or loss as a percentage of revenue from contract with customers was 89.53%, nil, 0.25%, nil and 6.23% in Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months periods ended December 31, 2020 and December 31, 2021, respectively.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "0.25",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Fair value loss on financial liabilities as % of revenue from contract with customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Nine months ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "Our fair value loss on financial liabilities at fair value through profit or loss as a percentage of revenue from contract with customers was 89.53%, nil, 0.25%, nil and 6.23% in Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months periods ended December 31, 2020 and December 31, 2021, respectively.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "nil",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Fair value loss on financial liabilities as % of revenue from contract with customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Nine months ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "Our fair value loss on financial liabilities at fair value through profit or loss as a percentage of revenue from contract with customers was 89.53%, nil, 0.25%, nil and 6.23% in Fiscal 2019, Fiscal 2020, Fiscal 2021 and the nine months periods ended December 31, 2020 and December 31, 2021, respectively.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "6.23",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": "Refers to profit/loss after tax margin",
+    "period": "Fiscal 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2019-04-01",
+    "quote": "Our profit/(loss) after tax margin improved from (105.22)% in Fiscal 2019 to (9.00)% in Fiscal 2020",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 105.22",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": "Refers to profit/loss after tax margin",
+    "period": "Fiscal 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2020-04-01",
+    "quote": "to (9.00)% in Fiscal 2020 and decreased slightly to (10.83)% in Fiscal 2021",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 9.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": "Refers to profit/loss after tax margin",
+    "period": "Fiscal 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2021-04-01",
+    "quote": "and decreased slightly to (10.83)% in Fiscal 2021, and further declined from (10.60)% in the nine months period ended December 31, 2020",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 10.83",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": "Refers to profit/loss after tax margin",
+    "period": "Nine months ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "and further declined from (10.60)% in the nine months period ended December 31, 2020 to (18.14)% in the nine months period ended December 31, 2021.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 10.60",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": "Refers to profit/loss after tax margin",
+    "period": "Nine months ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "to (18.14)% in the nine months period ended December 31, 2021.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 18.14",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2019-04-01",
+    "quote": "Our EBITDA margin improved from (8.29)% in Fiscal 2019 to (6.19)% in Fiscal 2020 and to (2.75)% in Fiscal 2021",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 8.29",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2020-04-01",
+    "quote": "improved from (8.29)% in Fiscal 2019 to (6.19)% in Fiscal 2020 and to (2.75)% in Fiscal 2021",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 6.19",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2021-04-01",
+    "quote": "to (2.75)% in Fiscal 2021, while declining from (3.37)% in the nine months period ended December 31, 2020",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 2.75",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Nine months ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "while declining from (3.37)% in the nine months period ended December 31, 2020 to (4.82)% in the nine months period ended December 31, 2021.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 3.37",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Nine months ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "to (4.82)% in the nine months period ended December 31, 2021.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 4.82",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Adjusted EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2019-04-01",
+    "quote": "Our Adjusted EBITDA Margin has improved from (11.35%) in Fiscal 2019 to (9.11%) in Fiscal 2020 and to (6.95%) in Fiscal 2021",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 11.35",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Adjusted EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2020-04-01",
+    "quote": "from (11.35%) in Fiscal 2019 to (9.11%) in Fiscal 2020 and to (6.95%) in Fiscal 2021",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 9.11",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Adjusted EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Fiscal 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2021-04-01",
+    "quote": "and to (6.95%) in Fiscal 2021 and from (8.06%) for the nine months period ended December 31, 2020",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 6.95",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Adjusted EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Nine months ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "and from (8.06%) for the nine months period ended December 31, 2020 to (0.72%) for the nine months period ended December 31, 2021.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 8.06",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Adjusted EBITDA margin",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Nine months ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "to (0.72%) for the nine months period ended December 31, 2021.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 0.72",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Active Customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "excluding those serviced by Spoton",
+    "notes": null,
+    "period": "Nine months ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "We served a diverse base of 23,113 Active Customers (excluding those serviced by Spoton) across e-commerce, consumer durables, electronics, lifestyle, FMCG, industrial goods, automotives, healthcare and retail, for the nine months period ended December 31, 2021.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "23,113",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Active Customers",
+    "confidence": 1,
+    "entity": "Spoton",
+    "estimate_type": "actual",
+    "measurement_basis": "PTL freight services",
+    "notes": null,
+    "period": "As of December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-12-31",
+    "quote": "In addition, Spoton offers PTL freight services to 5,533 Active Customers across industry verticals.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "5,533",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Infrastructure",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "leased infrastructure excluding Spoton",
+    "notes": null,
+    "period": "As of December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-12-31",
+    "quote": "As of December 31, 2021, excluding Spoton, we operated 14.27 million square ft. of leased infrastructure",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "sq. ft.",
+    "value": "14.27",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4721,
+  "output_tokens": 4348
+ }
+}

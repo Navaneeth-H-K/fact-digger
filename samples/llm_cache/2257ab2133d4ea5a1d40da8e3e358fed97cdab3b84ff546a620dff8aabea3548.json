@@ -1,0 +1,471 @@
+{
+ "key": "2257ab2133d4ea5a1d40da8e3e358fed97cdab3b84ff546a620dff8aabea3548",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "f4ca718ae18b7a13dc0997ef755fa75824ff7f2d3b0a89a5a0272fa652f400f9",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 0, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Adjusted EBITDA, revenue from services, Adjusted EBITDA margin, PTL freight tonnage, NWC days, express parcel shipments, Capital Expenditure as % of Revenue from Services, Supply Chain Services revenue, Express Parcel revenue, PTL freight revenue, TL revenue, Cost of time-based options, EBITDA, EBITDA margin, revenue from services growth rate, Active Customers, Cost of performance-based options, Cross Border Services revenue, Pin-code reach, Revenue from customers, Infrastructure, Total cash balance, Total revenue from customers, Reported EBITDA, TL YoY revenue growth, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Total assets, Closing cash balance at the end of the year, Net change in cash, Cash & cash equivalents at the end of the year, Cash generated from / (used in) operations, Power, fuel & water charges, Contractual manpower expenses, Freight, Handling and Servicing Cost, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Total equity and liabilities, Total equity, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Express parcel shipments growth rate, PTL freight tonnage growth rate, PTL YoY revenue growth, Total liabilities, Term loan, Packing material, Networth, Rent, Stores and spares, Automated sort centers, Fleet size - daily average, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Corporate overheads, CWIP, ESOPs ungranted total as % of fully diluted shares, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Team size holding ESOPs, ESOPs ungranted total, Express Parcel revenue growth rate, Express parcel shipments since inception, PTL freight tonnage since inception, FY23 PAT loss, Gateways, PAT loss reduction, Team size\n\nTEXT LAYER:\n \n \n   \n (Please scan this QR Code to view the Prospectus) \n \nPROSPECTUS \nDated May 14, 2022 \nPlease read Section 32 of the Companies Act, 2013 \n  100% Book Built Offer \n \n \n \n \nDELHIVERY LIMITED \n \nCORPORATE IDENTITY NUMBER: U63090DL2011PLC221234 \nREGISTERED OFFICE \nCORPORATE \nOFFICE \nCONTACT \nPERSON \nTELEPHONE AND E-MAIL \nWEBSITE \n  N24-N34, S24-S34, Air Cargo Logistics \nCentre-II, Opposite Gate 6 Cargo \nTerminal, Indira Gandhi International \nAirport, New Delhi 110037 Delhi, India \nPlot 5, Sector 44, \nGurugram 122002 \nHaryana, India \n \nSunil Kumar Bansal \n \nCompany Secretary and \nCompliance Officer \nTel: +91 124 6225602 \n \nE-mail: \ncorporateaffairs@delhivery.com \nwww.delhivery.com \n \nOUR COMPANY IS A PROFESSIONALLY MANAGED COMPANY AND DOES NOT HAVE ANY IDENTIFIABLE PROMOTER \nDETAILS OF THE OFFER \nType \nFresh Issue size \nOffer for Sale \nsize \nTotal \nOffer size \nEligibility and share reservation among QIBs, NIIs and RIIs \nFresh Issue and \nOffer for Sale \nFresh \nissue \nof \n82,152,503* \nEquity \nShares aggregating to \n₹40,000.00 million \nOffer for sale of \n25,364,585* \nEquity \nShares \naggregating \nto \n₹12,350.00 million \n₹52,350.00 \nmillion \nThe Offer was made pursuant to Regulation 6(2) of the Securities and \nExchange Board of India (Issue of Capital and Disclosure Requirements) \nRegulations, 2018, as amended (“SEBI ICDR Regulations”). For details \nof share reservation among QIBs, Non-Institutional Investors and RIBs, \nsee “Offer Structure” on page 588. \n*Subject to finalization of the Basis of Allotment \n \nDETAILS OF THE OFFER FOR SALE \nName of Selling \nShareholder \nType \nNumber of shares offered/ amount  \n(₹ in million)  \nWeighted average cost of\nacquisition per Equity \nShare* (In ₹) \nCA Swift Investments  \nInvestor Selling Shareholder \n9,324,309# Equity Shares aggregating to ₹4,540 million \n139.88 \nDeli CMF Pte. Ltd.  \nInvestor Selling Shareholder \n4,107,626# Equity Shares aggregating to ₹2,000 million \n142.91 \nSVF Doorbell (Cayman) Ltd Investor Selling Shareholder \n7,496,416# Equity Shares aggregating to ₹3,650 million \n196.19 \nTimes Internet Limited  \nInvestor Selling Shareholder \n3,388,791# Equity Shares aggregating to ₹1,650 million \n3.50 \nKapil Bharati \nIndividual Selling Shareholder 102,690# Equity Shares aggregating to ₹50 million \n35.18 \nMohit Tandon \nIndividual Selling Shareholder 821,525# Equity Shares aggregating to ₹400 million \n0.10 \nSuraj Saharan \nIndividual Selling Shareholder 123,228# Equity Shares aggregating to ₹60 million \n0.10 \n*Calculated per Equity Share on a fully diluted basis; #Subject to finalization of Basis of Allotment \nRISKS IN RELATION TO THE FIRST OFFER \nThe face value of the Equity Shares is ₹1 each. The Floor Price and Cap Price determined by our Company and the Selling Shareholders, in consultation with \nthe BRLMs and Offer Price determined by our Company, in consultation with the BRLMs, and on the basis of the assessment of market demand for the Equity \nShares by way of the Book Building Process, as stated under “Basis for Offer Price” on page 172 should not be considered to be indicative of the market price \nof the Equity Shares after the Equity Shares are listed. No assurance can be given regarding an active or sustained trading in the Equity Shares nor regarding \nthe price at which the Equity Shares will be traded after listing.  \nGENERAL RISK \nInvestments in equity and equity-related securities involve a degree of risk and investors should not invest any funds in the Offer unless they can afford to take \nthe risk of losing their entire investment. Investors are advised to read the risk factors carefully before taking an investment decision in the Offer. For taking an \ninvestment decision, investors must rely on their own examination of our Company and the Offer, including the risks involved. The Equity Shares in the Offer \nhave not been recommended or approved by the Securities and Exchange Board of India (“SEBI”), nor does SEBI guarantee the accuracy or adequacy of the \ncontents of this Prospectus. Specific attention of the investors is invited to “Risk Factors” on page 34. \nISSUER’S AND SELLING SHAREHOLDERS’ ABSOLUTE RESPONSIBILITY \nOur Company, having made all reasonable inquiries, accepts responsibility for and confirms that this Prospectus contains all information with regard to our \nCompany and the Offer, which is material in the context of the Offer, that the information contained in this Prospectus is true and correct in all material aspects \nand is not misleading in any material respect, that opinions and intentions expressed herein are honestly held and that there are no other facts, the omission of \nwhich makes this Prospectus as a whole or any of such information or the expression of any such opinions or intentions misleading in any material respect. \nFurther, each of the Selling Shareholders, severally and not jointly, accepts responsibility for and confirms the statements specifically made by such Selling \nShareholder in this Prospectus to the extent of information specifically pertaining to itself and the respective portion of its Offered Shares in the Offer for Sale \nand assumes responsibility that such statements are true and correct in all material respects and not misleading in any material respect. However, no Selling \nShareholder assumes any responsibility for any other statements, including without limitation, any and all statements made by or relating to our Company or \nany other Selling Shareholders or any other person(s) in this Prospectus. \nLISTING \nThe Equity Shares offered through the Red Herring Prospectus and this Prospectus are proposed to be listed on the Stock Exchanges being BSE and NSE. For \nthe purposes of the Offer, NSE is the Designated Stock Exchange. \nDETAILS OF BOOK RUNNING LEAD MANAGERS \nBook Running Lead Manager \nContact Person \nTelephone and E-mail \n \nKotak Mahindra Capital Company Limited \nGanesh Rane \nTel.: +91 22 4336 0000 \nE-mail: delhivery.ipo@kotak.com \n Morgan Stanley India Company Private Limited",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Fresh Issue size",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "projection",
+    "quote": "Fresh issue of 82,152,503* Equity Shares aggregating to ₹40,000.00 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "40,000.00"
+   },
+   {
+    "attribute": "Offer for Sale size",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "projection",
+    "quote": "Offer for sale of 25,364,585* Equity Shares aggregating to ₹12,350.00 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "12,350.00"
+   },
+   {
+    "attribute": "Total Offer size",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "projection",
+    "quote": "₹52,350.00 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "52,350.00"
+   },
+   {
+    "attribute": "Fresh Issue size",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "projection",
+    "quote": "Fresh issue of 82,152,503* Equity Shares",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Equity Shares",
+    "value": "82,152,503"
+   },
+   {
+    "attribute": "Offer for Sale size",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "projection",
+    "quote": "Offer for sale of 25,364,585* Equity Shares",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Equity Shares",
+    "value": "25,364,585"
+   },
+   {
+    "attribute": "Offer for Sale amount",
+    "confidence": 1,
+    "entity": "CA Swift Investments",
+    "estimate_type": "projection",
+    "quote": "9,324,309# Equity Shares aggregating to ₹4,540 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "4,540"
+   },
+   {
+    "attribute": "Weighted average cost of acquisition per Equity Share",
+    "confidence": 1,
+    "entity": "CA Swift Investments",
+    "estimate_type": "projection",
+    "quote": "139.88",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "139.88"
+   },
+   {
+    "attribute": "Offer for Sale amount",
+    "confidence": 1,
+    "entity": "Deli CMF Pte. Ltd.",
+    "estimate_type": "projection",
+    "quote": "4,107,626# Equity Shares aggregating to ₹2,000 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "2,000"
+   },
+   {
+    "attribute": "Weighted average cost of acquisition per Equity Share",
+    "confidence": 1,
+    "entity": "Deli CMF Pte. Ltd.",
+    "estimate_type": "projection",
+    "quote": "142.91",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "142.91"
+   },
+   {
+    "attribute": "Offer for Sale amount",
+    "confidence": 1,
+    "entity": "SVF Doorbell (Cayman) Ltd",
+    "estimate_type": "projection",
+    "quote": "7,496,416# Equity Shares aggregating to ₹3,650 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "3,650"
+   },
+   {
+    "attribute": "Weighted average cost of acquisition per Equity Share",
+    "confidence": 1,
+    "entity": "SVF Doorbell (Cayman) Ltd",
+    "estimate_type": "projection",
+    "quote": "196.19",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "196.19"
+   },
+   {
+    "attribute": "Offer for Sale amount",
+    "confidence": 1,
+    "entity": "Times Internet Limited",
+    "estimate_type": "projection",
+    "quote": "3,388,791# Equity Shares aggregating to ₹1,650 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,650"
+   },
+   {
+    "attribute": "Weighted average cost of acquisition per Equity Share",
+    "confidence": 1,
+    "entity": "Times Internet Limited",
+    "estimate_type": "projection",
+    "quote": "3.50",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "3.50"
+   },
+   {
+    "attribute": "Offer for Sale amount",
+    "confidence": 1,
+    "entity": "Kapil Bharati",
+    "estimate_type": "projection",
+    "quote": "102,690# Equity Shares aggregating to ₹50 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "50"
+   },
+   {
+    "attribute": "Weighted average cost of acquisition per Equity Share",
+    "confidence": 1,
+    "entity": "Kapil Bharati",
+    "estimate_type": "projection",
+    "quote": "35.18",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "35.18"
+   },
+   {
+    "attribute": "Offer for Sale amount",
+    "confidence": 1,
+    "entity": "Mohit Tandon",
+    "estimate_type": "projection",
+    "quote": "821,525# Equity Shares aggregating to ₹400 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "400"
+   },
+   {
+    "attribute": "Weighted average cost of acquisition per Equity Share",
+    "confidence": 1,
+    "entity": "Mohit Tandon",
+    "estimate_type": "projection",
+    "quote": "0.10",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "0.10"
+   },
+   {
+    "attribute": "Offer for Sale amount",
+    "confidence": 1,
+    "entity": "Suraj Saharan",
+    "estimate_type": "projection",
+    "quote": "123,228# Equity Shares aggregating to ₹60 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "60"
+   },
+   {
+    "attribute": "Weighted average cost of acquisition per Equity Share",
+    "confidence": 1,
+    "entity": "Suraj Saharan",
+    "estimate_type": "projection",
+    "quote": "0.10",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "0.10"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4670,
+  "output_tokens": 1584
+ }
+}

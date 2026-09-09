@@ -1,0 +1,444 @@
+{
+ "key": "13cce3c538a46330e185b06051ba7dee6521f1c1d7dfdf93a9dd3a8cf07f16fa",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "b337c8d8073806eb5f44465d0ad17bd252ebf884a0eaf8c601020eef29cb9821",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 97, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, revenue from services, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, Total borrowings, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Cash & cash equivalents at the end of the year, Total revenue from customers, Total equity, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, NWC days, Diluted loss per share, Gateways, Total income, Net cash from / (used in) operating activities, Automated sort centers, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Revenue from contracts with customers, Instruments entirely equity in nature, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Restated total comprehensive loss for the period / year, Other equity, Networth, Freight, handling and servicing cost, Other income, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Investments in bank deposits, Share based payment, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Profit/(loss) after tax, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Cost of time-based options, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Deemed investment, revenue from services growth rate, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Applications count, Attrition of Key Managerial Personnel, Attrition rate, Total cash balance, Outstanding at the beginning of the year, Revenue CAGR, Installed solar power capacity, Express delivery centers, Freight service centers, Compensation paid, direct spend of logistics sector forecast, Exercised during the year, Reported EBITDA, Turnover rate for permanent employees (Male), Exercisable at the end of the year, Outstanding at the end of the year, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Trade payables, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Deposits with original maturity for more than 12 months (Non-Current), Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Brought forward losses (including capital loss) above five years, Provision for compensated absence, Largest customer account percentage of net sales, Number of days of accounts payables\n\nTEXT LAYER:\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n(i)\t\nits termination by the Board; or\n(ii)\t the date on which all of the options available for issuance under the plan have been exercised.\nThe options granted under the plan shall vest as per the schedule determined by the Board / ESOP Committee. Vesting of \noptions shall be subject to continued / uninterrupted employment with the group and completion of a minimum period of 1 \nyear from the date of the grant of the options and shall vest at the discretion of the Board / ESOP committee on the basis of \nthe performance of the group or any other transformative event as decided by the Board / ESOP committee. Any remaining \nunvested options that have not vested in accordance with this sub-clause shall automatically lapse. The vesting date or \nconditions for vesting shall be specified in the option agreement or grant letter between each eligible employee and the group, \nunless determined otherwise by the Board / ESOP committee from time to time.\nMovement during the year\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nNo. of options\nWAEP (J)\nNo. of options\nWAEP (J)\nOutstanding at the beginning of the year\n10,190,000\n1.00\n7,600,000\n1.00\nGranted during the year\n-\n-\n2,590,000\n1.00\nForfeited during the year\n-\n-\n-\n-\nExercised during the year\n-\n-\n-\n-\nOutstanding at the end of the year\n10,190,000\n1.00\n10,190,000\n1.00\nExercisable at the end of the year\n250,000\n1.00\n-\n-\nThe following tables list the inputs to the models used for the plan for option based on milestone for the year ended March \n31, 2024 and March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nEffective Valuation Date\nNovember \n20, 2022\nNovember \n20, 2022\nExpected volatility (%)\n64.40%\n64.40%\nRisk–free interest rate (%)\n6.09%\n6.09%\nCommon Stock Value (I per share)\nNA\nNA\nExercise Price (I per share)\n1.00\n1.00\n3 months average closing (I per share)\n509.30\n509.30\nModel used\nMonte Carlo simulation\nThe following tables list the inputs to the models used for the plan for time-based option for the year ended March 31, 2024 \nand March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n45.50% - 51.10%\n45.50% - 51.10%\nRisk–free interest rate (%)\n4.20% - 5.60%\n4.20% - 5.60%\nExpected life of share options\n1.4 - 4.44\n1.4 - 4.44\nExercise Price (I per share)\n1.00\n1.00\nModel used\nBlack Scholes Option Pricing Model\nDuring the year ended March 31, 2023, Company has granted 2,590,000 stock options convertible into Equity options vesting \nof which is milestone base.\nDuring the year ended March 31, 2022, Company has granted 7,600,000 stock options convertible into Equity Shares out of \nwhich vesting of 2,500,000 stock options is time based and 5,100,000 is milestone based. Vesting of these options is dependent \nupon the listing of the company on recognised stock exchange therefore, ESOP expense pertaining to these options will \nrecognised in books after listing of company.\nAccordingly, when company got listed on May 24, 2022, vesting of these options has commenced for time based stock options.\nDuring the year ended March 31, 2024, the Group has recognised expense of I 2,219.38 million (March 31, 2023: \nI 2,891.41 million).\nDELHIVERY STOCK APPRECIATION RIGHT PLAN, 2023\nThe Plan has been formulated and approved on November 15, 2023. The Plan shall be deemed to have come into force on \nDecember 01, 2023 and shall continue to be in force until -\n(i)\t\nits termination by the Board; or\n(ii)\t the date on which all of the options available for issuance under the plan have been exercised.\nThe right granted under the plan shall vest as per terms specified in the Rights Agreement or Grant Letter between each \nEmployee and the Company / Group Company, unless determined otherwise by the Nomination and Remuneration Committee \nfrom time to time. Any remaining unvested rights that have not vested in accordance with this sub-clause shall automatically \nlapse. The vesting date or conditions for vesting shall be specified in the right agreement or grant letter between each eligible \nemployee and the Company, unless determined otherwise by from time to time.\nEach Right entitles the holder thereof to receive cash payment equal to the Market Value of one Share as on the date of Exercise \nof such Vested Rights less the exercise price of such Right. \nMovement during the year\nDuring the year ended March 31, 2024, the Group has recognised expense of I 2,219.38 million (March 31, 2023: I 2,891.41 million)\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nNo. of options\nWAEP (J)\nNo. of options\nWAEP (J)\nOutstanding at the beginning of the year\n-\n-\n-\n-\nGranted during the year\n349,150\n1.00\n-\n-\nForfeited during the year\n-\n-\n-\n-\nExercised during the year\n(20,712)\n1.00\n-\n-\nOutstanding at the end of the year\n328,438\n1.00\n-\n-\nExercisable at the end of the year\n-\n-\n-\n-\nThe following tables list the inputs to the models used for the plan for the rights granted for the year ended March 31, 2024 \nand March 31, 2023:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nExpected volatility (%)\n43.48%\nNA\nRisk–free interest rate (%)\n6.88%-6.94%\nNA\nExpected life of rights\n0.34-10.34 years\nNA\nExercise Price (I per share)\n1.00\nNA\nModel used\nBlack Scholes Option Pricing Model\nDuring the year ended March 31, 2024, the company has recognised expense of I 40.99 million (March 31, 2023: Nil)\nThe liability for the share appreciation rights is measured, initially and at the end of each reporting period until settled, at \nthe fair value of the SARs by applying a black scholes option pricing model, taking into account the terms and conditions on \nwhich the SARs were granted, and the extent to which the employees have rendered services to date.\nAnnual Report 2023-24\n2",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Outstanding at the beginning of the year",
+    "confidence": 1,
+    "entity": "Stock options",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Outstanding at the beginning of the year 10,190,000 1.00 7,600,000 1.00",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "10,190,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Granted during the year",
+    "confidence": 1,
+    "entity": "Stock options",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Granted during the year - - 2,590,000 1.00",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "-",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Outstanding at the end of the year",
+    "confidence": 1,
+    "entity": "Stock options",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Outstanding at the end of the year 10,190,000 1.00 10,190,000 1.00",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "10,190,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Exercisable at the end of the year",
+    "confidence": 1,
+    "entity": "Stock options",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Exercisable at the end of the year 250,000 1.00 - -",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "250,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Outstanding at the beginning of the year",
+    "confidence": 1,
+    "entity": "Stock options",
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Outstanding at the beginning of the year 10,190,000 1.00 7,600,000 1.00",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "7,600,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Granted during the year",
+    "confidence": 1,
+    "entity": "Stock options",
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Granted during the year - - 2,590,000 1.00",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "2,590,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Outstanding at the end of the year",
+    "confidence": 1,
+    "entity": "Stock options",
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Outstanding at the end of the year 10,190,000 1.00 10,190,000 1.00",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "10,190,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share based payment",
+    "confidence": 1,
+    "entity": "Group",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "During the year ended March 31, 2024, the Group has recognised expense of I 2,219.38 million (March 31, 2023: I 2,891.41 million).",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "I",
+    "value": "2,219.38",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share based payment",
+    "confidence": 1,
+    "entity": "Group",
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "During the year ended March 31, 2024, the Group has recognised expense of I 2,219.38 million (March 31, 2023: I 2,891.41 million).",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "I",
+    "value": "2,891.41",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Granted during the year",
+    "confidence": 1,
+    "entity": "Stock appreciation rights",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Granted during the year 349,150 1.00 - -",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "349,150",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Exercised during the year",
+    "confidence": 1,
+    "entity": "Stock appreciation rights",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Exercised during the year (20,712) 1.00 - -",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "(20,712)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Outstanding at the end of the year",
+    "confidence": 1,
+    "entity": "Stock appreciation rights",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Outstanding at the end of the year 328,438 1.00 - -",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "no. of options",
+    "value": "328,438",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share based payment",
+    "confidence": 1,
+    "entity": "Company",
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "During the year ended March 31, 2024, the company has recognised expense of I 40.99 million (March 31, 2023: Nil)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "I",
+    "value": "40.99",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5432,
+  "output_tokens": 1999
+ }
+}

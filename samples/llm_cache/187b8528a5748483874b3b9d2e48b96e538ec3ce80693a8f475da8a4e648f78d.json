@@ -1,0 +1,279 @@
+{
+ "key": "187b8528a5748483874b3b9d2e48b96e538ec3ce80693a8f475da8a4e648f78d",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "3522c1bb0d543f4388d3965c860f8cf995be6296f214db15073fc17a5d61c2f8",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-india-economic-survey-2024-25-excerpt.pdf; title: unknown; publisher: Government of India; published: 2024-07-01; fiscal year starts in month 4.\nPage index 83, printed label 126.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, GDP growth rate, Pin-code reach, Value of exports, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Total borrowings, Infrastructure, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, global market share of apparel exports, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, merchandise trade deficit, Total expenses, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Debt to Equity, Outstanding at the end of the year, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, Apparel exports consumption share percentage, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, merchandise exports, net FPI inflows, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Core inflation average, average tariff rate on dutiable items, Headline inflation average, Percentage coverage by training and awareness programmes, Cost of performance-based options, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), currency depreciation rate, Revenue from customers, Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, Foreign exchange reserves, No. of fatalities, Net FDI, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Trade payables, Repatriation amount, Applications count, Non - current operating assets, Attrition of Key Managerial Personnel, Attrition rate, Average global food inflation, Total cash balance, Revenue CAGR, Installed solar power capacity, Gross fixed capital formation growth rate, Express delivery centers, Freight service centers, Compensation paid, CRAR, direct spend of logistics sector forecast\n\nTEXT LAYER:\nEconomic Survey 2024-25\n126\nChart IV.12: Trends in onion production across regions\nSource: Horticulture Statistics Unit, Economics, Statistics & Evaluation Division, M/o A&FW \n4.17.\t The price pressures in tomatoes remained intermittently high since FY23 due to \nconstrained supply (Chart IV.6a). This occurred despite earnest efforts by the government \nto improve supply conditions in deficient regions by procuring from producing regions. \nThe inflation dynamics of tomatoes are influenced by multiple factors. Unlike onions, \ntomatoes have short crop cycles and are highly perishable, creating challenges in storage \nand transportation and leading to supply shortages and price spikes. Fresh tomatoes have \na shelf life of only about 1-2 weeks when stored properly. Tomato production is mainly \nconcentrated in states such as Madhya Pradesh, Andhra Pradesh, Karnataka, Gujarat and \nOdisha. This regional concentration makes the supply chain vulnerable to disruptions in \nany of these areas. Similar to onions, a major portion of tomato production - more than \n65 per cent8  - occurs in the Rabi season.\nChart IV.13: Trends in tomato production across regions\nSource: Horticulture Statistics Unit, Economics, Statistics & Evaluation Division, M/o A&FW\n8 \tRoy, R., et al. (2024). Vegetables Inflation in India: A Study of Tomato, Onion and Potato (TOP). Department \nof Economic and Policy Research, RBI Working Paper Series No. 08. (https://www.rbi.org.in/Scripts/\nPublicationsView.aspx?id=22723)\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "tomato production share in Rabi season",
+    "confidence": 0.95,
+    "entity": "tomato",
+    "estimate_type": "third_party",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Rabi season",
+    "period_end": null,
+    "period_start": null,
+    "quote": "Similar to onions, a major portion of tomato production - more than 65 per cent8 - occurs in the Rabi season.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "65",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 3742,
+  "output_tokens": 155
+ }
+}

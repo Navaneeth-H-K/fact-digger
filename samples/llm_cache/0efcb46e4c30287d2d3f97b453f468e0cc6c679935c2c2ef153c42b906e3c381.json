@@ -1,0 +1,374 @@
+{
+ "key": "0efcb46e4c30287d2d3f97b453f468e0cc6c679935c2c2ef153c42b906e3c381",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "d9068092ee45a5cfd4ad65ebaf0b723bacea5786fc8ba4fb174baebbd89e9bf8",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-imf-india-2025-article-iv-excerpt.pdf; title: unknown; publisher: International Monetary Fund; published: 2025-11-01; fiscal year starts in month 4.\nPage index 16, printed label A3: 12.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Headline inflation average, Equity share capital %, Inflation rate, gross fiscal deficit (GFD) as % of GDP, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Value of exports, Restated loss for the period / year, merchandise exports growth rate, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, merchandise imports growth rate, Real gross value added GVA growth rate, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, Total borrowings, merchandise trade deficit, Foreign exchange reserves, express parcel shipments, net FPI inflows, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, merchandise imports, Cash & cash equivalents at the end of the year, Total equity, Total liabilities, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Number of Observations, Total assets, Authorised share capital, Core inflation average, Basic loss per share, Current account deficit (CAD) as % of GDP, Total revenue from customers, Revenue Deficit, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Total expenses, merchandise exports, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Primary Deficit, Other equity, Net FDI, Money Supply growth rate, revenue from services growth rate, Other income, Networth, Freight, handling and servicing cost, External debt to GDP ratio, Outstanding at the end of the year, Reserve money growth rate, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, currency depreciation rate, Debt to Equity, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, 10-year generic G-sec yield, Share capital acquired in Falcon, CBDC (Retail) amount outstanding, Amount spent for the project, Amount underwritten, Fleet size - daily average, average tariff rate on dutiable items, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Gross fixed capital formation growth rate, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, R&D expenditure in GDP, Primary Revenue Deficit, Number of new markets explored, express parcel shipments since inception, FDI inflows, Investments in technology, R-squared, Retention rate, Return to work rate, Total (B), Yields, Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital Expenditure, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, Household financial saving (net) as % of gross national disposable income (GNDI), Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, Sortation capacity utilisation, fresh issuance of CDs, High consequence work-related injury or ill-health (excluding fatalities)\n\nTEXT LAYER:\nINDIA \n12 \nINTERNATIONAL MONETARY FUND \n20.      Over the medium term, the fiscal deficit and the public debt ratio are projected to \ngradually decline, with risks of sovereign stress remaining moderate (Annex V). The general \ngovernment deficit is expected to narrow further under current policies, supporting a gradual \nreduction in debt to 77 percent of GDP in FY2030/31. Under shock scenarios, reflecting conditions \nsuch as lower growth or slower fiscal adjustment, debt paths are skewed towards elevated debt \nlevels, highlighting the importance of swiftly rebuilding buffers. That said, India has some fiscal \nspace to support domestic demand and shelter vulnerable households in case of adverse shocks. \nFunding climate-change-related investment entirely through the government budget could lead to \nhigh long-term risk of sovereign stress, pointing to the need for additional concessional financing \nand greater private sector participation. Demand from financial institutions for government \nsecurities remains robust. Banks hold a relatively \nhigh—though declining—share of government \nsecurities and are sufficiently healthy and liquid \nto act as a residual financier for the government. \nNonetheless, such concentration could amplify \nmacro-financial shocks under severe adverse \nscenarios, placing a premium on continued \ndiversification of domestic financing sources. \nRisks from elevated debt are mitigated as debt \nis largely domestic with a long duration, and the \ninterest-growth differential is expected to \nremain favorable.  \n21.       The authorities’ medium-\nterm debt target is achievable and \ncould be more ambitious. Under \nstaff’s baseline assumptions, the \ncentral government’s targeted debt \nratio of 50±1 percent of GDP by \nFY2030/31 is achievable without \nfurther fiscal measures. Faster \nconsolidation would ease the high \ndebt service burden sooner and help \nto rebuild fiscal buffers for future \nshocks. India’s revenue as a share of GDP is not high compared to other non-fuel-exporting \nemerging markets. A proposed consolidation plan centered on revenue-based measures could \nachieve the warranted consolidation while creating additional space for high-quality investments \nand other priority spending.5 Measures could include further GST reform, reversal of earlier excise \ntax reductions, and expansion of the income tax base. Together with better targeting of subsidies \nand rationalizing legacy expenditure schemes, this can create space for growth-enhancing \nexpenditure on infrastructure and health. Under the baseline assuming prolonged 50 percent U.S. \n \n5 For details, see India: 2024 Article IV Consultation, Annex X. \n \n2025/26\n2026/27\n2027/28\n2028/29\n2029/30\n2030/31\n2031/32\nOverall Balance, Baseline (percent of GDP)\nCentre\n-4.5\n-4.5\n-4.4\n-4.2\n-4.0\n-3.8\n-3.8\nState\n-3.1\n-3.0\n-3.0\n-3.0\n-3.0\n-3.0\n-2.9\nGeneral\n-7.1\n-7.2\n-7.1\n-6.9\n-6.8\n-6.6\n-6.5\nOverall Balance, Reform Scenario (percent of GDP)\nCentre\n-4.5\n-4.5\n-4.2\n-3.8\n-3.5\n-3.3\n-3.3\nState\n-3.1\n-3.0\n-2.8\n-2.7\n-2.6\n-2.6\n-2.5\nGeneral\n-7.1\n-7.2\n-6.7\n-6.2\n-5.8\n-5.7\n-5.6\nDebt, Baseline (percent of GDP)\nCentre\n56.2\n55.4\n54.3\n53.0\n51.7\n50.3\n48.8\nState\n28.3\n28.3\n28.3\n28.3\n28.4\n28.4\n28.4\nGeneral\n81.1\n80.7\n79.9\n79.0\n78.0\n76.9\n76.0\nDebt, Reform Scenario (percent of GDP)\nCentre\n56.2\n55.4\n54.0\n52.4\n50.7\n48.9\n47.0\nState\n28.3\n28.3\n28.1\n27.8\n27.4\n27.1\n26.8\nGeneral\n81.1\n80.7\n79.5\n77.9\n76.0\n74.2\n72.6\nSource: IMF staff calculations based on the reform scenario with a 13-basis point risk premium \ndecline in India: 2024 Article IV Consultation, Annex X.\nIndia:  Fiscal Consolidation by Level of Government\n0\n5\n10\n15\n20\n25\n30\nCroatia\nSerbia\nHungary\nTunisia\nBrazil\nGeorgia\nChile\nArmenia\nPoland\nMongolia\nBotswana\nEl Salvador\nBulgaria\nColombia\nUruguay\nBolivia\nJordan\nIndia\nPeru\nThailand\nPhilippines\nMexico\nCosta Rica\nVietnam\nChina\nEgypt\nMalaysia\nGuatemala\nPakistan\nIndonesia\nParaguay\nSri Lanka\nIndia: Tax Revenue as a Share of GDP \n(2022)\nSource: IMF World Revenue Longitudinal Database (WoRLD).\nNote: General government tax revenue of selected non-fuel exporting emerging markets.\nAverage = 18.1\n©International Monetary Fund. Not for Redistribution\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "general government deficit as % of GDP",
+    "confidence": 1,
+    "entity": "India general government",
+    "estimate_type": "projection",
+    "measurement_basis": "percent of GDP",
+    "period": "FY2030/31",
+    "period_end": "2031-03-31",
+    "period_start": "2030-04-01",
+    "quote": "debt to 77 percent of GDP in FY2030/31",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "77",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "debt ratio as % of GDP",
+    "confidence": 1,
+    "entity": "India central government",
+    "estimate_type": "target",
+    "measurement_basis": "percent of GDP",
+    "period": "FY2030/31",
+    "period_end": "2031-03-31",
+    "period_start": "2030-04-01",
+    "quote": "central government’s targeted debt ratio of 50±1 percent of GDP by FY2030/31",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "50±1",
+    "value_kind": "range"
+   },
+   {
+    "attribute": "Tax revenue as a share of GDP",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": "2022",
+    "period": "2022",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "quote": "India: Tax Revenue as a Share of GDP (2022) ... Average = 18.1",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "18.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Overall Balance, Baseline",
+    "confidence": 1,
+    "entity": "Centre",
+    "estimate_type": "projection",
+    "measurement_basis": "percent of GDP",
+    "period": "2025/26",
+    "period_end": "2026-03-31",
+    "period_start": "2025-04-01",
+    "quote": "Centre -4.5",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "-4.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Overall Balance, Baseline",
+    "confidence": 1,
+    "entity": "General",
+    "estimate_type": "projection",
+    "measurement_basis": "percent of GDP",
+    "period": "2025/26",
+    "period_end": "2026-03-31",
+    "period_start": "2025-04-01",
+    "quote": "General -7.1",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "-7.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Debt, Baseline",
+    "confidence": 1,
+    "entity": "General",
+    "estimate_type": "projection",
+    "measurement_basis": "percent of GDP",
+    "period": "2030/31",
+    "period_end": "2031-03-31",
+    "period_start": "2030-04-01",
+    "quote": "General 76.9",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "76.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Debt, Reform Scenario",
+    "confidence": 1,
+    "entity": "General",
+    "estimate_type": "projection",
+    "measurement_basis": "percent of GDP",
+    "period": "2030/31",
+    "period_end": "2031-03-31",
+    "period_start": "2030-04-01",
+    "quote": "General 74.2",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "74.2",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4758,
+  "output_tokens": 1004
+ }
+}

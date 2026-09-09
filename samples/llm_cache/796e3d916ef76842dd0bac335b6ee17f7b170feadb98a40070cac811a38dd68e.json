@@ -1,0 +1,347 @@
+{
+ "key": "796e3d916ef76842dd0bac335b6ee17f7b170feadb98a40070cac811a38dd68e",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "515cad7016e4057ed97b93355675fcebb52e1aea885c99dd2c1fb1cb39378ca8",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-india-economic-survey-2024-25-excerpt.pdf; title: unknown; publisher: Government of India; published: 2024-07-01; fiscal year starts in month 4.\nPage index 16, printed label 14.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, revenue from services, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Total borrowings, GDP growth rate, Infrastructure, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Total expenses, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Debt to Equity, Outstanding at the end of the year, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Deemed investment, revenue from services growth rate, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Trade payables, Applications count, Non - current operating assets, Attrition of Key Managerial Personnel, Attrition rate, Total cash balance, Revenue CAGR, Installed solar power capacity, Express delivery centers, Freight service centers, Compensation paid, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Deposits with original maturity for more than 12 months (Non-Current), Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover\n\nTEXT LAYER:\nEconomic Survey 2024-25\n14\nChart I.26: Uneven recovery within the services sector\n2\n4\n6\n8\n10\nSep-11\nSep-12\nSep-13\nSep-14\nSep-15\nSep-16\nSep-17\nSep-18\nSep-19\nSep-20\nSep-21\nSep-22\nSep-23\nSep-24\n₹ lakh crore\nDeseasonalised FREPS GVA\nDeseasonalised TTHCSB GVA\nDeseasonalised PADOS GVA\nPre pandemic trend\nSource: Calculations based on Statement 13: Annual and Quarterly Estimates of GDP at constant prices, MoSPI\nNote: i) FREPS- Financial, real estate and professional services ii) TTHCSB – Trade, transport, hotel, \ncommunication and services related to broadcasting iii) PADOS - Public administration, defence & other services.\nAll de-seasonalised variables are derived from National Accounts variables at constant (2011-12) prices.\nGrowth in H1 FY25 driven by agriculture and services sector \n1.28\tThe real GVA grew by 6.2 per cent in H1 FY25. A strong growth momentum in Q1 \nFY25 was followed by a subdued performance in Q2 FY25. The agriculture and services \nsectors emerged as key growth drivers during this period. However, the overall growth \nwas tempered by moderation in industrial growth, particularly in manufacturing, which \nfaced challenges from slowing global demand and supply chain disruptions.\nImproved agricultural prospects in FY25\n1.29\tAgriculture growth remained steady in H1 FY25, with Q2 recording a growth rate \nof 3.5 per cent, marking an improvement over the previous four quarters. Healthy \nKharif production, above-normal monsoons, and an adequate reservoir level supported \nagricultural growth. As per the first advanced estimates of agricultural production for \n2024-25, total Kharif food grain production is estimated at a record 1647.05 lakh metric \ntonnes (LMT), higher by 5.7 per cent compared to 2023-24 and 8.2 per cent higher \nthan the average food grain production in the past five years. The estimated increase is \nmainly on account of the rise in rice, maize, coarse grains and oilseeds output. A normal \nsouthwest monsoon in 2024 has improved the water levels in reservoirs, ensuring \nsufficient water for irrigation during the rabi crop production. As of 10 January 2025, \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Real GVA growth rate",
+    "confidence": 0.95,
+    "entity": "Real GVA",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "H1 FY25",
+    "period_end": "2024-09-30",
+    "period_start": "2024-04-01",
+    "quote": "The real GVA grew by 6.2 per cent in H1 FY25.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "6.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Agriculture sector growth rate",
+    "confidence": 0.95,
+    "entity": "Agriculture sector",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "Q2 FY25",
+    "period_end": "2024-09-30",
+    "period_start": "2024-07-01",
+    "quote": "Agriculture growth remained steady in H1 FY25, with Q2 recording a growth rate of 3.5 per cent, marking an improvement over the previous four quarters.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "3.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total Kharif food grain production",
+    "confidence": 0.95,
+    "entity": "Kharif food grain production",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "total Kharif food grain production is estimated at a record 1647.05 lakh metric tonnes (LMT), higher by 5.7 per cent compared to 2023-24",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "metric tonnes",
+    "value": "1647.05",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total Kharif food grain production growth rate",
+    "confidence": 0.95,
+    "entity": "Kharif food grain production",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25 vs 2023-24",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "higher by 5.7 per cent compared to 2023-24",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "5.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total Kharif food grain production growth rate over past five years average",
+    "confidence": 0.95,
+    "entity": "Kharif food grain production",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25 vs past five years average",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "8.2 per cent higher than the average food grain production in the past five years.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "8.2",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4100,
+  "output_tokens": 847
+ }
+}

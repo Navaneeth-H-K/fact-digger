@@ -1,0 +1,332 @@
+{
+ "key": "6302a9788c5a02cec1566de5fdc1d85ccbd4691c76bed75b322816e42dc7f831",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "749d3d1e95a8dad27f8b36888ed1762ae45331424cf495df3e18eb7639e6d62e",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-imf-india-2025-article-iv-excerpt.pdf; title: unknown; publisher: International Monetary Fund; published: 2025-11-01; fiscal year starts in month 4.\nPage index 88, printed label A3: 84.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Headline inflation average, Inflation rate, gross fiscal deficit (GFD) as % of GDP, Equity share capital %, revenue from services, Property, plant and equipment, Value of exports, Remuneration to key management personnel, merchandise exports growth rate, Restated loss for the period / year, Active Customers, Foreign exchange reserves, merchandise imports growth rate, Team size, Weighted average cost of acquisition per Equity Share, Real gross value added GVA growth rate, Pin-code reach, merchandise trade deficit, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, Total borrowings, Primary Deficit, External debt to GDP ratio, express parcel shipments, Current account deficit (CAD) as % of GDP, net FPI inflows, merchandise imports, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Number of Observations, Total assets, Cash & cash equivalents at the end of the year, Total equity, Total liabilities, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Money Supply growth rate, Authorised share capital, Core inflation average, Basic loss per share, Total revenue from customers, Revenue Deficit, Total income, Top 1: Large Credit Exposure as of June 2024, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, merchandise exports, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, currency depreciation rate, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Total expenses, Express Parcel revenue, PTL freight revenue, Risk Likelihood, R-squared, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, R&D expenditure in GDP, Other equity, Net FDI, Reserve money growth rate, revenue from services growth rate, Other income, Networth, CBDC (Retail) amount outstanding, Freight, handling and servicing cost, Outstanding at the end of the year, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Capital expenditure, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Debt to Equity, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, 10-year generic G-sec yield, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, average tariff rate on dutiable items, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Gross fixed capital formation growth rate, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, Primary Revenue Deficit, Number of new markets explored, express parcel shipments since inception, FDI inflows, Investments in technology, Retention rate, Return to work rate, Total (B), Yields, Risk-weighted capital adequacy ratio (CAR), Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, Household financial saving (net) as % of gross national disposable income (GNDI), Revenue, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes\n\nTEXT LAYER:\nINDIA  \n84 \nINTERNATIONAL MONETARY FUND \nFigure 11. India: Missed Opportunities for More Efficient Resource Allocations \nLow productivity firms with high PSB dependence obtain \ncredit growth similar to that of medium productivity firms \nwith low PSB dependence. \n \nCorporate bond issuances in India are largely concentrated \nin higher rating categories compared to most Asian \ncountries except China.  \nSensitivity of Growth in Bank Credit to Firm-level \nProductivity \n \nNote: Estimation results are calculated for all firm sizes when PSBs \nrepresent a large share of new credit. Reproduced with permission \nfrom George et al. (2022). \n \n \nSources: SEBI; and Credit Guarantee & Investment Facility (CGIF). \nNote: The credit ratings are sources from local rating agencies of \neach country. India (FY2023-24) and other counties (2023). \nReform Payoffs \n19.      Firms grow and innovate more with increased access to credit, especially if they are \nnot overly constrained by other factors (Figure 12). George et al. (forthcoming) study the firm-\nlevel response in terms of size (measured in sales) and innovation to higher access to credit thanks \nto the 2006 exogenous expansion in eligibility of MSMEs for PSL lending. They find that Indian firms \nwith improved access to credit experienced greater growth, particularly when other constraints were \nless binding. These constraints include high market concentration and small market size in the firm’s \noutput market, inefficient land markets, rigid labor market regulations, high frequency of electricity \nshortages, availability of good roads, courts congestion in the firm’s state, poor literacy and \nnumeracy in the firm’s district, limited access to imported inputs, and firm’s location in a rural area. \n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\n100%\nAAA\nAA\nA\nBBB and Below\nIndia\nChina\nJapan\nKorea\nMalaysia\nThailand\nCorporate Bond Ratings Distribution in Selective Asian Countries\nFigure 12. India: Impact of Expanded Access to Credit on Firm Size and Innovation \n  \n \n  \nNote: Bars show the estimated increase in firm-level sales (LHS) and innovation (RHS) from gaining eligibility to PSL in 2006, \ndepending on the number of structural barriers faced by the firm. \n0\n20\n40\n60\n80\n100\n120\nNo Barriers\n3 Barriers\n5 Barriers\nIncrease in Firm Size \n(Percent, Increase in sales)\nSources: IMF staff estimates based on George et al. (forthcoming)\n0\n2\n4\n6\n8\n10\n12\n14\nNo Barriers\n3 Barriers\n5 Barriers\nIncrease in Firm Innovation\n(Percentage points, Increase in the probability that a firm introduces a new product)\nSources: IMF staff estimates based on George et al. (forthcoming)\n©International Monetary Fund. Not for Redistribution\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Increase in Firm Size",
+    "entity": "Firms with No Barriers",
+    "measurement_basis": "Percent increase in sales",
+    "period": "2006",
+    "period_end": "2006-12-31",
+    "period_start": "2006-01-01",
+    "quote": "No Barriers 100",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "100",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Increase in Firm Size",
+    "entity": "Firms with 3 Barriers",
+    "measurement_basis": "Percent increase in sales",
+    "period": "2006",
+    "period_end": "2006-12-31",
+    "period_start": "2006-01-01",
+    "quote": "3 Barriers 60",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "60",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Increase in Firm Size",
+    "entity": "Firms with 5 Barriers",
+    "measurement_basis": "Percent increase in sales",
+    "period": "2006",
+    "period_end": "2006-12-31",
+    "period_start": "2006-01-01",
+    "quote": "5 Barriers 30",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "30",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Increase in Firm Innovation",
+    "entity": "Firms with No Barriers",
+    "measurement_basis": "Percentage points, Increase in the probability that a firm introduces a new product",
+    "period": "2006",
+    "period_end": "2006-12-31",
+    "period_start": "2006-01-01",
+    "quote": "No Barriers 13",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "percentage points",
+    "value": "13",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Increase in Firm Innovation",
+    "entity": "Firms with 3 Barriers",
+    "measurement_basis": "Percentage points, Increase in the probability that a firm introduces a new product",
+    "period": "2006",
+    "period_end": "2006-12-31",
+    "period_start": "2006-01-01",
+    "quote": "3 Barriers 5",
+    "quote_source": "image",
+    "scale": "one",
+    "unit": "percentage points",
+    "value": "5",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4118,
+  "output_tokens": 644
+ }
+}

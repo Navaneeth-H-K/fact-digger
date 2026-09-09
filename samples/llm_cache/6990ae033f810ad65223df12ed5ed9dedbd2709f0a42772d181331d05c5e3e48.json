@@ -1,0 +1,442 @@
+{
+ "key": "6990ae033f810ad65223df12ed5ed9dedbd2709f0a42772d181331d05c5e3e48",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "fcf55c6b7167cd5c5ad6d2164d67fb814feaab0d495ae899becbab4fa781b5b0",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-india-economic-survey-2024-25-excerpt.pdf; title: unknown; publisher: Government of India; published: 2024-07-01; fiscal year starts in month 4.\nPage index 24, printed label 22.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, revenue from services, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, GDP growth rate, express parcel shipments, Total borrowings, Infrastructure, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Total expenses, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Debt to Equity, Outstanding at the end of the year, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Deemed investment, revenue from services growth rate, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Trade payables, Applications count, Non - current operating assets, Attrition of Key Managerial Personnel, Attrition rate, Total cash balance, Revenue CAGR, Installed solar power capacity, Gross fixed capital formation growth rate, Express delivery centers, Freight service centers, Compensation paid, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Deposits with original maturity for more than 12 months (Non-Current), Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024\n\nTEXT LAYER:\nEconomic Survey 2024-25\n22\nVarying patterns in state finances\n1.46\t A review of preliminary unaudited estimates of 27 states23 for the period April - \nNovember 202424 corroborates the second point above (Chart I.37). The GTR of the union \nand own tax revenue (OTR) of the states have increased at comparable pace during this \nperiod. However, the overall tax revenue position of the state governments appears better \nas of November, because of increased tax devolution by the union. Among the state-specific \ntaxes, stamps and registration, sales tax, state excise duties, and other taxes and duties \nregistered positive growth, whereas land revenue25 declined, for states as a collective (Chart \nI.38). \nChart I.37: Greater reliance on share \nin central taxes\nChart I.38: Growth exhibited by \nmost of own taxes\n18.4\n10.8\n38.1\n0\n10\n20\n30\n40\nTax Revenue\nOwn Tax\nRevenue\nState’s Share \nof Union \nTaxes\nPer cent \nGrowth in April to November FY25 over\nApril to November FY24 (per cent)\n14.2\n13.1\n-14.9\n4.6\n9.5\n8.9\n-20\n-10\n0\n10\n20\nGST\nStamps and\nRegistration\nLand\nRevenue\nSales Tax\nState Excise\nDuties\nOther Taxes\nand Duties\nPer cent \nGrowth in April to November FY25 over\nApril to November FY24 (per cent)\nSource: CAG monthly provisional accounts26 \nSource: CAG monthly provisional accounts27 \n1.47\t For 15 states28, OTR accounted for more than half of their total tax receipts (Chart \nI.39), the highest being Telangana at 88 per cent, followed by Karnataka and Haryana \nat 86 per cent each. Further, states with a higher ratio of own revenue receipts (ORR) \nto total revenue receipts also tended to have relatively lower ratios of revenue deficit to \ntotal revenue receipts (Chart I.40).\n23\tAndhra Pradesh (AP), Arunachal Pradesh (AR), Assam (AS), Bihar (BR), Chhattisgarh (CG), Gujarat (GJ), \nHaryana (HR), Himachal Pradesh (HP), Jharkhand (JH), Karnataka (KA), Kerala (KL), Madhya Pradesh (MP), \nMaharashtra (MH), Manipur (MN), Meghalaya (ML), Mizoram (MZ), Nagaland (NL), Odisha (OD), Punjab (PB), \nRajasthan (RJ), Sikkim (SK), Tamil Nadu (TN), Telangana (TS), Tripura (TR), Uttar Pradesh (UP), Uttarakhand \n(UK) and West Bengal (WB).\n24\tApril to July reference period for Jharkhand; April to September for Arunachal Pradesh and Manipur.\n25\tLand revenue for Himachal Pradesh included in ‘other taxes and duties’.\n26\tShare of central taxes for Mizoram and Sikkim included in ‘other taxes and duties’.\n27\tIbid.\n28\tOut of 25 States; Mizoram and Sikkim excluded.\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Tax Revenue growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "Tax Revenue 18.4 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "18.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Own Tax Revenue growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "Own Tax Revenue 10.8 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "10.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "State's Share of Union Taxes growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "State’s Share of Union Taxes 38.1 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "38.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "GST tax growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "GST 14.2 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "14.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Stamps and Registration tax growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "Stamps and Registration 13.1 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "13.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Land Revenue growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "Land Revenue -14.9 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "-14.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Sales Tax growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "Sales Tax 4.6 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "4.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "State Excise Duties growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "State Excise Duties 9.5 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "9.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other Taxes and Duties growth rate",
+    "confidence": 1,
+    "entity": "States as a collective",
+    "estimate_type": "provisional",
+    "period": "April to November FY25 over April to November FY24",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "Other Taxes and Duties 8.9 Growth in April to November FY25 over April to November FY24 (per cent)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "8.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Own Tax Revenue as % of total tax receipts",
+    "confidence": 1,
+    "entity": "Telangana",
+    "estimate_type": "provisional",
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "highest being Telangana at 88 per cent",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "88",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Own Tax Revenue as % of total tax receipts",
+    "confidence": 1,
+    "entity": "Karnataka",
+    "estimate_type": "provisional",
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "followed by Karnataka and Haryana at 86 per cent each.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "86",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Own Tax Revenue as % of total tax receipts",
+    "confidence": 1,
+    "entity": "Haryana",
+    "estimate_type": "provisional",
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "followed by Karnataka and Haryana at 86 per cent each.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "86",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": "none"
+ },
+ "usage": {
+  "input_tokens": 4221,
+  "output_tokens": 1798
+ }
+}

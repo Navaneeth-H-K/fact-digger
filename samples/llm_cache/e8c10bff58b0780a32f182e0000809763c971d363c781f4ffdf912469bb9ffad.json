@@ -1,0 +1,97 @@
+{
+ "key": "e8c10bff58b0780a32f182e0000809763c971d363c781f4ffdf912469bb9ffad",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "meta",
+ "request": {
+  "content": [
+   {
+    "text": "Filename: 02-rbi-annual-report-2024-25-excerpt.pdf\n\nFIRST PAGES:\nPART ONE: THE ECONOMY - REVIEW AND PROSPECTS.................................................. \t\n1\nI.\t\nASSESSMENT AND PROSPECTS ............................................................................. \t\n1\n\t\nAssessment of 2024-25 ................................................................................................           \t\n2\n\t\nProspects for 2025-26 .................................................................................................. \t\n10\nII.\t\nECONOMIC REVIEW.................................................................................................... \t\n17\n\t\nThe Real Economy........................................................................................................ \t\n18\n\t\nPrice Situation................................................................................................................ \t\n33\n\t\nMoney and Credit ......................................................................................................... \t\n44\n\t\nFinancial Markets........................................................................................................... \t\n54\n\t\nGovernment Finances................................................................................................... \t\n64\n\t\nExternal Sector.............................................................................................................. \t\n70\nPART TWO: THE WORKING AND OPERATIONS OF THE RESERVE BANK OF INDIA ..... \t\n86\nIII.\t\nMONETARY POLICY OPERATIONS........................................................................... \t\n86\n\t\nMonetary Policy ............................................................................................................ \t\n87\n\t\nThe Operating Framework: Liquidity Management ....................................................... \t\n90\n\t\nMonetary Policy Transmission ...................................................................................... \t\n96\n\t\nSectoral Lending Rates ................................................................................................ \t\n98\nIV.\t\nCREDIT DELIVERY AND FINANCIAL INCLUSION ................................................... \t\n101\n\t\nCredit Delivery............................................................................................................... \t\n103\n\t\nFinancial Inclusion......................................................................................................... \t\n104\n\t\nFinancial Literacy........................................................................................................... \t\n106\nV.\t\nFINANCIAL MARKETS AND FOREIGN EXCHANGE MANAGEMENT...................... \t\n108\n\t\nFinancial Markets Regulation Department..................................................................... \t\n108\n\t\nFinancial Markets Operations Department.................................................................... \t\n111\n\t\nForeign Exchange Department...................................................................................... \t\n112\nVI.\t\nREGULATION, SUPERVISION AND FINANCIAL STABILITY.................................... \t\n119\n\t\nFinancial Stability Department....................................................................................... \t\n120\n\t\nDepartment of Regulation.............................................................................................. \t\n121\n\t\nFinTech Department ..................................................................................................... \t\n132\nCONTENTS\nPage No.\ni\n\n\nii\nPage No.\n\t\nDepartment of Supervision ........................................................................................... \t\n135\n\t\nEnforcement Department .............................................................................................. \t\n143\n\t\nConsumer Education and Protection Department......................................................... \t\n144\n\t\nDeposit Insurance and Credit Guarantee Corporation.................................................. \t\n146\nVII.\t\nPUBLIC DEBT MANAGEMENT................................................................................... \t\n148\n\t\nDebt Management of the Central Government.............................................................. \t\n149\n\t\nDebt Management of State Governments..................................................................... \t\n152\nVIII.\t\nCURRENCY MANAGEMENT....................................................................................... \t\n156\n\t\nDevelopments in Currency in Circulation....................................................................... \t\n158\n\t\nCurrency Management Infrastructure............................................................................ \t\n159\n\t\nExpenditure on Security Printing................................................................................... \t\n161\n\t\nBharatiya Reserve Bank Note Mudran Private Limited ................................................ \t\n162\nIX.\t\nPAYMENT AND SETTLEMENT SYSTEMS AND INFORMATION TECHNOLOGY.... \t\n164\n\t\nDepartment of Payment and Settlement Systems......................................................... \t\n164\n\t\nDepartment of Information Technology......................................................................... \t\n173\nX.\t\nCOMMUNICATION, INTERNATIONAL RELATIONS, \n\t\nRESEARCH AND STATISTICS ................................................................................... \t\n179\n\t\nCommunication Processes............................................................................................ \t\n180\n\t\nInternational Relations................................................................................................... \t\n183\n\t\nGovernment and Bank Accounts................................................................................... \t\n187\n\t\nManaging Foreign Exchange Reserves......................................................................... \t\n189\n\t\nEconomic and Policy Research..................................................................................... \t\n192\n\t\nStatistics and Information Management........................................................................ \t\n195\n\t\nLegal Issues................................................................................................................... \t\n198\nXI.\t\nGOVERNANCE, HUMAN RESOURCES AND ORGANISATIONAL \n\t\nMANAGEMENT............................................................................................................. \t\n200\n\t\nGovernance Structure.................................................................................................... \t\n201\n\t\nHuman Resource Development Initiatives..................................................................... \t\n202\n\t\nEnterprise-Wide Risk Management............................................................................... \t\n208\nCONTENTS\n\n\niii\nPage No.\n\t\nInternal Audit/Inspection................................................................................................ \t\n212\n\t\nCorporate Strategy and Budget Management............................................................... \t\n213\n\t\nRajbhasha...................................................................................................................... \t\n215\n\t\nPremises Department.................................................................................................... \t\n216\n\t\nAnnex ............................................................................................................................ \t\n219\nXII.\t\nTHE RESERVE BANK’S ACCOUNTS FOR 2024-25 ................................................. \t\n223\n\t\nBalance Sheet as on March 31, 2025............................................................................ \t\n226\n\t\nIncome Statement for the year ended March 31, 2025................................................. \t\n227\n\t\nSchedules forming part of Balance Sheet and Income Statement................................ \t\n228\n\t\nStatement of Significant Accounting Policies for the year ended March 31, 2025........ \t\n231\n\t\nNotes to Accounts.......................................................................................................... \t\n236\nAnnex I:\t Chronology of Major Policy Announcements - April 2024 to March 2025......... \t\n252\nAnnex II:\t \u0007Regulatory Measures Undertaken Post Public Consultations - April 2022 to  \nMarch 2025 ............................................................................................................. \t\n266\nAnnex III:\t\u0007Customer Centric Measures - April 2022 to March 2025..................................... \t\n270\nAppendix Tables ..................................................................................................................... \t\n281\nCONTENTS\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You read the first pages of a document and record its metadata: title, publisher,\npublication date (ISO; first of the month if only the month is known), document type, and the\nmonth in which the issuer's fiscal year starts (4 for April–March years, 1 for calendar years).\nLeave a field null when the pages do not say.",
+  "tool_name": "record_document_meta",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "document_type": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "e.g. 'annual report', 'investor presentation'.",
+     "title": "Document Type"
+    },
+    "fiscal_year_start_month": {
+     "anyOf": [
+      {
+       "maximum": 12,
+       "minimum": 1,
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Fiscal Year Start Month"
+    },
+    "publication_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "ISO date; first of month if only the month is known.",
+     "title": "Publication Date"
+    },
+    "publisher": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Publisher"
+    },
+    "title": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Title"
+    }
+   },
+   "title": "DocumentMeta",
+   "type": "object"
+  }
+ },
+ "response": {
+  "document_type": "annual report",
+  "fiscal_year_start_month": 7,
+  "publication_date": null,
+  "publisher": "Reserve Bank of India"
+ },
+ "usage": {
+  "input_tokens": 1781,
+  "output_tokens": 46
+ }
+}

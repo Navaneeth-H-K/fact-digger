@@ -1,0 +1,483 @@
+{
+ "key": "2fa265be92e86259b9e5d384533ca6e43ddf622b797753dacb3b509b436f1b55",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "f7997e42a3241255a593118bca92a49bbde1ee7c124fe6c988d2b21df4b02c96",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-imf-india-2025-article-iv-excerpt.pdf; title: unknown; publisher: International Monetary Fund; published: 2025-11-01; fiscal year starts in month 4.\nPage index 45, printed label A3: 41.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Headline inflation average, Equity share capital %, Inflation rate, gross fiscal deficit (GFD) as % of GDP, revenue from services, Property, plant and equipment, Value of exports, Remuneration to key management personnel, Restated loss for the period / year, merchandise exports growth rate, Active Customers, merchandise imports growth rate, Team size, Weighted average cost of acquisition per Equity Share, Real gross value added GVA growth rate, Pin-code reach, merchandise trade deficit, Foreign exchange reserves, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, Total borrowings, express parcel shipments, net FPI inflows, merchandise imports, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Cash & cash equivalents at the end of the year, Total equity, Total liabilities, Current account deficit (CAD) as % of GDP, Restated total comprehensive loss for the period / year, External debt to GDP ratio, EBITDA, EBITDA margin, Equity Shares held, Number of Observations, Total assets, Authorised share capital, Core inflation average, Basic loss per share, Total revenue from customers, Revenue Deficit, Total income, Top 1: Large Credit Exposure as of June 2024, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, merchandise exports, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, Primary Deficit, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Total expenses, Express Parcel revenue, PTL freight revenue, Money Supply growth rate, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Net FDI, revenue from services growth rate, Other income, Networth, CBDC (Retail) amount outstanding, Freight, handling and servicing cost, Outstanding at the end of the year, Reserve money growth rate, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Capital expenditure, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, currency depreciation rate, Debt to Equity, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, 10-year generic G-sec yield, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, average tariff rate on dutiable items, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Gross fixed capital formation growth rate, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, R&D expenditure in GDP, Primary Revenue Deficit, Number of new markets explored, express parcel shipments since inception, FDI inflows, Investments in technology, R-squared, Retention rate, Return to work rate, Total (B), Yields, Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, Household financial saving (net) as % of gross national disposable income (GNDI), Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, Sortation capacity utilisation, fresh issuance of CDs\n\nTEXT LAYER:\nINDIA \nINTERNATIONAL MONETARY FUND 41 \nTable 3. India: Reserve Money and Monetary Survey, 2021/22–2024/25 1/ \n \n \n \n2022/23\n2023/24\n2024/25\nReserve money\nReserve money\n40,689\n43,868\n46,314\n48,292\nNet domestic assets of RBI\n-3,738\n-2,008\n-6,097\n-7,217\nClaims on government (net)\n14,506\n14,511\n11,932\n15,081\nCenter\n14,490\n14,504\n11,867\n14,755\nStates\n16\n8\n66\n326\nClaims on commercial sector\n166\n265\n145\n382\nClaims on banks\n-5,603\n-1,210\n-606\n-1,573\nOther items (net)\n-12,807\n-15,575\n-17,568\n-21,108\nNet foreign assets of RBI\n44,427\n45,876\n52,411\n55,509\nReserve money\n13.0\n7.8\n5.6\n4.3\nNet domestic assets of RBI\n6.3\n4.3\n-9.3\n-2.4\nClaims on government (net)\n13.0\n0.0\n-5.9\n6.8\nNet foreign assets of RBI\n6.8\n3.6\n14.9\n6.7\nMonetary survey \nBroad money (M3)\n204,937\n223,438\n249,398\n272,866\nCurrency with public\n30,357\n32,764\n34,103\n36,308\nDeposits\n173,996\n189,896\n214,350\n235,425\nNon-bank deposits at RBI\n584\n778\n945\n1,133\nNet domestic assets\n156,394\n174,317\n193,723\n211,381\nDomestic credit\n190,941\n215,952\n248,064\n275,790\nNet credit to government\n64,776\n71,655\n76,036\n85,108\nOf which: RBI\n14,506\n14,511\n11,932\n15,081\nCredit to commercial sector\n126,165\n144,296\n172,028\n190,681\nOf which: Bank credit (excluding RBI) 2/\n126,000\n144,031\n171,884\n190,299\nOther items (net)\n-34,547\n-41,634\n-54,341\n-64,409\nNet foreign assets\n48,543\n49,120\n55,675\n61,485\nBroad money (M3)\n8.8\n9.0\n11.6\n9.4\nNet domestic assets\n9.6\n11.5\n11.1\n9.1\nDomestic credit\n9.0\n13.1\n14.9\n11.2\nNet credit to government\n10.7\n10.6\n6.1\n11.9\nof which: RBI\n31.9\n0.0\n-17.8\n26.4\nCredit to commercial sector\n9.1\n14.4\n19.2\n10.8\nOf which: Bank credit (excluding RBI) 2/\n9.2\n14.3\n19.3\n10.7\nNet foreign assets\n6.0\n1.2\n13.3\n10.4\n1/ Data are for April–March fiscal years, unless indicated otherwise.\n2021/22\n(Contribution to twelve-month reserve money \ngrowth)\n(Twelve-month percent change)\nSources: CEIC Data Company Ltd.; Reserve Bank of India WSS; IMF, International Financial Statistics ; \nand IMF staff calculations.\n(In billions of rupees, end-period)\n(In billions of rupees, end-period)\n2/ Data include the impact of merger of a non-bank with a bank w.e.f. July 14, 2023.\n©International Monetary Fund. Not for Redistribution\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Reserve money",
+    "confidence": 1,
+    "entity": "Reserve money",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Reserve money 40,689 43,868 46,314 48,292",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "48,292",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net domestic assets of RBI",
+    "confidence": 1,
+    "entity": "Reserve money",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Net domestic assets of RBI -3,738 -2,008 -6,097 -7,217",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "-7,217",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net foreign assets of RBI",
+    "confidence": 1,
+    "entity": "Reserve money",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Net foreign assets of RBI 44,427 45,876 52,411 55,509",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "55,509",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Reserve money growth rate",
+    "confidence": 1,
+    "entity": "Reserve money",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Reserve money 13.0 7.8 5.6 4.3",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "4.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Broad money (M3)",
+    "confidence": 1,
+    "entity": "Monetary survey",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Broad money (M3) 204,937 223,438 249,398 272,866",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "272,866",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Currency with public",
+    "confidence": 1,
+    "entity": "Monetary survey",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Currency with public 30,357 32,764 34,103 36,308",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "36,308",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Deposits",
+    "confidence": 1,
+    "entity": "Monetary survey",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Deposits 173,996 189,896 214,350 235,425",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "235,425",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net domestic assets",
+    "confidence": 1,
+    "entity": "Monetary survey",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Net domestic assets 156,394 174,317 193,723 211,381",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "211,381",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Domestic credit",
+    "confidence": 1,
+    "entity": "Monetary survey",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Domestic credit 190,941 215,952 248,064 275,790",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "275,790",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net credit to government",
+    "confidence": 1,
+    "entity": "Monetary survey",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Net credit to government 64,776 71,655 76,036 85,108",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "85,108",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Credit to commercial sector",
+    "confidence": 1,
+    "entity": "Monetary survey",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Credit to commercial sector 126,165 144,296 172,028 190,681",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "190,681",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net foreign assets",
+    "confidence": 1,
+    "entity": "Monetary survey",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Net foreign assets 48,543 49,120 55,675 61,485",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "rupees",
+    "value": "61,485",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Money Supply growth rate",
+    "confidence": 1,
+    "entity": "Broad money (M3)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024/25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Broad money (M3) 8.8 9.0 11.6 9.4",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "9.4",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4621,
+  "output_tokens": 2110
+ }
+}

@@ -1,0 +1,476 @@
+{
+ "key": "a327b50e1e88e086c3d84e23ba89e73021cd077c58ccf762f1d67877ee3b71d7",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "c9d0a90bd5e9ddbb069589da2319613a3f05528a150e04c21a902f4c69d01bb7",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 43, printed label 39.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Equity share capital %, Headline inflation average, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Value of exports, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Real gross value added GVA growth rate, Total borrowings, global market share of apparel exports, Infrastructure, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, merchandise exports growth rate, merchandise imports growth rate, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, merchandise trade deficit, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Weight in CPI-Food and Beverages, Supply Chain Services revenue, Change in Persistence Parameter, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Outstanding at the end of the year, Foreign exchange reserves, Total expenses, net FPI inflows, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Core inflation average, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, R&D expenditure in GDP, Debt to Equity, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Gross fixed capital formation growth rate, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, gross fiscal deficit (GFD) as % of GDP, merchandise exports, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Current account deficit (CAD) as % of GDP, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), currency depreciation rate, Revenue from customers, Household financial saving (net) as % of gross national disposable income (GNDI), Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, Net FDI, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Number of Observations, Trade payables, Share in Production, unemployment rate, Repatriation amount, Applications count\n\nTEXT LAYER:\nECONOMIC REVIEW\n39\nparticularly garlic, also witnessed high price \npressures due to excess rain-induced damages \nwhich, \nhowever, \ncorrected \nsharply \nduring \nNovember 2024-March 2025 with improvement in \ndomestic supply. Overall, vegetables witnessed \nthe highest winter price correction in the current \nseries of CPI (November-February), which \nextended to March 2025 on higher mandi arrivals \nand conducive weather conditions.\nII.3.13\t Inflation in cereals and products (weight \nof 21 per cent in the CPI-food and beverages) \nremained firm at 7.2 per cent during 2024-25, \nalbeit lower than 10.7 per cent in the previous \nyear. Within cereals, inflation in rice prices, \nafter remaining in double-digits for 22 months, \nmoderated to 9.6 per cent in August 2024 and \nfurther to 4.9 per cent in March 2025. The \ncorrection was largely on account of higher \nproduction in 2024-25 (6.7 per cent as per 2nd \nAE over 2023-24) as well as supply management \nmeasures by the government such as retail \nsale of ‘Bharat Rice’ and provisioning for rice-\ndeficient states to directly purchase from the \nFood Corporation of India (FCI) at a fixed price \nof ₹2,250 per quintal under the open market sale \nscheme (OMSS) from August 2024. With easing \nsupply conditions, the government removed the \nMEP of US$ 950 per MT on basmati rice, lifted \nthe ban on exports of non-basmati white rice in \nSeptember 2024, removed its MEP clause in \nOctober 2024, and revoked the ban on broken \nrice in March 2025, to encourage higher exports. \nInflation in wheat prices, on the other hand, \nincreased from 6.0 per cent in April 2024 to 9.0 \nper cent in March 2025, even as production was \nhigher (2.5 per cent in 2023-24 over 2022-23). \nThe government undertook price stabilisation \nmeasures, including imposition of stock limits for \ntraders and wholesalers (till March 2025), sale \nof 2.5 million tonnes of wheat through e-auctions \nunder OMSS till March 2025 [at a reserve \nprice of ₹2,325 per quintal for fair and average \nquality (FAQ) grain and ₹2,300 per quintal for \nunder reduced specifications (URS) grain], and \ncontinued restrictions on wheat exports. Wheat \nbuffer stocks remained at 1.6 times the norm as \nof April 1, 2025. Higher rabi production of wheat \nin 2024-25 (1.9 per cent as per 2nd AE over \n2023-24) augurs well for the wheat prices going \nforward.\nII.3.14\t Animal protein items such as eggs, \nmeat and fish (weight of 8.8 per cent in CPI-food \nand beverages) witnessed seasonal uptick in \nprices during April-June 2024 due to heatwaves \nwhich impacted the production of poultry in \nmajor producing states of southern India (Chart \nII.3.8a). Prices moderated subsequently due to \nthe seasonal fall in demand during July-August \n2024 on account of Shravana period. However, \nprice pressures re-emerged in September-\nOctober 2024, particularly in case of eggs \nreflecting pick-up in seasonal demand. Driven by \nreduced demand due to bird flu in some states, \nprices for eggs, meat and fish, softened during \nFebruary-March 2025. Inflation in prices of milk \nand products was range bound at 2.9 per cent \nduring 2024-25, benefitting from stable prices of \nfeed and adequate milk supply (Chart II.3.8b).\nII.3.15\t Prices of oils and fats (weight of 7.8 per \ncent in CPI-food and beverages) continued in \ndeflation during April-August 2024 averaging (-) 4.2 \nper cent; inflation turned positive in September \nand reached 17.1 per cent in March 2025. The \nturnaround in prices after a gap of 19 months was \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Weight in CPI-Food and Beverages",
+    "confidence": 1,
+    "entity": "Cereals and products",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Inflation in cereals and products (weight of 21 per cent in the CPI-food and beverages) remained firm at 7.2 per cent during 2024-25",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "21",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Cereals and products",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Inflation in cereals and products (weight of 21 per cent in the CPI-food and beverages) remained firm at 7.2 per cent during 2024-25",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Cereals and products",
+    "period": "2023-24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "albeit lower than 10.7 per cent in the previous year.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "10.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Rice prices",
+    "period": "2024-08",
+    "period_end": "2024-08-31",
+    "period_start": "2024-08-01",
+    "quote": "moderated to 9.6 per cent in August 2024",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "9.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Rice prices",
+    "period": "2025-03",
+    "period_end": "2025-03-31",
+    "period_start": "2025-03-01",
+    "quote": "and further to 4.9 per cent in March 2025.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "4.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share in Production",
+    "confidence": 1,
+    "entity": "Rice production",
+    "estimate_type": "provisional",
+    "measurement_basis": "2nd AE over 2023-24",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "(6.7 per cent as per 2nd AE over 2023-24)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "6.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Wheat prices",
+    "period": "2024-04",
+    "period_end": "2024-04-30",
+    "period_start": "2024-04-01",
+    "quote": "Inflation in wheat prices, on the other hand, increased from 6.0 per cent in April 2024",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "6.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Wheat prices",
+    "period": "2025-03",
+    "period_end": "2025-03-31",
+    "period_start": "2025-03-01",
+    "quote": "to 9.0 per cent in March 2025",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "9.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share in Production",
+    "confidence": 1,
+    "entity": "Wheat production",
+    "period": "2023-24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "even as production was higher (2.5 per cent in 2023-24 over 2022-23).",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "2.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share in Production",
+    "confidence": 1,
+    "entity": "Wheat rabi production",
+    "estimate_type": "provisional",
+    "measurement_basis": "2nd AE over 2023-24",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Higher rabi production of wheat in 2024-25 (1.9 per cent as per 2nd AE over 2023-24)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "1.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Weight in CPI-Food and Beverages",
+    "confidence": 1,
+    "entity": "Animal protein items (eggs, meat and fish)",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Animal protein items such as eggs, meat and fish (weight of 8.8 per cent in CPI-food and beverages)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "8.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Milk and products",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Inflation in prices of milk and products was range bound at 2.9 per cent during 2024-25",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "2.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Weight in CPI-Food and Beverages",
+    "confidence": 1,
+    "entity": "Oils and fats",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Prices of oils and fats (weight of 7.8 per cent in CPI-food and beverages)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Oils and fats",
+    "period": "2024-04 to 2024-08",
+    "period_end": "2024-08-31",
+    "period_start": "2024-04-01",
+    "quote": "continued in deflation during April-August 2024 averaging (-) 4.2 per cent",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(-) 4.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Headline inflation average",
+    "confidence": 1,
+    "entity": "Oils and fats",
+    "period": "2025-03",
+    "period_end": "2025-03-31",
+    "period_start": "2025-03-01",
+    "quote": "and reached 17.1 per cent in March 2025.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "17.1",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4496,
+  "output_tokens": 2072
+ }
+}

@@ -1,0 +1,550 @@
+{
+ "key": "ab1ba9ccd916ff53becfdf7265a292a5d34b6c7a8ff871b791e01c25aa790f60",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "883af06acb6abcf3f3564a8d6abab440dde59db15ef542834f0309d9aa210110",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-delhivery-q4-fy24-earnings-presentation.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-05-01; fiscal year starts in month 4.\nPage index 24, printed label 147.\nExisting attribute vocabulary (reuse a name when it means the same thing): Adjusted EBITDA, revenue from services, Adjusted EBITDA margin, PTL freight tonnage, NWC days, express parcel shipments, Capital Expenditure as % of Revenue from Services, Supply Chain Services revenue, Express Parcel revenue, PTL freight revenue, TL revenue, EBITDA, EBITDA margin, revenue from services growth rate, Active Customers, Cross Border Services revenue, Pin-code reach, Revenue from customers, Infrastructure, Total cash balance, Total revenue from customers, Reported EBITDA, TL YoY revenue growth, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Total assets, Closing cash balance at the end of the year, Net change in cash, Cash & cash equivalents at the end of the year, Cash generated from / (used in) operations, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Total equity and liabilities, Total equity, Express parcel shipments growth rate, PTL freight tonnage growth rate, PTL YoY revenue growth, Total liabilities, Term loan, Networth, Automated sort centers, Fleet size - daily average, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Corporate overheads, CWIP, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Express Parcel revenue growth rate, Express parcel shipments since inception, PTL freight tonnage since inception, FY23 PAT loss, Gateways, PAT loss reduction, Team size\n\nTEXT LAYER:\nESOPs ungranted\nTotal\n% of shares outstanding on a \nfully diluted basis\nESOPs ungranted, of which\n40,424,975\n5.03%\nTime-based ESOPs(4)\n25,364,975\n3.16%\nPerformance-based ESOPs(5)\n15,060,000\n1.87%\nNote: Any new ESOP grants made in the future will be duly notified to the stock exchanges\n(1)\nAs of March 31, 2024\n(2)\nRelated to costs attributable to time-based ESOPs already granted; in event of forfeiture of ESOPs upon resignation/ termination of \nemployee prior to completion of vesting, costs will be reversed\n(3)\nRelated to costs attributable to performance-based ESOPs already granted. The cost is calculated using Monte Carlo simulation. \n(4)\nVesting period ranges from 3 to 4 years\n(5)\nTo be unlocked in three equal tranches upon achieving share prices of ₹800, ₹1,000 and ₹1,200; and vest equally over 2 years \nthereafter\nEmployee Stock Options(1)\n24\nEstimated P&L charge (non-cash) for ESOPs already granted\n₹ Cr\nCost of time-based options(2)\nCost of performance-based \noptions(3)\nFY24\n132\n94\nFY25\n90\n40\nFY26\n38\n12\nFY27\n6\n2\nFY28\n0\n-\nTotal\n266\n147\nNumber of employees holding ESOPs (vested + unvested) : 1,432\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Cost of time-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "FY24 132",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "132",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of performance-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "94",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "94",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of time-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "FY25 90",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "90",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of performance-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "40",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "40",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of time-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY26",
+    "period_end": "2026-03-31",
+    "period_start": "2025-04-01",
+    "quote": "FY26 38",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "38",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of performance-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY26",
+    "period_end": "2026-03-31",
+    "period_start": "2025-04-01",
+    "quote": "12",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "12",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of time-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY27",
+    "period_end": "2027-03-31",
+    "period_start": "2026-04-01",
+    "quote": "FY27 6",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of performance-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY27",
+    "period_end": "2027-03-31",
+    "period_start": "2026-04-01",
+    "quote": "2",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of time-based options",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY28",
+    "period_end": "2028-03-31",
+    "period_start": "2027-04-01",
+    "quote": "FY28 0",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of time-based options total",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Total",
+    "period_end": null,
+    "period_start": null,
+    "quote": "Total 266",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "266",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost of performance-based options total",
+    "confidence": 1,
+    "entity": "Estimated P&L charge (non-cash) for ESOPs already granted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "Total",
+    "period_end": null,
+    "period_start": null,
+    "quote": "147",
+    "quote_source": "text",
+    "scale": "crore",
+    "unit": "₹",
+    "value": "147",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Team size holding ESOPs",
+    "confidence": 1,
+    "entity": "Employees holding ESOPs (vested + unvested)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Number of employees holding ESOPs (vested + unvested) : 1,432",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "number",
+    "value": "1,432",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "ESOPs ungranted total",
+    "confidence": 1,
+    "entity": "ESOPs ungranted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "ESOPs ungranted, of which 40,424,975",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "40,424,975",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "ESOPs ungranted total as % of fully diluted shares",
+    "confidence": 1,
+    "entity": "ESOPs ungranted",
+    "estimate_type": "actual",
+    "measurement_basis": "fully diluted basis",
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "5.03%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "5.03%",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Time-based ESOPs ungranted",
+    "confidence": 1,
+    "entity": "ESOPs ungranted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Time-based ESOPs(4) 25,364,975",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "25,364,975",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Time-based ESOPs ungranted as % of fully diluted shares",
+    "confidence": 1,
+    "entity": "ESOPs ungranted",
+    "estimate_type": "actual",
+    "measurement_basis": "fully diluted basis",
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "3.16%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "3.16%",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Performance-based ESOPs ungranted",
+    "confidence": 1,
+    "entity": "ESOPs ungranted",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Performance-based ESOPs(5) 15,060,000",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "shares",
+    "value": "15,060,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Performance-based ESOPs ungranted as % of fully diluted shares",
+    "confidence": 1,
+    "entity": "ESOPs ungranted",
+    "estimate_type": "actual",
+    "measurement_basis": "fully diluted basis",
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "1.87%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "1.87%",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 3286,
+  "output_tokens": 2565
+ }
+}

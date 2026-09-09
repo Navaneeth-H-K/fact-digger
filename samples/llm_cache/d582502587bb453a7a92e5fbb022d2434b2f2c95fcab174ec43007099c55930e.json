@@ -1,0 +1,534 @@
+{
+ "key": "d582502587bb453a7a92e5fbb022d2434b2f2c95fcab174ec43007099c55930e",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "e8326f783e12cd04f7f5676fc3fbe7a5a2d3b0d4d96f284c302ddfcc62775e41",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 27, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, Team size, PTL freight tonnage, Adjusted EBITDA margin, express parcel shipments, Adjusted EBITDA, Infrastructure, Number of preference shares acquired, Total revenue from customers, NWC days, EBITDA margin, Gateways, Restated other comprehensive income / (loss) for the period / year, EBITDA, Total equity and liabilities, Total equity, Automated sort centers, Total income, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Restated total comprehensive loss for the period / year, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Authorised share capital, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, Diluted loss per share, Service EBITDA margin, Service EBITDA, Express Parcel revenue, PTL freight revenue, Total liabilities, Networth, TL revenue, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, express parcel shipments since inception, organized players market share, Count of 46-ft tractors, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Equity Shares held, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Other income, Investments in technology, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, Sortation capacity utilisation, Freight, handling and servicing cost, Revenue from customers, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Revenue CAGR, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Installed solar power capacity, Issued, Subscribed and Paid-up Equity Share Capital, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, Goodwill, Interest income, Sustainably sourced inputs share, Logistics intensity, Term loan, Packing material, Rent, Stores and spares, Contractual to permanent absorption count, Funds utilised for Funding inorganic growth through acquisition..., Employees engaged across on-roll, off-roll, and agents, savings across lanes and vehicles, Active ESOP holders count, Active routes\n\nTEXT LAYER:\nDirectors’ Report (Contd.)\nAnnexure-1\nFORM AOC-1\n(Pursuant to first proviso to sub-section (3) of section 129 read with rule 5 of Companies (Accounts) Rules, 2014)  \nStatement containing salient features of the financial statement of subsidiaries/associate companies/joint ventures as on March 31, 2024\nPART A: SUBSIDIARIES\nAmount in Million\nSI. \nNo. Particulars\n1.\nName of the Subsidiary\nDelhivery USA \nLLC\nDelhivery \nCorp Limited, \nUnited \nKingdom\nDelhivery HK \nPte Ltd., Hong \nKong\nDelhivery \nCross Border \nServices \nPrivate \nLimited\nOrion Supply \nChain Private \nLimited\nDelhivery \nFreight \nServices \nPrivate \nLimited\nSpoton \nLogistics \nPrivate \nLimited\nSpoton \nSupply Chain \nSolutions \nPrivate \nLimited\nDelhivery \nSingapore Pte \nLtd.\nDelhivery \nRobotics LLC\nDelhivery \nBangladesh \nLogistics \nPrivate Ltd.\nAlgorhythm \nTech Private \nLimited\n2.\nThe date since when subsidiary was \nacquired (dd/mm/yyyy)\n23-05-2016\n16-03-2016\n03-08-2018\n12-12-2015\n06-12-2019\n21-04-2020\n24-08-2021\n24-08-2021\n02-08-2021\n23-08 2021\n23-01-2023\n13-01-2023\n3.\nReporting period for the subsidiary \nconcerned, if different from the holding \ncompany’s reporting period\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\n4.\nReporting currency\nUSD\nGBP\nHKD\nINR\nINR\nINR\nINR\nINR\nUSD\nUSD\nBDT\nINR\n5.\nExchange rate as on the last date of the \nrelevant Financial year in the case of \nforeign subsidiaries\n83.37\n104.12\n10.65\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\nNot \napplicable\n83.37\n83.37\n0.76\nNot \napplicable\n6.\nShare Capital\n894.09\n233.61\n20.81\n55.10\n0.10\n2.03\n206.41\n0.50\n355.67\n297.89\n23.09\n3.26\n7.\nReserves & Surplus\n(1,058.93)\n(223.42)\n34.82\n(154.33)\n(370.94)\n402.93\n(120.39)\n29.94\n193.75\n(258.65)\n(17.18)\n(76.72)\n8.\nTotal assets\n65.98\n10.56\n83.44\n77.66\n81.98\n1,491.09\n1,356.94\n264.88\n551.05\n140.43\n9.53\n16.22\n9.\nTotal liabilities\n230.82\n0.37\n27.81\n176.89\n452.82\n1,086.13\n1,270.92\n234.44\n1.63\n101.19\n3.62\n89.68\n10. Investments\n-\n-\n-\n-\n-\n-\n425.30\n-\n320.98\n-\n-\n-\n11. Total Turnover\n-\n-\n66.11\n-\n337.98\n6,760.07\n2,531.39\n650.83\n-\n28.03\n-\n34.32\n12. Profit/(loss) before tax\n(315.03)\n(0.34)\n0.61\n(9.68)\n(60.14)\n(240.92)\n(29.80)\n(15.47)\n(1.26)\n(183.45)\n(15.93)\n(42.81)\n13. Tax Expense\n-\n-\n-\n-\n-\n-\n219.76\n6.51\n-\n-\n-\n-\n14. Profit/(loss) after tax\n(315.03)\n(0.34)\n0.61\n(9.68)\n(60.14)\n(240.92)\n(249.56)\n(21.98)\n(1.26)\n(183.45)\n(15.93)\n(42.81)\n15. Proposed Dividend\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n16. Extent of shareholding (in percentage)\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\n100%\nNotes:\n1.\t\n\u0007Names of subsidiaries which are yet to commence operations: Delhivery Logistics (Shenzhen) Company Limited was statutorily incorporated during the FY23, but no fund infusion has been done yet \nand the company is non-operative as on date.\n2.\t\nNames of subsidiaries which have been liquidated or sold during the year: Not Applicable.\n3.\t\nReporting period for all the subsidiaries is April 01, 2023 to March 31, 2024.\nPART B: ASSOCIATES\nStatement pursuant to Section 129(3) of the Companies Act, 2013 related to Associate Companies and Joint \nVentures*:\nSI. \nNo.\nParticulars\n1.\nName of associates\nFalcon Autotech  Private Limited\n2.\nLatest audited Balance Sheet Date\nMarch 31, 2024\n3.\nDate on which the Associate was associated or acquired\nJanuary 04, 2022\n4.\nShares of Associate held by the Company at the end of the year\ni.\t\nNumber of shares (Equity & Preference) \n694,067 Equity shares \nii.\t\nAmount of Investment in Associates \n3,019.35 million\niii.\t\nExtent of Holding\n40.98% (Non-Diluted basis) and 39.34% (Fully Diluted basis)\n5.\nDescription of how there is significant influence\nBy way of shareholding\n6.\nReason why the associate is not consolidated\nThe share of profit & loss of the associate has been consolidated in the \nprofit & loss account of the Company\n7.\nNet worth attributable to shareholding as per latest audited \nBalance Sheet\n₹924.69 million\n8.\nProfit/(Loss) for the year\n₹229.42 million\n9.\ni.\t\nConsidered in Consolidation\n₹86.95 million\nii.\t\nNot Considered in Consolidation\n₹142.47 million\n* As on March 31, 2024, there is no Joint Venture pursuant to section 129(3) of Companies Act, 2013.\n1.\t\nNames of associates which are yet to commence operations: Not Applicable \n2.\t\nNames of associates which have been liquidated or sold during the year: Not Applicable \nOn behalf of the Board of Directors\nFor Delhivery Limited\nSahil Barua\t\nKapil Bharati \nManaging Director and Chief Executive Officer\t\nExecutive Director and Chief Technology Officer \nDIN: 05131571\t\nDIN: 02227607\nPlace: Goa\t\nPlace: New Delhi\nAmit Agarwal \t\nMadhulika Rawat\nChief Financial Officer \t\nCompany Secretary\nPlace: London\t\nPlace: Mumbai\nDate: July 05, 2024\nAnnual Report 2023-24\n55\n54\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Share Capital",
+    "confidence": 1,
+    "entity": "Delhivery USA LLC",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Share Capital 894.09",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "894.09",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Reserves & Surplus",
+    "confidence": 1,
+    "entity": "Delhivery USA LLC",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Reserves & Surplus (1,058.93)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(1,058.93)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total assets",
+    "confidence": 1,
+    "entity": "Delhivery USA LLC",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total assets 65.98",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "65.98",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "Delhivery USA LLC",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total liabilities 230.82",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "230.82",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Profit/(loss) before tax",
+    "confidence": 1,
+    "entity": "Delhivery USA LLC",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Profit/(loss) before tax (315.03)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(315.03)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Profit/(loss) after tax",
+    "confidence": 1,
+    "entity": "Delhivery USA LLC",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Profit/(loss) after tax (315.03)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(315.03)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Extent of shareholding",
+    "confidence": 1,
+    "entity": "Delhivery USA LLC",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Extent of shareholding (in percentage) 100%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "100",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total Turnover",
+    "confidence": 1,
+    "entity": "Delhivery Freight Services Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total Turnover 6,760.07",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "6,760.07",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Profit/(loss) after tax",
+    "confidence": 1,
+    "entity": "Delhivery Freight Services Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Profit/(loss) after tax (240.92)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(240.92)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total Turnover",
+    "confidence": 1,
+    "entity": "Spoton Logistics Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total Turnover 2,531.39",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "2,531.39",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Profit/(loss) after tax",
+    "confidence": 1,
+    "entity": "Spoton Logistics Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Profit/(loss) after tax (249.56)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(249.56)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity Shares held",
+    "confidence": 1,
+    "entity": "Falcon Autotech Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Number of shares (Equity & Preference) 694,067 Equity shares",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "694,067",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Amount of Investment in Associates",
+    "confidence": 1,
+    "entity": "Falcon Autotech Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Amount of Investment in Associates 3,019.35 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "3,019.35",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity share capital %",
+    "confidence": 1,
+    "entity": "Falcon Autotech Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "Non-Diluted basis",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Extent of Holding 40.98% (Non-Diluted basis) and 39.34% (Fully Diluted basis)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "40.98",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity share capital %",
+    "confidence": 1,
+    "entity": "Falcon Autotech Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "Fully Diluted basis",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Extent of Holding 40.98% (Non-Diluted basis) and 39.34% (Fully Diluted basis)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "39.34",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Networth",
+    "confidence": 1,
+    "entity": "Falcon Autotech Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Net worth attributable to shareholding as per latest audited Balance Sheet ₹924.69 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "924.69",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Profit/(loss) after tax",
+    "confidence": 1,
+    "entity": "Falcon Autotech Private Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Profit/(Loss) for the year ₹229.42 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "229.42",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5488,
+  "output_tokens": 2388
+ }
+}

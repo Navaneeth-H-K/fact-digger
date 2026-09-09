@@ -1,0 +1,263 @@
+{
+ "key": "ab51fcd11d9cd33d813d53e5a13027658fd1dce92f0bad96d6be202ac9d5b72e",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "f23724d20a4164096929997b0f4c8a9dad712909780b43d3d88f93c8dc5fa129",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 70, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Total revenue from customers, Equity Shares held, Total equity, Number of preference shares acquired, Total assets, Restated other comprehensive income / (loss) for the period / year, NWC days, Gateways, Total income, Net cash from / (used in) operating activities, Automated sort centers, Basic loss per share, Restated loss before tax, Revenue from contracts with customers, Total equity and liabilities, Total liabilities, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cash & cash equivalents at the end of the year, Total Compensation, Restated total comprehensive loss for the period / year, Diluted loss per share, Networth, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, TL revenue, Count of 46-ft tractors, Offer for Sale amount, Authorised share capital, Share based payment, Board members count, Cross Border Services revenue, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Profit/(loss) after tax, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Freight, handling and servicing cost, express parcel shipments since inception, Other income, Investments in technology, Retention rate, Return to work rate, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Property, plant and equipment, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Number of days of accounts payables, Weighted average cost of acquisition, Waste intensity per rupee of turnover adjusted for Purchasing Power Parity, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Carbon Monoxide (CO) air emissions, Hydrocarbons (HC) air emissions, Particulate matter (PM) air emissions, NOx air emissions, SOx air emissions, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count\n\nTEXT LAYER:\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n1.\t \u0007Corporate Information\n\t\n\u0007Delhivery Limited (formerly known as Delhivery Private \nLimited) (thereinafter referred to as “The Company” or \n“DELHIVERY” or “the Parent Company”), together with its \nsubsidiaries (collectively referred to as “the Group”) and \nits associate is engaged in the business of warehousing \nand last mile logistics and also involved in designing \nand deploying logistics management systems, provide \nlogistics and supply chain consulting/advice, provide \ninbound/procurement support and other activities of a \nsimilar nature.\n\t\n\u0007The Company is incorporated and domiciled in India \nunder the provisions of the Companies Act applicable \nin India. The Company is listed on NSE Limited and \nBSE Limited. The registered office of the Company \nis located at N24-N34, S24-S34, Air Cargo Logistics \nCentre-II, Opposite Gate 6 Cargo Terminal, IGI Airport, \nNew Delhi-110037.\n\t\n\u0007The Consolidated Financial Statements for the year \nended March 31, 2024, were approved by the Board of \nDirectors and authorised for issue on May 17, 2024.\n2.\t \u0007Basis of preparation of financial statements \nand Significant Accounting Policies\n2.1\t Basis of preparation\n\t\n\u0007These Consolidated Financial Statements have been \nprepared in accordance with Indian Accounting Standard \n(Ind AS) prescribed under Section 133 of Companies \nAct, 2013 (the “Act”), read with rule 3 of the companies \n(Indian Accounting Standards) Rules, 2015 and relevant \namendments rules issued thereunder.\n\t\n\u0007The Consolidated Financial Statements have been \nprepared under the historical cost convention on the \naccrual basis except certain financial instrument which \nare measured at fair values, wherever applicable, at \nthe end of each reporting period, as explained in the \naccounting policies below.\n\t\n\u0007This note provides a list of the material accounting \npolicies adopted in the preparation of these Consolidated \nFinancial Statements.\n\t\n\u0007The Consolidated Financial Statements comprise the \nfinancial statements of the Company and its subsidiaries \nand its share of profit and loss of associate for the year \nended March 31, 2024 and March 31, 2023.\n\t\n\u0007The Consolidated Financial Statements are presented in \nIndian Rupees and all amounts disclosed in the financial \nstatements and notes have been rounded off to the \nnearest millions (as per the requirement of Schedule \nIII), unless otherwise stated.\n2.2\t Basis of consolidation\n\t\n\u0007Subsidiaries:\n\t\n\u0007Subsidiaries include all the entities over which the \nGroup has control. Control is achieved when the Group \nis exposed, or has rights, to variable returns from its \ninvolvement with the investee and has the ability to \naffect those returns through its power over the investee.\n\t\n\u0007The Group re-assesses whether or not it controls an \ninvestee if facts and circumstances indicate that there \nare changes to one or more of the three elements of \ncontrol. Consolidation of a subsidiary begins when the \nGroup obtains control over the subsidiary and ceases \nwhen the Group loses control. Assets, liabilities, income, \nand expenses of a subsidiary acquired or disposed \nof during the years are included in the Consolidated \nFinancial Statements from the date the Group gains \ncontrol until the date the Group ceases to control \nthe subsidiary.\n\t\n\u0007Consolidated financial statements are prepared using \nuniform accounting policies for like transactions and \nother events in similar circumstances. If a member of \nthe Group uses accounting policies other than those \nadopted in the Consolidated Financial Statements for \nlike transactions and events in similar circumstances, \nappropriate adjustments are made to that group \nmembers’ statements in preparing the Consolidated \nFinancial Statements to ensure conformity with the \nGroup’s accounting policies.\n\t\n\u0007The Consolidated Financial Statements of all entities \nused for the purpose of consolidation are drawn up to \nsame reporting date as that of the parent Company, i.e., \nyear ended on March 31, 2024 and March 31, 2023.\n\t\n\u0007Investment in associate:\n\t\n\u0007Associate\n\t\n\u0007An associate is an entity over which the Group has \nsignificant influence. Significant influence is the power \nto participate in the financial and operating policy \ndecisions of the investee but is not control or joint \ncontrol over those policies.\n\t\n\u0007The Group’s investments in its associates are accounted \nfor using the equity method. Under the equity method, \nthe investment in associate is initially recognised \nat cost. The carrying amount of the investment is \nadjusted to recognise changes in the Group’s share of \nnet assets of the associates since the acquisition date. \nGoodwill relating to the associate is included in the \ncarrying amount of the investment and is not tested for \nimpairment individually.\n\t\n\u0007The Consolidated statement of profit and loss reflects \nthe Group’s share of the results of operations of the \nassociate. Any change in OCI of those investees is \npresented as part of the Group’s OCI. In addition, when \nthere has been a change recognised directly in the \nequity of the associates, the Group recognises its share \nof any changes, when applicable, in the consolidated \nstatement of changes in equity. Unrealised gains and \nlosses resulting from transactions between the Group \nand associate are eliminated to the extent of the interest \nin the associate.\n\t\n\u0007If an entity’s share of losses of an associate equals or \nexceeds its interest in the associate (which includes \nany long term interest that, in substance, form part of \nthe Group’s net investment in the associate), the entity \ndiscontinues recognising its share of further losses. \nAdditional losses are recognised",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [],
+  "page_kind": "prose",
+  "problems": [
+   "Only prose text, no financial tables or numeric facts present on this page."
+  ]
+ },
+ "usage": {
+  "input_tokens": 4951,
+  "output_tokens": 44
+ }
+}

@@ -1,0 +1,398 @@
+{
+ "key": "672503d2d32b71c362cb621058b21dd639a753f735664ffb42983aea3b060773",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "13f5dd28fa831814a068edcdb5ca1550396154c540fc648088ef0a0a2d4654d4",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 55, printed label 51.\nExisting attribute vocabulary (reuse a name when it means the same thing): Headline inflation average, GDP growth rate, Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Inflation rate, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Value of exports, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Real gross value added GVA growth rate, Total borrowings, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, merchandise exports growth rate, merchandise imports growth rate, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, merchandise trade deficit, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Core inflation average, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Outstanding at the end of the year, Foreign exchange reserves, Total expenses, net FPI inflows, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, Share capital acquired in Falcon, CBDC (Retail) amount outstanding, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, R&D expenditure in GDP, Debt to Equity, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Gross fixed capital formation growth rate, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, gross fiscal deficit (GFD) as % of GDP, merchandise exports, Reserve money growth rate, Money Supply growth rate, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Current account deficit (CAD) as % of GDP, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), currency depreciation rate, Revenue from customers, Household financial saving (net) as % of gross national disposable income (GNDI), Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, Net FDI, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity\n\nTEXT LAYER:\nECONOMIC REVIEW\n51\nReference:\nOttonello, P. and Winberry, T. (2020), ‘Financial Heterogeneity and the Investment Channel of Monetary Policy’, Econometrica, \n88: 2473-2502.\nTable 1: Estimated Firm-Level Borrowing\nDependent Variable: Δ log(Debti,t)\nExplanatory Variable\nCoefficients\nAll Sectors\nServices Sector\nBorrowings \nfrom Banks\nTotal \nBorrowings\nBorrowings \nfrom Banks\nTotal \nBorrowings\n1\n2\n3\n4\n5\nSpreads,t * NonBank\n0.005\n(0.011)\n0.014*\n(0.008)\n0.010\n(0.025)\n0.013\n(0.015)\nLeveragei,t–1* Spreads,t\n0.014**\n(0.006)\n0.007*\n(0.004)\n0.026**\n(0.011)\n0.005\n(0.008)\nSpreads,t\n-0.060**\n(0.028)\n0.088***\n(0.020)\n-0.126**\n(0.051)\n0.164***\n(0.038)\nFirm Controls\nSizei,t–1\n-0.277***\n(0.081)\n-0.363***\n(0.058)\n-0.452***\n(0.145)\n-0.585***\n(0.102)\nAgei,t–1\n-0.052***\n(0.017)\n0.048***\n(0.013)\n-0.082***\n(0.029)\n0.095***\n(0.023)\nSales Growthi,t–1\n0.010\n(0.014)\n-0.011\n(0.008)\n0.002\n(0.023)\n-0.007\n(0.015)\nInvestment Growthi,t–1\n0.007\n(0.012)\n-0.006\n(0.008)\n0.005\n(0.017)\n0.006\n(0.014)\nLiquidityi,t–1\n0.266***\n(0.079)\n0.202***\n(0.041)\n0.273***\n(0.100)\n0.200***\n(0.051)\nLeveragei,t–1\n-0.227**\n(0.044)\n-0.197***\n(0.030)\n-0.314***\n(0.086)\n-0.218***\n(0.059)\nICRi,t–1\n0.035\n(0.028)\n0.070***\n(0.022)\n0.025\n(0.027)\n0.059**\n(0.025)\nAggregate Control\nNon-agri Growtht–1\n-1.151***\n(0.428)\n1.386***\n(0.297)\n-2.161**\n(0.835)\n2.412***\n(0.599)\nR-squared\n0.156\n0.219\n0.188\n0.246\nNumber of Observations\n13,260\n15,362\n4,243\n5,456\n***, ** and * represent significance levels at 1 per cent, 5 per cent and 10 per cent, respectively.\nNote:\t 1.\t Figures in parentheses indicate robust standard errors.\n\t\n2.\t Unit-level data, accessed from CMIE Prowess, include those firms which have at least three years of data on outstanding debt; and \nalso, do not belong to finance, insurance, real estate, utilities and public administration. All other data are sourced from DBIE, RBI.\n\t\n3.\t Services sector includes wholesale and retail trade, transport, information and communication technology, professional and other \nservices.\n\t\n4.\t Firm and sector fixed effects have been included.\n\t\n5.\t Dependent variable captures change in log of real debt outstanding as a total or from banks. Firm-specific controls include lagged \nvalues of size (log of real total assets), age in years since incorporation, growth in real sales, growth in real investment, leverage \n(ratio of total debt to total assets) and liquidity (quick ratio). Investment denotes changes to real total capital and includes both fixed \nand intangible assets. ICR denotes ratio of earnings to interest expense. Real variables are obtained using non-agricultural GDP \ndeflator. Non-agricultural real GVA growth is in y-o-y growth terms.\n\t\n6.\t Leverage has been demeaned for the firm, and all firm-specific variables have been standardised across the sample, enabling \nbetter comparison across firms and sectors over time.\n\t\n7.\t Non-bank dummy takes value 1 if a firm has accessed credit from a non-bank source (viz., domestic financial market and ECBs) \nduring the sample period. Dummies are also included for asset quality review (2015-16), COVID-19 (2020-21) and merger of a \nnon-bank with a bank (2023-24). \nSource: RBI staff estimates.\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Number of Observations",
+    "confidence": 1,
+    "entity": "All Sectors - Borrowings from Banks",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "13,260",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "13,260",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of Observations",
+    "confidence": 1,
+    "entity": "All Sectors - Total Borrowings",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "15,362",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "15,362",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of Observations",
+    "confidence": 1,
+    "entity": "Services Sector - Borrowings from Banks",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "4,243",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "4,243",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of Observations",
+    "confidence": 1,
+    "entity": "Services Sector - Total Borrowings",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "5,456",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "5,456",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "R-squared",
+    "confidence": 1,
+    "entity": "All Sectors - Borrowings from Banks",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "0.156",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "0.156",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "R-squared",
+    "confidence": 1,
+    "entity": "All Sectors - Total Borrowings",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "0.219",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "0.219",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "R-squared",
+    "confidence": 1,
+    "entity": "Services Sector - Borrowings from Banks",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "0.188",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "0.188",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "R-squared",
+    "confidence": 1,
+    "entity": "Services Sector - Total Borrowings",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "0.246",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "0.246",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4810,
+  "output_tokens": 846
+ }
+}

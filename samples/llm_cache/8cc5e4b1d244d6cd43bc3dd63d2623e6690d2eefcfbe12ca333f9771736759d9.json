@@ -1,0 +1,86 @@
+{
+ "key": "8cc5e4b1d244d6cd43bc3dd63d2623e6690d2eefcfbe12ca333f9771736759d9",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "adjudicate",
+ "request": {
+  "content": [
+   {
+    "text": "FACT A:\nentity: Delhivery\nattribute: FY24 EBITDA increase\nvalue: 578 Rs. crore\nnormalised value: 5780000000.0 INR\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-delhivery-q4-fy24-earnings-presentation.pdf; publisher: Delhivery Limited; published: 2024-05-01\npage label: 2\nevidence verified: True (exact)\nquote: \"FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23\"\n\nFACT B:\nentity: Delhivery Limited\nattribute: EBITDA\nvalue: 1,266 ₹ million\nnormalised value: 1266000000.0 INR\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 6\nevidence verified: True (fuzzy)\nquote: \"₹1,266Mn \\nEBITDA\"\n\nRule-engine hypothesis: same period and basis, values differ\n\nDecide the verdict.",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You compare two facts extracted from two documents and decide how they relate.\n\nVerdicts:\n- corroborates: same quantity, same period, same basis, compatible values (allow rounding).\n- superseded: same quantity and period, but a later data vintage or a revision replaces the\n  earlier value; name which fact is newer.\n- context_explained: the values differ because the period, scope/basis, unit or attribution\n  differs; name that dimension. This is not a contradiction.\n- contradicts: same quantity, period, basis and unit carry incompatible values.\n- unresolved: the evidence does not settle it; give your best hypothesis in the explanation.\n\nUse only the fields and quotes provided. Keep the explanation under 60 words and cite the\ndistinguishing phrase from each quote.",
+  "tool_name": "record_verdict",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "confidence": {
+     "default": 0.5,
+     "maximum": 1.0,
+     "minimum": 0.0,
+     "title": "Confidence",
+     "type": "number"
+    },
+    "dimension": {
+     "default": "none",
+     "enum": [
+      "period",
+      "estimate_type",
+      "basis",
+      "unit",
+      "vintage",
+      "attribution",
+      "value",
+      "none"
+     ],
+     "title": "Dimension",
+     "type": "string"
+    },
+    "explanation": {
+     "maxLength": 800,
+     "minLength": 1,
+     "title": "Explanation",
+     "type": "string"
+    },
+    "newer_fact": {
+     "default": "none",
+     "enum": [
+      "a",
+      "b",
+      "none"
+     ],
+     "title": "Newer Fact",
+     "type": "string"
+    },
+    "verdict": {
+     "enum": [
+      "corroborates",
+      "contradicts",
+      "superseded",
+      "context_explained",
+      "unresolved"
+     ],
+     "title": "Verdict",
+     "type": "string"
+    }
+   },
+   "required": [
+    "verdict",
+    "explanation"
+   ],
+   "title": "Verdict",
+   "type": "object"
+  }
+ },
+ "response": {
+  "dimension": "value",
+  "explanation": "Fact A gives the EBITDA increase of \"Rs. 578 Cr\", whereas Fact B gives the actual EBITDA value of \"₹1,266Mn\". They measure different things (EBITDA increase vs total EBITDA) and have different values.",
+  "newer_fact": "none",
+  "verdict": "context_explained"
+ },
+ "usage": {
+  "input_tokens": 746,
+  "output_tokens": 91
+ }
+}

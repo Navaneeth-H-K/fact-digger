@@ -1,0 +1,517 @@
+{
+ "key": "ff637474e9494e0f8f49de21b636200f3bfd7a4ab6bded349930c120970d559c",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "f6251188d991290a287c745c2cbc950941fbc3d4b9d1186a9fe47836a13a970a",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-imf-india-2025-article-iv-excerpt.pdf; title: unknown; publisher: International Monetary Fund; published: 2025-11-01; fiscal year starts in month 4.\nPage index 80, printed label A3: 76.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Headline inflation average, Inflation rate, gross fiscal deficit (GFD) as % of GDP, Equity share capital %, revenue from services, Property, plant and equipment, Value of exports, Remuneration to key management personnel, merchandise exports growth rate, Restated loss for the period / year, Active Customers, Foreign exchange reserves, merchandise imports growth rate, Team size, Weighted average cost of acquisition per Equity Share, Real gross value added GVA growth rate, Pin-code reach, merchandise trade deficit, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, Total borrowings, Primary Deficit, External debt to GDP ratio, express parcel shipments, Current account deficit (CAD) as % of GDP, net FPI inflows, merchandise imports, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Total assets, Cash & cash equivalents at the end of the year, Total equity, Total liabilities, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Money Supply growth rate, Number of Observations, Authorised share capital, Core inflation average, Basic loss per share, Total revenue from customers, Revenue Deficit, Total income, Top 1: Large Credit Exposure as of June 2024, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, merchandise exports, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, currency depreciation rate, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Total expenses, Express Parcel revenue, PTL freight revenue, Risk Likelihood, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Net FDI, Reserve money growth rate, revenue from services growth rate, Other income, Networth, CBDC (Retail) amount outstanding, Freight, handling and servicing cost, Outstanding at the end of the year, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Capital expenditure, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Debt to Equity, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, 10-year generic G-sec yield, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, average tariff rate on dutiable items, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Gross fixed capital formation growth rate, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, R&D expenditure in GDP, Primary Revenue Deficit, Number of new markets explored, express parcel shipments since inception, FDI inflows, Investments in technology, R-squared, Retention rate, Return to work rate, Total (B), Yields, Risk-weighted capital adequacy ratio (CAR), Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, Household financial saving (net) as % of gross national disposable income (GNDI), Revenue, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes\n\nTEXT LAYER:\nINDIA  \n76 \nINTERNATIONAL MONETARY FUND \n9.      \nIndian firms conduct limited R&D. Only 4.3 percent of Indian firms report having spent \nresources on R&D, significantly below the 17 percent average across EMs and 13 percent average \nacross LICs (World Bank Enterprise Survey, 2022).11 Low private sector R&D spending in India results \nin limited product and process innovation, which \ntend to be positively correlated with TFP growth \nacross countries. Just 5.3 percent of Indian firms \nlaunched a new product and 3.3 percent \nintroduced a new process in the preceding three \nyears, compared to EM averages of 27 percent \nand 16.8 percent. Indian firms also stand out for \ntheir relatively low adoption of foreign \ntechnology: merely 5.4 percent of firms utilize \ntechnology licensed from overseas companies, \nwhich is approximately one-third the average rate \nobserved across EMs. This may be reflective of \nIndia’s limited FDI: India’s stock of inward FDI amounts to 15 percent of GDP, compared to an \naverage of 24.6 percent of GDP across middle income developing economies. Importantly, R&D \nactivity rises significantly with firm size and exporting behavior (Figure 6), indicating the importance \nof reducing barriers to growth and promoting integration into the global economy.  \n10.      Larger and more established firms tend to spend more on R&D than other firms. Panel \ndata on Indian corporates confirms that firm size, based on assets or revenues, strongly correlates \nwith R&D spending (Table 1). A concave relationship between age and R&D suggests that older \nfirms are more likely to spend on R&D, but only up to a point. Higher liquidity and interest coverage \nratios are also significant, but only in selected specifications, while, perhaps to some extent \ncounterintuitively, higher profitability has a significant negative correlation with R&D spending in \ntwo of the specifications.  \n11.      Patenting has accelerated in India, and administrative reforms are making it easier. \nIndia ranks sixth globally in annual patent applications, and the per capita rate has grown, but \nremains low compared to advanced economies (Figure 7). Therefore, there remains potential for \ncontinued progress toward achieving aspirational targets. The higher share of residents in patent \napplications is an encouraging trend. Increased staffing at India's patent office has boosted \nprocessing capacity, clearing application backlogs. Between 2013/14 and 2023/24, patent \napplications doubled, while patents granted rose from about 4,000 to over 100,000 (Sanyal and \nArora, 2025). \n12.      Several government initiatives aim to boost R&D in India. India has gradually reduced its \nincome tax weighted deduction on R&D expenditure from 200 percent in FY2010/11 to 100 percent \nin FY2021/22, to rationalize the fiscal cost and mitigate concerns over abuse and misreporting  \n \n11 Similarly, only 3 percent of manufacturing establishments spent any resources on R&D according to the ASI 2022/23. \n \n-1.2\n-1.0\n-0.8\n-0.6\n-0.4\n-0.2\n0.0\n0.2\n0.4\n0\n20\n40\n60\n80\nAverage TFP Growth\nPercent of firms that introduced a process innovation\nIndia: TFP Growth and Firms' Process Innovation\n(Percent)\nSources: IMF staff estimates based on PWT and Enterprise Surveys.\n©International Monetary Fund. Not for Redistribution\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Share of firms spending resources on R&D",
+    "confidence": 1,
+    "entity": "Indian firms",
+    "estimate_type": "third_party",
+    "measurement_basis": null,
+    "notes": "World Bank Enterprise Survey, 2022",
+    "period": "2022",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "quote": "Only 4.3 percent of Indian firms report having spent resources on R&D, significantly below the 17 percent average across EMs and 13 percent average across LICs (World Bank Enterprise Survey, 2022).",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "4.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of firms spending resources on R&D average",
+    "confidence": 1,
+    "entity": "EMs",
+    "estimate_type": "third_party",
+    "measurement_basis": null,
+    "notes": "World Bank Enterprise Survey, 2022",
+    "period": "2022",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "quote": "significantly below the 17 percent average across EMs and 13 percent average across LICs (World Bank Enterprise Survey, 2022).",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "17",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of firms spending resources on R&D average",
+    "confidence": 1,
+    "entity": "LICs",
+    "estimate_type": "third_party",
+    "measurement_basis": null,
+    "notes": "World Bank Enterprise Survey, 2022",
+    "period": "2022",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "quote": "13 percent average across LICs (World Bank Enterprise Survey, 2022).",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "13",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of manufacturing establishments spending resources on R&D",
+    "confidence": 1,
+    "entity": "Indian manufacturing establishments",
+    "estimate_type": "third_party",
+    "measurement_basis": null,
+    "notes": "ASI 2022/23",
+    "period": "2022/23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Similarly, only 3 percent of manufacturing establishments spent any resources on R&D according to the ASI 2022/23.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of firms that launched a new product",
+    "confidence": 1,
+    "entity": "Indian firms",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": "preceding three years",
+    "period": "preceding three years",
+    "period_end": null,
+    "period_start": null,
+    "quote": "Just 5.3 percent of Indian firms launched a new product and 3.3 percent introduced a new process in the preceding three years",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "5.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of firms that introduced a new process",
+    "confidence": 1,
+    "entity": "Indian firms",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": "preceding three years",
+    "period": "preceding three years",
+    "period_end": null,
+    "period_start": null,
+    "quote": "3.3 percent introduced a new process in the preceding three years, compared to EM averages of 27 percent and 16.8 percent.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "3.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of firms that launched a new product average",
+    "confidence": 1,
+    "entity": "EMs",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "compared to EM averages of 27 percent and 16.8 percent.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "27",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of firms that introduced a new process average",
+    "confidence": 1,
+    "entity": "EMs",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "EM averages of 27 percent and 16.8 percent.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "16.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of firms utilizing foreign technology licensed from overseas companies",
+    "confidence": 1,
+    "entity": "Indian firms",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "merely 5.4 percent of firms utilize technology licensed from overseas companies, which is approximately one-third the average rate observed across EMs.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "5.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Stock of inward FDI as % of GDP",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "India’s stock of inward FDI amounts to 15 percent of GDP, compared to an average of 24.6 percent of GDP across middle income developing economies.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "15",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Stock of inward FDI as % of GDP average",
+    "confidence": 1,
+    "entity": "middle income developing economies",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "compared to an average of 24.6 percent of GDP across middle income developing economies.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "24.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Global rank in annual patent applications",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "India ranks sixth globally in annual patent applications",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "th",
+    "value": "sixth",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Patents granted count",
+    "confidence": 1,
+    "entity": "India patent office",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": "from about 4,000 to over 100,000",
+    "period": "between 2013/14 and 2023/24",
+    "period_end": "2024-03-31",
+    "period_start": "2013-04-01",
+    "quote": "while patents granted rose from about 4,000 to over 100,000 (Sanyal and Arora, 2025).",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "patents",
+    "value": "100,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Income tax weighted deduction on R&D expenditure",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY2010/11",
+    "period_end": "2011-03-31",
+    "period_start": "2010-04-01",
+    "quote": "India has gradually reduced its income tax weighted deduction on R&D expenditure from 200 percent in FY2010/11 to 100 percent in FY2021/22",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "200",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Income tax weighted deduction on R&D expenditure",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY2021/22",
+    "period_end": "2022-03-31",
+    "period_start": "2021-04-01",
+    "quote": "from 200 percent in FY2010/11 to 100 percent in FY2021/22, to rationalize the fiscal cost",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "100",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4272,
+  "output_tokens": 2264
+ }
+}

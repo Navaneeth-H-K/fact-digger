@@ -1,0 +1,500 @@
+{
+ "key": "a278d545215f2e0f78016ab05be09b6ab2813f20d04249c4ec04ed257cd1bfc5",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "a35bda3298e8b26edd6127c27ac65541a47f6f0c7de87a3b21809315c5536735",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 27, printed label 23.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, Value of exports, Headline inflation average, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Total borrowings, Infrastructure, global market share of apparel exports, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, merchandise trade deficit, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Foreign exchange reserves, Total expenses, net FPI inflows, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Debt to Equity, Outstanding at the end of the year, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, Core inflation average, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Gross fixed capital formation growth rate, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, gross fiscal deficit (GFD) as % of GDP, merchandise exports growth rate, merchandise exports, merchandise imports growth rate, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Current account deficit (CAD) as % of GDP, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), currency depreciation rate, Revenue from customers, R&D expenditure in GDP, Household financial saving (net) as % of gross national disposable income (GNDI), Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, Net FDI, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Trade payables, Share in Production, Repatriation amount, Applications count, Non - current operating assets, Attrition of Key Managerial Personnel, Attrition rate, Average global food inflation, Total cash balance\n\nTEXT LAYER:\nECONOMIC REVIEW\n23\nkharif and rabi crops for 2024-25 in a range of \n1.4 to 12.7 per cent, ensuring a return of at least \n50 per cent over the cost of production9. Wheat \nand paddy MSPs provide 105 per cent and 50 \nper cent returns over the cost of production, \nrespectively. The Union Budget 2025-26 has \nfocused on areas such as enhancing productivity \nand sustainability in agriculture and improving \nagricultural infrastructure. \nII.2.13 \t The overall public stock of foodgrains \nheld by the Food Corporation of India (FCI) stood \nat 749 lakh tonne (as at end-March 2025), with \n9\t Actual paid out cost plus imputed value of family labour (A2+FL).\nTable II.2.4: Agricultural Crop Production 2024-25*\n(Lakh tonne)\n Crop\n2023-24\nFinal Estimates\n(FE)\n2024-25\nSecond Advance Estimates \n(SAE)\n2024-25 (SAE) Variation over \n2023-24 Final Estimates \n(per cent)\n1\n2\n3\n4\n1. \t Foodgrains\n3,157.7\n3,309.2\n4.8\n\t\nRice\n1,278.6\n1,364.4\n6.7\n\t\nWheat\n1,132.9\n1,154.3\n1.9\n\t\nNutri/Coarse Cereals\n524.5\n560.3\n6.8\n\t\nPulses\n221.7\n230.2\n3.8\n\t\nTur\n34.2\n35.1\n2.8\n\t\nGram\n110.4\n115.4\n4.5\n\t\nUrad\n20.9\n18.0\n-14.0\n\t\nMoong\n12.6\n16.1\n28.0\n2. \t Oilseeds\n384.4\n416.7\n8.4\n3. \t Cotton#\n325.2\n294.3\n-9.5\n4. \t Jute and Mesta##\n96.9\n86.2\n-11.0\n5. \t Sugarcane\n4,531.6\n4,350.8\n-4.0\n*: Kharif and Rabi crops (excluding summer crops).   #: Lakh bales of 170 kg each.    ##: Lakh bales of 180 kg each.\nSource: Ministry of Agriculture and Farmers Welfare, GoI.\nChart II.2.6: Rainfall and Reservoir Levels\nSource: India Meteorological Department (IMD) and Central Water Commission (CWC), GoI.\nDeparture from LPA\n(per cent)\n2023\n2024\nPer cent of full reservoir level\na. South-West Monsoon (Spatial)\nb. Reservoir Level\n-18\n1\n0\n-8\n-6\n-14\n7\n19\n14\n8\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\nEast and\nNorth\nEast\nIndia\nNorth\nWest\nIndia\nCentral\nIndia\nSouth\nPeninsula\nAll India\n10-year Average\nWeekly Status\n37\n42\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n1-Jun-23\n6-Jul-23\n10-Aug-23\n14-Sep-23\n19-Oct-23\n23-Nov-23\n28-Dec-23\n1-Feb-24\n7-Mar-24\n11-Apr-24\n16-May-24\n20-Jun-24\n25-Jul-24\n29-Aug-24\n3-Oct-24\n7-Nov-24\n12-Dec-24\n16-Jan-25\n20-Feb-25\n27-Mar-25\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "public stock of foodgrains held by the FCI",
+    "confidence": 1,
+    "entity": "Food Corporation of India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "as at end-March 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2025-03-31",
+    "quote": "II.2.13 \t The overall public stock of foodgrains \nheld by the Food Corporation of India (FCI) stood \nat 749 lakh tonne (as at end-March 2025), with",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "749",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foodgrains production",
+    "confidence": 1,
+    "entity": "Foodgrains",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Foodgrains 3,157.7 3,309.2 4.8",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "3,309.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Rice production",
+    "confidence": 1,
+    "entity": "Rice",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Rice 1,278.6 1,364.4 6.7",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "1,364.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Wheat production",
+    "confidence": 1,
+    "entity": "Wheat",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Wheat 1,132.9 1,154.3 1.9",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "1,154.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Nutri/Coarse Cereals production",
+    "confidence": 1,
+    "entity": "Nutri/Coarse Cereals",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Nutri/Coarse Cereals 524.5 560.3 6.8",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "560.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Pulses production",
+    "confidence": 1,
+    "entity": "Pulses",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Pulses 221.7 230.2 3.8",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "230.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Tur production",
+    "confidence": 1,
+    "entity": "Tur",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Tur 34.2 35.1 2.8",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "35.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Gram production",
+    "confidence": 1,
+    "entity": "Gram",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Gram 110.4 115.4 4.5",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "115.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Urad production",
+    "confidence": 1,
+    "entity": "Urad",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Urad 20.9 18.0 -14.0",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "18.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Moong production",
+    "confidence": 1,
+    "entity": "Moong",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Moong 12.6 16.1 28.0",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "16.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Oilseeds production",
+    "confidence": 1,
+    "entity": "Oilseeds",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Oilseeds 384.4 416.7 8.4",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "416.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cotton production",
+    "confidence": 1,
+    "entity": "Cotton",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": "Lakh bales of 170 kg each",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Cotton# 325.2 294.3 -9.5",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "bales",
+    "value": "294.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Jute and Mesta production",
+    "confidence": 1,
+    "entity": "Jute and Mesta",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": "Lakh bales of 180 kg each",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Jute and Mesta## 96.9 86.2 -11.0",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "bales",
+    "value": "86.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Sugarcane production",
+    "confidence": 1,
+    "entity": "Sugarcane",
+    "estimate_type": "advance_estimate",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-07-01",
+    "quote": "Sugarcane 4,531.6 4,350.8 -4.0",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "tonne",
+    "value": "4,350.8",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4452,
+  "output_tokens": 2177
+ }
+}

@@ -1,0 +1,374 @@
+{
+ "key": "3cb081adae5c47ab5ed9b9d758f852e010bffd66e20e40806fc6dbe999de2984",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "6a8c537882778589858a2e730f5896366c17e6994d043b9be4b15d77b420ec78",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-imf-india-2025-article-iv-excerpt.pdf; title: unknown; publisher: International Monetary Fund; published: 2025-11-01; fiscal year starts in month 4.\nPage index 78, printed label A3: 74.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Headline inflation average, Inflation rate, gross fiscal deficit (GFD) as % of GDP, Equity share capital %, revenue from services, Property, plant and equipment, Value of exports, Remuneration to key management personnel, merchandise exports growth rate, Restated loss for the period / year, Active Customers, Foreign exchange reserves, merchandise imports growth rate, Team size, Weighted average cost of acquisition per Equity Share, Real gross value added GVA growth rate, Pin-code reach, merchandise trade deficit, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, Total borrowings, Primary Deficit, External debt to GDP ratio, express parcel shipments, Current account deficit (CAD) as % of GDP, net FPI inflows, merchandise imports, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Total assets, Cash & cash equivalents at the end of the year, Total equity, Total liabilities, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Money Supply growth rate, Number of Observations, Authorised share capital, Core inflation average, Basic loss per share, Total revenue from customers, Revenue Deficit, Total income, Top 1: Large Credit Exposure as of June 2024, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, merchandise exports, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, currency depreciation rate, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Total expenses, Express Parcel revenue, PTL freight revenue, Risk Likelihood, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Net FDI, Reserve money growth rate, revenue from services growth rate, Other income, Networth, CBDC (Retail) amount outstanding, Freight, handling and servicing cost, Outstanding at the end of the year, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Capital expenditure, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Debt to Equity, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, 10-year generic G-sec yield, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, average tariff rate on dutiable items, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Gross fixed capital formation growth rate, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, R&D expenditure in GDP, Primary Revenue Deficit, Number of new markets explored, express parcel shipments since inception, FDI inflows, Investments in technology, R-squared, Retention rate, Return to work rate, Total (B), Yields, Risk-weighted capital adequacy ratio (CAR), Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, Household financial saving (net) as % of gross national disposable income (GNDI), Revenue, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes\n\nTEXT LAYER:\nINDIA  \n74 \nINTERNATIONAL MONETARY FUND \nwhere 𝜃𝑖𝑡 is value-added market share and 𝑝𝑖𝑡 denotes firm-level productivity. Analysis of firm-level \nTFP during 2018-22 shows that aggregate productivity growth was driven primarily by resource \nreallocation from less productive firms to more productive ones, while the contribution from \nproductivity improvements within firms was small (Figure 4). Importantly, inactive firms showed \ndeclining productivity, thus subtracting from aggregate TFP growth. Meanwhile, the impact of firm \nentry and exit on productivity was small, reflecting the low rate of business dynamism and \nunderscore the need for reforms that promote easier entry, faster exit, and strengthen insolvency \nand bankruptcy procedures to accelerate the reallocation process.9 Overall, these findings point to \nthe critical importance of fostering a more dynamic business environment—where unproductive \nfirms are allowed to exit, and new and innovative firms can grow and thrive. \nFigure 4. India: Firm Dynamism and TFP Growth  \nDuring 2018-2022, TPF growth has been driven largely by a \nshift of resources to more productive firms… \n…while zombie firms reduced aggregate productivity growth.  \nSources: Orbis; and IMF staff calculations. \n \nResearch and Development: Fostering Innovation \n7.      \nIndia deploys limited resources into research and development (Figure 5). India’s R&D \nexpenditure represented only 0.6 percent of GDP in 2020, on par with the EM average, but below \nthe G20 emerging market average of 0.9 percent of GDP and the advanced economies average of \n2.2 percent of GDP. As R&D expenditure is generally positively correlated with TFP growth (RBI, \n2025; IMF, 2021), a greater focus on R&D spending is needed to underpin future productivity \ngrowth. Furthermore, India lags in researchers per capita: there are fewer than 300 researchers per \nmillion inhabitants in India, compared to over 1,800 in China, around 1,000 in emerging markets and \nover 5,000 in advanced economies on average. R&D spending in India is generally needed to adapt \nand adopt existing technologies, whereas expanding the technological frontier is relevant for \nselected industries. \n \n9 The fact that entrants tended to have lower-than-average productivity may reflect start-up periods with limited \nsales.  \n-1\n0\n1\n2\n1\nAggregate Productivity Growth\n(TFP change per year, 2018-2022)\nWithin-firm \nproductivity\nReallocation \nExit \nEntrants\n-1\n0\n1\n2\n1\nReallocation\nof non-\nWithin non-\nzombies \nWithin zombies\nReallocation-\nZombies\nChange in TFP for Continuers: The Role of Zombies\n(TFP change per year, 2018-2022)\n©International Monetary Fund. Not for Redistribution\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "R&D expenditure in GDP",
+    "confidence": 0.99,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-01-01",
+    "quote": "India’s R&D expenditure represented only 0.6 percent of GDP in 2020, on par with the EM average, but below the G20 emerging market average of 0.9 percent of GDP and the advanced economies average of 2.2 percent of GDP.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "percent",
+    "value": "0.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "R&D expenditure in GDP",
+    "confidence": 0.99,
+    "entity": "G20 emerging market average",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-01-01",
+    "quote": "the G20 emerging market average of 0.9 percent of GDP",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "percent",
+    "value": "0.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "R&D expenditure in GDP",
+    "confidence": 0.99,
+    "entity": "advanced economies average",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-01-01",
+    "quote": "advanced economies average of 2.2 percent of GDP",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "percent",
+    "value": "2.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Researchers per million inhabitants",
+    "confidence": 0.99,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "present",
+    "period_end": null,
+    "period_start": null,
+    "quote": "there are fewer than 300 researchers per million inhabitants in India",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per million inhabitants",
+    "value": "300",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Researchers per million inhabitants",
+    "confidence": 0.99,
+    "entity": "China",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "present",
+    "period_end": null,
+    "period_start": null,
+    "quote": "compared to over 1,800 in China",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per million inhabitants",
+    "value": "1,800",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Researchers per million inhabitants",
+    "confidence": 0.99,
+    "entity": "emerging markets average",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "present",
+    "period_end": null,
+    "period_start": null,
+    "quote": "around 1,000 in emerging markets",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per million inhabitants",
+    "value": "1,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Researchers per million inhabitants",
+    "confidence": 0.99,
+    "entity": "advanced economies average",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "present",
+    "period_end": null,
+    "period_start": null,
+    "quote": "over 5,000 in advanced economies on average.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per million inhabitants",
+    "value": "5,000",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4104,
+  "output_tokens": 919
+ }
+}

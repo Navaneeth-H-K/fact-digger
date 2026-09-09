@@ -1,0 +1,381 @@
+{
+ "key": "6b7fdf3ae82b295870ba0d9578c6fbf31e1ada6bad5a880bf56e669564a6c16d",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "aef0105a3918ff0909bca55b651c5b1de5504a54da64644b77e9c68db628f7f3",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 28, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, Team size, PTL freight tonnage, Adjusted EBITDA margin, express parcel shipments, Adjusted EBITDA, Infrastructure, Number of preference shares acquired, Total revenue from customers, NWC days, EBITDA margin, Gateways, Restated other comprehensive income / (loss) for the period / year, EBITDA, Total equity and liabilities, Total equity, Automated sort centers, Total income, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Restated total comprehensive loss for the period / year, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Authorised share capital, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, Diluted loss per share, Service EBITDA margin, Service EBITDA, Express Parcel revenue, PTL freight revenue, Total liabilities, Networth, TL revenue, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, express parcel shipments since inception, organized players market share, Count of 46-ft tractors, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Equity Shares held, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Other income, Investments in technology, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, Sortation capacity utilisation, Freight, handling and servicing cost, Revenue from customers, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Revenue CAGR, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Installed solar power capacity, Issued, Subscribed and Paid-up Equity Share Capital, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, Goodwill, Interest income, Sustainably sourced inputs share, Logistics intensity, Term loan, Packing material, Rent, Stores and spares, Contractual to permanent absorption count, Funds utilised for Funding inorganic growth through acquisition..., Employees engaged across on-roll, off-roll, and agents, savings across lanes and vehicles, Active ESOP holders count, Active routes\n\nTEXT LAYER:\nAnnexure-2\nParticulars of Energy Conservation, Technology Absorption and Foreign Exchange Earnings and Outgo\n[Pursuant to Companies (Accounts) Rules, 2014]\n(A)\nConservation of Energy\n(i)\nThe steps taken or impact on conservation of energy – \nYour Company is committed to utilise renewable electricity in its offices, facilities & other premises and uses energy efficient devices \nand has a total installed capacity of 4.6 MW solar power plant at various facilities.\n(ii)\nThe steps taken by your Company for utilising alternate sources of energy –\n\t\ny\nInstalled capacity of 4.6 MW Solar Power Plant as on March 31, 2024.\n\t\ny\nReducing carbon footprint through tech technology solutions for better routing in the middle mile and last mile, higher truck/bike \nutilisation; use of fuel efficient, Volvo tractor trailers etc.\nOur efforts have thus translated into ~20% reduction in the overall logistics intensity in FY24 when compared with FY23\n\t\ny\nDown from 229.1 gCO2e/tonne-km in FY23 which is a 19.61% reduction.\n(iii)\nThe capital investment on energy conservation equipments – Nil\n(B)\nTechnology absorption\n(i)\nThe efforts made towards technology \nabsorption\nBusiness Growth:\n\t\ny\nLaunched PTL on flagship customer portal - Delhivery One and to improve experience \nof existing PTL customers and cross-sell PTL to existing Express customers.\n\t\ny\nLaunched heavy goods shipping for end consumers via Delhivery app and Direct \nweb portal.\n\t\ny\nLaunched new VAS - RTO predictor (on Delhivery One and OS1) to help companies \nreduce RTO rates, Geocoding APIs (on OS1).\nService Improvement :\n\t\ny\nImproved mapper to reduce misroutes in the Company’s network by ~15%.\n\t\ny\nExpanded PTL Last Mile VAS to Retail customers to improve PTL yield for the segment.\n\t\ny\nLaunched in-house AI-powered ticketing system to improve customer service.\n\t\ny\nMajor rehaul of WMS and integrations with transportation to improve inbound as well \nas outbound operations in FCs.\nClients/Consignees/Partners experience:\n\t\ny\nImproved tracking experience by providing more accurate delivery date, and more \nself-help options on tracking page.\n\t\ny\nUse historical data to generate an automated product catalog with weights and \ndimensions to bill B2C clients accurately.\nFinancial Systems and Controls:\n\t\ny\nImproved controls in prepaid B2C offering to accurately identify where to charge on \nvolumetric basis, reducing revenue leakage significantly.\n\t\ny\nImproved PTL billing systems to bring down time to bill, and reduce DSO.\nPlatform:\n\t\ny\nLaunched second product on Platform (OS1) - TransportOne.\n\t\ny\nHardware Automation:\nDelhivery’s focus on hardware automation has continued through FY24 as the Company \ninvested more in sortation, weighing/dimensioning equipment and new technologies:\n\t\na.\t\n\u0007Shipment and box sortation – added new capacity and introduced new \nenhancements to improve shipment handling\n\t\nb.\t\n\u0007Weighing and dimensioning - added more static and dynamic profilers. Introduced \nnew machines which use camera/image based dimensioning technology\n\t\nc.\t\n\u0007Autonomous mobile robots and shuttle based sorting: Initiated pilots for new \ntechnologies which can help increase efficiency of operations\n\t\ny\nCompleted in-house designing of new drone. Manufacturing of the prototype completed \nwith partners and testing conducted by the US based team to further refine the design.\n(ii)\nThe benefits derived like product \nimprovement, cost reduction, product \ndevelopment or import substitution –\n(iii)\nIn case of imported technology (imported \nduring last three years reckoned from the \nbeginning of the financial year):\na)\t\nthe details of technology imported\nNA\nb)\t\nthe year of import\nNA\nc)\t\n\u0007whether the technology been fully \nabsorbed\nNA\nd) if not fully absorbed, areas where \nabsorption has not taken place, and the \nreasons thereof\nNA\n(iv)\nThe expenditure incurred on Research and \nDevelopment\nNA\n(C)\nForeign exchange earnings and Outgo\nThe Foreign Exchange earned in terms of actual inflows during FY24 has been ₹193.13 million (FY23: ₹357.45 million) and the Foreign \nExchange outgo during FY24 in terms of actual outflows has been ₹1,339.5 million (FY23: ₹2,184.20 million).\nOn behalf of the Board of Directors\nFor Delhivery Limited\nSahil Barua\t\nDeepak Kapoor\nManaging Director & Chief Executive Officer \t\nChairperson & Non-Executive Independent Director\nDIN: 05131571\t\nDIN: 00162957\nPlace: Goa\t\nPlace: New Delhi\nDate: July 05, 2024\nDirectors’ Report (Contd.)\nAnnual Report 2023-24\n57\n56\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Installed solar power capacity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Installed capacity of 4.6 MW Solar Plant as on March 31, 2024.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "MW",
+    "value": "4.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Logistics intensity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "compared with FY23",
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Our efforts have thus translated into ~20% reduction in the overall logistics intensity in FY24 when compared with FY23",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "~20",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Logistics intensity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Down from 229.1 gCO2e/tonne-km in FY23 which is a 19.61% reduction.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "gCO2e/tonne-km",
+    "value": "229.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foreign exchange earnings",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "actual inflows",
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "The Foreign Exchange earned in terms of actual inflows during FY24 has been ₹193.13 million (FY23: ₹357.45 million)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "193.13",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foreign exchange earnings",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "actual inflows",
+    "notes": null,
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "The Foreign Exchange earned in terms of actual inflows during FY24 has been ₹193.13 million (FY23: ₹357.45 million)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "357.45",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foreign exchange outgo",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "actual outflows",
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "and the Foreign Exchange outgo during FY24 in terms of actual outflows has been ₹1,339.5 million (FY23: ₹2,184.20 million).",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,339.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foreign exchange outgo",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "actual outflows",
+    "notes": null,
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "and the Foreign Exchange outgo during FY24 in terms of actual outflows has been ₹1,339.5 million (FY23: ₹2,184.20 million).",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "2,184.20",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4538,
+  "output_tokens": 1159
+ }
+}

@@ -1,0 +1,562 @@
+{
+ "key": "9e3dae3f876f282c4d26cb143c928cd0f80e79d635f71a407dccc7b3dcc6d25e",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "ff2d6d21325826b9be66050602b6a07b082b3dacdb57c0b610bddd45f659e14a",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 59, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Active Customers, Restated loss for the period / year, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Automated sort centers, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Total Compensation, Revenue from contracts with customers, Networth, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Count of 46-ft tractors, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Board members count, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Other income, Investments in technology, Retention rate, Return to work rate, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, No. of ESOPs vested as on March 31, 2024, Number of days of accounts payables, Weighted average cost of acquisition, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Number of dealers/distributors to whom sales are made, Right of use asset, Consolidated Fees paid to Statutory Auditors, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Cost incurred on well-being measures as a % of total turnover of the company, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Stock Code, private consumption expenditure growth rate\n\nTEXT LAYER:\n7.\t\n\u0007Complaints filed under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, \n2013, in the following format:\nParticulars\nFY24\nFY23\nTotal Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, \nProhibition and Redressal) Act, 2013 (POSH)\n50\n36\nComplaints on POSH as a % of female employees/workers\n0.89%\n1.02%\nComplaints on POSH upheld\n29\n36\n8.\t\nMechanisms to prevent adverse consequences to the complainant in discrimination and harassment cases.\n\t\n\u0007We are committed to maintaining a workplace free of harassment, including sexual harassment, & we have zero tolerance \nfor such unacceptable conduct. We actively encourage the reporting of any harassment concerns & promptly respond \nto complaints about harassment or any other unwelcome or offensive conduct. We have constituted committees with \ncomprehensive representation from all regions and business units, & we ensure that the members receive appropriate \ntraining to effectively discharge their duties. Regular awareness & training sessions are conducted to ensure that our \nemployees are fully aware of the aspects of sexual harassment and the redressal mechanism. Additionally, our POSH \nHelpline ensures complete anonymity to the complainant.\n9.\t\nDo human rights requirements form part of your business agreements and contracts?\n\t\n(Yes/No)\n\t\n\u0007Yes. We formulated a Supplier Code of Conduct in FY23, making Human Rights a requirement in our business agreements \n& contracts with Value Chain Partners.\n10.\t Assessments for the year:\n% of your plants and officers that were assessed (by entity or statutory \nauthorities or third parties)\nChild Labour\n100%\nForced/involuntary labour\nSexual harassment\nDiscrimination at work place\nWages\nOthers – please specify\n11.\t \u0007Provide details of any corrective actions taken or underway to address significant risks/concerns arising from the \nassessments at Question 10 above.\n\t\nNo significant risk/concern identified, hence no corrective action taken.\nPRINCIPLE 6: Businesses should respect and make efforts to protect and restore the environment\nEssential Indicators\n1.\t\nDetails of total energy consumption (in Joules or multiples) and energy intensity, in the following format:\nParameter\nFY24\nFY23\nFrom renewable sources\nTotal electricity consumption (A)\n2,937.33\n730.74\nTotal fuel consumption (B)\n-\n-\nEnergy consumption sources (C)\n-\n-\nTotal energy consumed from renewable sources (A+B+C)\n2,937.33\n730.74\nFrom non-renewable sources\nTotal electricity consumption (D)\n73,869.24\n59,160.26\nTotal fuel consumption (E)\n655,484.42*\n227,934.50\nEnergy consumption sources (F)\n-\n-\nTotal energy consumed from non- renewable sources (D+E+F)\n729,353.65\n287,094.76\nTotal energy consumed (A+B+C+D+E+F)\n732,290.98\n287,825.50\nEnergy intensity per rupee of turnover\n(Total energy consumed/Revenue from operations)\n8.99**\n3.98\nEnergy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)\n(Total energy consumed/Revenue from operations adjusted for PPP)\n214.51\n95.84\nEnergy intensity in terms of physical output\n254.43\n160.67\n\t\n\u0007* The increase in fuel consumption in FY24 over FY23 is primarily due to the following reasons:\n\t\n1. Approximately 1.55 times increase in kms run by owned vehicles.\n \n2. Higher usage of large capacity vehicles which consume more fuel, but which are more fuel efficient.\n\t\n3. \u0007Measurement methodology for owned vehicle fuel consumption has been aligned to the globally accepted GLEC (Global Logistics Emissions \nCouncil) framework. Previous year aggregate kms & fuel consumption data was used based on internal reporting v/s trip level measurement \nthereby increasing the accuracy of the estimation.\n\t\n** The increase in FY24 over FY23 is primarily due to the increase in fuel consumption due to reasons stated above.\n\t\n\u0007Note: Indicate if any independent assessment/evaluation/has been carried out by an external agency? (Y/N) If yes, name \nof the external agency.\n\t\nYes, Sangti Solution Pvt. Ltd. (https://www.sangti.tech/home) \n2.\t\n\u0007Does the entity have any sites/facilities identified as designated consumers (DCs) under the Performance, Achieve \nand Trade (PAT) Scheme of the Government of India? (Y/N) If yes, disclose whether targets set under the PAT \nscheme have been achieved. In case targets have not been achieved, provide the remedial action taken, if any.\n\t\nNot applicable.\n3.\t\nProvide details of the following disclosures related to water, in the following format:\n\t\n\u0007Our usage of water at the company is restricted to human consumption purposes only (any other usage is negligible). We \nmake efforts to ensure that water is consumed judiciously in our office & facility premises. In various offices & facilities, \nwe have installed sensor taps in washrooms to economise on water consumption. We also ensure that domestic waste \n(sewage) from our offices & facilities is not let into water bodies.\nFY24\nFY23\nWater withdrawal by source (in kilolitres)\n(i)\t\nSurface water\n-\n-\n(ii)\t Groundwater\n408,358.74\n366,033.76\n(iii)\t Third party water\n70,058.76\n105,181.24\n(iv)\t Seawater/desalinated water\n-\n-\n(v)\t Others\n-\n-\nTotal volume of water withdrawal (in kilolitres) (i + ii + iii + iv + v)\n478,417.5\n471,215.0\nTotal volume of water consumption (in kilolitres)\n65,278.57\n62,408.73\nWater intensity per rupee of turnover\n(Total water consumption/Revenue from operations)\n0.0008\n0.0009\nWater intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP)\n(Total water consumption/Revenue from operations adjusted for PPP)\n0.0191\n0.0208\nBusiness Responsibility & Sustainability Report (Contd.)\nAnnual Report 2023-24\n119\n118\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH) 50 36",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "one",
+    "value": "50",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH) 50 36",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "one",
+    "value": "36",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Complaints on POSH as a % of female employees/workers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Complaints on POSH as a % of female employees/workers 0.89% 1.02%",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "0.89",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Complaints on POSH as a % of female employees/workers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Complaints on POSH as a % of female employees/workers 0.89% 1.02%",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "1.02",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Complaints on POSH upheld",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Complaints on POSH upheld 29 36",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "one",
+    "value": "29",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Complaints on POSH upheld",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Complaints on POSH upheld 29 36",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "one",
+    "value": "36",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total electricity consumption from renewable sources (A)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total electricity consumption (A) 2,937.33 730.74",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "2,937.33",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total electricity consumption from renewable sources (A)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total electricity consumption (A) 2,937.33 730.74",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "730.74",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total energy consumed from renewable sources (A+B+C)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total energy consumed from renewable sources (A+B+C) 2,937.33 730.74",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "2,937.33",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total energy consumed from renewable sources (A+B+C)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total energy consumed from renewable sources (A+B+C) 2,937.33 730.74",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "730.74",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total electricity consumption from non-renewable sources (D)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total electricity consumption (D) 73,869.24 59,160.26",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "73,869.24",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total electricity consumption from non-renewable sources (D)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total electricity consumption (D) 73,869.24 59,160.26",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "59,160.26",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total fuel consumption from non-renewable sources (E)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total fuel consumption (E) 655,484.42* 227,934.50",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "655,484.42",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total fuel consumption from non-renewable sources (E)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total fuel consumption (E) 655,484.42* 227,934.50",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "227,934.50",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total energy consumed from non-renewable sources (D+E+F)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total energy consumed from non- renewable sources (D+E+F) 729,353.65 287,094.76",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "729,353.65",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total energy consumed from non-renewable sources (D+E+F)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total energy consumed from non- renewable sources (D+E+F) 729,353.65 287,094.76",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "287,094.76",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total energy consumed (A+B+C+D+E+F)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total energy consumed (A+B+C+D+E+F) 732,290.98 287,825.50",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "732,290.98",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total energy consumed (A+B+C+D+E+F)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total energy consumed (A+B+C+D+E+F) 732,290.98 287,825.50",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "Joules or multiples",
+    "value": "287,825.50",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Energy intensity per rupee of turnover",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Energy intensity per rupee of turnover (Total energy consumed/Revenue from operations) 8.99** 3.98",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "one",
+    "value": "8.99",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Energy intensity per rupee of turnover",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Energy intensity per rupee of turnover (Total energy consumed/Revenue from operations) 8.99** 3.98",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "one",
+    "value": "3.98",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5045,
+  "output_tokens": 3122
+ }
+}

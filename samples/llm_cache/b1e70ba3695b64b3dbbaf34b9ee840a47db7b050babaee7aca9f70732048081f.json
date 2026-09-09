@@ -1,0 +1,444 @@
+{
+ "key": "b1e70ba3695b64b3dbbaf34b9ee840a47db7b050babaee7aca9f70732048081f",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "6b9c0ad0c44cd7dad18479fbeaa8a43ccf9b385470fcd5799f059d113d68252d",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 6, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Weighted average cost of acquisition per Equity Share, Restated loss for the period / year, Active Customers, Team size, PTL freight tonnage, revenue from services, Pin-code reach, Adjusted EBITDA margin, express parcel shipments, Infrastructure, Adjusted EBITDA, Number of preference shares acquired, Total revenue from customers, EBITDA margin, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Gateways, NWC days, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Automated sort centers, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, Diluted loss per share, Express Parcel revenue, PTL freight revenue, Total income, Total liabilities, Networth, TL revenue, Amount underwritten, Authorised share capital, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, Restated total comprehensive loss for the period / year, EBITDA, organized players market share, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fair value loss on financial liabilities as % of revenue from contract with customers, Equity Shares held, express parcel shipments since inception, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Investments in technology, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Aggregate compensation, Cost of performance-based options, Sortation capacity utilisation, Fulfilment centres operated, Freight, handling and servicing cost, Revenue from customers, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Fulfilment centres aggregate floor area, Attrition of Key Managerial Personnel, Fleet size - daily average, Total cash balance, Revenue CAGR, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, Reported EBITDA, Total expenses, PTL freight tonnage since inception, Fresh Issue volume, PTL YoY revenue growth, TL YoY revenue growth, Other income, Offer for Sale size, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Gross termination compensation amount, Applications count, Right of use asset, Rated Automated Sort Capacity, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector forecast, direct spend of logistics sector, Service EBITDA margin, Service EBITDA, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, Goodwill, Interest income, Term loan, Packing material, Rent, Stores and spares, Count of 46-ft tractors, subsidiary loan and advance utilisation threshold amount, subsidiary loan and advance utilisation threshold percentage, Consumer cases filed against Company amount, FedEx facilities aggregate floor area, exceptional items - allowance for doubtful debts, Payment or benefit to Key Managerial Personnel amount, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Gateways equipped with automated parcel sorters, Automated parcel sorters, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted\n\nTEXT LAYER:\nLetter to the Shareholders\nOur commitment to \ndriving long-term value \ncreation for stakeholders\nOperating at scale\nDelhivery continues to be India's largest \nintegrated logistics company by revenue \nand reach, with the widest range of \nlogistics offerings for customers. \nWe serve 220+ countries around the \nglobe, reach more than 18,700 out of \nthe 19,300 pin codes in India, operate \nabout 19 million square feet of logistics \ninfrastructure, drive more than 5 lakh \nkilometres every day connecting close \nto 5,000 facilities within our network, \ndeliver more than 2 million parcels and \n4,000 tonnes of freight per day and \nserve more than 33,000 customers. The \nsmooth functioning of this entire set of \ncomplex operations is made possible by \nthe tireless efforts of nearly 1 lakh team \nmembers.\nDespite reaching a vast scale of \noperations in just 12 years, we believe \nthat we are still at a nascent stage in \nthe landscape of the Logistics sector in \nthe country. According to the Ministry of \nCommerce and Industry, Logistics will \nlikely become a ~$531 billion by 2026.  \nDelhivery will continue to be not just \none of the largest providers of logistics \nservices but also an enabler of growth \nfor businesses of all stripes and shapes.\nTechnology, data science \nand automation-enablers of \noperating at scale\nOur reliance on technology, data \nscience, and automation has grown \nwith our scale. We collect millions \nof data points related to customers, \nroutes, addresses, and end consumers \ndaily. These data points are processed \nand converted into business intelligence \nwhich is fed into our operations, making \nour operations more precise and time \nand cost efficient. For  example, we \nhave the industry's most unique and \naccurate address recognition system. \nOur tech and data science-enabled \nlast-mile delivery system ensures that \nour riders travel the shortest distance \nand spend the least time delivering  a \nparcel. Additionally, this system reduces \nthe idle time of our riders, allowing them \nmore time for ground deliveries.\nOur facilities have deployed cutting-\nedge parcel sortation systems, which \ncan sort 7 million parcels daily. We are \namong the early adopters of BOPTs \n(battery-operated pallet trucks) to \nmove loads from one place to another \ninside a facility. Taking on from the \nsuccess of the BOPTs, we have started \nexperimenting with autonomous BOPTs, \nwhich are riderless and use computer \nvision and LIDAR for navigation. We \nare exploring robotic arm sorters and \nshuttler sorters to expedite certain \nlegs of our sortation process. This \nequipment facilitates operating our \nmid-mile facilities at a high throughput. \nThe turnaround time of the trucks at \nour facilities is the lowest among our \ncompetitors.\nAdopting technology, data science, and \nautomation will be pivotal in providing \ncost-efficient and reliable logistics \nservices at scale. We are confident that \nour investments in these areas will reap \nincremental benefits in the future.\nScale drives profitability\nLogistics is a scale-sensitive business \nin which disproportionate economic \nvalue is generated at scale for all \nstakeholders. This operating leverage \nhas been consistently displayed by us \nin the past. In FY22, when our express \nparcel volumes more than doubled and \npart truckload tonnage grew by around \n40% on a pro forma basis, our adjusted \nEBITDA swung from negative ₹2,258 \nmillion in FY21 to positive ₹715 million \non a pro forma basis. Similarly, our \nPAT profitability in Q3 FY24 was driven \nby the highest-ever express parcel \nshipments delivered in the quarter.\nOperating at scale leads to high \nproductivity of key resources resulting \nin better utilisation of fixed assets, thus \nresulting in lower fixed costs per unit of \ngoods transported. We have invested \njudiciously in building the infrastructure \nfor cost-effectively operations at scale. \nMore than 70% of our mid-mile load \nnow moves on fuel-efficient  large form \nfactor 46-ft tractors trailers. There are \n29 automated sort centres that can \nsort more than 7 million parcels per \nday without manual intervention. These \ninvestments yield disproportionate \nreturns for us and our customers as the \nscale of our business grows.\nProfitable logistics is a catalyst \nfor the economy\nLogistics is an essential ingredient to \nthe economy of any country. The large \nscale movement of goods from ports \nto factories to warehouses to shops \nand finally to consumers necessitating \nefficient and affordable logistics \nservices for businesses of all sizes.\nOur staunch belief is that affordable \nlogistics is essential for the proliferation \nof small and medium businesses. \nEfficiently-operated logistics companies \nhave the potential to pass on efficiency \nbenefits to their customers, which act \nas catalysts for their growth. \nDear Shareholders,\nIt gives us immense pleasure to share \nthat Delhivery is now jointly owned \nby more than a lakh esteemed fellow \nshareholders. We thank each one of \nyou for your continuous support in our \njourney over the past 12 years, from \nzero to close to $1 billion in revenues. \nThe unwavering trust placed by all of \nyou in the company fills us with pride \nand determination to take Delhivery \nto greater heights. We are committed \nto delivering superior value to our \nshareholders through  our inherently \nscalable and profitable business model.\n The vital role of logistics \nin the economy \nEfficiency and affordability\nCritical for businesses of all \nsizes\nEnables movement of goods \nfrom ports to factories to \nwarehouses to shops and \nfinally to consumers\nSupport for SMEs\nAffordable logistics is crucial \nfor the proliferation of small \nand medium businesses\nCatalyst for growth\nEfficient logistics companies \npass on benefits to customers, \nacting as catalysts for their \ngrowth\n12\n13\nDelhivery Limited\nAnnual Report 2023-24\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "direct spend of logistics sector forecast",
+    "confidence": 1,
+    "entity": "Logistics sector",
+    "estimate_type": "projection",
+    "period": "2026",
+    "period_end": "2026-12-31",
+    "period_start": "2026-01-01",
+    "quote": "According to the Ministry of Commerce and Industry, Logistics will likely become a ~$531 billion by 2026.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "531",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Countries served",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "We serve 220+ countries around the globe, reach more than 18,700 out of the 19,300 pin codes in India",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": null,
+    "value": "220+",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Pin-code reach",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "reach more than 18,700 out of the 19,300 pin codes in India",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": null,
+    "value": "18,700",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Infrastructure",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "operate about 19 million square feet of logistics infrastructure",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "square feet",
+    "value": "19",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Fleet size - daily average",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "drive more than 5 lakh kilometres every day connecting close to 5,000 facilities within our network",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": "kilometres",
+    "value": "5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Fulfilment centres operated",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "connecting close to 5,000 facilities within our network",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": null,
+    "value": "5,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Active Customers",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "serve more than 33,000 customers.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": null,
+    "value": "33,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Team size",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "tireless efforts of nearly 1 lakh team members.",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": null,
+    "value": "1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Rated Automated Sort Capacity",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "can sort 7 million parcels daily.",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "parcels",
+    "value": "7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Adjusted EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "measurement_basis": "pro forma basis",
+    "period": "FY21",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "our adjusted EBITDA swung from negative ₹2,258 million in FY21 to positive ₹715 million on a pro forma basis.",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(-) 2,258",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Adjusted EBITDA",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "measurement_basis": "pro forma basis",
+    "period": "FY22",
+    "period_end": "2022-03-31",
+    "period_start": "2021-04-01",
+    "quote": "positive ₹715 million on a pro forma basis.",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "715",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Automated sort centers",
+    "confidence": 1,
+    "entity": "Delhivery",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "There are 29 automated sort centres that can sort more than 7 million parcels per day without manual intervention.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": null,
+    "value": "29",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4830,
+  "output_tokens": 1602
+ }
+}

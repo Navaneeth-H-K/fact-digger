@@ -1,0 +1,87 @@
+{
+ "key": "d113d93c245699c34e4f24aceb5bc9f0a87189c654242e7a97a5a4719db1b13c",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "adjudicate",
+ "request": {
+  "content": [
+   {
+    "text": "FACT A:\nentity: Delhivery\nattribute: PTL freight tonnage\nvalue: 1.4 Tons million\nnormalised value: 1400000.0 count\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-delhivery-q4-fy24-earnings-presentation.pdf; publisher: Delhivery Limited; published: 2024-05-01\npage label: 5\nevidence verified: True (exact)\nquote: \"1.4 Mn Tons\nPTL freight tonnage in FY24\nYoY: 29.8%\"\n\nFACT B:\nentity: Delhivery Limited\nattribute: PTL freight tonnage\nvalue: 1,429 tonnes thousand\nnormalised value: 1429000.0 count\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: consolidated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 35\nevidence verified: True (normalized)\nquote: \"PTL volumes increased by 29.82% to 1,429K tonnes for FY24 from 1,101K tonnes for FY23.\"\n\nRule-engine hypothesis: same period and basis, values differ\n\nDecide the verdict.",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You compare two facts extracted from two documents and decide how they relate.\n\nVerdicts:\n- corroborates: same quantity, same period, same basis, compatible values (allow rounding).\n- superseded: same quantity and period, but a later data vintage or a revision replaces the\n  earlier value; name which fact is newer.\n- context_explained: the values differ because the period, scope/basis, unit or attribution\n  differs; name that dimension. This is not a contradiction.\n- contradicts: same quantity, period, basis and unit carry incompatible values.\n- unresolved: the evidence does not settle it; give your best hypothesis in the explanation.\n\nUse only the fields and quotes provided. Keep the explanation under 60 words and cite the\ndistinguishing phrase from each quote.",
+  "tool_name": "record_verdict",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "confidence": {
+     "default": 0.5,
+     "maximum": 1.0,
+     "minimum": 0.0,
+     "title": "Confidence",
+     "type": "number"
+    },
+    "dimension": {
+     "default": "none",
+     "enum": [
+      "period",
+      "estimate_type",
+      "basis",
+      "unit",
+      "vintage",
+      "attribution",
+      "value",
+      "none"
+     ],
+     "title": "Dimension",
+     "type": "string"
+    },
+    "explanation": {
+     "maxLength": 800,
+     "minLength": 1,
+     "title": "Explanation",
+     "type": "string"
+    },
+    "newer_fact": {
+     "default": "none",
+     "enum": [
+      "a",
+      "b",
+      "none"
+     ],
+     "title": "Newer Fact",
+     "type": "string"
+    },
+    "verdict": {
+     "enum": [
+      "corroborates",
+      "contradicts",
+      "superseded",
+      "context_explained",
+      "unresolved"
+     ],
+     "title": "Verdict",
+     "type": "string"
+    }
+   },
+   "required": [
+    "verdict",
+    "explanation"
+   ],
+   "title": "Verdict",
+   "type": "object"
+  }
+ },
+ "response": {
+  "confidence": 0.9,
+  "dimension": "value",
+  "explanation": "Fact A states '1.4 Mn Tons' while Fact B states '1,429K tonnes' for the same period (FY24). The values slightly differ due to rounding in the earnings presentation (Fact A) versus the detailed annual report figure (Fact B).",
+  "newer_fact": "b",
+  "verdict": "superseded"
+ },
+ "usage": {
+  "input_tokens": 756,
+  "output_tokens": 101
+ }
+}

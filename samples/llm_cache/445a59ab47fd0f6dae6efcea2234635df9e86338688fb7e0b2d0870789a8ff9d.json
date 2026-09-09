@@ -1,0 +1,466 @@
+{
+ "key": "445a59ab47fd0f6dae6efcea2234635df9e86338688fb7e0b2d0870789a8ff9d",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "be46a5da9303078c710c2dd86aee12af2e79111b7a113ac2a8003397ff18ee55",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 57, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Active Customers, Restated loss for the period / year, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Automated sort centers, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Total Compensation, Revenue from contracts with customers, Networth, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Count of 46-ft tractors, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Board members count, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Other income, Investments in technology, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, No. of ESOPs vested as on March 31, 2024, Number of days of accounts payables, Weighted average cost of acquisition, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Number of dealers/distributors to whom sales are made, Right of use asset, Consolidated Fees paid to Statutory Auditors, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Cost incurred on well-being measures as a % of total turnover of the company, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Stock Code, private consumption expenditure growth rate, Contractual manpower expenses, Other than permanent employees count (Male), Permanent employees count (Male), Other than permanent workers count (Male), Permanent workers count (Male), Deferred tax credit\n\nTEXT LAYER:\n11.\t Details of safety related incidents, in the following format:\nSafety Incident/Number\nCategory*\nFY24\nFY23\nLost Time Injury Frequency Rate (LTIFR) (per one million-person \nhours worked)\nEmployees\n0.56\n0.75\nWorkers\n1.21\n2.46\nTotal recordable work-related injuries\nEmployees\n115\n130\nWorkers\n394\n795\nNo. of fatalities\nEmployees\n7\n3\nWorkers\n19\n19\nHigh consequence work-related injury or ill-health  \n(excluding fatalities)\nEmployees\n79\n51\nWorkers\n189\n187\n\t\n* Including in the contract workforce\n12.\t Describe the measures taken by the entity to ensure a safe and healthy work place.\n\t\n\u0007Delhivery has a Health, Safety & Environment Policy to provide a healthy & safe workplace for its employees. It is our \ncontinued objective to protect employees from injury, occupational diseases, workplace hazards, harassment & violence \nin the workplace through appropriate prevention, protection, & training/education programs. A brief on measures taken \nby entity in ensuring safe & health workplace are as below: \n\t\ny Emergency Preparedness (EP) Plan consisting of emergency responders (volunteers) is in place. Timely training is \nimparted & mock drills are organised periodically to check efficiency of the responders. \n\t\ny Fire Safety Trainings are imparted periodically to make people aware about the Do’s and Dont’s in case of occurrence \nof Fire.\n\t\ny Hazard Identification & Risk Assessment (HIRA) is conducted as mentioned in Q10 above. \n\t\ny Health & Safety Management system related posters are displayed across Delhivery facilities to spread awareness on \nHealth & Safety.\n13.\t Number of Complaints on the following made by employees and workers:\nFY24\nFY23\nFiled during \nthe year\nPending \nresolution at \nthe end of year\nRemarks\nFiled during \nthe year\nPending \nresolution at \nthe end of year\nRemarks\nWorking Conditions\n12\n0 -\n8\n0 -\nHealth & Safety\n3\n0 -\n2\n0 -\n14.\t Assessments for the year:\n% of your plants and officers that were assessed (by entity or statutory \nauthorities or third parties)\nHealth & safety practices\n100.00%\nWorking Conditions\n100.00%\n15.\t \u0007Provide details of any corrective action taken or underway to address safety-related incidents (if any) and on \nsignificant risks/concerns arising from assessments of health & safety practices and working conditions.\n\t\n\u0007We have expanded our training programme to include more comprehensive safety protocols & procedures, which includes \nregular safety drills & workshops. Our health & safety policy is regularly reviewed & updated. We conduct regular safety \naudits & workplace inspections. We have introduced health & wellness programs to support the overall wellbeing of \nour employees.\nPRINCIPLE 4: Businesses should respect the interests of and be responsive to all its stakeholders\nEssential Indicators\n1.\t\nDescribe the processes for identifying key stakeholder groups of the entity.\n\t\n\u0007Delhivery being a logistics solutions provider, interacts with many stakeholders throughout the supply chain while \nperforming its business activities. Therefore, identifying & prioritising stakeholders is important to perform business \nactivities effectively & efficiently.\n\t\n\u0007Based on all types of interactions internal & external group of stakeholders are listed. All stakeholders, irrespective of \nmagnitude of the interaction are then evaluated on the below listed parameters:\n\t\nImpact: It measures how the intent & beliefs of stakeholders can impact the usual course of business activities.\n\t\nInterest: It measures the amount of gains a stakeholder receives or seeks from the Company.\n\t\nInfluence/power: It measures the extent of decision-making power stakeholder holds in the Company.\n\t\nInvolvement: It measures the involvement of each stakeholder in day-to-day business activities.\n\t\n\u0007The parameters are assigned weights & scores against each stakeholder are calculated. Based on the scores a priority \nis assigned to each group of stakeholders. \n2.\t\nList stakeholder groups identified as key for your entity and the frequency of engagement with each stakeholder group.\nStakeholder Group\nWhether identified \nas Vulnerable & \nMarginalised Group \n(Yes/No)\nChannels of communication (Email, SMS, \nNewspaper, Pamphlets, Advertisement, \nCommunity Meetings, Notice Board, \nWebsite), Other\nFrequency of \nengagement \n(Annually/Half yearly/\nQuarterly/others – \nplease specify)\nPurpose and scope of \nengagement including key \ntopics and concerns raised \nduring such engagement\nBusiness Owners \n(KMP)/BOD/\nCompany Leaders\nNo\nBoard Meetings, Annual shareholder \nmeetings, Email, SMS communication.\nFrequent & need \nbased.\nTo take feedback on \nbusiness operations & other \nimportant matters of the \nCompany.\nEmployees/Workers No\nDirect & other communication \nmechanisms such as Fb@work/\nDelhivery Vibe*, Email, SMS, HR \nHelpline.\nDaily\nTo be available for \nemployee grievance & \nfeedback.\nShareholders/\nInvestors/Creditors\nNo\nEmail, SMS, newspaper advertisement, \nnotice board, website, Annual \nGeneral Meetings, intimation to stock \nexchanges, annual/quarterly financials \nand investor meetings/conferences.\nFrequent & need \nbased.\nTo stay abreast of \ndevelopments in the \nCompany & its subsidiary \ncompanies.\nCustomers & \nConsignee \nNo\nMultiple channels – physical & digital.\nFrequent & need \nbased.\nTo resolve stakeholder \nquery & address their \ngrievances.\nVendors & Suppliers No\nMultiple channels – physical & digital.\nFrequent & need \nbased.\nTo resolve stakeholder \nquery & address their \ngrievances.\nRegional or National \nCommunities\nYes\nDirectly\nFrequent & need \nbased.\nTo resolve stakeholder \nquery & address their \ngrievances.\n\t\n* Delhivery transitioned from Fb@work to Delhivery Vibe (Darwinbox) in Q4FY24.\nBusiness Responsibility & Sustainability Report (Contd.)\nAnnual Report 2023-24\n115\n114\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Lost Time Injury Frequency Rate (LTIFR)",
+    "entity": "Employees",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Lost Time Injury Frequency Rate (LTIFR) (per one million-person hours worked) Employees 0.56 0.75",
+    "quote_source": "text",
+    "unit": "per one million-person hours worked",
+    "value": "0.56",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Lost Time Injury Frequency Rate (LTIFR)",
+    "entity": "Employees",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Lost Time Injury Frequency Rate (LTIFR) (per one million-person hours worked) Employees 0.56 0.75",
+    "quote_source": "text",
+    "unit": "per one million-person hours worked",
+    "value": "0.75",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Lost Time Injury Frequency Rate (LTIFR)",
+    "entity": "Workers",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Workers 1.21 2.46",
+    "quote_source": "text",
+    "unit": "per one million-person hours worked",
+    "value": "1.21",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Lost Time Injury Frequency Rate (LTIFR)",
+    "entity": "Workers",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Workers 1.21 2.46",
+    "quote_source": "text",
+    "unit": "per one million-person hours worked",
+    "value": "2.46",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total recordable work-related injuries",
+    "entity": "Employees",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total recordable work-related injuries Employees 115 130",
+    "quote_source": "text",
+    "value": "115",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total recordable work-related injuries",
+    "entity": "Employees",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total recordable work-related injuries Employees 115 130",
+    "quote_source": "text",
+    "value": "130",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total recordable work-related injuries",
+    "entity": "Workers",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Workers 394 795",
+    "quote_source": "text",
+    "value": "394",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total recordable work-related injuries",
+    "entity": "Workers",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Workers 394 795",
+    "quote_source": "text",
+    "value": "795",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of fatalities",
+    "entity": "Employees",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "No. of fatalities Employees 7 3",
+    "quote_source": "text",
+    "value": "7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of fatalities",
+    "entity": "Employees",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "No. of fatalities Employees 7 3",
+    "quote_source": "text",
+    "value": "3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of fatalities",
+    "entity": "Workers",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Workers 19 19",
+    "quote_source": "text",
+    "value": "19",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of fatalities",
+    "entity": "Workers",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Workers 19 19",
+    "quote_source": "text",
+    "value": "19",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "High consequence work-related injury or ill-health (excluding fatalities)",
+    "entity": "Employees",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "High consequence work-related injury or ill-health (excluding fatalities) Employees 79 51",
+    "quote_source": "text",
+    "value": "79",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "High consequence work-related injury or ill-health (excluding fatalities)",
+    "entity": "Employees",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "High consequence work-related injury or ill-health (excluding fatalities) Employees 79 51",
+    "quote_source": "text",
+    "value": "51",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "High consequence work-related injury or ill-health (excluding fatalities)",
+    "entity": "Workers",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Workers 189 187",
+    "quote_source": "text",
+    "value": "189",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "High consequence work-related injury or ill-health (excluding fatalities)",
+    "entity": "Workers",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Workers 189 187",
+    "quote_source": "text",
+    "value": "187",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Health & safety practices plants and officers assessed %",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Health & safety practices 100.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "100.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Working Conditions plants and officers assessed %",
+    "entity": "Delhivery Limited",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Working Conditions 100.00%",
+    "quote_source": "text",
+    "unit": "per cent",
+    "value": "100.00",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4889,
+  "output_tokens": 1972
+ }
+}

@@ -1,0 +1,582 @@
+{
+ "key": "974ebae856fac7c0adfb4950a687e1553322148c00d1d2f1493eb9ba251d2a80",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "1f381b9e506549e23f6a5375d7ba58f65448d88cc2525dbf692ad4b75d61705a",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 67, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Total revenue from customers, Equity Shares held, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, NWC days, Gateways, Automated sort centers, Total equity and liabilities, Total equity, Total income, Total assets, Total Compensation, Restated total comprehensive loss for the period / year, Revenue from contracts with customers, Networth, Net cash from / (used in) operating activities, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, TL revenue, Count of 46-ft tractors, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Offer for Sale amount, Authorised share capital, Share based payment, Board members count, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Diluted loss per share, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Other income, Investments in technology, Profit/(loss) after tax, Retention rate, Return to work rate, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Number of days of accounts payables, Weighted average cost of acquisition, Waste intensity per rupee of turnover adjusted for Purchasing Power Parity, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Carbon Monoxide (CO) air emissions, Hydrocarbons (HC) air emissions, Particulate matter (PM) air emissions, NOx air emissions, SOx air emissions, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count\n\nTEXT LAYER:\nConsolidated Balance Sheet\nas at March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nParticulars\nNotes\nAs at \nMarch 31, 2024\nAs at \nMarch 31, 2023\nAssets\nNon-current assets\nProperty, plant and equipment\n3\n9,320.84\n7,950.70\nRight-of-use assets\n34\n9,881.78\n6,667.45\nCapital work in progress\n3\n285.59\n215.28\nGoodwill\n4\n13,441.63\n13,620.70\nOther intangible assets\n4\n891.99\n1,707.20\nIntangible assets under development\n4\n0.26\n19.44\nFinancial assets\n\t\n\u0007i)\t\nInvestments\n5\n9,980.92\n6,124.67\n\t\n\u0007ii)\t\nOther financial assets\n9\n8,417.97\n3,390.72\nNon-current tax assets (net)\n10\n2,589.46\n2,156.74\nOther non-current assets\n11\n217.91\n422.35\nDeferred tax assets (net)\n31\n-\n229.02\nTotal non-current assets\n55,028.35\n42,504.27\nCurrent assets\nInventories\n6\n164.26\n193.56\nFinancial assets\n\t\n\u0007i)\t\nInvestments\n5\n17,781.34\n14,817.20\n\t\n\u0007ii)\t\nTrade receivables\n7\n14,296.90\n15,238.07\n\t\n\u0007iii)\t\nCash and cash equivalents\n12\n3,032.19\n2,954.52\n\t\n\u0007iv)\t\nOther bank balances\n13\n1,000.00\n3,500.00\n\t\n\u0007v)\t\nLoans\n8\n40.19\n62.13\n\t\n\u0007vi)\t\nOther financial assets\n9\n21,367.95\n30,680.65\nOther current assets\n11\n1,819.02\n2,183.90\nTotal current assets\n59,501.85\n69,630.03\nTotal Assets\n114,530.20\n112,134.30\nEquity and Liabilities\nEquity\nEquity share capital\n14\n736.79\n728.72\nOther equity\n15 (a)\n90,709.67\n91,042.65\nTotal Equity\n91,446.46\n91,771.37\nLiabilities\nNon-current liabilities\nFinancial Liabilities\n\t\n\u0007i)\t\nBorrowings\n16\n401.84\n1,144.07\n\t\n\u0007ii)\t\nLease liabilities\n34\n8,436.40\n5,343.00\nProvisions\n18\n646.61\n511.05\nDeferred tax liabilities\n31\n133.66\n312.55\nTotal non-current liabilities\n9,618.51\n7,310.67\nCurrent liabilities\nFinancial Liabilities\n\t\n\u0007i)\t\nBorrowings\n16\n854.14\n844.67\n\t\n\u0007ii)\t\nLease liabilities\n34\n2,001.02\n1,902.69\n\t\n\u0007iii)\t\nTrade payables\n20\n\t\n\u0007\t\n\u0007(a)\t\nTotal outstanding dues of micro and small enterprises\n24.41\n31.24\n\t\n\u0007\t\n\u0007(b)\t\nTotal outstanding dues of creditors other than micro and small enterprises\n7,949.32\n7,842.32\n\t\n\u0007iv)\t\nOther financial liabilities\n17\n1,091.14\n977.37\nProvisions\n18\n388.42\n274.74\nOther current liabilities\n19\n1,156.78\n1,179.23\nTotal current liabilities\n13,465.23\n13,052.26\nTotal Liabilities\n23,083.74\n20,362.93\nTotal Equity and Liabilities\n114,530.20\n112,134.30\nSummary of material accounting policies\n2.3\nThe accompanying notes are an integral part of the Consolidated Financial Statements.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells LLP\nFor and on behalf of the board of directors of\nChartered Accountants\nDelhivery Limited (formerly known as Delhivery Private Limited)\nFirm registration number: 117366W/W-100018\nVikas Khurana\nKapil Bharati\nSahil Barua\nPartner \nExecutive Director and  \nChief Technology Officer\nManaging Director and  \nChief Executive Officer\nMembership No. 503760\nDIN: 02227607\nDIN: 05131571\nPlace: Goa\nPlace: Goa\nAmit Agarwal\nMadhulika Rawat\nChief Financial Officer\nCompany Secretary\nFCS-8765\nPlace: Gurugram\nPlace: Gurugram\nPlace: Goa\nDate: May 17, 2024\nDate: May 17, 2024\nDate: May 17, 2024\nConsolidated Statement of Profit and Loss\nfor the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nParticulars\nNotes\nFor the year ended \nMarch 31, 2024\nFor the year ended \nMarch 31, 2023\nIncome\nRevenue from contracts with customers\n21\n81,415.38\n72,253.01\nOther income\n22\n4,526.96\n3,049.48\nTotal Income (I)\n85,942.34\n75,302.49\nExpenses\nFreight, handling and servicing costs\n23\n59,707.49\n56,694.80\nChange in inventory of traded goods\n24\n-\n15.76\nEmployee benefits expense\n25\n14,367.70\n14,000.34\nFinance costs\n28\n885.20\n888.30\nDepreciation and amortisation expense\n27\n7,215.50\n8,311.44\nOther expenses\n26\n6,073.78\n6,058.19\nTotal Expenses (II)\n88,249.67\n85,968.83\nLoss before exceptional items, share of profit of an associate and tax (III= I-II)\n(2,307.33)\n(10,666.34)\nShare of profit of associates (net) (IV)\n41\n86.95\n135.74\nLoss before exceptional items and tax (V= III+IV)\n(2,220.38)\n(10,530.60)\nExceptional Items (VI)\n29\n(224.10)\n-\nLoss before tax (VII= V+VI)\n(2,444.48)\n(10,530.60)\nTax expense:\n31\nCurrent tax\n1.33\n94.56\nDeferred tax\n50.08\n(560.19)\nIncome tax for earlier years\n(4.03)\n12.82\nTotal tax expense (VIII)\n47.38\n(452.81)\nLoss for the year (IX= VII-VIII)\n(2,491.86)\n(10,077.79)\nOther comprehensive income/(loss)\na)\t\n\u0007Items that will not be reclassified to statement of profit and loss in  \nsubsequent periods\n\t\n\u0007-\t\nRe-measurement gain/(loss) on defined benefit plan\n40.15\n(19.15)\n\t\n\u0007-\t\nIncome tax relating to items that will not be reclassified to profit and loss\n(0.04)\n2.81\n\t\n\u0007-\t\nShare of other comprehensive income/(loss) of associate (net)\n(0.06)\n0.06\nSubtotal (a)\n40.05\n(16.28)\nb)\t\nItems that will be reclassified to statement of profit and loss in subsequent periods\n\t\n\u0007-\t\nExchange differences on translation of foreign operations\n1.79\n28.58\n\t\n\u0007-\t\nIncome tax relating to items that will be re-classified to profit and loss\n-\n-\nSubtotal (b)\n1.79\n28.58\nTotal other comprehensive income for the year (X= a+b)\n41.84\n12.30\nTotal comprehensive loss for the year (XI= IX+X)\n(2,450.02)\n(10,065.49)\nLoss per equity share (Face value K 1 each)\n30\nBasic (I)\n(3.40)\n(14.09)\nDiluted (I)\n(3.40)\n(14.09)\nSummary of material accounting policies\n2.3\nThe accompanying notes are an integral part of the Consolidated Financial Statements.\nAs per our report of even date attached\nFor Deloitte Haskins & Sells LLP\nFor and on behalf of the board of directors of\nChartered Accountants\nDelhivery Limited (formerly known as Delhivery Private Limited)\nFirm registration number: 117366W/W-100018\nVikas Khurana\nKapil Bharati\nSahil Barua\nPartner \nExecutive Director and  \nChief Technology Officer\nManaging Director and  \nChief Executive Officer\nMembership No. 503760\nDIN: 02227607\nDIN: 05131571\nPlace: Goa\nPlace: Goa\nAmit Agarwal\nMadhulika Rawat\nChief Financial Officer\nCompany Secretary\nFCS-8765\nPlace: Gurugram\nPlace: Gurugram\nPlace: Goa\nDate: May 17, 2024\nDate: May 17, 2024\nDate: May 17, 2024\nAnnual Report 2023-24\n215\n214\nDelhivery Limited\nStatu",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Property, plant and equipment",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "As at March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Property, plant and equipment 3 9,320.84 7,950.70",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "9,320.84",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "As at March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Property, plant and equipment 3 9,320.84 7,950.70",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "7,950.70",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total assets",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "As at March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Total Assets 114,530.20 112,134.30",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "114,530.20",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total assets",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "As at March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Total Assets 114,530.20 112,134.30",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "112,134.30",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "As at March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Total Equity 91,446.46 91,771.37",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "91,446.46",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "As at March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Total Equity 91,446.46 91,771.37",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "91,771.37",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "As at March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Total Liabilities 23,083.74 20,362.93",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "23,083.74",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "As at March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Total Liabilities 23,083.74 20,362.93",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "20,362.93",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Revenue from contracts with customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Revenue from contracts with customers 21 81,415.38 72,253.01",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "81,415.38",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Revenue from contracts with customers",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Revenue from contracts with customers 21 81,415.38 72,253.01",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "72,253.01",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total income",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total Income (I) 85,942.34 75,302.49",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "85,942.34",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total income",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Total Income (I) 85,942.34 75,302.49",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "75,302.49",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Profit/(loss) after tax",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Loss for the year (IX= VII-VIII) (2,491.86) (10,077.79)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(-) 2,491.86",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Profit/(loss) after tax",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Loss for the year (IX= VII-VIII) (2,491.86) (10,077.79)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(-) 10,077.79",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Basic loss per share",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Basic (I) (3.40) (14.09)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "(-) 3.40",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Basic loss per share",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Basic (I) (3.40) (14.09)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "(-) 14.09",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Diluted loss per share",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Diluted (I) (3.40) (14.09)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "(-) 3.40",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Diluted loss per share",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Diluted (I) (3.40) (14.09)",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "(-) 14.09",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Freight, handling and servicing cost",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Freight, handling and servicing costs 23 59,707.49 56,694.80",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "59,707.49",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Freight, handling and servicing cost",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": "consolidated",
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Freight, handling and servicing costs 23 59,707.49 56,694.80",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "56,694.80",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 6221,
+  "output_tokens": 3113
+ }
+}

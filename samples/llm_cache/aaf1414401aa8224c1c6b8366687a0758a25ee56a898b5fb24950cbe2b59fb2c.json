@@ -1,0 +1,97 @@
+{
+ "key": "aaf1414401aa8224c1c6b8366687a0758a25ee56a898b5fb24950cbe2b59fb2c",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "meta",
+ "request": {
+  "content": [
+   {
+    "text": "Filename: 03-delhivery-q4-fy24-earnings-presentation.pdf\n\nFIRST PAGES:\n \n \nDate: May 17, 2024 \n \nBSE Limited \nPhiroze Jeejeebhoy Towers,  \nDalal Street, \nMumbai – 400 001 India \n \nScrip Code: 543529 \n \nNational Stock Exchange of India Limited \nExchange Plaza, C-1, Block G, \nBandra Kurla Complex,  \nBandra (E), Mumbai – 400 051 India \n \nSymbol: DELHIVERY\n \nSub:  Investor Presentation for the ‘Earnings Audio / Video (AV) Conference Call’ scheduled to be held on              \nMay 17, 2024, by Delhivery Limited (‘the Company’). \n \nDear Sir/ Madam, \n \nIn furtherance to our earlier communication dated May 11, 2024 w.r.t. Earnings Audio / Video Conference Call and \npursuant to the provisions of Regulation 30 and 33 of the SEBI (Listing Obligations and Disclosure Requirements) \nRegulations, 2015, please find a copy of the Investor Presentation, on Audited Standalone and Consolidated \nFinancial Results of the Company for the quarter and financial year ended March 31, 2024, proposed to be presented \nat the upcoming Earnings Audio / Video (AV) Conference Call scheduled to be held today, i.e., Friday, May 17, 2024, \nat 06:00 P.M. (IST) by the Company. \n \nThis presentation will also be hosted on the Company’s website at www.delhivery.com \n \nYou are requested to take the same on your record. \n \nThank you. \n \nYours sincerely, \nFor Delhivery Limited \n \n \n \n \nMadhulika Rawat \nCompany Secretary & Compliance Officer \nMembership No: F8765 \nPlace: Goa \n \n \nEncl: As above \n \n \n \nMADHULIK\nA VIPIN \nRAWAT\nDigitally signed by \nMADHULIKA VIPIN \nRAWAT \nDate: 2024.05.17 \n17:46:01 +05'30'\n\n\nEarnings Presentation\nQ4 & FY24\n\n\nSafe harbour and disclaimer\nThis Presentation is prepared by Delhivery Limited (“Company”) and is for information purposes only without regards to specific objectives, financial situations or needs of any particular person and nothing in it shall be \nconstrued as an invitation, offer, solicitation, recommendation or advertisement in respect of the purchase or sale of any securities of the Company or any affiliates in any jurisdiction or as an inducement to enter into \ninvestment activity and no part of it shall form the basis of or be relied upon in connection with any contract or commitment or investment decision whatsoever. This Presentation does not take into account, nor does it \nprovide any tax, legal or investment advice or opinion regarding the specific investment objectives or financial situation of any person. This Presentation and its contents are confidential and proprietary to the Company \nand/or its affiliates and no part of it or its subject matter be used, reproduced, copied, distributed, shared, or disseminated, directly or indirectly, to any other person or published in whole or in part for any purpose, in any \nmanner whatsoever.\nCertain statements in this communication may be ‘forward looking statements’ within the meaning of applicable laws and regulations. These forward-looking statements involve a number of risks, uncertainties and other \nfactors that could cause actual results to differ materially from those suggested by the forward-looking statements. Important developments that could affect the Company’s operations include changes in the industry \nstructure, significant changes in political and economic environment in India and overseas, tax laws, labour laws, import duties, litigation and labour relations etc.\nInvestment in equity and equity related securities involve a degree of risk and investors should not invest any funds in this Company without necessary diligence and relying on their own examination of Delhivery Limited \nalong with the equity investment risk which doesn't guarantee capital protection.\n2\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You read the first pages of a document and record its metadata: title, publisher,\npublication date (ISO; first of the month if only the month is known), document type, and the\nmonth in which the issuer's fiscal year starts (4 for April–March years, 1 for calendar years).\nLeave a field null when the pages do not say.",
+  "tool_name": "record_document_meta",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "document_type": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "e.g. 'annual report', 'investor presentation'.",
+     "title": "Document Type"
+    },
+    "fiscal_year_start_month": {
+     "anyOf": [
+      {
+       "maximum": 12,
+       "minimum": 1,
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Fiscal Year Start Month"
+    },
+    "publication_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "ISO date; first of month if only the month is known.",
+     "title": "Publication Date"
+    },
+    "publisher": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Publisher"
+    },
+    "title": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Title"
+    }
+   },
+   "title": "DocumentMeta",
+   "type": "object"
+  }
+ },
+ "response": {
+  "document_type": "investor presentation",
+  "fiscal_year_start_month": 4,
+  "publication_date": "2024-05-01",
+  "publisher": "Delhivery Limited"
+ },
+ "usage": {
+  "input_tokens": 1182,
+  "output_tokens": 57
+ }
+}

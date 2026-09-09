@@ -1,0 +1,562 @@
+{
+ "key": "0a27fd8c00aa935b0384cfacebec8232196da4d7f0947487e079494c3e1af84c",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "1632715f7f75cd0df5a9f8e35d1291e92d8ffa83b9cc43225ba31a82ca4cc35e",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 20, printed label 96.\nExisting attribute vocabulary (reuse a name when it means the same thing): Weighted average cost of acquisition per Equity Share, Remuneration to key management personnel, Adjusted EBITDA, revenue from services, Adjusted EBITDA margin, Number of preference shares acquired, Total revenue from customers, PTL freight tonnage, Offer for Sale amount, NWC days, Total equity and liabilities, Total equity, express parcel shipments, Total liabilities, Networth, Total assets, Capital Expenditure as % of Revenue from Services, Equity share capital, Supply Chain Services revenue, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, TL revenue, Cost of time-based options, Share based payment, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Total borrowings, Restated other comprehensive income / (loss) for the period / year, Restated total comprehensive loss for the period / year, Revenue from contract with customers, Diluted loss per share, EBITDA, EBITDA margin, revenue from services growth rate, Active Customers, Aggregate amount involved in litigation, Cost of performance-based options, Cross Border Services revenue, Pin-code reach, Revenue from customers, Fresh Issue size, Infrastructure, Restated loss for the period / year, Total cash balance, Freight, Handling and Servicing Cost, Deemed investment, Reported EBITDA, Fresh Issue volume, TL YoY revenue growth, Offer for Sale size, Services provided, Weighted average cost of acquisition, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Closing cash balance at the end of the year, Net change in cash, Cash & cash equivalents at the end of the year, Cash generated from / (used in) operations, Power, fuel & water charges, Contractual manpower expenses, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Express parcel shipments growth rate, PTL freight tonnage growth rate, Loan given, PTL YoY revenue growth, Interest income, Term loan, Packing material, Rent, Stores and spares, Consumer cases filed against Company amount, Depreciation and amortisation expense, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Right of use asset, Automated sort centers, Fleet size - daily average, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, Employee benefit expense, market CAGR, Capital work in progress, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Income from lorry hire charges, Contingent liabilities - Others, Corporate overheads, Finance costs, CWIP, ESOPs ungranted total as % of fully diluted shares, direct spend of logistics sector forecast, direct spend of logistics sector, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Employee Reservation Portion size, Employee Reservation Portion volume, Property, plant and equipment, Investment in equity, Offer of Equity Shares size, Offer of Equity Shares volume, Other equity, Team size holding ESOPs, ESOPs ungranted total, Express Parcel revenue growth rate, Express parcel shipments since inception, organized players market share forecast, PTL freight tonnage since inception, FY23 PAT loss, Gateways, Goodwill, Other income, Total income, PAT loss reduction, organized players market share, Net Offer size, Net Offer volume, Offer for Sale volume, Total Offer size, Team size\n\nTEXT LAYER:\n \n96 \n \n(in ₹ million, unless otherwise stated) \nParticulars \nFor the \nnine \nmonths \nperiod \nended \nFor the \nnine \nmonths \nperiod \nended \n \nFor the \nyear ended \nFor the year \nended \nFor the year \nended \nDecember \n31, 2021 \nDecember \n31, 2020 \nMarch 31, \n2021 \nMarch 31, 2020 \nMarch 31, 2019 \nincluding margin money \ndeposits \nInvestments in bank deposits \n(having original maturity of \nmore than 12 months) \nincluding margin money \ndeposits \n   \n(6,103.32) \n   \n(947.51) \n (1,227.49) \n (7,185.57) \n (1,687.04) \nMaturity / (investments) of \nbank deposits (having original \nmaturity of more than 3 \nmonths) \n   \n15.78  \n   \n2,886.62  \n 2,870.84  \n (2,878.69) \n0.94  \nInterest received  \n \n   \n1,117.13  \n   \n569.88  \n754.50  \n953.61  \n319.32  \nNet cash (used in) / flow from \ninvesting activities (B) \n(26,390.70) \n   \n3,584.35  \n3,382.92  \n         (9,325.45) \n             (9,394.36) \n \n \nFinancing activities \n \n \nProceeds from issuance of \nequity share capital (including \nstock option exercised) \n   \n8,456.04  \n   \n11.73  \n98.25  \n14.68  \n-   \nProceeds from issuance of \ninstruments entirely equity in \nnature \n   \n25,501.56  \n   \n-   \n-   \n-   \n28,900.96  \nProceeds from issuance of \ncompulsorily convertible \npreference shares \n   \n956.22  \n   \n-   \n92.88  \n \n \n(Repayment) / Proceeds from \nlong term borrowings  \n   \n(1,382.79) \n   \n331.76  \n 133.20  \n 641.78  \n268.31  \nInterest paid \n \n   \n(169.20) \n   \n(131.57) \n (205.34) \n (108.69) \n (93.49) \nPayment of interest portion of \nlease liabilities \n   \n(574.39) \n   \n(498.42) \n (683.05) \n (377.99) \n (257.41) \nPayment of principal portion of \nlease liabilities \n   \n(1,371.25) \n   \n(1,049.97) \n (1,435.51) \n (921.44) \n (620.48) \nRepayments of short term \nborrowings \n   \n(1,697.24) \n   \n(1,164.60) \n (500.00) \n (287.89) \n (319.76) \nProceeds from short term \nborrowings \n   \n2,118.56  \n   \n2,064.59  \n1,032.58  \n 872.68  \n706.08  \nNet cash flow from/ (used in) \nfinancing activities (C) \n   \n31,837.51  \n   \n(436.48) \n (1,466.99) \n (166.87) \n28,584.21  \n \n \nNet (decrease) / increase in \ncash and cash equivalents \n(A+B+C) \n   \n355.86  \n   \n1,228.20  \n  \n \n1,963.62  \n  \n \n(15,831.38) \n \n \n16,763.01  \nCash and cash equivalents at \nbeginning of the period/ year \n   \n2,758.63  \n   \n795.01  \n795.01  \n16,626.39  \n(136.62) \nCash and cash equivalents at \nend of the period/ year \n   \n3,114.49  \n   \n2,023.21  \n 2,758.63  \n 795.01  \n16,626.39  \n \n \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Investments in bank deposits",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "(1,227.49)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(1,227.49)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investments in bank deposits",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "(7,185.57)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(7,185.57)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investments in bank deposits",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "(1,687.04)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(1,687.04)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investments in bank deposits",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(6,103.32)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(6,103.32)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investments in bank deposits",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the nine months period ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "(947.51)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(947.51)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) investing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(26,390.70)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(26,390.70)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) investing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the nine months period ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "3,584.35",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "3,584.35",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) investing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "3,382.92",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "3,382.92",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) investing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "(9,325.45)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(9,325.45)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) investing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "(9,394.36)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(9,394.36)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) financing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "31,837.51",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "31,837.51",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) financing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the nine months period ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "(436.48)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(436.48)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) financing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "(1,466.99)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(1,466.99)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) financing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "(166.87)",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(166.87)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net cash from / (used in) financing activities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "For the year ended March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "28,584.21",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "28,584.21",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cash & cash equivalents at the end of the year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-12-31",
+    "quote": "3,114.49",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "3,114.49",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cash & cash equivalents at the end of the year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-12-31",
+    "quote": "2,023.21",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "2,023.21",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cash & cash equivalents at the end of the year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2021-03-31",
+    "quote": "2,758.63",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "2,758.63",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cash & cash equivalents at the end of the year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2020-03-31",
+    "quote": "795.01",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "795.01",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cash & cash equivalents at the end of the year",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "period": "March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2019-03-31",
+    "quote": "16,626.39",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "16,626.39",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4652,
+  "output_tokens": 2869
+ }
+}

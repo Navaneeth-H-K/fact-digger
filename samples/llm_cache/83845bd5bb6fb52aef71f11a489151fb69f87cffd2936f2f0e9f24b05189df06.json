@@ -1,0 +1,296 @@
+{
+ "key": "83845bd5bb6fb52aef71f11a489151fb69f87cffd2936f2f0e9f24b05189df06",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "afed9afe90048a6d3fbde4bc35d8dd4a909c8ac2172182abfd300b72bdb62a2c",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 25, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, Team size, PTL freight tonnage, Adjusted EBITDA margin, express parcel shipments, Adjusted EBITDA, Infrastructure, Number of preference shares acquired, Total revenue from customers, NWC days, EBITDA margin, Gateways, Restated other comprehensive income / (loss) for the period / year, EBITDA, Total equity and liabilities, Total equity, Automated sort centers, Total income, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Restated total comprehensive loss for the period / year, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Authorised share capital, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, Diluted loss per share, Service EBITDA margin, Service EBITDA, Express Parcel revenue, PTL freight revenue, Total liabilities, Networth, TL revenue, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, express parcel shipments since inception, organized players market share, Count of 46-ft tractors, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Equity Shares held, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Other income, Investments in technology, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, Sortation capacity utilisation, Freight, handling and servicing cost, Revenue from customers, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Revenue CAGR, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Installed solar power capacity, Issued, Subscribed and Paid-up Equity Share Capital, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, Goodwill, Interest income, Sustainably sourced inputs share, Logistics intensity, Term loan, Packing material, Rent, Stores and spares, Contractual to permanent absorption count, Funds utilised for Funding inorganic growth through acquisition..., Employees engaged across on-roll, off-roll, and agents, savings across lanes and vehicles, Active ESOP holders count, Active routes\n\nTEXT LAYER:\nDetails of related party transactions entered into by your \nCompany, in terms of Ind AS-24 have been disclosed in the \nnote no. 35 to the standalone and consolidated financial \nstatements, forming part of this Report.\nEnergy Conservation, Technology Absorption and \nForeign Exchange Earnings and Outgo\nDetails of the energy conservation, technology absorption \nand foreign exchange earnings and outgo as stipulated \nunder Section 134(3)(m) of the Act read with Rule 8 of the \nCompanies (Account) Rules, 2014 are annexed to this Report \nas Annexure-2.\nVigil Mechanism/Whistle Blower Policy\nPursuant to the provisions of Section 177 of the Act and \nRegulation 22 of the SEBI Listing Regulations, your Company \nhas established a Vigil Mechanism/Whistle Blower Policy \nfor Directors, employees, vendors, customers and other \nstakeholders of your Company and its subsidiaries to raise and \nreport concerns regarding any unethical conduct, irregularity, \nmisconduct, actual or suspected fraud or any other violation of \nthe Policy within your Company. The vigil mechanism provides \nfor adequate safeguards against victimisation of persons who \nuse such mechanisms and make provision for direct access \nto the chairperson of the Audit Committee in appropriate or \nexceptional cases. The said Policy is available on the website \nof your Company at https://www.delhivery.com/company/\ninvestor-relations.\nFurther, all the Whistle Blower Complaints along with their \nstatus update are periodically placed before the Audit \nCommittee for their review and discussion.\nAuditors & Auditors Report:\nStatutory Auditors\nThe members at its 12th AGM held on September 27, 2023, \napproved the appointment of M/s. Deloitte Haskins & Sells \nLLP (Firm Registration No.117366W/W-100018), Chartered \nAccountants, as the statutory auditors for the term of five (5) \nconsecutive years, i.e. from the conclusion of the 12th AGM till \nthe conclusion of 17th AGM of the Company to be held in the \ncalendar year 2028 in place of M/s. S. R. Batliboi & Associates \nLLP (Firm Registration No. 101049W/E300004), Chartered \nAccountants, whose tenure expired at the conclusion of \n12th AGM.\nThe report of the Statutory Auditors forms part of the Annual \nReport for FY24. The said report does not contain any \nqualification, reservation, adverse remark or disclaimer.\nSecretarial Auditors\nThe Board appointed M/s. VAPN & Associates, (Registration \nNo. P2015DE045500) Practicing Company Secretaries, as \nthe Secretarial Auditors to conduct Secretarial Audit of your \nCompany for FY24 as per the provisions of Section 204 of the \nAct. The Secretarial Audit Report for the FY24 is annexed to \nthis Report as Annexure-3.\nThe Secretarial Auditors have given remarks in its report \nstating that the Company has allotted equity shares after \nexpiry of 60 days from the date of receipt of the consideration/\nremittance upon exercise of ESOPs and violated the provisions \nof Foreign Exchange Management Act, 1999 (“FEMA”) read \nwith Foreign Exchange Management (Mode of Payment \nand Reporting of Non-Debt Instruments) Regulations, 2019, \nfurthermore, the Company has filed compounding application \nfor above said contravention with FED, CO Cell, Foreign \nExchange Department Reserve Bank, New Delhi and same is \npending before the compounding authority.\nThe Board at its meeting held on May 17, 2024, noted the said \nremarks and stated that the delay in the allotment of shares \nwas on account of non-receipt of FIRC and KYC from AD Bank \nwithin the stipulated time frame, despite multiple follow-ups. \nThe Company has filed a Compounding application with RBI \nin this regard in the month of February 2024 and is awaiting \nfor RBI’s order on it.\nFurther, the Board has appointed M/s. VAPN & Associates as \nthe Secretarial Auditors of the Company for FY25.\nInternal Auditor\nPursuant to the provisions of Section 138 of the Act and \nthe Companies (Accounts) Rules, 2014, Mr. Jitendra Khatri, \nChartered Accountant, who holds the designation of Senior \nVice President-Internal Audit in the Company was appointed \nas Internal Auditor by the Board to conduct internal audit of \nyour Company for FY24. Mr. Jitendra Khatri reports to the \nChairperson of the Audit Committee. The findings of the \nInternal Audit report are submitted to the Audit Committee \non a periodic basis and corrective actions are taken by the \nrespective functional teams as per suggestions of the Internal \nAuditor and Audit Committee.\nFurther, the Board has re-appointed Mr. Jitendra Khatri as the \nInternal Auditor of your Company for FY25.\nDisclosure regarding frauds\nDuring the year, there were no frauds reported by the \nAuditors to the Audit Committee, the Board or to the Central \nGovernment under Section 143(12) of the Act.\nCost Records and Audit\nMaintenance of cost records as specified by Central \nGovernment under Section 148(1) of the Act is not applicable \nto your Company.\nAnnual Return\nThe Annual Return in Form MGT - 7 for the FY24 pursuant to \nSection 92(3) read with Section 134(3)(a) of the Act and Rules \nmade thereunder, is available on the website of your Company \nat https://www.delhivery.com/company/investor-relations.\nDisclosure as per the Sexual Harassment of \nWomen at Workplace (Prevention, Prohibition \nand Redressal) Act, 2013\nYour Company has zero tolerance towards sexual harassment \nat the workplace. Your Company has adopted a policy on \nprevention, prohibition and redressal of sexual harassment \nat workplace in line with the provisions of the Sexual \nHarassment of Women at Workplace (Prevention, Prohibition \nand Redressal) Act, 2013 and the Rules made thereunder. \nYour Company has complied with the provisions relating to \nthe constitution of the Internal Committee as per the Sexual \nHarassment of Women at Workplace (Prevention, Prohibition \nand Redressal) Act, 2013.\nThe details of sexual harassment complaints that were filed, \ndisposed of and pending during the financial year are provided \nin the Business Responsibility and Sustaina",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "headcount of female employees growth rate",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Your Company ramped up the headcount of female employees by 59% in FY24, compared to an overall headcount increase of 11%.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "59",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "headcount growth rate",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Your Company ramped up the headcount of female employees by 59% in FY24, compared to an overall headcount increase of 11%.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "11",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4883,
+  "output_tokens": 332
+ }
+}

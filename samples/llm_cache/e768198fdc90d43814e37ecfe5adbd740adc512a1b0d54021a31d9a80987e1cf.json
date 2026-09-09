@@ -1,0 +1,279 @@
+{
+ "key": "e768198fdc90d43814e37ecfe5adbd740adc512a1b0d54021a31d9a80987e1cf",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "73a7b7c8c673a415c628ca304a9576045fe63a1cbccb9a700f6a6ce8756e2a13",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 94, printed label 269.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital, Remuneration to key management personnel, Weighted average cost of acquisition per Equity Share, Restated loss for the period / year, Active Customers, Team size, PTL freight tonnage, revenue from services, Adjusted EBITDA margin, Pin-code reach, express parcel shipments, Infrastructure, Adjusted EBITDA, Number of preference shares acquired, Total revenue from customers, Restated other comprehensive income / (loss) for the period / year, EBITDA margin, Total equity and liabilities, Total equity, Gateways, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Automated sort centers, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, NWC days, Diluted loss per share, Express Parcel revenue, PTL freight revenue, Total income, Total liabilities, Networth, TL revenue, Amount underwritten, Authorised share capital, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, Restated total comprehensive loss for the period / year, organized players market share, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fair value loss on financial liabilities as % of revenue from contract with customers, EBITDA, Sale of traded goods revenue, revenue from services growth rate, Investments in technology, Age, Aggregate amount involved in litigation, Cost of performance-based options, Sortation capacity utilisation, Fulfilment centres operated, Freight, handling and servicing cost, Revenue from customers, Other equity, Express parcel shipments since inception, Fresh Issue size, Loan given, Share capital acquired in Falcon, Total cash balance, Revenue CAGR, Express delivery centers, Deemed investment, Reported EBITDA, Total expenses, PTL freight tonnage growth rate, Fresh Issue volume, TL YoY revenue growth, Other income, Offer for Sale size, Services provided, Weighted average cost of acquisition, Fulfilment centres aggregate floor area, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Applications count, Right of use asset, Rated Automated Sort Capacity, Fleet size - daily average, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Freight service centers, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Compensation paid, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector forecast, direct spend of logistics sector, Service EBITDA margin, Service EBITDA, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, PTL freight tonnage since inception, Goodwill, PTL YoY revenue growth, Interest income, Term loan, Packing material, Rent, Stores and spares, subsidiary loan and advance utilisation threshold amount, subsidiary loan and advance utilisation threshold percentage, Consumer cases filed against Company amount, FedEx facilities aggregate floor area, Aggregate compensation, exceptional items - allowance for doubtful debts, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Gateways equipped with automated parcel sorters, Automated parcel sorters, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, FedEx facilities being transferred, Total Directors on Board, High resolution CCTV cameras, Supply Chain Services EBITDA, Income from lorry hire charges\n\nTEXT LAYER:\n \n269 \niii. remuneration to directors, key managerial personnel and senior management involves a balance \nbetween fixed and incentive pay reflecting short and long term performance objectives appropriate \nto the working of the Company and its goals. \nh) \nPerform such functions as are required to be performed by the Nomination and Remuneration Committee \nunder the SEBI (Share Based Employee Benefits) Regulations, 2014, including the following: \ni. \nAdministering the ESOP Schemes; \nii. \nDetermining the eligibility of employees to participate under the ESOP Schemes; \niii. Granting options to eligible employees and determining the date of grant; \niv. \nDetermining the number of options to be granted to an employee; \nv. \nDetermining the exercise price under the ESOP Schemes; and \nvi. \nConstruing and interpreting the ESOP Schemes and any agreements defining the rights and \nobligations of the Company and eligible employees under the ESOP Schemes, and prescribing, \namending and/ or rescinding rules and regulations relating to the administration of the ESOP \nSchemes. \ni) \nFrame suitable policies and systems to ensure that there is no violation of securities laws, as amended \nfrom time to time, including:  \ni. \nthe Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations, 2015, as \namended; and \nii. \nthe Securities and Exchange Board of India (Prohibition of Fraudulent and Unfair Trade Practices \nrelating to the Securities Market) Regulations, 2003, as amended, by the trust, the Company and its \nemployees, as applicable. \nj) \nCarrying out any other activities as may be delegated by the Board and functions required to be carried \nout by the Nomination and Remuneration Committee as provided under the Companies Act, 2013, the \nSEBI Listing Regulations or any other applicable law, as and when amended from time to time. \n \nStakeholders’ Relationship Committee \n \nThe Stakeholders’ Relationship Committee was constituted pursuant to a resolution passed by our Board at its \nmeeting held on October 13, 2021. The Stakeholders’ Relationship Committee is in compliance with Section 178 \nof the Companies Act and Regulation 20 of the SEBI Listing Regulations. The Stakeholders’ Relationship \nCommittee currently consists of: \n \n(a) Saugata Gupta, Non-Executive Independent Director (Chairperson); \n(b) Srivatsan Rajan, Non-Executive Independent Director (Member); and \n(c) Kapil Bharati, Executive Director and Chief Technology Officer (Member). \n \nScope and terms of reference \n \nThe terms of reference of the Stakeholders’ Relationship Committee shall include the following:  \n \na) \nConsidering and looking into various aspects of interest of shareholders, debenture holders and other \nsecurity holders;  \nb) \nResolving the grievances of the security holders of the listed entity including complaints related to \ntransfer/ transmission of shares, non-receipt of annual report, non-receipt of declared dividends, issue of \nnew/ duplicate certificates, general meetings etc.; \nc) \nGiving effect to allotment of Equity Shares, approval of transfer or transmission of Equity Shares, \ndebentures or any other securities; \nd) \nIssue of duplicate certificates and new certificates on split/ consolidation/ renewal, etc.; \ne) \nReview of measures taken for effective exercise of voting rights by shareholders; \nf) \nReview of adherence to the service standards adopted by the Company in respect of various services \nbeing rendered by the Registrar & Share Transfer Agent; \ng) \nReview of the various measures and initiatives taken by the Company for reducing the quantum of \nunclaimed dividends and ensuring timely receipt of dividend warrants/ annual reports/ statutory notices \nby the shareholders of the Company; and \nh) \nCarrying out any other functions required to be carried out by the Stakeholders’ Relationship Committee \nas contained in the SEBI Listing Regulations or any other applicable law, as and when amended from \ntime to time. \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Stakeholders’ Relationship Committee constitution date",
+    "confidence": 1,
+    "entity": "Stakeholders’ Relationship Committee",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "October 13, 2021",
+    "period_end": "2021-10-13",
+    "period_start": "2021-10-13",
+    "quote": "The Stakeholders’ Relationship Committee was constituted pursuant to a resolution passed by our Board at its meeting held on October 13, 2021.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "October 13, 2021",
+    "value_kind": "text"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4299,
+  "output_tokens": 196
+ }
+}

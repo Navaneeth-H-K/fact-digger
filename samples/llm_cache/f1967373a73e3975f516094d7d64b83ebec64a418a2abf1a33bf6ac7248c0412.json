@@ -1,0 +1,313 @@
+{
+ "key": "f1967373a73e3975f516094d7d64b83ebec64a418a2abf1a33bf6ac7248c0412",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "b41027dc97f06dbc292842b06660de95dbebfc1cda1b8606d07f850ff09270d2",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 76, printed label 251.\nExisting attribute vocabulary (reuse a name when it means the same thing): Weighted average cost of acquisition per Equity Share, Restated loss for the period / year, Active Customers, Remuneration to key management personnel, Team size, PTL freight tonnage, revenue from services, Adjusted EBITDA margin, Pin-code reach, Equity share capital, express parcel shipments, Infrastructure, Adjusted EBITDA, Total revenue from customers, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, EBITDA margin, Total equity and liabilities, Total equity, Gateways, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Revenue from contracts with customers, Instruments entirely equity in nature, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Automated sort centers, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, NWC days, Diluted loss per share, Express Parcel revenue, PTL freight revenue, Total income, Total liabilities, Networth, TL revenue, Amount underwritten, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, Restated total comprehensive loss for the period / year, organized players market share, allowance for doubtful debts, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fair value loss on financial liabilities as % of revenue from contract with customers, EBITDA, Sale of traded goods revenue, revenue from services growth rate, Investments in technology, Aggregate amount involved in litigation, Cost of performance-based options, Sortation capacity utilisation, Fulfilment centres operated, Freight, handling and servicing cost, Revenue from customers, Other equity, Express parcel shipments since inception, Fresh Issue size, Total cash balance, Revenue CAGR, Express delivery centers, Deemed investment, Reported EBITDA, Total expenses, PTL freight tonnage growth rate, Fresh Issue volume, TL YoY revenue growth, Other income, Offer for Sale size, Services provided, Weighted average cost of acquisition, Fulfilment centres aggregate floor area, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Applications count, Right of use asset, Rated Automated Sort Capacity, Fleet size - daily average, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Freight service centers, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector forecast, direct spend of logistics sector, Service EBITDA margin, Service EBITDA, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, PTL freight tonnage since inception, Loan given, Goodwill, PTL YoY revenue growth, Interest income, Term loan, Packing material, Rent, Stores and spares, Share capital acquired in Falcon, Consumer cases filed against Company amount, FedEx facilities aggregate floor area, exceptional items - allowance for doubtful debts, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Gateways equipped with automated parcel sorters, Automated parcel sorters, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, FedEx facilities being transferred, High resolution CCTV cameras, Supply Chain Services EBITDA, Income from lorry hire charges, Pin-code reach percentage, Orders collected since inception, Contingent liabilities - Others, Corporate overheads, CWIP, ESOPs ungranted total as % of fully diluted shares, Express Parcel EBITDA margin, Express Parcel EBITDA\n\nTEXT LAYER:\n \n251 \nthe Long Stop Date), SVF Doorbell (Cayman) Ltd shall exercise its right to appoint only one non-executive, non-\nindependent director, and shall not exercise its right to appoint a second nominee director, and (iii) FedEx Express \nhas the right to appoint a non-executive, non-independent Director on our Board. Further, the SHA provides \ncertain inspection and information rights to the Investors, which shall continue till completion of the Offer, i.e. \ncommencement of listing and trading of the Equity Shares on the Stock Exchanges pursuant to the Offer. The \nparties have also agreed, pursuant to the Waiver Letter, to waive certain inter se rights in relation to certain \nproposed transfers of shareholding, as applicable, of first refusal, tag-along rights on sale to third parties and tag-\nalong rights on sale to competitors, in respect of the Offer. \n \nPursuant to the terms of the SHA, the investors have the right to require the prior affirmative written consent of \nthe investors holding a majority of the investors’ securities on a fully-diluted basis, in order for our Company to \ntake decisions on certain matters including: (i) the business plan and annual budget of our Company, including \nany deviations thereto, (ii) incurrence of debt during a financial year in excess of ₹2,000,000,000, (iii) any change \nin the nature of business or diversification of the business, (iv) any acquisition, disposition or dilution of \nsubstantial interest in any other business or any acquisition of securities of or interests in any company, \npartnership, body corporate or sole proprietorship or any joint venture, strategic or financial alliance with any \nthird party for consideration paid or received in cash, (v) any increase or decrease or any other change in the \ncomposition of the Board, including any revision in the salaries/ compensation paid to the directors of our \nCompany, and (vi) transactions other than in the ordinary course of business of our Company, in excess of \n₹100,000,000. Further, the prior affirmative written consent of a “super majority” of investors, i.e. investors \ncollectively holding at least 67% of the total investor securities on a fully-diluted basis, is required in order for \nour Company to take decisions on certain matters including: (i) any change in the capitalization structure of our \nCompany including due to increase in the number of shares reserved for ESOP schemes or issue of shares in \nconnection with an acquisition, subject to certain exceptions, (ii) redemption or buy-back of any equity securities \nof our Company, including CCPS held by any person, subject to certain exceptions, (iii) amendment of the charter \ndocuments of our Company, other than in connection with certain specified matters, and (iv) matters relating to \nthe incorporation or creation of a subsidiary, investment by our Company in its subsidiaries, and any issues relating \nto sale or divestment or holdings by our Company in any of its subsidiaries. Separately, the prior affirmative \nwritten consent of the Founders (to be exercised collectively by the Founder holding the position of chief executive \nofficer of our Company, on behalf of all Founders and whose decision shall be binding on all the Founders), is \nrequired in order to take decisions on certain matters including: (i) the business plan and annual budget of our \nCompany, including any deviations thereto, (ii) any change in the charter documents of our Company which \nadversely affects the Founders and their rights, (iii) commencement of any new line of business, or exit from any \ncurrent line of business, split-up of the existing business or any other change in the business of our Company, (iv) \nany restructuring/merger/acquisition/sale of whole or part of our Company, subject to certain exceptions, (v) any \namendment to, or waiver of, any material operations agreements of our Company. The SHA also provides that \nthe directors nominated by the Investors will not be liable for any default or failure of our Company in complying \nwith applicable laws, and that our Company will indemnify and hold harmless, to the extent permitted by \nApplicable Law, the Investors and directors nominated by the Investors from and against any and all losses which \nthey may directly or indirectly incur as a result of any non-compliance of our Company with applicable laws. \nIn accordance with the terms of the Amendment Agreement, the SHA shall stand automatically terminated \nimmediately prior to the completion of a successful initial public offering of our Company’s share capital on the \nBSE and NSE approved in accordance with the terms of the SHA, except for certain clauses relating to governing \nlaw, dispute resolution and confidentiality that will continue to survive termination. Except for rights to nominate \ndirectors available to certain shareholders, subject to approval of the Shareholders by way of a special resolution \nin a general meeting post listing of the Equity Shares, as included in Part A of our Articles of Association, there \nare no such rights which shall survive post listing of the Equity Shares. The Amendment Agreement and the \nWaiver Letter will stand automatically terminated on the Long Stop date, i.e. the earlier of: (i) November 1, 2022, \nin the event that the Equity Shares are not listed on the BSE and the NSE by such date, and/or (ii) the date on \nwhich the Board, or a committee thereof, decides not to undertake the Offer, and/or (iii) November 30, 2021, in \nthe event that our Company has not filed a draft red herring prospectus in relation to the Offer with SEBI, the BSE \nand the NSE by such date, and the SHA (as existing prior to execution of the Amendment Agreement) shall \nimmediately and automatically stand reinstated, with full and force, as it stood prior to the Amendment \nAgreement. \n \nIn terms of Part A of our Articles of Association, which will become effective automatically upon the \ncommencement of listing and trading of our Comp",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Incurrence of debt threshold",
+    "confidence": 1,
+    "entity": "Company",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "incurrence of debt during a financial year in excess of ₹2,000,000,000,",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "2,000,000,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Transactions threshold",
+    "confidence": 1,
+    "entity": "Company",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "transactions other than in the ordinary course of business of our Company, in excess of ₹100,000,000.",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "₹",
+    "value": "100,000,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investor super majority threshold",
+    "confidence": 1,
+    "entity": "Investors",
+    "estimate_type": "actual",
+    "measurement_basis": "fully-diluted basis",
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "at least 67% of the total investor securities on a fully-diluted basis",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "67",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4701,
+  "output_tokens": 407
+ }
+}

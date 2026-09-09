@@ -1,0 +1,412 @@
+{
+ "key": "d3cd160d2f30bd676a4172111c73e2e0bbc302a84868a7511fc440b36d69b31e",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "c36378d892223af989e6a7e7525963c83318e9acd50e04d527a7a51eb88fea0f",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 56, printed label 52.\nExisting attribute vocabulary (reuse a name when it means the same thing): Headline inflation average, GDP growth rate, Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Inflation rate, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Value of exports, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Real gross value added GVA growth rate, Total borrowings, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, merchandise exports growth rate, merchandise imports growth rate, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, merchandise trade deficit, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Core inflation average, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Outstanding at the end of the year, Foreign exchange reserves, Total expenses, net FPI inflows, Number of Observations, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, Share capital acquired in Falcon, CBDC (Retail) amount outstanding, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, R&D expenditure in GDP, Debt to Equity, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Gross fixed capital formation growth rate, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, gross fiscal deficit (GFD) as % of GDP, merchandise exports, Reserve money growth rate, Money Supply growth rate, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Current account deficit (CAD) as % of GDP, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), currency depreciation rate, Revenue from customers, Household financial saving (net) as % of gross national disposable income (GNDI), Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, Net FDI, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries\n\nTEXT LAYER:\nANNUAL REPORT 2024-25\n52\n26\t Non-food credit data are based on fortnightly Section 42 return and covers all SCBs. Sectoral non-food credit data are based on sector-\nwise and industry-wise bank credit (SIBC) return, which covers select banks accounting for about 95 per cent of total non-food credit extended \nby all SCBs. Data pertain to the last reporting Friday of the month.\nTable II.4.2: Sectoral Credit Growth - SCBs\n(Per cent, y-o-y)\nSector\n2023-24#\n2024-25\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\nNon-food Credit\n16.3\n15.3\n16.2\n13.9\n15.1\n15.0\n14.4\n12.8\n11.8\n12.4\n12.5\n12.0\n12.0\nI. \t Agriculture & Allied Activities\n20.0\n19.8\n21.6\n17.4\n18.1\n17.7\n16.4\n15.5\n15.3\n12.5\n12.2\n11.4\n10.4\nII. \tIndustry  \n\t\n(Micro & Small, Medium and Large)\n8.0\n6.9\n8.9\n7.7\n10.2\n9.8\n9.1\n8.0\n8.1\n7.4\n8.2\n7.3\n8.0\n\t\nII.1.\t Micro & Small\n14.4\n15.2\n15.3\n10.7\n13.3\n13.6\n13.5\n10.1\n10.2\n9.9\n9.6\n9.8\n9.1\n\t\nII.2. \t Medium\n13.2\n13.1\n15.3\n12.5\n17.0\n19.3\n20.5\n19.7\n20.1\n20.0\n18.5\n18.1\n18.6\n\t\nII.3. \t Large\n5.8\n4.1\n6.5\n6.3\n8.7\n7.8\n6.6\n6.1\n6.3\n5.3\n6.7\n5.4\n6.4\n\t\nMajor Sub-sectors of Industry\n\t\nII.a.\t Infrastructure\n5.6\n3.9\n6.3\n4.6\n4.0\n3.8\n2.2\n1.8\n1.7\n1.2\n1.8\n1.1\n1.7\n\t\nII.b.\t Basic Metals & Metal Products\n11.7\n11.4\n13.4\n11.3\n13.4\n16.1\n15.5\n15.5\n16.0\n13.4\n14.4\n13.3\n13.0\n\t\nII.c.\t Chemicals & Chemical Products\n11.2\n13.3\n13.6\n11.7\n16.7\n15.9\n14.9\n12.8\n11.5\n7.1\n9.6\n6.8\n7.4\n\t\nII.d.\t Textiles\n11.1\n8.1\n9.3\n6.1\n8.6\n6.4\n5.4\n5.6\n5.5\n5.6\n5.8\n7.1\n8.3\n\t\nII.e.\t All Engineering\n10.5\n9.4\n10.5\n8.7\n10.8\n16.6\n15.7\n14.5\n18.3\n19.5\n18.1\n19.0\n22.1\n\t\nII.f.\t\nFood Processing\n14.9\n17.9\n14.5\n10.8\n17.1\n14.4\n11.6\n9.9\n12.1\n10.7\n11.0\n9.3\n5.1\nIII. \tServices\n20.8\n19.5\n20.7\n15.1\n15.9\n15.6\n15.2\n14.1\n14.4\n13.0\n13.8\n13.0\n13.4\n\t\nIII.1.\t Trade\n17.2\n14.4\n17.3\n14.4\n15.6\n15.7\n14.5\n12.6\n14.7\n14.2\n14.6\n14.8\n15.8\n\t\nIII.2.\t NBFCs\n15.0\n15.1\n15.8\n8.2\n13.0\n12.2\n9.7\n6.6\n8.0\n6.9\n7.9\n6.6\n5.9\nIV. Personal Loans\n17.6\n17.0\n19.3\n16.6\n17.3\n17.4\n16.4\n15.8\n16.3\n14.9\n14.2\n14.0\n14.0\n\t\nIV.1.\t Consumer Durables\n13.0\n11.0\n15.0\n7.6\n11.3\n10.1\n8.6\n6.6\n4.8\n-1.1\n-2.6\n2.2\n-1.3\n\t\nIV.2. \tHousing\n17.1\n17.6\n19.9\n18.2\n19.1\n19.7\n18.3\n17.8\n18.0\n16.7\n15.5\n15.6\n15.3\n\t\nIV.3. \tCredit Cards Outstanding\n25.6\n23.0\n26.2\n23.3\n22.0\n19.9\n18.0\n16.9\n18.1\n15.6\n13.0\n11.2\n10.6\n\t\nIV.4. \tVehicle Loans\n17.6\n17.2\n18.4\n15.5\n14.6\n14.5\n13.9\n12.0\n10.3\n8.8\n9.7\n9.6\n8.6\n\t\nIV.5. \tOther Personal Loans\n18.6\n15.8\n17.1\n13.1\n13.5\n13.0\n11.8\n11.2\n12.2\n9.7\n9.2\n8.4\n8.4\n#: March 2024 over March 2023.\nNote: Data are provisional and exclude the impact of merger of a non-bank with a bank.\nSource: RBI. \nII.4.13 \tSector-wise26, credit to agriculture and \nallied activities continued to exhibit double digit \nexpansion in 2024-25. Industrial credit remained \nrobust, driven by a pick-up in credit to medium \nand large industry. Credit to micro and small \nindustries continued albeit with some moderation \nin the recent period. Similarly, credit to services \nsector grew but at a decelerated pace. Credit to \nservices sector moderated from elevated levels, \nfollowing the increase in risk weights on SCBs’ \ncredit to NBFCs by 25 percentage points in \nNovember 2023. Personal loans grew by 14.0 \nper cent as at end-March 2025 as compared with \n17.6 per cent during the previous year, supported \nby housing loans which account for nearly half \nof the segment. Other segments within personal \nloans such as vehicle loans and other personal \nloans grew by 8.6 and 8.4 per cent, respectively, \nat end-March 2025 (Chart II.4.11 and Table \nII.4.2).\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Non-food credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Non-food Credit 16.3 15.3 16.2 13.9 15.1 15.0 14.4 12.8 11.8 12.4 12.5 12.0 12.0",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "12.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Agriculture & Allied Activities credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "I. Agriculture & Allied Activities 20.0 19.8 21.6 17.4 18.1 17.7 16.4 15.5 15.3 12.5 12.2 11.4 10.4",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "10.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Industry credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "II. Industry (Micro & Small, Medium and Large) 8.0 6.9 8.9 7.7 10.2 9.8 9.1 8.0 8.1 7.4 8.2 7.3 8.0",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "8.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Services credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "III. Services 20.8 19.5 20.7 15.1 15.9 15.6 15.2 14.1 14.4 13.0 13.8 13.0 13.4",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "13.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Personal Loans credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "IV. Personal Loans 17.6 17.0 19.3 16.6 17.3 17.4 16.4 15.8 16.3 14.9 14.2 14.0 14.0",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "14.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Housing credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "IV.2. Housing 17.1 17.6 19.9 18.2 19.1 19.7 18.3 17.8 18.0 16.7 15.5 15.6 15.3",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "15.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Vehicle Loans credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "IV.4. Vehicle Loans 17.6 17.2 18.4 15.5 14.6 14.5 13.9 12.0 10.3 8.8 9.7 9.6 8.6",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "8.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other Personal Loans credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "IV.5. Other Personal Loans 18.6 15.8 17.1 13.1 13.5 13.0 11.8 11.2 12.2 9.7 9.2 8.4 8.4",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "8.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "NBFCs credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "III.2. NBFCs 15.0 15.1 15.8 8.2 13.0 12.2 9.7 6.6 8.0 6.9 7.9 6.6 5.9",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "5.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Infrastructure credit growth rate",
+    "confidence": 1,
+    "entity": "Scheduled Commercial Banks (SCBs)",
+    "estimate_type": "actual",
+    "period": "Mar 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "II.a. Infrastructure 5.6 3.9 6.3 4.6 4.0 3.8 2.2 1.8 1.7 1.2 1.8 1.1 1.7",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "1.7",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5454,
+  "output_tokens": 1890
+ }
+}

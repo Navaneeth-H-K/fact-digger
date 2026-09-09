@@ -1,0 +1,424 @@
+{
+ "key": "a0442bf37a16106022c2dfb1f74c7f11729b182beffa4ae4d62c29caee01184b",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "668d71fe8d42ffa9475b2564bebd45956b8e79e428ea4a35911318650071c239",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-india-economic-survey-2024-25-excerpt.pdf; title: unknown; publisher: Government of India; published: 2024-07-01; fiscal year starts in month 4.\nPage index 65, printed label 108.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, Value of exports, PTL freight tonnage, GDP growth rate, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Total borrowings, Infrastructure, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, global market share of apparel exports, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, merchandise trade deficit, Total expenses, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Debt to Equity, Outstanding at the end of the year, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, Apparel exports consumption share percentage, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Deemed investment, merchandise exports, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, Foreign exchange reserves, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Trade payables, Applications count, Non - current operating assets, Attrition of Key Managerial Personnel, Attrition rate, Total cash balance, Revenue CAGR, Installed solar power capacity, Gross fixed capital formation growth rate, Express delivery centers, Freight service centers, Compensation paid, CRAR, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, merchandise exports growth rate, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), GNPA, merchandise imports growth rate\n\nTEXT LAYER:\nEconomic Survey 2024-25\n108\n3.52\t  FDI into India has recently been scrutinised due to concerns about declining \ninflows. However, a broader analysis92 reveals that FDI flows globally have been \nhampered by economic uncertainty, geopolitical tensions, and rising borrowing costs. \nEven though gross FDI inflows to India have increased in the first eight months of FY25, \nit has been accompanied by a rise in repatriations as international companies realised \nreturns from investments. Many multinational companies have capitalised on India's \nstrong stock market through secondary sales and Initial Public Offerings, indicating \ninvestor confidence. In 2024, private equity-backed exits increased, supported by \nIndia’s stable macroeconomic environment and investor-friendly policies. As per \nAvendus Spark analysis based on DPIIT data, Private Equity and Venture Capital \nexit from Indian stock markets stood at USD 19.5 billion from January to September \n2024, higher than USD 18.3 billion in the corresponding period of the previous year.93 \nThe depth and resilience of the Indian capital market offer profitable exits for direct \ninvestors, boosting future investments.94\n3.53\t India remains a strong destination for FDI, ranking high in greenfield project \nannouncements and international project finance deals. However, the country has to \npay heed to numbers. As per the data published by RBI, net FDI to India during the \nfirst eight months of FY25 stood at USD 0.48 billion compared to USD 8.5 billion in \nthe corresponding period of FY24.95 Similarly, for FY23, the figure stood at USD 19.8 \nbillion. For FY24 as a whole, the net FDI was USD 10.1 billion. The last two financial \nyears have indeed seen much larger repatriation from India. The amounts were USD \n29.3 billion and USD 44.5 billion, respectively, in FY23 and FY24. In the current year, \nup to November, the repatriation amount is USD 39.6 billion. At this rate, the full-year \nfigure might exceed last year’s figure.\n3.54\t To a large extent, this is a success story as foreigners take profits. Second, much \nof it was sold to portfolio investors. In other words, the large portfolio inflows in FY24 \nwere the other side of the coin of large repatriation. At a gross level, FY23 and FY24 \nhave seen a decline in gross FDI, including earnings retained in India. This has broken \nthe steadily rising trend seen since FY14. The period between FY13 and FY22 witnessed \n92 \u0007 \u0007“Behind India’s growth over last 10 yrs—increase in repatriations, steady FDI inflows”. https://tinyurl.com/2tt3pxsf.\n93  \u0007Avendus Spark Strategy-Macro Alert-Net FDI inflows fall to a record low in H1 of FY25, https://www.avendus.\ncom/india/reports.\n94  https://www.ft.com/content/0575e216-8dae-4df6-bf50-312f78468e99.\n95  \u0007Net FDI is calculated as follows: -\n\t\n(1)\t\nFDI by foreigners: Foreign direct investment inflows+retained earnings-repatriation\n\t\n(2)\t FDI by Indians: Indian investment overseas +retained earnings-repatriation\n\t\n(3)\t The net FDI figure: (1)-(2)\n\t\n(4)\t Then, there are Portfolio Investment flows: -\n\t\n(5)\t \u0007Foreign Portfolio Investors’ net flows – Indians’ Portfolio Investment (Indians’ portfolio investment \noverseas is small)\n\t\n(6)\t Total Investment flows: (1)-(2) +(3)\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Private Equity and Venture Capital exit value",
+    "attributed_to": "Avendus Spark",
+    "confidence": 1,
+    "entity": "Private Equity and Venture Capital exit from Indian stock markets",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "January to September 2024",
+    "period_end": "2024-09-30",
+    "period_start": "2024-01-01",
+    "quote": "Private Equity and Venture Capital exit from Indian stock markets stood at USD 19.5 billion from January to September 2024, higher than USD 18.3 billion in the corresponding period of the previous year.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "19.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Private Equity and Venture Capital exit value",
+    "attributed_to": "Avendus Spark",
+    "confidence": 1,
+    "entity": "Private Equity and Venture Capital exit from Indian stock markets",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "January to September 2023",
+    "period_end": "2023-09-30",
+    "period_start": "2023-01-01",
+    "quote": "higher than USD 18.3 billion in the corresponding period of the previous year.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "18.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net FDI",
+    "attributed_to": "RBI",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "first eight months of FY25",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "net FDI to India during the first eight months of FY25 stood at USD 0.48 billion compared to USD 8.5 billion in the corresponding period of FY24.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "0.48",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net FDI",
+    "attributed_to": "RBI",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "first eight months of FY24",
+    "period_end": "2023-11-30",
+    "period_start": "2023-04-01",
+    "quote": "net FDI to India during the first eight months of FY25 stood at USD 0.48 billion compared to USD 8.5 billion in the corresponding period of FY24.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "8.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net FDI",
+    "attributed_to": null,
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Similarly, for FY23, the figure stood at USD 19.8 billion.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "19.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Net FDI",
+    "attributed_to": null,
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "For FY24 as a whole, the net FDI was USD 10.1 billion.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "10.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Repatriation amount",
+    "attributed_to": null,
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "The amounts were USD 29.3 billion and USD 44.5 billion, respectively, in FY23 and FY24.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "29.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Repatriation amount",
+    "attributed_to": null,
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "The amounts were USD 29.3 billion and USD 44.5 billion, respectively, in FY23 and FY24.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "44.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Repatriation amount",
+    "attributed_to": null,
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "up to November of current year",
+    "period_end": "2024-11-30",
+    "period_start": "2024-04-01",
+    "quote": "In the current year, up to November, the repatriation amount is USD 39.6 billion.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "USD",
+    "value": "39.6",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4286,
+  "output_tokens": 1481
+ }
+}

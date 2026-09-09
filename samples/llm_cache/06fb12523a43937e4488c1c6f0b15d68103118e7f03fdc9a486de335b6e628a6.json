@@ -1,0 +1,405 @@
+{
+ "key": "06fb12523a43937e4488c1c6f0b15d68103118e7f03fdc9a486de335b6e628a6",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "4209bd978682be725ee06cef2e5abc333aa4dfce06af94d8430719d94b9f16b9",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 3, printed label 23.\nExisting attribute vocabulary (reuse a name when it means the same thing): Adjusted EBITDA, revenue from services, Adjusted EBITDA margin, PTL freight tonnage, Weighted average cost of acquisition per Equity Share, Offer for Sale amount, NWC days, express parcel shipments, Capital Expenditure as % of Revenue from Services, Supply Chain Services revenue, Express Parcel revenue, PTL freight revenue, TL revenue, Cost of time-based options, EBITDA, EBITDA margin, revenue from services growth rate, Active Customers, Cost of performance-based options, Cross Border Services revenue, Pin-code reach, Revenue from customers, Infrastructure, Total cash balance, Total revenue from customers, Reported EBITDA, TL YoY revenue growth, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Total assets, Closing cash balance at the end of the year, Net change in cash, Cash & cash equivalents at the end of the year, Cash generated from / (used in) operations, Power, fuel & water charges, Contractual manpower expenses, Freight, Handling and Servicing Cost, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Total equity and liabilities, Total equity, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Express parcel shipments growth rate, PTL freight tonnage growth rate, Fresh Issue size, PTL YoY revenue growth, Total liabilities, Term loan, Packing material, Networth, Offer for Sale size, Rent, Stores and spares, Automated sort centers, Fleet size - daily average, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Corporate overheads, CWIP, ESOPs ungranted total as % of fully diluted shares, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Team size holding ESOPs, ESOPs ungranted total, Express Parcel revenue growth rate, Express parcel shipments since inception, PTL freight tonnage since inception, FY23 PAT loss, Gateways, PAT loss reduction, Total Offer size, Team size\n\nTEXT LAYER:\n \n23 \nThe Offer and the Net Offer constitute 14.84% and 14.78%, respectively, of the post-Offer paid up Equity Share \ncapital of our Company.  \nObjects of the Offer \nOur Company proposes to utilise the Net Proceeds towards funding the following objects:  \n \nS. No \nParticulars \nTotal estimated amount / expenditure \n(in ₹ million) \n1. \n \nFunding organic growth initiatives \n20,000 \n(i) \nBuilding scale in existing business lines and developing new \nadjacent business lines \n1,600 \n(ii) \nExpanding our network infrastructure \n13,600 \n(iii) Upgrading and improving our proprietary logistics operating system \n4,800 \n2. \n \nFunding inorganic growth through acquisitions and other strategic \ninitiatives \n10,000 \n3. \n \nGeneral corporate purposes \n8,703 \n \nTotal Net Proceeds \n38,703 \n \nFor further details, see “Objects of the Offer” on page 161. \nAggregate pre-Offer shareholding of Selling Shareholders \nThe aggregate pre-Offer shareholding of the Selling Shareholders as a percentage of the pre-Offer paid-up Equity \nShare capital of our Company, as on the date of this Prospectus is set out below:   \nName of Selling Shareholder \nNumber of Equity Shares held \nPercentage of the pre-Offer paid-up \nEquity Share capital (%) \n \n \nInvestor Selling Shareholders \n \n \nCA Swift Investments \n46,131,800 \n7.18  \nDeli CMF Pte. Ltd. \n6,879,000 \n1.07  \nSVF Doorbell (Cayman) Ltd \n141,593,300 \n22.04  \nTimes Internet Limited \n31,703,900 \n4.94  \nIndividual Selling Shareholders \n \n \nKapil Bharati \n6,694,800 \n1.04 \nMohit Tandon \n11,664,200 \n1.82  \nSuraj Saharan  \n10,994,300 \n1.71  \nTotal \n255,661,300 \n39.80 \n \nSelect financial information \nThe following details of our Equity Share capital, instruments entirely equity in nature, net worth, total income, \nrestated loss, earnings per share, net asset value per Equity Share and total borrowings for the nine months period \nended December 31, 2021 and December 31, 2020, and financial years ended March 31, 2021, March 31, 2020 \nand March 31, 2019 and total income, restated loss for the period/year and earnings per share (basic and diluted) \nfor the nine months period ended December 31, 2021 and December 31, 2020, and financial years ended March \n31, 2021, March 31, 2020 and March 31, 2019 are derived from the Restated Financial Statements (except as \nstated in the note below):  \n \n \n(in ₹ million, unless otherwise specified) \nParticulars \nAs at and for \nthe nine \nmonths period \nended \nDecember 31, \n2021 \nAs at and for \nthe nine \nmonths period \nended \nDecember 31, \n2020 \nAs at and for \nthe Financial \nYear ended \nMarch 31, \n2021 \nAs at and \nfor the \nFinancial \nYear ended \nMarch 31, \n2020 \nAs at and for \nthe Financial \nYear ended \nMarch 31, \n2019 \nEquity share capital \n   \n216.68  \n   \n16.24  \n16.33  \n9.75  \n9.58  \nInstruments entirely equity in \nnature \n   \n425.02  \n   \n353.99  \n353.99 \n391.72  \n391.72  \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Fresh Issue size",
+    "entity": "Delhivery Limited",
+    "period": "date of Prospectus",
+    "period_end": "2022-05-14",
+    "period_start": "2022-05-14",
+    "quote": "Total Net Proceeds 38,703",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "38,703",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity share capital",
+    "entity": "Delhivery Limited",
+    "period": "Nine months ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "Equity share capital 216.68",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "216.68",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity share capital",
+    "entity": "Delhivery Limited",
+    "period": "Nine months ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "16.24",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "16.24",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity share capital",
+    "entity": "Delhivery Limited",
+    "period": "FY21",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "16.33",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "16.33",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity share capital",
+    "entity": "Delhivery Limited",
+    "period": "FY20",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "9.75",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "9.75",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity share capital",
+    "entity": "Delhivery Limited",
+    "period": "FY19",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "9.58",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "9.58",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Instruments entirely equity in nature",
+    "entity": "Delhivery Limited",
+    "period": "Nine months ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "Instruments entirely equity in nature 425.02",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "425.02",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Instruments entirely equity in nature",
+    "entity": "Delhivery Limited",
+    "period": "Nine months ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "353.99",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "353.99",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Instruments entirely equity in nature",
+    "entity": "Delhivery Limited",
+    "period": "FY21",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "353.99",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "353.99",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Instruments entirely equity in nature",
+    "entity": "Delhivery Limited",
+    "period": "FY20",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "391.72",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "391.72",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Instruments entirely equity in nature",
+    "entity": "Delhivery Limited",
+    "period": "FY19",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "391.72",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "391.72",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4102,
+  "output_tokens": 1267
+ }
+}

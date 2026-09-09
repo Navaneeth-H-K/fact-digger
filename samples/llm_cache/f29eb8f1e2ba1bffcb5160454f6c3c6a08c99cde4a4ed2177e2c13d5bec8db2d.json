@@ -1,0 +1,517 @@
+{
+ "key": "f29eb8f1e2ba1bffcb5160454f6c3c6a08c99cde4a4ed2177e2c13d5bec8db2d",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "4a6f04e5ab51fc84c78395225b9c3a03aefe51f9255a341ec26c0cb5fd6205b9",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 55, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Active Customers, Restated loss for the period / year, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Automated sort centers, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Total Compensation, Revenue from contracts with customers, Networth, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Count of 46-ft tractors, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Board members count, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Other income, Investments in technology, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, market CAGR, Sortation capacity utilisation, Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, No. of ESOPs vested as on March 31, 2024, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Consolidated Fees paid to Statutory Auditors, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Stock Code, private consumption expenditure growth rate, Contractual manpower expenses, Deferred tax credit, Current tax, Net debt, direct spend of logistics sector, No. of ESOPs exercised during FY24, Foreign exchange earnings, Foreign exchange outgo, Line haul expenses, Lost shipment expense (net), Other expenses, Vehicle rental expenses\n\nTEXT LAYER:\n2.\t\na.\t\nDoes the entity have procedures in place for sustainable sourcing? \n\t\n\t\nYes\n\t\nb.\t\nIf yes, what percentage of inputs were sourced sustainably?\n\t\n\t\n\u000755% (data is based on the responses received from vendors catering to the top 75% of the spend & their percentage \ncontribution has been calculated out of the total input value)\n\t\n\t\n\u0007For sustainable sourcing, the eligibility criteria chosen include the various Environmental, Social, and Governance \nfacets. Delhivery looked at the availability of the below-mentioned policy and certification to review the sustainability \nof its vendors/suppliers (The evaluation was done for vendors catering to top 75% of the spend).\n\t\n\t\n1.\t\nEnvironment: ISO 14001, ISO 50001, EPR Compliance\n\t\n\t\n2.\t\n\u0007Social: POSH policy, ISO 450001, International Labour Organisation (ILO) – regulations on child labour, \nforced labour, modern slavery etc\n\t\n\t\n3.\t\n\u0007Governance: Whistle-Blower policy, Anti-bribery, Anti-corruption policy, Cyber security & Data privacy policy\n3.\t\n\u0007Describe the processes in place to safely reclaim your products for reusing, recycling and disposing at the end of \nlife, for (a) Plastics (including packaging) (b) E-waste (c) Hazardous waste and (d) other waste.\n\t\n(a)\t \u0007Plastic Waste: In form of Flyers & Bags\n\t\n\t\n1.\t\n\u0007Flyers: We have mandated suppliers to use 20% recycled material in the production process in case of Flyers & \nensure compliance related to single use plastics.\n\t\n\t\n2.\t\n\u0007Bags: PP(Polypropylene) woven bags are being used 2-3 times to move shipments from one location to another. \nUpon end of life, these bags are sent to authorised scrap dealers who treat them as per defined norms.\n\t\n(b)\t \u0007E-waste is disposed off only through authorised E-waste scrap dealers; upon disposal green certificate is issued by \nthe scrap dealer.\n\t\n(c)\t\n\u0007Hazardous Waste is not generated in our business. Question 9 under Principle 6 reports a negligible amount of \nhazardous waste (refer Other Hazardous Waste - Industrial (g)) which is an exceptional item.\n\t\n(d)\t Other Waste such as Wood, Iron & other metals, Paper & Tyres are disposed through vendors for recycling.\n4.\t\n\u0007Whether Extended Producer Responsibility (EPR) is applicable to the entity’s activities (Yes/No). If yes, whether the \nwaste collection plan is in line with the Extended Producer Responsibility (EPR) plan submitted to Pollution Control \nBoards? If not, provide steps taken to address the same.\n\t\nYes, EPR is applicable.\n\t\n\u0007Based on the market understanding and detailed analysis of rule(s) applicability on the Company, we would be required \nto be registered as Brand Owner. The tentative timeline for registering as a Brand Owner is Q3FY24.\nPRINCIPLE 3 Businesses should respect and promote the well-being of all employees, including those in their \nvalue chains\nEssential Indicators\n1. a.\tDetails of measures for the well-being of employees:\nCategory\n% of employees covered by\nTotal (A)\nHealth insurance*\nAccident \ninsurance\nMaternity benefits\nPaternity Benefits\nDay Care facilities\nNumber \n(B)\n% (B/A)\nNumber \n(C)\n% (C/A)\nNumber \n(D)\n% (D/A)\nNumber \n(E)\n% (E/A)\nNumber \n(F)\n% (F/A)\nPermanent employees\nMale\n17,072\n17,072 100.00%\n17,072 100.00%\n0\n0%\n17,072 100.00%\n0\n0%\nFemale\n1,455\n1,455 100.00%\n1,455 100.00%\n1,455 100.00%\n0\n0%\n1,455 100.00%\nTotal\n18,527\n18,527 100.00%\n18,527 100.00%\n1,455\n7.85%\n17,072\n92.47%\n1,455\n7.85%\nOther than Permanent employees\nMale\n49\n0\n0%\n0\n0%\n0\n0%\n0\n0%\n0\n0%\nFemale\n28\n0\n0%\n0\n0%\n28 100.00%\n0\n0%\n0\n0%\nTotal\n77\n0\n0%\n0\n0%\n28\n36.36%\n0\n0%\n0\n0%\n \nNote - Child care/creche benefits were rolled out for all Employees in April 2023.\nb.\t\nDetails of measures for the well-being of workers:\nCategory\n% of workers covered by\nTotal (A)\nHealth insurance*\nAccident \ninsurance\nMaternity benefits\nPaternity Benefits\nDay Care facilities\nNumber \n(B)\n% (B/A)\nNumber \n(C)\n% (C/A)\nNumber \n(D)\n% (D/A)\nNumber \n(E)\n% (E/A)\nNumber \n(F)\n% (F/A)\nPermanent workers\nMale\n5,613\n5,613 100.00%\n5,613 100.00%\n0\n0%\n5,613 100.00%\n0\n0%\nFemale\n285\n285 100.00%\n285 100.00%\n285 100.00%\n0\n0%\n0\n0%\nTotal\n5,898\n5,898 100.00%\n5,898 100.00%\n285\n4.83%\n5,613\n95.17%\n0\n0%\nOther than Permanent workers\nMale\n35,434\n35,434 100.00%\n35,434 100.00%\n0\n0%\n0\n0%\n0\n0%\nFemale\n3,854\n3,854 100.00%\n3,854 100.00%\n3,854 100.00%\n0\n0%\n0\n0%\nTotal\n39,288\n39,288 100.00%\n39,288 100.00%\n3,854\n9.81%\n0\n0%\n0\n0%\n \n\u0007* Benefit is provided through various means to employees/workers like a Group Medical Insurance plan, ESIC & also through a Company Welfare Fund\n\t\nNote: Child care/creche facilities were rolled out for all Workers in April 2023.\nc.\t\n\u0007Spending on measures towards well-being of employees and workers (including permanent and other than \npermanent) in the following format –\nFY24 \nFY23\nCost incurred on well- being measures as a % of total  turnover of  the company*\n0.34%\n0.21%\n\t\n* this amount has been spent on various employee initiatives like wellbeing, insurance related policies, welfare fund etc\n2.\t\nDetails of retirement benefits, for Current FY and Previous Financial Year.\nBenefits\nFY24\nFY23\nNo. of \nemployees \ncovered as \na % of total \nemployees\nNo. of workers \ncovered as \na % of total \nworkers\nDeducted and \ndeposited with \nthe authority \n(Y/N/N.A.)\nNo. of \nemployees \ncovered as \na % of total \nemployees\nNo. of workers \ncovered as \na % of total \nworkers\nDeducted and \ndeposited with \nthe authority \n(Y/N/N.A.)\nPF\n100.00%\n100.00%\nYes\n100.00%\n100.00%\nYes\nGratuity\n100.00%\n100.00%\nNA\n100.00%\n100.00%\nNA\nESI\n36.32%\n94.67%\nYes\n34%\n98.85%\nYes\nOthers – please specify\n-\n-\n-\n-\n-\n-\n3.\t\nAccessibility of workplaces\n\t\n\u0007Are the premises/offices of the entity accessible to differently abled employees and workers, as per the requirements \nof the Rights of Persons with Disabilities Act, 2016? If not, whether any steps are being taken by the entity in this regard.\n\t\nAll corporate offices of the Company are accessible to differently abled employees and workers.\n4.\t\n\u0007Does the entity have an equal opportunity policy as per the Rights of Persons with Disabilities Act, 2016? If so, \nprovide a we",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Percentage of inputs sourced sustainably",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "55% (data is based on the responses received from vendors catering to the top 75% of the spend & their percentage contribution has been calculated out of the total input value)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "55",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Permanent employees count (Male)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Male 17,072 17,072 100.00% 17,072 100.00% 0 0% 17,072 100.00% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "17,072",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Permanent employees count (Female)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Female 1,455 1,455 100.00% 1,455 100.00% 1,455 100.00% 0 0% 1,455 100.00%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "1,455",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total permanent employees count",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total 18,527 18,527 100.00% 18,527 100.00% 1,455 7.85% 17,072 92.47% 1,455 7.85%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "18,527",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other than permanent employees count (Male)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Male 49 0 0% 0 0% 0 0% 0 0% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "49",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other than permanent employees count (Female)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Female 28 0 0% 0 0% 28 100.00% 0 0% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "28",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total other than permanent employees count",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total 77 0 0% 0 0% 28 36.36% 0 0% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "77",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Permanent workers count (Male)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Male 5,613 5,613 100.00% 5,613 100.00% 0 0% 5,613 100.00% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "5,613",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Permanent workers count (Female)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Female 285 285 100.00% 285 100.00% 285 100.00% 0 0% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "285",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total permanent workers count",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total 5,898 5,898 100.00% 5,898 100.00% 285 4.83% 5,613 95.17% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "5,898",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other than permanent workers count (Male)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Male 35,434 35,434 100.00% 35,434 100.00% 0 0% 0 0% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "35,434",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Other than permanent workers count (Female)",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Female 3,854 3,854 100.00% 3,854 100.00% 3,854 100.00% 0 0% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "3,854",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total other than permanent workers count",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Total 39,288 39,288 100.00% 39,288 100.00% 3,854 9.81% 0 0% 0 0%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "Number",
+    "value": "39,288",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost incurred on well-being measures as a % of total turnover of the company",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Cost incurred on well- being measures as a % of total turnover of the company* 0.34%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "0.34",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Cost incurred on well-being measures as a % of total turnover of the company",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Cost incurred on well- being measures as a % of total turnover of the company* 0.34% 0.21%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "0.21",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5626,
+  "output_tokens": 2640
+ }
+}

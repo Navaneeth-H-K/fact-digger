@@ -1,0 +1,332 @@
+{
+ "key": "bcd8f6bdf6492f9ae824cd77ac431e074018369f73ece5d4f7ad10d290c7e457",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "e52dde608e244b02f29b554648d0594163404bd82295ab6c5d2543806bbabd46",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 32, printed label 10.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Value of exports, Pin-code reach, Headline inflation average, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Real gross value added GVA growth rate, Total borrowings, Infrastructure, global market share of apparel exports, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, merchandise trade deficit, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Outstanding at the end of the year, Foreign exchange reserves, Total expenses, net FPI inflows, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Debt to Equity, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, Core inflation average, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Gross fixed capital formation growth rate, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, gross fiscal deficit (GFD) as % of GDP, merchandise exports growth rate, merchandise exports, merchandise imports growth rate, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Current account deficit (CAD) as % of GDP, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), currency depreciation rate, Revenue from customers, R&D expenditure in GDP, Household financial saving (net) as % of gross national disposable income (GNDI), Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, Net FDI, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Trade payables, Share in Production, Repatriation amount, Applications count, Non - current operating assets, Attrition of Key Managerial Personnel, Attrition rate, Average global food inflation\n\nTEXT LAYER:\nANNUAL REPORT 2024-25\n28\nadministration, defence, and other services \n(PADO)], \nrebounded \nin \nQ3:2024-25 \nafter \nobserving a sequential decline in the previous two \nquarters. The recovery in Q3 was on account of a \nturnaround in trade and construction sector \nindicators. SSCI remained robust in Q4:2024-25 \n(Chart II.2.12).\n4. Employment\nII.2.21 \t According to the latest periodic labour \nforce survey (PLFS) report, the labour force \nparticipation rate (LFPR) and worker population \nratio (WPR) increased during 2023-24 (July-\nJune), marking their highest levels since its \ninception. The unemployment rate (UR) remained \nunchanged in 2023-24 from the previous year \n(Chart II.2.13a). The overall LFPR increased in \nboth rural and urban areas in 2023-24, driven \nby a rise in the female LFPR (Chart II.2.13b). \nSimilar patterns were witnessed in the case of \nWPR. The unemployment rate declined in urban \nregions, while it increased marginally in rural \nregions. The proportion of self-employed in the \nworkforce has been increasing consistently since \n2018-19 while the share of casual labourers is on \nthe decline. The share of regular wage/salaried \nemployees improved to 21.7 per cent in 2023-24 \nfrom 20.9 per cent in 2022-23, although it was \nlower than 23.8 per cent recorded in 2018-19 \n(Chart II.2.13c). \nII.2.22 \t As per the quarterly PLFS covering \nurban areas, the LFPR and the worker \npopulation ratio for persons aged 15 years and \nabove remained steady during Q3:2024-25, \nwith \nunemployment \nrate \nhovering \nat \nthe \nlowest of the series (Chart II.2.14). The \nemployment in the organised sector, as measured \nby payroll data, also remained robust in 2024-\n25 (Chart II.2.15). The average net subscribers \nadded to employees’ provident fund organisation \n(EPFO) per month stood at 10.8 lakh during \n2024-25, reflecting continued strength in formal \nsector employment opportunities.\nResidential units (thousands) \nChart II.2.11: Residential Housing Sector\nSource: PropTiger.\nPer cent (y-o-y)\n-40\n-20\n0\n20\n40\n60\n80\n100\n120\n140\n160\n-100\n0\n100\n200\n300\n400\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\nQ1\nQ2\nQ3\nQ4\n2022-23\n2023-24\n2024-25\nSales\nLaunches\nSales Growth (RHS)\nLaunches Growth (RHS)\nChart II.2.12: Growth in Services Sector\n(Excluding PADO) and SSCI\n*: SSCI for March 2025 quarter is based on partial data available.\nSource: NSO and RBI staff estimates.\nPer cent (y-o-y)\nSSCI\nGVA Growth in Services Excluding PADO\nSSCI (RHS)\n-30\n-25\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\n30\nJun-18\nSep-18\nDec-18\nMar-19\nJun-19\nSep-19\nDec-19\nMar-20\nJun-20\nSep-20\nDec-20\nMar-21\nJun-21\nSep-21\nDec-21\nMar-22\nJun-22\nSep-22\nDec-22\nMar-23\nJun-23\nSep-23\nDec-23\nMar-24\nJun-24\nSep-24\nDec-24\nMar-25*\n-10\n-8\n-6\n-4\n-2\n0\n2\n4\n6\n8\n10\n0.71\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Share of regular wage/salaried employees",
+    "confidence": 1,
+    "entity": "workforce",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2023-24",
+    "period_end": "2024-06-30",
+    "period_start": "2023-07-01",
+    "quote": "The share of regular wage/salaried employees improved to 21.7 per cent in 2023-24 from 20.9 per cent in 2022-23",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "21.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of regular wage/salaried employees",
+    "confidence": 1,
+    "entity": "workforce",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2022-23",
+    "period_end": "2023-06-30",
+    "period_start": "2022-07-01",
+    "quote": "improved to 21.7 per cent in 2023-24 from 20.9 per cent in 2022-23",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "20.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Share of regular wage/salaried employees",
+    "confidence": 1,
+    "entity": "workforce",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2018-19",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "although it was lower than 23.8 per cent recorded in 2018-19 (Chart II.2.13c).",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "23.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Average net subscribers added to employees’ provident fund organisation (EPFO) per month",
+    "confidence": 1,
+    "entity": "employees’ provident fund organisation (EPFO)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "The average net subscribers added to employees’ provident fund organisation (EPFO) per month stood at 10.8 lakh during 2024-25",
+    "quote_source": "text",
+    "scale": "lakh",
+    "unit": null,
+    "value": "10.8",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": [
+   "The page contains charts with many overlapping series and no raw data table, making individual chart point extraction imprecise."
+  ]
+ },
+ "usage": {
+  "input_tokens": 4514,
+  "output_tokens": 725
+ }
+}

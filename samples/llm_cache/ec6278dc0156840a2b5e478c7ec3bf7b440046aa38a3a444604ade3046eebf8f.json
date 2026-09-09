@@ -1,0 +1,263 @@
+{
+ "key": "ec6278dc0156840a2b5e478c7ec3bf7b440046aa38a3a444604ade3046eebf8f",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "94d482527f8506870595cbf6a8082281f77db576b08c22cec75530c2db1d4c0c",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 66, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Active Customers, Restated loss for the period / year, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Automated sort centers, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Total Compensation, Revenue from contracts with customers, Networth, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, TL revenue, Count of 46-ft tractors, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Board members count, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Diluted loss per share, Service EBITDA margin, Service EBITDA, Granted Options (Not vested), organized players market share, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Other income, Investments in technology, Retention rate, Return to work rate, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Number of days of accounts payables, Weighted average cost of acquisition, Waste intensity per rupee of turnover adjusted for Purchasing Power Parity, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Carbon Monoxide (CO) air emissions, Hydrocarbons (HC) air emissions, Particulate matter (PM) air emissions, NOx air emissions, SOx air emissions, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count\n\nTEXT LAYER:\nAnnexure “A” to the Independent Auditors’ Report\n(Referred to in paragraph (g) under ‘Report on Other Legal and Regulatory Requirements’ section of our report of even date) \nReport on the Internal Financial Controls with \nreference to Consolidated Financial Statements \nunder Clause (i) of Sub-section 3 of Section 143 \nof the Companies Act, 2013 (“the Act”)\nIn conjunction with our audit of the consolidated Ind AS \nfinancial statements of the Company as at and for the year \nended March 31, 2024, we have audited the internal financial \ncontrols with reference to Consolidated Financial Statements \nof Delhivery Limited (hereinafter referred to as ““Parent”) \nand three subsidiary companies, which includes internal \nfinancial controls with reference to Consolidated Financial \nStatements of the Company’s subsidiaries which are \ncompanies incorporated in India and its associate company \nas of that date.\nManagement’s Responsibility for Internal \nFinancial Controls\nThe respective Board of Directors of the Parent, its subsidiary \ncompanies and its associate company, which are companies \nincorporated in India, are responsible for establishing and \nmaintaining internal financial controls with reference to \nConsolidated Financial Statements based on, “the internal \ncontrol with reference to Consolidated Financial Statements \ncriteria established by the respective Companies considering \nthe essential components of internal control stated in the \nGuidance Note on Audit of Internal Financial Controls Over \nFinancial Reporting issued by the Institute of Chartered \nAccountants of India (ICAI)”. These responsibilities include \nthe design, implementation and maintenance of adequate \ninternal financial controls that were operating effectively for \nensuring the orderly and efficient conduct of its business, \nincluding adherence to the respective company’s policies, \nthe safeguarding of its assets, the prevention and detection \nof frauds and errors, the accuracy and completeness of the \naccounting records, and the timely preparation of reliable \nfinancial information, as required under the Companies \nAct, 2013.\nAuditor’s Responsibility\nOur responsibility is to express an opinion on the internal \nfinancial controls with reference to Consolidated Financial \nStatements of the Parent, its subsidiary companies and \nits associate company, which are companies incorporated \nin India, based on our audit. We conducted our audit in \naccordance with the Guidance Note on Audit of Internal \nFinancial Controls Over Financial Reporting (the “Guidance \nNote”) issued by the Institute of Chartered Accountants \nof India and the Standards on Auditing, prescribed under \nSection 143(10) of the Companies Act, 2013, to the extent \napplicable to an audit of internal financial controls with \nreference to Consolidated Financial Statements. Those \nStandards and the Guidance Note require that we comply \nwith ethical requirements and plan and perform the audit \nto obtain reasonable assurance about whether adequate \ninternal financial controls with reference to Consolidated \nFinancial Statements was established and maintained and \nif such controls operated effectively in all material respects.\nOur audit involves performing procedures to obtain audit \nevidence about the adequacy of the internal financial controls \nwith reference to Consolidated Financial Statements and \ntheir operating effectiveness. Our audit of internal financial \ncontrols with reference to Consolidated Financial Statements \nincluded obtaining an understanding of internal financial \ncontrols with reference to Consolidated Financial Statements, \nassessing the risk that a material weakness exists, and testing \nand evaluating the design and operating effectiveness of \ninternal control based on the assessed risk. The procedures \nselected depend on the auditor’s judgement, including the \nassessment of the risks of material misstatement of the \nfinancial statements, whether due to fraud or error.\nWe believe that the audit evidence we have obtained and the \naudit evidence obtained by the other auditor of the subsidiary \ncompanies and associate company which are companies \nincorporated in India, in terms of their reports referred to in the \nOther Matters paragraph below, is sufficient and appropriate \nto provide a basis for our audit opinion on the internal financial \ncontrols with reference to Consolidated Financial Statements \nof the Parent, its subsidiary companies and its associate \ncompany which are companies incorporated in India.\nMeaning of Internal Financial Controls with \nreference to Consolidated Financial Statements\nA company’s internal financial control with reference to \nConsolidated Financial Statements is a process designed \nto provide reasonable assurance regarding the reliability of \nfinancial reporting and the preparation of financial statements \nfor external purposes in accordance with generally accepted \naccounting principles. A company’s internal financial \ncontrol with reference to Consolidated Financial Statements \nincludes those policies and procedures that (1) pertain to the \nmaintenance of records that, in reasonable detail, accurately \nand fairly reflect the transactions and dispositions of the \nassets of the company; (2) provide reasonable assurance that \ntransactions are recorded as necessary to permit preparation \nof financial statements in accordance with generally accepted \naccounting principles, and that receipts and expenditures \nof the company are being made only in accordance with \nauthorisations of management and directors of the \ncompany; and (3) provide reasonable assurance regarding \nprevention or timely detection of unauthorised acquisition, \nuse, or disposition of the company’s assets that could have \na material effect on the financial statements.\nInherent Limitations of Internal Financial \nControls with reference to Consolidated \nFinancial Statements.\nBecause of the inherent limitations of internal financial \ncontrols with reference to Conso",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [],
+  "page_kind": "prose",
+  "problems": [
+   "Page contains only legal text (Auditor's report on internal financial controls), no numeric data or financial tables."
+  ]
+ },
+ "usage": {
+  "input_tokens": 4675,
+  "output_tokens": 52
+ }
+}

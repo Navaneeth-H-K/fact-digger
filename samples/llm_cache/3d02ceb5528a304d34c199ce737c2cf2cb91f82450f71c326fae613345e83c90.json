@@ -1,0 +1,90 @@
+{
+ "key": "3d02ceb5528a304d34c199ce737c2cf2cb91f82450f71c326fae613345e83c90",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "adjudicate",
+ "request": {
+  "content": [
+   {
+    "text": "FACT A:\nentity: Delhivery Limited\nattribute: revenue from services\nvalue: 8,142 ₹ crore\nnormalised value: 81420000000.0 INR\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-delhivery-q4-fy24-earnings-presentation.pdf; publisher: Delhivery Limited; published: 2024-05-01\npage label: 16\nevidence verified: False (not_found)\nquote: \"Revenue for services (A) ... 7,224 8,142 12.7%\"\n\nFACT B:\nentity: Delhivery Limited\nattribute: Supply Chain Services revenue\nvalue: 7,760.29 ₹ million\nnormalised value: 7760290000.0 INR\nperiod: FY24 (2023-04-01 to 2024-03-31)\nestimate type: actual\nmeasurement basis: consolidated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 35\nevidence verified: True (normalized)\nquote: \"Revenues from supply chain services 7,760.29 9.53%\"\n\nRule-engine hypothesis: same period and basis, values differ\n\nDecide the verdict.",
+    "type": "text"
+   },
+   {
+    "text": "Your previous tool call failed validation with these errors:\n1 validation error for Verdict\ndimension\n  Input should be 'period', 'estimate_type', 'basis', 'unit', 'vintage', 'attribution', 'value' or 'none' [type=literal_error, input_value='context_explained', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error\nCall the tool again with a corrected, complete input. Previous input was:\n{'dimension': 'context_explained', 'explanation': \"Fact A refers to total company 'Revenue for services' (8,142 ₹ crore), whereas Fact B refers specifically to 'Supply Chain Services revenue' (7,760.29 ₹ million). They represent different segments or scopes of revenue within the same period.\", 'verdict': 'context_explained', 'newer_fact': 'none'}",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You compare two facts extracted from two documents and decide how they relate.\n\nVerdicts:\n- corroborates: same quantity, same period, same basis, compatible values (allow rounding).\n- superseded: same quantity and period, but a later data vintage or a revision replaces the\n  earlier value; name which fact is newer.\n- context_explained: the values differ because the period, scope/basis, unit or attribution\n  differs; name that dimension. This is not a contradiction.\n- contradicts: same quantity, period, basis and unit carry incompatible values.\n- unresolved: the evidence does not settle it; give your best hypothesis in the explanation.\n\nUse only the fields and quotes provided. Keep the explanation under 60 words and cite the\ndistinguishing phrase from each quote.",
+  "tool_name": "record_verdict",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "confidence": {
+     "default": 0.5,
+     "maximum": 1.0,
+     "minimum": 0.0,
+     "title": "Confidence",
+     "type": "number"
+    },
+    "dimension": {
+     "default": "none",
+     "enum": [
+      "period",
+      "estimate_type",
+      "basis",
+      "unit",
+      "vintage",
+      "attribution",
+      "value",
+      "none"
+     ],
+     "title": "Dimension",
+     "type": "string"
+    },
+    "explanation": {
+     "maxLength": 800,
+     "minLength": 1,
+     "title": "Explanation",
+     "type": "string"
+    },
+    "newer_fact": {
+     "default": "none",
+     "enum": [
+      "a",
+      "b",
+      "none"
+     ],
+     "title": "Newer Fact",
+     "type": "string"
+    },
+    "verdict": {
+     "enum": [
+      "corroborates",
+      "contradicts",
+      "superseded",
+      "context_explained",
+      "unresolved"
+     ],
+     "title": "Verdict",
+     "type": "string"
+    }
+   },
+   "required": [
+    "verdict",
+    "explanation"
+   ],
+   "title": "Verdict",
+   "type": "object"
+  }
+ },
+ "response": {
+  "dimension": "attribution",
+  "explanation": "Fact A covers total company \"Revenue for services\" (8,142 ₹ crore), while Fact B specifies \"Supply Chain Services revenue\" (7,760.29 ₹ million). They represent different revenue components.",
+  "newer_fact": "none",
+  "verdict": "context_explained"
+ },
+ "usage": {
+  "input_tokens": 954,
+  "output_tokens": 86
+ }
+}

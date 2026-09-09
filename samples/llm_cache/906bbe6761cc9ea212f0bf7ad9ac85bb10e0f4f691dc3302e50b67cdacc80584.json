@@ -1,0 +1,86 @@
+{
+ "key": "906bbe6761cc9ea212f0bf7ad9ac85bb10e0f4f691dc3302e50b67cdacc80584",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "adjudicate",
+ "request": {
+  "content": [
+   {
+    "text": "FACT A:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,675\nnormalised value: 18675.0 count\nperiod: Q3 FY24 (2023-10-01 to 2023-12-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 03-delhivery-q4-fy24-earnings-presentation.pdf; publisher: Delhivery Limited; published: 2024-05-01\npage label: 7\nevidence verified: True (exact)\nquote: \"Pin-code reach(1)\n18,074\n18,540\n18,675\n18,793\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You compare two facts extracted from two documents and decide how they relate.\n\nVerdicts:\n- corroborates: same quantity, same period, same basis, compatible values (allow rounding).\n- superseded: same quantity and period, but a later data vintage or a revision replaces the\n  earlier value; name which fact is newer.\n- context_explained: the values differ because the period, scope/basis, unit or attribution\n  differs; name that dimension. This is not a contradiction.\n- contradicts: same quantity, period, basis and unit carry incompatible values.\n- unresolved: the evidence does not settle it; give your best hypothesis in the explanation.\n\nUse only the fields and quotes provided. Keep the explanation under 60 words and cite the\ndistinguishing phrase from each quote.",
+  "tool_name": "record_verdict",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "confidence": {
+     "default": 0.5,
+     "maximum": 1.0,
+     "minimum": 0.0,
+     "title": "Confidence",
+     "type": "number"
+    },
+    "dimension": {
+     "default": "none",
+     "enum": [
+      "period",
+      "estimate_type",
+      "basis",
+      "unit",
+      "vintage",
+      "attribution",
+      "value",
+      "none"
+     ],
+     "title": "Dimension",
+     "type": "string"
+    },
+    "explanation": {
+     "maxLength": 800,
+     "minLength": 1,
+     "title": "Explanation",
+     "type": "string"
+    },
+    "newer_fact": {
+     "default": "none",
+     "enum": [
+      "a",
+      "b",
+      "none"
+     ],
+     "title": "Newer Fact",
+     "type": "string"
+    },
+    "verdict": {
+     "enum": [
+      "corroborates",
+      "contradicts",
+      "superseded",
+      "context_explained",
+      "unresolved"
+     ],
+     "title": "Verdict",
+     "type": "string"
+    }
+   },
+   "required": [
+    "verdict",
+    "explanation"
+   ],
+   "title": "Verdict",
+   "type": "object"
+  }
+ },
+ "response": {
+  "dimension": "period",
+  "explanation": "Fact A explicitly specifies the period as Q3 FY24, whereas Fact B's period is unknown. They represent different sequential quarters shown in the same trend chart.",
+  "newer_fact": "none",
+  "verdict": "context_explained"
+ },
+ "usage": {
+  "input_tokens": 711,
+  "output_tokens": 73
+ }
+}

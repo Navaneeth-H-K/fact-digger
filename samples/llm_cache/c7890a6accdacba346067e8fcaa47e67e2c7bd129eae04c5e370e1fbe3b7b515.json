@@ -1,0 +1,648 @@
+{
+ "key": "c7890a6accdacba346067e8fcaa47e67e2c7bd129eae04c5e370e1fbe3b7b515",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "e4726e763c2949804060c2c60ad8305dd66436a8b18c1b245db96020656543ab",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 89, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Property, plant and equipment, Restated loss for the period / year, Active Customers, revenue from services, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, Total borrowings, EBITDA, EBITDA margin, Authorised share capital, Basic loss per share, Total revenue from customers, Equity Shares held, Total equity, Number of preference shares acquired, Total assets, Cash & cash equivalents at the end of the year, Restated other comprehensive income / (loss) for the period / year, NWC days, Diluted loss per share, Gateways, Total income, Net cash from / (used in) operating activities, Automated sort centers, Restated loss before tax, Supply Chain Services revenue, Revenue from contracts with customers, Instruments entirely equity in nature, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, Total liabilities, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Restated total comprehensive loss for the period / year, Other equity, Networth, Re-measurement (loss) / gain on defined benefit plans, Freight, handling and servicing cost, Other income, Count of 46-ft tractors, allowance for doubtful debts, Offer for Sale amount, Investments in bank deposits, Share based payment, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Profit/(loss) after tax, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Depreciation and amortisation expense, Fixed annual remuneration, bad debts written-off, Cost of time-based options, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, revenue from services growth rate, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Revenue CAGR, Installed solar power capacity, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Deposits with original maturity for more than 12 months (Non-Current), Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Brought forward losses (including capital loss) above five years, Number of days of accounts payables, Accounting profit before income tax, Weighted average cost of acquisition, Waste intensity per rupee of turnover adjusted for Purchasing Power Parity, Capital advances - Unsecured, Considered good (Non-Current), Advance from Customers, Advance to employees (Current), Loans & advances given to related parties/Total loans & advances, Advance income tax (Non-Current)\n\nTEXT LAYER:\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n\t\nActuarial assumptions\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nDiscount rate\n7.25%\n7.08% to 7.52%\nSalary Growth Rate\n7.00%\n7.00%\nMortality\nIALM(2012-14) \nultimate\nIALM(2012-14) \nultimate\nAttrition rate\nUpto 30 years\n15.00%\n15.00%\nBetween 31 and 44 years\n7.00%\n7.00%\nAbove 44 years\n2.00%\n2.00%\nNormal retirement age\n60 years\n60 years\n\t\n\u0007Discount rate: The discount rate is based on the prevailing market yields of Indian government securities as at the balance \nsheet date for the estimated term of the obligations.\n\t\n\u0007Salary escalation rate: The estimates of future salary increases considered taking into account the inflation, seniority, \npromotion and other relevant factors.\n\t\nAttrition rate: The estimate of future employee turnover.\n\t\n\u0007A quantitative sensitivity analysis for significant assumption as at March 31, 2024 and March 31, 2023 is as shown below:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nSensitivity level\nDiscount rate increase by 0.5%\nDiscount rate decrease by 0.5%\nImpact on defined benefit obligation\n(35.65)\n(28.62)\n39.31\n31.56\nSensitivity level\nFuture salary increase by 0.5%\nFuture salary decrease by 0.5%\nImpact on defined benefit obligation\n35.72\n28.98\n(33.20)\n(26.88)\n\t\n\u0007The sensitivity analyses above have been determined based on a method that extrapolates the impact on defined benefit \nobligation as a result of reasonable changes in key assumptions occurring at the end of the reporting year.\n\t\n\u0007The sensitivity analyses are based on a change in a significant assumption, keeping all other assumptions constant. \nThe sensitivity analyses may not be representative of an actual change in the defined benefit obligation as it is unlikely \nthat changes in assumptions would occur in isolation from one another.\n\t\n\u0007The weighted average duration of the defined benefit plan obligation at the end of the reporting period is 11.56 years \n(March 31, 2023: 11.48 years).\n\t\nThe following payments are expected contributions to the defined benefit plan in future years:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nWithin the next 12 months (next annual reporting period)\n39.79\n37.05\nBetween 2 and 5 years\n92.72\n78.88\nMore than 5 years\n844.38\n637.57\nTotal expected payments\n976.89\n753.50\n\t\n(b)\t Defined Contribution Plan\n\t\n\t\n\u0007The Group makes contributions, determined as a specified percentage of employee salaries in respect of qualifying \nemployees towards Provident Fund and state plans such as Employees’ State Insurance (ESI), which is a defined \ncontribution plan. The Group has no obligations other than to make the specified contributions. The Group’s \ncontribution is recognised as an expense in the Statement of Profit and Loss during the period in which the employee \nrenders the related services.\n\t\n\t\n\u0007During the year, the Group has recognised the following amounts in the Statement of Profit and Loss, which are \nincluded in contribution to provident and other funds:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nContribution to employee state insurance\n79.65\n64.77\nContribution towards to provident fund and other funds\n589.67\n521.04\nTotal contribution\n669.32\n585.81\n\t\n(c)\t Compensated absence\n\t\n\t\n\u0007The amount of the provision of I 268.41 million (March 31, 2023: I 233.29 million).\n\t\n\t\n\u0007A quantitative sensitivity analysis for significant assumption as at March 31, 2024 and March 31, 2023 is as \nshown below:\nParticulars\nMarch 31, 2024\nMarch 31, 2023\nMarch 31, 2024\nMarch 31, 2023\nSensitivity level\nDiscount rate increase by 0.5%\nDiscount rate decrease by 0.5%\nImpact on compensated absence\n(12.54)\n(10.76)\n13.83\n11.80\nSensitivity level\nFuture salary increase by 0.5%\nFuture salary decrease by 0.5%\nImpact on compensated absence\n13.79\n11.77\n(12.62)\n(10.81)\n34. \tLeases\nSet out below are the carrying amounts of right-of-use assets recognised and the movements during the year:\nParticulars\nAmount\nAs at April 01, 2022\n6,940.54\nAcquisition of subsidiary\n2.76\nAdditions\n2,810.54\nDeletions\n(888.26)\nDepreciation expense (refer note 27)\n(2,198.13)\nAs at March 31, 2023\n6,667.45\nAs at April 01, 2023\n6,667.45\nAdditions\n5,897.30\nDeletions\n(352.56)\nDepreciation expense (refer note 27)\n(2,330.41)\nAs at March 31, 2024\n9,881.78\nSet out below are the carrying amounts of lease liabilities and the movements during the year:\nParticulars\nAmount\nAs at April 01, 2022\n7,483.80\nAcquisition of subsidiary\n2.64\nAdditions\n2,765.25\nAccretion of interest (refer note 28)\n673.37\nPayments\n(2,578.76)\nDeletion\n(1,100.61)\nAs at March 31, 2023\n7,245.69\nAs at April 01, 2023\n7,245.69\nAdditions\n5,654.89\nAccretion of interest (refer note 28)\n745.67\nPayments\n(2,768.93)\nDeletion\n(439.90)\nAs at March 31, 2024\n10,437.42\nAnnual Report 2023-24\n259\n258\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Discount rate",
+    "confidence": 1,
+    "entity": "Discount rate",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Discount rate 7.25%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.25",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Discount rate",
+    "confidence": 1,
+    "entity": "Discount rate",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "7.08% to 7.52%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.08% to 7.52%",
+    "value_kind": "range"
+   },
+   {
+    "attribute": "Salary Growth Rate",
+    "confidence": 1,
+    "entity": "Salary Growth Rate",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Salary Growth Rate 7.00%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Salary Growth Rate",
+    "confidence": 1,
+    "entity": "Salary Growth Rate",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "7.00%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Attrition rate",
+    "confidence": 1,
+    "entity": "Upto 30 years",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Upto 30 years 15.00%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "15.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Attrition rate",
+    "confidence": 1,
+    "entity": "Between 31 and 44 years",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Between 31 and 44 years 7.00%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Attrition rate",
+    "confidence": 1,
+    "entity": "Above 44 years",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Above 44 years 2.00%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "2.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Normal retirement age",
+    "confidence": 1,
+    "entity": "Normal retirement age",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Normal retirement age 60 years",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "years",
+    "value": "60",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Weighted average duration of the defined benefit plan obligation",
+    "confidence": 1,
+    "entity": "defined benefit plan obligation",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "The weighted average duration of the defined benefit plan obligation at the end of the reporting period is 11.56 years",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "years",
+    "value": "11.56",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Weighted average duration of the defined benefit plan obligation",
+    "confidence": 1,
+    "entity": "defined benefit plan obligation",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "(March 31, 2023: 11.48 years).",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "years",
+    "value": "11.48",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total expected payments for defined benefit plan",
+    "confidence": 1,
+    "entity": "defined benefit plan",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Total expected payments 976.89",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "976.89",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total expected payments for defined benefit plan",
+    "confidence": 1,
+    "entity": "defined benefit plan",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "753.50",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "753.50",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Contribution to employee state insurance",
+    "confidence": 1,
+    "entity": "Contribution to employee state insurance",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Contribution to employee state insurance 79.65",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "79.65",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Contribution to employee state insurance",
+    "confidence": 1,
+    "entity": "Contribution to employee state insurance",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "64.77",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "64.77",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Contribution towards to provident fund and other funds",
+    "confidence": 1,
+    "entity": "Contribution towards to provident fund and other funds",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Contribution towards to provident fund and other funds 589.67",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "589.67",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Contribution towards to provident fund and other funds",
+    "confidence": 1,
+    "entity": "Contribution towards to provident fund and other funds",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "521.04",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "521.04",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total contribution",
+    "confidence": 1,
+    "entity": "Total contribution",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Total contribution 669.32",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "669.32",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total contribution",
+    "confidence": 1,
+    "entity": "Total contribution",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "585.81",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "585.81",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Provision for compensated absence",
+    "confidence": 1,
+    "entity": "Compensated absence",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "The amount of the provision of ₹ 268.41 million",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "268.41",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Provision for compensated absence",
+    "confidence": 1,
+    "entity": "Compensated absence",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "(March 31, 2023: ₹ 233.29 million).",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "233.29",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "confidence": 1,
+    "entity": "right-of-use assets",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "As at March 31, 2024 9,881.78",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "9,881.78",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "confidence": 1,
+    "entity": "right-of-use assets",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "As at March 31, 2023 6,667.45",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "6,667.45",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "lease liabilities",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "As at March 31, 2024 10,437.42",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "10,437.42",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "lease liabilities",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "As at March 31, 2023 7,245.69",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "7,245.69",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": [
+   "Currency symbol rendered as 'I' in some text layer places"
+  ]
+ },
+ "usage": {
+  "input_tokens": 5355,
+  "output_tokens": 3446
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "key": "3a98d2cb2046e3ab034f910482a53256c29328ba1fba89ba79beb0f74a8a9c8e",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "meta",
+ "request": {
+  "content": [
+   {
+    "text": "Filename: 03-imf-india-2025-article-iv-excerpt.pdf\n\nFIRST PAGES:\n\n\n \n© 2025 International Monetary Fund \nIMF Country Report No. 25/314 \nINDIA \n2025 ARTICLE IV CONSULTATION—PRESS RELEASE; \nSTAFF REPORT; STAFF STATEMENT; AND STATEMENT \nBY THE EXECUTIVE DIRECTOR FOR INDIA \nUnder Article IV of the IMF’s Articles of Agreement, the IMF holds bilateral discussions \nwith members, usually every year. In the context of the 2025 Article IV consultation with \nIndia, the following documents have been released and are included in this package: \n \n• \nA Press Release summarizing the views of the Executive Board as expressed during its \nNovember 21, 2025 consideration of the staff report that concluded the Article IV \nconsultation with India. \n• \nThe Staff Report prepared by a staff team of the IMF for the Executive Board’s \nconsideration on November 21, 2025, following discussions that ended on \nSeptember 18, 2025, with the officials of India on economic developments and \npolicies. Based on information available at the time of these discussions, the staff \nreport was completed on November 6, 2025. \n• \nAn Informational Annex prepared by the IMF staff. \n• \nA Staff Statement updating information on recent developments. \n• \nA Statement by the Executive Director for India. \nThe IMF’s transparency policy allows for the deletion of market-sensitive information and \npremature disclosure of the authorities’ policy intentions in published staff reports and \nother documents. \n \nCopies of this report are available to the public from \n \nInternational Monetary Fund • Publication Services \nPO Box 92780 • Washington, D.C. 20090 \nTelephone: (202) 623-7430 • Fax: (202) 623-7201 \nE-mail: publications@imf.org  Web: http://www.imf.org  \n \n \nInternational Monetary Fund \nWashington, D.C. \nNovember 2025 \n©International Monetary Fund. Not for Redistribution\n\n\n \n \nPR 25/292 \n \nIMF Executive Board Concludes 2025 Article IV Consultation \nwith India \nFOR IMMEDIATE RELEASE \nWashington, DC – November 26, 2025: The Executive Board of the International Monetary \nFund (IMF) completed the Article IV Consultation for India.1 The authorities have consented to \nthe publication of the Staff Report prepared for this consultation.2 \nIndia’s economy has continued to perform well. Following economic growth of 6.5 percent in \nFY2024/25, real GDP expanded by 7.8 percent in the first quarter of FY2025/26. Headline \ninflation has declined markedly, driven by subdued food prices. The financial and corporate \nsectors have remained resilient, supported by adequate capital buffers and multi-year low \nnon-performing assets. Fiscal consolidation has advanced, and the current account deficit has \nbeen contained, supported by resilient service exports.  \nDespite external headwinds, growth is expected to remain robust, supported by favorable \ndomestic conditions. Under the baseline assumption of prolonged 50 percent U.S. tariffs, real \nGDP is projected to grow at 6.6 percent in FY2025/26 before moderating to 6.2 percent in \nFY2026/27. The reform of the goods and services tax (GST) and the resulting reduction in the \neffective rate are expected to help cushion the adverse impact of tariffs. Headline inflation is \nprojected to remain well contained, reflecting the one-off effect of the GST reform and \ncontinued benign food prices. Looking ahead, India’s ambition to become an advanced \neconomy can be supported by advancing comprehensive structural reforms that enable higher \npotential growth.  \nThere are significant near-term risks to the economic outlook. On the upside, the conclusion of \nnew trade agreements and faster implementation of structural reform domestically could boost \nexports, private investment, and employment. On the downside, further deepening of \ngeoeconomic fragmentation could lead to tighter financial conditions, higher input costs, and \nlower trade, FDI, and economic growth. Unpredictable weather shocks could affect crop \nyields, adversely impact rural consumption and reignite inflationary pressures. \n \n \n1 Under Article IV of the IMF's Articles of Agreement, the IMF holds bilateral discussions with members, \nusually every year. A staff team visits the country, collects economic and financial information, and \ndiscusses with officials the country's economic developments and policies. On return to headquarters, \nthe staff prepares a report, which forms the basis for discussion by the Executive Board.  \n2 Under the IMF's Articles of Agreement, publication of documents that pertain to member countries is \nvoluntary and requires the member consent. The staff report will be shortly published on the \nhttp://www.imf.org/India page. \n©International Monetary Fund. Not for Redistribution\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You read the first pages of a document and record its metadata: title, publisher,\npublication date (ISO; first of the month if only the month is known), document type, and the\nmonth in which the issuer's fiscal year starts (4 for April–March years, 1 for calendar years).\nLeave a field null when the pages do not say.",
+  "tool_name": "record_document_meta",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "document_type": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "e.g. 'annual report', 'investor presentation'.",
+     "title": "Document Type"
+    },
+    "fiscal_year_start_month": {
+     "anyOf": [
+      {
+       "maximum": 12,
+       "minimum": 1,
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Fiscal Year Start Month"
+    },
+    "publication_date": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "ISO date; first of month if only the month is known.",
+     "title": "Publication Date"
+    },
+    "publisher": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Publisher"
+    },
+    "title": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Title"
+    }
+   },
+   "title": "DocumentMeta",
+   "type": "object"
+  }
+ },
+ "response": {
+  "document_type": "IMF Country Report / Article IV Consultation staff report",
+  "fiscal_year_start_month": 4,
+  "publication_date": "2025-11-01",
+  "publisher": "International Monetary Fund"
+ },
+ "usage": {
+  "input_tokens": 1403,
+  "output_tokens": 63
+ }
+}

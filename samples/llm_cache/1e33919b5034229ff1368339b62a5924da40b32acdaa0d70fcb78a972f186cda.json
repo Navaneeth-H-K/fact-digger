@@ -1,0 +1,394 @@
+{
+ "key": "1e33919b5034229ff1368339b62a5924da40b32acdaa0d70fcb78a972f186cda",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "099f51955f308f5911e06c67694c5eecbea24125e09c08a9e70ed19255e8638a",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 27, printed label 103.\nExisting attribute vocabulary (reuse a name when it means the same thing): Weighted average cost of acquisition per Equity Share, Remuneration to key management personnel, Adjusted EBITDA, revenue from services, Adjusted EBITDA margin, Number of preference shares acquired, Total equity and liabilities, Total equity, Equity share capital, Restated other comprehensive income / (loss) for the period / year, Total revenue from customers, Instruments entirely equity in nature, PTL freight tonnage, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Total assets, Re-measurement (loss) / gain on defined benefit plans, Cash & cash equivalents at the end of the year, NWC days, express parcel shipments, Total liabilities, Networth, Basic loss per share, Restated loss before tax, Capital Expenditure as % of Revenue from Services, Supply Chain Services revenue, Revenue from contract with customers, Diluted loss per share, Express Parcel revenue, PTL freight revenue, Restated loss for the period / year, TL revenue, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, revenue from services growth rate, Active Customers, Aggregate amount involved in litigation, Cost of performance-based options, Cross Border Services revenue, Pin-code reach, Freight, handling and servicing cost, Revenue from customers, Other equity, Fresh Issue size, Infrastructure, Total cash balance, Deemed investment, Reported EBITDA, Fresh Issue volume, TL YoY revenue growth, Offer for Sale size, Services provided, Weighted average cost of acquisition, Depreciation and amortisation expense, Right of use asset, Closing cash balance at the end of the year, Employee benefit expense, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Property, plant and equipment, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Express parcel shipments growth rate, PTL freight tonnage growth rate, Loan given, Goodwill, PTL YoY revenue growth, Interest income, Other income, Total income, Term loan, Packing material, Rent, Stores and spares, Consumer cases filed against Company amount, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Automated sort centers, Fleet size - daily average, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, market CAGR, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Income from lorry hire charges, Contingent liabilities - Others, Corporate overheads, Deferred tax credit, Current tax, CWIP, ESOPs ungranted total as % of fully diluted shares, direct spend of logistics sector forecast, direct spend of logistics sector, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Employee Reservation Portion size, Employee Reservation Portion volume, Investment in equity, Offer of Equity Shares size, Offer of Equity Shares volume, Team size holding ESOPs, ESOPs ungranted total, Other expenses, Total tax expense, Total expenses, Express Parcel revenue growth rate, Express parcel shipments since inception, organized players market share forecast, PTL freight tonnage since inception, FY23 PAT loss, Gateways, PAT loss reduction, organized players market share, Net Offer size, Net Offer volume, Offer for Sale volume, Total Offer size, Team size\n\nTEXT LAYER:\n \n103 \n(amount in ₹ million, unless otherwise stated) \n  \nRestated \nConsolida\nted \nSummary \nStatement \nof Profit \nand Loss \nof \nDelhivery \nLimited \nfor nine \nmonths \nperiod \nended \nDecember \n31, 2021 \nSpoton Logistics \nPrivate Limited \nSpecial purpose \ninterim \nconsolidated \nstatement of \nProfit and Loss \nfor the nine \nmonths period \nended \nDecember 31, \n2021 \nAdjustment \nfor Spoton \nLogistics \nPrivate \nLimited \nInterim \nConsolidated \nProfit and \nLoss for \nperiod  \nAugust 24, \n2021 to  \nDecember 31, \n2021 \nIntragroup \nelimination \nfor period \nApril 1, \n2021 to \nAugust 23, \n2021 \n \nAcquisiti\non \nAdjustm\nents for \nperiod  \nApril 1, \n2021 to \nAugust \n23, 2021 \nTotal \nAdjustment\ns \nProforma \nConsolida\nted \nStatement \nof Profit \nand Loss  \nfor the \nnine \nmonths \nperiod \nended  \nDecember \n31, 2021 \n  \n(A) \n(B) \n(C) \n(D) \n(E) \n(F=C+D+E) \n(G=A+B+F\n) \nExceptional \nitems (IV) \n   \n-   \n   \n(17.98) \n   \n-   \n   \n-   \n   \n-   \n   \n-   \n   \n(17.98) \nLoss before \ntax (V= \nIII+IV) \n   \n(8,987.45) \n   \n(190.39) \n   \n(91.06) \n   \n-   \n   \n(570.19) \n   \n(661.25) \n   \n(9,839.09) \n \nTax expense, \ncomprising: \nCurrent tax \n   \n100.49  \n   \n146.95  \n   \n(100.49) \n   \n-   \n   \n-   \n   \n(100.49) \n   \n146.95  \nDeferred tax \ncredit \n   \n(176.55) \n   \n(64.69) \n   \n28.72  \n   \n-   \n   \n(163.63) \n   \n(134.91) \n   \n(376.15) \nTotal tax \nexpense \n   \n(76.06) \n   \n82.26  \n   \n(71.77) \n   \n-   \n   \n(163.63) \n   \n(235.40) \n   \n(229.20) \n \n \n \nLoss for the \nperiod (III-\nIV) \n   \n(8,911.39) \n   \n(272.65) \n   \n(19.29) \n   \n-   \n   \n(406.56) \n   \n(425.85) \n   \n(9,609.89) \n \nOther \ncomprehensi\nve income \n(a) Items that \nwill not be \nreclassified \nto statement \nof profit and \nloss in \nsubsequent \nperiods \n \n \n \n \n \n \n \ni) Re-\nmeasurement \nloss on \ndefined \nbenefit plans \n   \n(24.33) \n   \n0.40  \n   \n(5.50) \n   \n-   \n   \n-   \n   \n(5.50) \n   \n(29.43) \nii) Income tax \nrelating to \nitems that will \nnot be \nreclassified to \nprofit and loss \n   \n(1.38) \n   \n(0.10) \n   \n1.38  \n   \n-   \n   \n-   \n   \n1.38  \n   \n(0.10) \n \nSubtotal (a) \n   \n(25.71) \n   \n0.30  \n   \n(4.12) \n   \n-   \n   \n-   \n   \n(4.12) \n   \n(29.53) \n \n \n \n \n \n \n \n \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Restated loss before tax",
+    "entity": "Delhivery Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(8,987.45)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(8,987.45)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss before tax",
+    "entity": "Spoton Logistics Private Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(190.39)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(190.39)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss before tax",
+    "entity": "Proforma Consolidated Statement of Profit and Loss",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(9,839.09)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(9,839.09)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Current tax",
+    "entity": "Delhivery Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "100.49",
+    "scale": "million",
+    "unit": "₹",
+    "value": "100.49",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Deferred tax credit",
+    "entity": "Delhivery Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(176.55)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(176.55)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total tax expense",
+    "entity": "Delhivery Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(76.06)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(76.06)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "entity": "Delhivery Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(8,911.39)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(8,911.39)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "entity": "Spoton Logistics Private Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(272.65)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(272.65)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated loss for the period / year",
+    "entity": "Proforma Consolidated Statement of Profit and Loss",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(9,609.89)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(9,609.89)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Re-measurement (loss) / gain on defined benefit plans",
+    "entity": "Delhivery Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(24.33)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(24.33)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Restated other comprehensive income / (loss) for the period / year",
+    "entity": "Delhivery Limited",
+    "period": "nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "(25.71)",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(25.71)",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4544,
+  "output_tokens": 1351
+ }
+}

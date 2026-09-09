@@ -1,0 +1,502 @@
+{
+ "key": "0842d58cdafd826ff1026527c24468f1dd6491bd9bdad52cd583b037cfd3e089",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "4444296bdf4ad6b8f220968316170c4f8c8842ed178923b56136560529f95041",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 15, printed label 91.\nExisting attribute vocabulary (reuse a name when it means the same thing): Weighted average cost of acquisition per Equity Share, Remuneration to key management personnel, Adjusted EBITDA, revenue from services, Adjusted EBITDA margin, Number of preference shares acquired, Total revenue from customers, PTL freight tonnage, Offer for Sale amount, NWC days, express parcel shipments, Networth, Capital Expenditure as % of Revenue from Services, Supply Chain Services revenue, Express Parcel revenue, PTL freight revenue, TL revenue, Cost of time-based options, Share based payment, Total borrowings, Equity share capital, EBITDA, EBITDA margin, Instruments entirely equity in nature, revenue from services growth rate, Active Customers, Aggregate amount involved in litigation, Cost of performance-based options, Cross Border Services revenue, Pin-code reach, Revenue from customers, Fresh Issue size, Infrastructure, Total cash balance, Deemed investment, Reported EBITDA, Fresh Issue volume, TL YoY revenue growth, Offer for Sale size, Services provided, Weighted average cost of acquisition, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Total assets, Closing cash balance at the end of the year, Net change in cash, Cash & cash equivalents at the end of the year, Cash generated from / (used in) operations, Power, fuel & water charges, Contractual manpower expenses, Freight, Handling and Servicing Cost, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Total equity and liabilities, Total equity, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Express parcel shipments growth rate, PTL freight tonnage growth rate, Loan given, PTL YoY revenue growth, Interest income, Total liabilities, Term loan, Packing material, Rent, Stores and spares, Consumer cases filed against Company amount, Contingent liabilities - Income tax matter in appeal, Contingent liabilities - Service tax matter in appeal, Automated sort centers, Fleet size - daily average, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, market CAGR, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Income from lorry hire charges, Contingent liabilities - Others, Corporate overheads, CWIP, ESOPs ungranted total as % of fully diluted shares, direct spend of logistics sector forecast, direct spend of logistics sector, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Employee Reservation Portion size, Employee Reservation Portion volume, Investment in equity, Offer of Equity Shares size, Offer of Equity Shares volume, Team size holding ESOPs, ESOPs ungranted total, Express Parcel revenue growth rate, Express parcel shipments since inception, organized players market share forecast, PTL freight tonnage since inception, FY23 PAT loss, Gateways, PAT loss reduction, organized players market share, Net Offer size, Net Offer volume, Offer for Sale volume, Total Offer size, Team size\n\nTEXT LAYER:\n \n91 \n \n(in ₹ million, unless otherwise stated) \nParticulars \nAs at \nAs at \nAs at \nAs at \nAs at \nDecember \n31, 2021 \nDecember 31, 2020 \nMarch 31, 2021 \nMarch \n31, 2020 \nMarch 31, \n2019 \nTotal equity \n    59,798.47  \n    29,148.37  \n     28,367.97  \n   \n31,704.06  \n   \n33,882.83  \n \nLiabilities  \n \nNon-current liabilities \n \nFinancial Liabilities \n \n  i)   Borrowings \n     1,005.28  \n     1,329.84  \n     1,316.09  \n     998.02  \n      356.20  \n  ii)  Lease liabilities \n     6,912.95  \n     6,563.72  \n     6,538.44  \n   \n3,870.65  \n   \n2,425.22  \n  iii)  Trade payables \n \n \n       a. total outstanding dues \nof micro enterprises and \nsmall enterprises \n       -  \n       -  \n        -  \n       -  \n        -  \n       b. total outstanding dues \nof creditors other than micro \nenterprises \nand \nsmall \nenterprises \n       -  \n       -  \n        -  \n      1.10  \n       24.75  \nProvisions \n      406.55  \n      214.58  \n      219.16  \n     166.12  \n      108.90  \nDeferred tax liabilities (net) \n      734.97  \n       -  \n- \n- \n- \nTotal non- current \nliabilities \n     9,059.75  \n     8,108.14  \n     8,073.69  \n   \n5,035.89  \n     2,915.07  \n  \n \nCurrent liabilities \n \nFinancial liabilities \n \n    i) Borrowings \n     2,702.53  \n   \n 2,064.74  \n     1,697.34  \n   \n1,570.13  \n      579.97  \n    ii) Lease liabilities \n     2,211.17  \n     1,755.08  \n     1,617.16  \n   \n1,107.66  \n      744.43  \n    iii) Trade payables \n \n \n       a. total outstanding dues \nof micro enterprises and \nsmall enterprises \n      38.38  \n   \n 16.64  \n       20.52  \n      7.97  \n       0.61  \n       b. total outstanding dues \nof creditors other than micro \nenterprises and small \nenterprises \n     7,799.53  \n     4,963.02  \n     4,401.78  \n   \n2,725.53  \n   \n1,581.78  \n   iv) Other financial \nliabilities \n     1,450.02  \n     1,353.33  \n   \n \n1,305.75  \n   \n \n1,096.90  \n    \n \n   683.88      \nProvisions \n      192.49  \n      118.33  \n      121.67  \n     103.62  \n       67.50  \nOther current liabilities \n     1,042.49  \n      318.71  \n      370.90  \n     220.08  \n      169.38  \nCurrent tax liabilities (net)  \n       -  \n       1.20  \n   \n1.20  \n      1.24  \n        -  \nTotal current liabilities \n    15,436.61  \n    10,591.05  \n     9,536.32  \n   \n6,833.13  \n     3,827.55  \nTotal liabilities \n    24,496.36  \n    18,699.19  \n     17,610.01  \n   \n11,869.02  \n     6,742.62  \nTotal equity and liabilities \n    84,294.83  \n    47,847.56  \n     45,977.98  \n   \n43,573.08  \n   \n40,625.45  \n \n \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Total equity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-12-31",
+    "quote": "Total equity 59,798.47",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "59,798.47",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-12-31",
+    "quote": "Total equity 59,798.47 29,148.37",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "29,148.37",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2021-03-31",
+    "quote": "Total equity 28,367.97",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "28,367.97",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2020-03-31",
+    "quote": "Total equity 31,704.06",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "31,704.06",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2019-03-31",
+    "quote": "Total equity 33,882.83",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "33,882.83",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-12-31",
+    "quote": "Total liabilities 24,496.36",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "24,496.36",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-12-31",
+    "quote": "Total liabilities 18,699.19",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "18,699.19",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2021-03-31",
+    "quote": "Total liabilities 17,610.01",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "17,610.01",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2020-03-31",
+    "quote": "Total liabilities 11,869.02",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "11,869.02",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2019-03-31",
+    "quote": "Total liabilities 6,742.62",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "6,742.62",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity and liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-12-31",
+    "quote": "Total equity and liabilities 84,294.83",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "84,294.83",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity and liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-12-31",
+    "quote": "Total equity and liabilities 47,847.56",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "47,847.56",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity and liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2021-03-31",
+    "quote": "Total equity and liabilities 45,977.98",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "45,977.98",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity and liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2020-03-31",
+    "quote": "Total equity and liabilities 43,573.08",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "43,573.08",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total equity and liabilities",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "As at March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2019-03-31",
+    "quote": "Total equity and liabilities 40,625.45",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "40,625.45",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4487,
+  "output_tokens": 2199
+ }
+}

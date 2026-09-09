@@ -1,0 +1,562 @@
+{
+ "key": "043536d3b894c7cb41b9040ec39086bd9ee91ab447061bc657fa4bf7af781599",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "d2e96747a872f9d15cef3a39a1f8ba319cac3258ed80806546240c3131b094c8",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 73, printed label 69.\nExisting attribute vocabulary (reuse a name when it means the same thing): Headline inflation average, GDP growth rate, Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Inflation rate, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Value of exports, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Real gross value added GVA growth rate, Total borrowings, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, merchandise exports growth rate, merchandise imports growth rate, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, merchandise trade deficit, Diluted loss per share, Gateways, Number of Observations, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, net FPI inflows, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Core inflation average, Cross Border Services revenue, Total Compensation, gross fiscal deficit (GFD) as % of GDP, Other equity, Other income, Networth, Freight, handling and servicing cost, Outstanding at the end of the year, Foreign exchange reserves, Total expenses, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, currency depreciation rate, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, Share capital acquired in Falcon, CBDC (Retail) amount outstanding, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, R&D expenditure in GDP, Debt to Equity, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Yields, Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Gross fixed capital formation growth rate, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, merchandise exports, Reserve money growth rate, Money Supply growth rate, revenue from services growth rate, merchandise imports, 10-year generic G-sec yield, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Current account deficit (CAD) as % of GDP, Sortation capacity utilisation, fresh issuance of CDs, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Household financial saving (net) as % of gross national disposable income (GNDI), Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, Net FDI\n\nTEXT LAYER:\nECONOMIC REVIEW\n69\ncontinued in 2025-26, with total outlay of ₹1.5 \nlakh crore – an increase of 20 per cent over \n2024-25 (RE) levels.\n6. General Government Finances\nII.6.14\tIn 2024-25 (BE), the GFD of the general \ngovernment moderated to 7.6 per cent of GDP40 \nfrom 8.8 per cent in 2023-24 (RE). General \ngovernment debt stood at 81.9 per cent of GDP \nin 2024-25 (BE) as compared to 81.8 per cent \nin 2023-24 (RE). External liabilities of the Centre \nTable II.6.3: State Government Finances \n2025-26*: Key Deficit Indicators\n(Per cent of GDP)\nItem\n2023-24\n2024-25 (RE)\n2025-26 (BE)\n1\n2\n3\n4\nRevenue Deficit\n 0.3\n0.6\n0.2\nGross Fiscal Deficit\n3.0\n3.6\n3.3\nPrimary Deficit\n1.3\n1.8\n1.5\n*: Data pertain to all states/UTs that have presented their final \nbudgets for 2025-26.\nSource: Budget documents of state governments.\nremained low at 2.5 per cent of GDP (Chart \nII.6.6a and Appendix Table 7).\nII.6.15\tFiscal \nconsolidation \nof \nthe \ngeneral \ngovernment was supported by rise in tax \nrevenues to 18.8 per cent of GDP in 2024-25 \n(BE) from 18.1 per cent in the previous year and \nmoderation in total expenditure to 30.0 per cent \nof GDP from 30.2 per cent in the previous year. \nEven with containment of total expenditure, the \ncapital expenditure to GDP ratio stood at 5.9 per \ncent in 2024-25 (BE), as compared to 5.8 per \ncent in the previous year (Chart II.6.6b).\nII.6.16\tAs per the International Monetary Fund \n(IMF) projections for the period 2025 to 2030, \nIndia’s general government debt will be on a \ndeclining trend in contrast to its peers and the \naverage position of emerging market and middle-\nincome economies and advanced economies \n(Chart II.6.7a). The overall balance of the \ngeneral government is also projected to improve \nsignificantly (Chart II.6.7b).\n40\t The GDP data used for general government finances for 2024-25 (BE) has been taken from the Union Budget documents for 2024-25.\nChart II.6.6: Key Fiscal Indicators of General Government\nSource: RBI and Union Budget documents.\nPer cent of GDP\nPer cent of GDP\nPer cent of GDP\na. Debt and Deficit Indicators\nb. Trends in Tax Revenue and Expenditure\nExternal Debt\nInternal Debt\nGross Fiscal Deficit (RHS)\n79.4\n7.6\n4\n6\n8\n10\n12\n14\n50\n55\n60\n65\n70\n75\n80\n85\n90\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24 (RE)\n2024-25 (BE)\n18.8\n5.9\n30.0\n0\n5\n10\n15\n20\n25\n30\n35\n2012-13\n2013-14\n2014-15\n2015-16\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24 (RE)\n2024-25 (BE)\nCapital Expenditure\nTax Revenue\nTotal Expenditure\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Revenue Deficit",
+    "entity": "State Government Finances",
+    "estimate_type": "actual",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2023-24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Revenue Deficit 0.3",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "0.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Revenue Deficit",
+    "entity": "State Government Finances",
+    "estimate_type": "revised",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25 (RE)",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Revenue Deficit 0.3 0.6",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "0.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Revenue Deficit",
+    "entity": "State Government Finances",
+    "estimate_type": "budget",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2025-26 (BE)",
+    "period_end": "2026-03-31",
+    "period_start": "2025-04-01",
+    "quote": "Revenue Deficit 0.3 0.6 0.2",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "0.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "gross fiscal deficit (GFD) as % of GDP",
+    "entity": "State Government Finances",
+    "estimate_type": "actual",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2023-24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Gross Fiscal Deficit 3.0",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "3.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "gross fiscal deficit (GFD) as % of GDP",
+    "entity": "State Government Finances",
+    "estimate_type": "revised",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25 (RE)",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Gross Fiscal Deficit 3.0 3.6",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "3.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "gross fiscal deficit (GFD) as % of GDP",
+    "entity": "State Government Finances",
+    "estimate_type": "budget",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2025-26 (BE)",
+    "period_end": "2026-03-31",
+    "period_start": "2025-04-01",
+    "quote": "Gross Fiscal Deficit 3.0 3.6 3.3",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "3.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Primary Deficit",
+    "entity": "State Government Finances",
+    "estimate_type": "actual",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2023-24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Primary Deficit 1.3",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "1.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Primary Deficit",
+    "entity": "State Government Finances",
+    "estimate_type": "revised",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25 (RE)",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Primary Deficit 1.3 1.8",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "1.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Primary Deficit",
+    "entity": "State Government Finances",
+    "estimate_type": "budget",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2025-26 (BE)",
+    "period_end": "2026-03-31",
+    "period_start": "2025-04-01",
+    "quote": "Primary Deficit 1.3 1.8 1.5",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "1.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "gross fiscal deficit (GFD) as % of GDP",
+    "entity": "general government",
+    "estimate_type": "budget",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25 (BE)",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "In 2024-25 (BE), the GFD of the general government moderated to 7.6 per cent of GDP40",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "gross fiscal deficit (GFD) as % of GDP",
+    "entity": "general government",
+    "estimate_type": "revised",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2023-24 (RE)",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "from 8.8 per cent in 2023-24 (RE).",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "8.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total borrowings",
+    "entity": "General government debt",
+    "estimate_type": "budget",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25 (BE)",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "General government debt stood at 81.9 per cent of GDP in 2024-25 (BE)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "81.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total borrowings",
+    "entity": "General government debt",
+    "estimate_type": "revised",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2023-24 (RE)",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "as compared to 81.8 per cent in 2023-24 (RE).",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "81.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total liabilities",
+    "entity": "External liabilities of the Centre",
+    "estimate_type": "actual",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "External liabilities of the Centre remained low at 2.5 per cent of GDP",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "2.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Tax Revenue",
+    "entity": "general government",
+    "estimate_type": "budget",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25 (BE)",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "rise in tax revenues to 18.8 per cent of GDP in 2024-25 (BE)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "18.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Tax Revenue",
+    "entity": "general government",
+    "estimate_type": "actual",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2023-24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "from 18.1 per cent in the previous year",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "18.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total expenses",
+    "entity": "general government",
+    "estimate_type": "budget",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25 (BE)",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "moderation in total expenditure to 30.0 per cent of GDP in 2024-25 (BE)",
+    "quote_source": "image",
+    "scale": null,
+    "unit": "per cent",
+    "value": "30.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total expenses",
+    "entity": "general government",
+    "estimate_type": "actual",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2023-24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "from 30.2 per cent of GDP from 30.2 per cent in the previous year.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "30.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Capital Expenditure",
+    "entity": "general government",
+    "estimate_type": "budget",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2024-25 (BE)",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "capital expenditure to GDP ratio stood at 5.9 per cent in 2024-25 (BE)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "5.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Capital Expenditure",
+    "entity": "general government",
+    "estimate_type": "actual",
+    "measurement_basis": "Per cent of GDP",
+    "period": "2023-24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "as compared to 5.8 per cent in the previous year",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "5.8",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4517,
+  "output_tokens": 2863
+ }
+}

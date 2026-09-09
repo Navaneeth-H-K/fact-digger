@@ -1,0 +1,561 @@
+{
+ "key": "2f0465715019fbfac56f2418cdc9a80305cb6ac3191a10a0c9bd9411351bb10a",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "65e7575e176e2364d88003c54bb75dd7fb6dc5afcf8b55de9a45eee64f9d3ea1",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 79, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Total revenue from customers, Equity Shares held, Total equity, Number of preference shares acquired, Total assets, Restated other comprehensive income / (loss) for the period / year, NWC days, Gateways, Total income, Net cash from / (used in) operating activities, Authorised share capital, Automated sort centers, Basic loss per share, Restated loss before tax, Revenue from contracts with customers, Total equity and liabilities, Total liabilities, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cash & cash equivalents at the end of the year, Total Compensation, Restated total comprehensive loss for the period / year, Diluted loss per share, Networth, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, TL revenue, Count of 46-ft tractors, Offer for Sale amount, Share based payment, Board members count, Cross Border Services revenue, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Other equity, Granted Options (Not vested), organized players market share, Profit/(loss) after tax, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Freight, handling and servicing cost, express parcel shipments since inception, Other income, Investments in technology, Retention rate, Return to work rate, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Property, plant and equipment, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Number of days of accounts payables, Weighted average cost of acquisition, Waste intensity per rupee of turnover adjusted for Purchasing Power Parity, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Carbon Monoxide (CO) air emissions, Hydrocarbons (HC) air emissions, Particulate matter (PM) air emissions, NOx air emissions, SOx air emissions, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count\n\nTEXT LAYER:\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n# Intangible assets under development (Ageing schedule)\nParticulars\nLess than \n1 year\n1-2 year\n2-3 year\nMore than \n3 years\nTotal\nAs at March 31, 2024\nProjects in progress\n-\n0.26\n-\n-\n0.26\nProjects temporarily suspended\n-\n-\n-\n-\n-\nAs at March 31, 2023\nProjects in progress\n17.73\n1.71\n-\n-\n19.44\nProjects temporarily suspended\n-\n-\n-\n-\n-\n**For the purpose of impairment testing, goodwill acquired in a business combination is allocated to the cash generating unit (CGU), which \nbenefits from the synergies of the acquisition.CGUs which have goodwill allocated to them are tested for impairment at least annually. The Group \nrecognises impairment, when the carrying amount of CGUs including goodwill, exceeds the estimated recoverable amount of CGU.\nThe Group performs test for goodwill impairment on March 31, or if indicators of impairment arise, such as the effects of obsolescence, demand, \ncompetition and other economic factors or on occurrence of an event or change in circumstances that would more likely than not reduce the fair \nvalue below its carrying amount. When determining the fair value, we utilise various assumptions, the significant unobservable inputs used in the \nestimation of recoverable value are discount rate and terminal growth rate, including operating results, business plans and projections of future \ncash flows. Any adverse changes in key assumptions about our businesses and their prospects or an adverse change in market conditions may \ncause a change in the estimation of fair value and could result in an impairment charge.\nThe recoverable amounts of CGUs are based on value-in-use, which are determined based on five year business plans that have been approved by \nmanagement for internal purposes. The said planning horizon reflects the assumptions for short-to-mid term market developments. Considering \nthis and the consistent use of such robust five-year information for management reporting purposes, the Group uses five-year plans for the \npurpose of impairment testing. Management believes that this planning horizon reflects the assumptions for the expected performance in the \nmarkets in which the Company operates.\nManagement has done impairment analysis as on March 31, 2024 and concluded that no impairment is required as at March 31, 2024 (except as \ndisclosed above - refer note 29)\n4.\t Other intangible assets\nParticulars\nSoftware\nTrade \nMark\nCustomer \nrelationships\nVendor \nrelationships\nBrand\nNon - \ncompete\nOthers*\nPatent\nTotal\nGoodwill **\nIntangible \nassets under \ndevelopment#\nGross carrying value\nAt March 31, 2022\n804.53\n50.98\n1,917.88\n309.50\n1,014.50\n182.31\n724.90\n-\n5,004.60\n13,951.42\n14.99\nAt April 01, 2022\n804.53\n50.98\n1,917.88\n309.50\n1,014.50\n182.31\n724.90\n-\n5,004.60\n13,951.42\n14.99\nAsset Acquired through assets purchase agreement (refer note 36 (2) (a))\n-\n-\n-\n-\n-\n67.70\n-\n-\n67.70\n74.48\n-\nAsset acquired on acquisition of business (refer note 36 (1) (a))\n50.54\n-\n5.13\n-\n-\n-\n-\n-\n55.67\n-\n-\nAdditions during the year\n74.59\n-\n-\n-\n-\n-\n-\n0.27\n74.86\n-\n18.26\nDisposals\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n(13.81)\nAt March 31, 2023\n929.66\n50.98\n1,923.01\n309.50\n1,014.50\n250.01\n724.90\n0.27\n5,202.83\n14,025.90\n19.44\nAt April 01, 2023\n929.66\n50.98\n1,923.01\n309.50\n1,014.50\n250.01\n724.90\n0.27\n5,202.83\n14,025.90\n19.44\nAdditions during the year\n83.51\n-\n-\n-\n-\n-\n-\n-\n83.51\n-\n39.11\nDisposals during the year\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n(58.29)\nImpaired during the year (refer note 29)\n-\n(5.13)\n-\n-\n-\n-\n-\n(5.13)\n(74.48)\n-\nExchange differences\n0.63\n-\n-\n-\n-\n-\n-\n-\n0.63\n-\n-\nAt March 31, 2024\n1,013.80\n50.98\n1,917.88\n309.50\n1,014.50\n250.01\n724.90\n0.27\n5,281.84\n13,951.42\n0.26\nAccumulated amortisation\nAt March 31, 2022\n333.60\n50.98\n524.30\n84.46\n276.85\n36.15\n138.67\n-\n1,445.01\n152.38\n-\nAt April 01, 2022\n333.60\n50.98\n524.30\n84.46\n276.85\n36.15\n138.67\n-\n1,445.01\n152.38\n-\nCharge for the year\n360.11\n-\n688.94\n225.04\n332.46\n91.18\n352.79\n0.10\n2,050.62\n252.82\n-\nDisposals during the year\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\nAt March 31, 2023\n693.71\n50.98\n1,213.24\n309.50\n609.31\n127.33\n491.46\n0.10\n3,495.63\n405.20\n-\nAt April 01, 2023\n693.71\n50.98\n1,213.24\n309.50\n609.31\n127.33\n491.46\n0.10\n3,495.63\n405.20\n-\nCharge for the year\n143.53\n-\n343.39\n-\n182.62\n85.62\n140.47\n0.09\n895.72\n104.59\n-\nDisposals during the year\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\nImpaired during the year (refer note 29)\n-\n-\n(2.07)\n-\n-\n-\n-\n-\n(2.07)\n-\n-\nExchange differences\n0.57\n-\n-\n-\n-\n-\n-\n-\n0.57\n-\n-\nAt March 31, 2024\n837.81\n50.98\n1,554.56\n309.50\n791.93\n212.95\n631.93\n0.19\n4,389.85\n509.79\n-\nNet Block\nBalance as on March 31, 2024\n175.99\n-\n363.32\n-\n222.57\n37.06\n92.97\n0.08\n891.99\n13,441.63\n0.26\nBalance as on March 31, 2023\n235.95\n-\n709.77\n-\n405.19\n122.68\n233.44\n0.17\n1,707.20\n13,620.70\n19.44\n* Above balance of I 724.90 million includes amount of Cross Border Franchisee Agreement - imports of I 391.80 million and Cross Border Franchisee Agreement - exports of I 333.10 million.\nAnnual Report 2023-24\n239\n238\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Intangible assets under development",
+    "period": "As at March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Projects in progress - 0.26 - - - 0.26",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "0.26",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Intangible assets under development",
+    "period": "As at March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Projects in progress 17.73 1.71 - - 19.44",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "19.44",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Software",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "1,013.80",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,013.80",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Software",
+    "period": "At March 31, 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "929.66",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "929.66",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Trade Mark",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "50.98",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "50.98",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Customer relationships",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "1,917.88",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,917.88",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Vendor relationships",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "309.50",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "309.50",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Brand",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "1,014.50",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "1,014.50",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Non - compete",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "250.01",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "250.01",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Others",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "724.90",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "724.90",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Patent",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "0.27",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "0.27",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Goodwill",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "13,951.42",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "13,951.42",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Intangible assets under development",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "0.26",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "0.26",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Total Other intangible assets",
+    "period": "At March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "5,281.84",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "5,281.84",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Software Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "175.99",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "175.99",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Customer relationships Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "363.32",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "363.32",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Brand Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "222.57",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "222.57",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Non - compete Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "37.06",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "37.06",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Others Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "92.97",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "92.97",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Patent Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "0.08",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "0.08",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Total Other intangible assets Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "891.99",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "891.99",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Goodwill Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "13,441.63",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "13,441.63",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Property, plant and equipment",
+    "entity": "Intangible assets under development Net Block",
+    "period": "Balance as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "0.26",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "0.26",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5955,
+  "output_tokens": 2798
+ }
+}

@@ -1,0 +1,483 @@
+{
+ "key": "6d3f0d0c0f079855317ebc33bad0cfffda5c841ca6b042022061031047aa7b4b",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "5f427870d37419e61e5b278ca2935581d275fa70c935e0ac1c668133b16a8835",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 94, printed label 285.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Headline inflation average, Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Inflation rate, Value of exports, Restated loss for the period / year, merchandise exports growth rate, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, merchandise imports growth rate, Real gross value added GVA growth rate, Pin-code reach, gross fiscal deficit (GFD) as % of GDP, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, Total borrowings, merchandise trade deficit, express parcel shipments, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Cash & cash equivalents at the end of the year, Total equity, net FPI inflows, Total liabilities, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Number of Observations, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Foreign exchange reserves, merchandise imports, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Total expenses, merchandise exports, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Core inflation average, Cross Border Services revenue, Total Compensation, Other equity, revenue from services growth rate, Other income, Networth, Freight, handling and servicing cost, Outstanding at the end of the year, Net FDI, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, currency depreciation rate, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), Reserve money growth rate, Money Supply growth rate, organized players market share, Share in Production, 10-year generic G-sec yield, Share capital acquired in Falcon, CBDC (Retail) amount outstanding, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Gross fixed capital formation growth rate, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, R&D expenditure in GDP, Debt to Equity, External debt to GDP ratio, Revenue Deficit, Number of new markets explored, express parcel shipments since inception, Investments in technology, R-squared, Retention rate, Return to work rate, Total (B), Yields, Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Current account deficit (CAD) as % of GDP, Capital Expenditure, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Sortation capacity utilisation, fresh issuance of CDs, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Household financial saving (net) as % of gross national disposable income (GNDI), Exercised during the year\n\nTEXT LAYER:\nAPPENDIX TABLES\n285\nAPPENDIX TABLE 4: INFLATION, MONEY AND CREDIT\n(Per cent)\nInflation\nConsumer Price Index (CPI) [All India]\nRural\nUrban\nCombined\n2022-23\n2023-24\n2024-25\n2022-23\n2023-24\n2024-25\n2022-23\n2023-24\n2024-25\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nGeneral Index (All Groups)\n6.8\n5.6\n5.0\n6.4\n5.1\n4.1\n6.7\n5.4\n4.6\nFood and Beverages\n6.8\n6.9\n6.9\n6.5\n7.3\n6.5\n6.7\n7.0\n6.7\nHousing\n…\n…\n…\n4.3\n3.9\n2.8\n4.3\n3.9\n2.8\nFuel and Light\n9.6\n1.8\n-0.9\n11.6\n0.3\n-5.1\n10.3\n1.2\n-2.5\nMiscellaneous\n5.9\n4.6\n4.2\n6.6\n4.4\n4.0\n6.3\n4.5\n4.1\nExcluding Food and Fuel\n6.3\n4.5\n3.7\n5.9\n4.2\n3.4\n6.1\n4.3\n3.5\nOther Price Indices\n2016-17\n2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25\n1. \tWholesale Price Index (2011-12=100)#\n\t\nAll Commodities\n1.7\n2.9\n4.3\n1.7\n1.3\n13.0\n9.4\n-0.7\n2.3\n\t\nPrimary Articles\n3.4\n1.4\n2.7\n6.8\n1.7\n10.2\n10.0\n3.5\n5.1\n\t\nof which : Food Articles\n4.0\n2.1\n0.3\n8.4\n3.2\n4.1\n7.3\n6.6\n7.3\n\t\nFuel and Power\n-0.3\n8.2\n11.5\n-1.8\n-8.0\n32.5\n28.1\n-4.7\n-1.3\n\t\nManufactured Products\n1.3\n2.7\n3.7\n0.3\n2.8\n11.1\n5.6\n-1.7\n1.7\n\t\nNon-food Manufactured Products\n-0.1\n3.0\n4.2\n-0.4\n2.2\n11.0\n5.8\n-1.4\n0.7\n2. \tCPI- Industrial Workers (IW) [2001=100]\n4.1\n3.1\n5.4\n7.5\n5.0\n5.1\n6.1\n5.2\n3.4\n\t\nof which : CPI- IW Food\n4.4\n1.5\n0.6\n7.4\n5.8\n4.7\n6.1\n7.3\n6.0\n3. \tCPI- Agricultural Labourers\n\t\n(1986-87=100)\n4.2\n2.2\n2.1\n8.0\n5.5\n4.0\n6.8\n7.1\n5.7\n4. \tCPI- Rural Labourers (1986-87=100)\n4.2\n2.3\n2.2\n7.7\n5.5\n4.2\n7.0\n6.9\n5.7\nMoney and Credit\n \n2016-17^ 2017-18\n2018-19\n2019-20\n2020-21\n2021-22\n2022-23\n2023-24\n2024-25^^\nReserve Money (RM)\n-12.9\n27.3\n14.5\n9.4\n18.8\n13.0\n7.8\n5.6\n3.3\nCurrency in Circulation\n-19.7\n37.0\n16.8\n14.5\n16.6\n9.8\n7.8\n3.9\n5.8\nBankers’ Deposits with RBI\n8.4\n3.9\n6.4\n-9.6\n28.5\n25.4\n6.1\n10.2\n-6.5\nCurrency-GDP Ratio$\n8.7\n10.7\n11.3\n12.2\n14.4\n13.3\n12.6\n11.7\n11.2\nNarrow Money (M1)\n-3.9\n21.8\n13.6\n11.2\n16.2\n10.7\n6.9\n7.3\n7.9\nBroad Money (M3)\n6.9\n9.2\n10.5\n8.9\n12.2\n8.8\n9.0\n11.1\n9.6\nCurrency-Deposit Ratio\n11.0\n14.4\n15.4\n16.3\n17.2\n17.4\n17.3\n16.0\n15.4\nMoney Multiplier*\n6.7\n5.8\n5.6\n5.5\n5.2\n5.0\n5.1\n5.4\n5.7\nGDP-M3 Ratio$*\n1.2\n1.2\n1.2\n1.2\n1.1\n1.2\n1.2\n1.2\n1.2\nScheduled Commercial Banks\n \n \n \n \n \nAggregate Deposits\n11.3\n6.2\n10.0\n7.9\n11.4\n8.9\n9.6\n12.9\n10.6\nBank Credit\n4.5\n10.0\n13.3\n6.1\n5.6\n9.6\n15.0\n16.3\n12.1\nNon-food Credit\n5.2\n10.2\n13.4\n6.1\n5.5\n9.7\n15.4\n16.3\n12.0\nCredit-Deposit Ratio\n72.9\n75.5\n77.7\n76.4\n72.4\n72.2\n75.8\n78.1\n79.1\nCredit-GDP Ratio$\n50.9\n50.5\n51.7\n51.6\n55.1\n50.4\n50.9\n52.8\n53.8\n#\t\n: Data for 2024-25 are provisional.\n…\t : CPI Rural for Housing is not compiled.\n^\t\n: March 31, 2017, over April 1, 2016, barring RM and its components.\t\n^^\t : Data for Reserve Money pertain to March 28, 2025, while that of Money Supply relate to March 21, 2025.\n$\t\n: GDP data from 2011-12 onwards are based on new series i.e., base: 2011-12. GDP refers to GDP at Current Market Prices.\n*\t\n: Not expressed in per cent.\nNote:  1.  Data refers to y-o-y change in per cent unless specified otherwise.\n\t\n2. \tBase for CPI (All India) is 2012=100 whereas base for CPI-IW is 2001=100 till August 2020 and 2016=100 from September \n2020 onwards. \nSource: RBI, NSO, Labour Bureau and Ministry of Commerce and Industry.\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Consumer Price Index (CPI) [All India] - General Index (All Groups) - Combined",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "General Index (All Groups) 6.8 5.6 5.0 6.4 5.1 4.1 6.7 5.4 4.6",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "4.6",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Consumer Price Index (CPI) [All India] - Food and Beverages - Combined",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Food and Beverages 6.8 6.9 6.9 6.5 7.3 6.5 6.7 7.0 6.7",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "6.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Consumer Price Index (CPI) [All India] - Housing - Combined",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Housing ... ... ... 4.3 3.9 2.8 4.3 3.9 2.8",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "2.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Consumer Price Index (CPI) [All India] - Fuel and Light - Combined",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Fuel and Light 9.6 1.8 -0.9 11.6 0.3 -5.1 10.3 1.2 -2.5",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "-2.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Consumer Price Index (CPI) [All India] - Miscellaneous - Combined",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Miscellaneous 5.9 4.6 4.2 6.6 4.4 4.0 6.3 4.5 4.1",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "4.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Wholesale Price Index - All Commodities",
+    "estimate_type": "provisional",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "All Commodities 1.7 2.9 4.3 1.7 1.3 13.0 9.4 -0.7 2.3",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "2.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Wholesale Price Index - Primary Articles",
+    "estimate_type": "provisional",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Primary Articles 3.4 1.4 2.7 6.8 1.7 10.2 10.0 3.5 5.1",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "5.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Wholesale Price Index - Fuel and Power",
+    "estimate_type": "provisional",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Fuel and Power -0.3 8.2 11.5 -1.8 -8.0 32.5 28.1 -4.7 -1.3",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "-1.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "Wholesale Price Index - Manufactured Products",
+    "estimate_type": "provisional",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "Manufactured Products 1.3 2.7 3.7 0.3 2.8 11.1 5.6 -1.7 1.7",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "1.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "CPI- Industrial Workers (IW)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "2. CPI- Industrial Workers (IW) [2001=100] 4.1 3.1 5.4 7.5 5.0 5.1 6.1 5.2 3.4",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "3.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Inflation rate",
+    "confidence": 1,
+    "entity": "CPI- Agricultural Labourers",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "3. CPI- Agricultural Labourers (1986-87=100) 4.2 2.2 2.1 8.0 5.5 4.0 6.8 7.1 5.7",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "5.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Reserve money growth rate",
+    "confidence": 1,
+    "entity": "Reserve Money (RM)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-28",
+    "period_start": "2024-04-01",
+    "quote": "Reserve Money (RM) -12.9 27.3 14.5 9.4 18.8 13.0 7.8 5.6 3.3",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "3.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Money Supply growth rate",
+    "confidence": 1,
+    "entity": "Broad Money (M3)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-21",
+    "period_start": "2024-04-01",
+    "quote": "Broad Money (M3) 6.9 9.2 10.5 8.9 12.2 8.8 9.0 11.1 9.6",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "9.6",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5421,
+  "output_tokens": 2277
+ }
+}

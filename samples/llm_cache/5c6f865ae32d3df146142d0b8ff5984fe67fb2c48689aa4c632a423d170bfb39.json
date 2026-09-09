@@ -1,0 +1,605 @@
+{
+ "key": "5c6f865ae32d3df146142d0b8ff5984fe67fb2c48689aa4c632a423d170bfb39",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "768a0fa20ea71e4718fcb35284598d35f0db2603051fcbfd5b60491624f61ef3",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 33, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, Team size, PTL freight tonnage, Adjusted EBITDA margin, express parcel shipments, Adjusted EBITDA, Infrastructure, Number of preference shares acquired, Total revenue from customers, NWC days, EBITDA margin, Gateways, Restated other comprehensive income / (loss) for the period / year, EBITDA, Total equity and liabilities, Total equity, Automated sort centers, Total income, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Restated total comprehensive loss for the period / year, Revenue from contracts with customers, Instruments entirely equity in nature, Total liabilities, Networth, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Cash & cash equivalents at the end of the year, Supply Chain Services revenue, Diluted loss per share, Service EBITDA margin, Service EBITDA, Equity Shares held, Express Parcel revenue, PTL freight revenue, TL revenue, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Cross Border Services revenue, Capital Expenditure as % of Revenue from Services, express parcel shipments since inception, Investments in technology, organized players market share, Count of 46-ft tractors, allowance for doubtful debts, Amount spent for the project, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Share based payment, Total borrowings, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Other income, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, Sortation capacity utilisation, Freight, handling and servicing cost, Revenue from customers, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Profit/(loss) after tax, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Revenue CAGR, Installed solar power capacity, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Depreciation and amortisation expense, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Employee benefit expense, market CAGR, Issued, Subscribed and Paid-up Equity Share Capital, Capital work in progress, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, Contractual manpower expenses, Finance costs, Deferred tax credit, Current tax, Debt to Equity, Net debt, direct spend of logistics sector, Foreign exchange earnings, Property, plant and equipment, Foreign exchange outgo, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, Goodwill, Interest income, Sustainably sourced inputs share, Term loan, Packing material, Rent, Stores and spares, Total Turnover, Contractual to permanent absorption count\n\nTEXT LAYER:\nMacroeconomic outlook\nGlobal economy\nFY24 witnessed a resilient global economy despite the uneven \ngrowth. The year was marked by a considerable surge in \ninflation, followed by a globally synchronised monetary \npolicy tightening, continued supply chain disruptions in the \naftermath of the pandemic, the Russia-Ukraine war impacting \nglobal energy and food trade, geopolitical tensions between \nIsrael and Palestine and increased anti-globalisation \nrhetoric. Despite the gloomy predictions, the world avoided \na recession, the banking system proved largely resilient, and \nmajor emerging market economies did not suffer significant \nchallenges. As per the IMF’s World Economic Outlook update, \nJuly 2024, the global economic growth for 2025 will likely \nhold steady at 3.3% and inemerging markets and developing \neconomies, growth will likely be stable at 4.3%.\nIndian economy\nCurrently the fifth-largest economy in the world, India is one \nof the fastest-growing economies. It is likely to be among the \ntop three economic powers in the world by 2035, supported \nby its demographics and strong fundamentals. The Reserve \nBank of India has projected India’s GDP to grow at 7.2%1 in \nFY25. During FY24, India demonstrated remarkable resilience \nin navigating global headwinds and registered a Growth rate \nof 8.2%, which was the highest among the major economies. \nHowever, private final consumption remained low during FY24. \nAccording to the Reserve Bank of India, private consumption \nexpenditure growth fell from 6.8% in FY23 to 4.0% in FY24. \nAccording to the IMF, India’s GDP was US$3.9 trillion in 2024 \nand will likely surpass US$5 trillion by 20272. The logistics and \ntransportation sector will be one of the frontline sectors that \nwill benefit from the surge in the GDP.\nGlobal logistics industry overview\nThe global logistics market accounted for US$7.98 trillion \nin 2022 and will likely grow to US$18.23 trillion by 2030 at a \nCAGR of 10.7% from 2023 to 2030. The growth in the global \nlogistics market will be primarily driven by the growth in online \nretail. Asia-Pacific is the leading regional market worldwide. \nThe advancements in technology, such as automated \nmaterial handling equipment, GPS and biometrics are helping \norganisations and businesses work efficiently, thereby \nstimulating the growth of the logistics market in the region.\nIndia logistics industry overview\nIn India, the logistics sector is a significant contributor to the overall \ngrowth of the economy. More than 22 million people rely on it for \ntheir livelihood. The sector is projected to add 10 million jobs by \n20273. As a key enabler of trade and commerce, the logistics sector \nunderpins economic development, enabling nations like India to \nharness their full potential and achieve sustainable progress. The \nrevenue from logistics sector in India was US$382 billion in 2021, \nand the market is predicted to increase to US$531 billion by 2026, \nat a healthy 6-7% year-on-year growth rate. India jumped six places \nover last year to 38 out of 139 countries in the 7th edition of the \nLogistics Performance Index (LPI 2023) released by the World \nBank. Transportation is the largest segment of the logistics sector \nin India. Currently, the road transportation sector has the largest \nshare in terms of tonnage, around 66%, of total cargo movement, \nfollowed by railways4. \nManagement Discussion and Analysis\nIndustry structure and growth drivers\nNote: Market structure excludes Freight-Transport through ships, inland water transport (IWT) and pipelines\nIndian logistics \nmarket\nExpress PTL\nPart Truckload\nDomestic \nAir Express \nTransportation\nRail \nTransportation\nRoad \nTransportation \nCross Border \nTransportation\nWarehousing \nand Supply Chain \nServices\nTruckload\nExpress Parcel \nDelivery\nEconomy PTL\n1 https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/1STATEOFTHEECONOMY84C19817677747DE81811D8FDBB0A796.PDF, June 22, 2024\n2 https://www.imf.org/external/datamapper/NGDPD@WEO/OEMDC/ADVEC/WEOWORLD, accessed on June 22, 2024\n3 IBEF: Transforming India's Logistics Sector: Challenges and Opportunities\n4 IBEF: Transforming India's Logistics Sector: Challenges and Opportunities\n2.\t The percentage increase in the Median Remuneration of Employees in the FY24:\nFY24\nFY23\nIncrease (%)\nMedian remuneration of all employees per annum\n263,459\n262,900\n0.21\n\t\n\u0007The median remuneration has been calculated as Median remuneration of full time employees who were active for the \nfull financial year.\n3.\t\nThe Number of permanent employees on the rolls of the Company.\n\t\nPermanent employees on the rolls of the Company were 23,381 as on March 31, 2024.\n4.\t\n\u0007Average percentage increase/(decrease) already made in the salaries of employees other than the managerial \npersonnel in the last financial year and its comparison with the percentage increase in the managerial \nremuneration and justification thereof and point out if there are any exceptional circumstances for increase in \nthe managerial remuneration:\n\t\nIncrease/(Decrease) in the average salaries of employees other than managerial personnel in the FY24 was 14%.\n\t\n\u0007Increase/(Decrease) in the average salaries of managerial personnel in FY24 was (6.97)%. \n\t\nThe above increase/(decrease) in average salaries excludes perquisite value on exercise of stock options.\n5.\t\n\u0007Your Directors affirm, to the best of their knowledge and belief, that the remuneration is as per the remuneration policy of \nyour Company.\nOn behalf of the Board of Directors\nFor Delhivery Limited\nSahil Barua\t\nDeepak Kapoor\nManaging Director & Chief Executive Officer \t\nChairperson & Non-Executive Independent Director\nDIN: 05131571\t\nDIN: 00162957\nPlace: Goa\t\nPlace: New Delhi\nDate: July 05, 2024\t\nDate: July 05, 2024\nDirectors’ Report (Contd.)\nAnnual Report 2023-24\n67\n66\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Median remuneration of all employees per annum",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Median remuneration of all employees per annum 263,459 262,900 0.21",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "₹",
+    "value": "263,459",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Median remuneration of all employees per annum",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "Median remuneration of all employees per annum 263,459 262,900 0.21",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "₹",
+    "value": "262,900",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Equity share capital %",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Median remuneration of all employees per annum 263,459 262,900 0.21",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "0.21",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Team size",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Permanent employees on the rolls of the Company were 23,381 as on March 31, 2024.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "23,381",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Average percentage increase/(decrease) in the average salaries of employees other than managerial personnel",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Increase/(Decrease) in the average salaries of employees other than managerial personnel in the FY24 was 14%.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "14",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Average percentage increase/(decrease) in the average salaries of managerial personnel",
+    "confidence": 1,
+    "entity": "Delhivery Limited",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Increase/(Decrease) in the average salaries of managerial personnel in FY24 was (6.97)%.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "(6.97)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Global economic growth",
+    "attributed_to": "IMF",
+    "confidence": 1,
+    "entity": "Global economy",
+    "estimate_type": "projection",
+    "measurement_basis": null,
+    "period": "2025",
+    "period_end": "2025-12-31",
+    "period_start": "2025-01-01",
+    "quote": "global economic growth for 2025 will likely hold steady at 3.3%",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "3.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Global economic growth in emerging markets and developing economies",
+    "attributed_to": "IMF",
+    "confidence": 1,
+    "entity": "emerging markets and developing economies",
+    "estimate_type": "projection",
+    "measurement_basis": null,
+    "period": "2025",
+    "period_end": "2025-12-31",
+    "period_start": "2025-01-01",
+    "quote": "growth will likely be stable at 4.3%.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "4.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "GDP growth rate",
+    "attributed_to": "Reserve Bank of India",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "projection",
+    "measurement_basis": null,
+    "period": "FY25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "The Reserve Bank of India has projected India’s GDP to grow at 7.2%1 in FY25.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "7.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "GDP Growth rate",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "During FY24, India demonstrated remarkable resilience in navigating global headwinds and registered a Growth rate of 8.2%,",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "8.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "private consumption expenditure growth rate",
+    "attributed_to": "Reserve Bank of India",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY23",
+    "period_end": "2023-03-31",
+    "period_start": "2022-04-01",
+    "quote": "private consumption expenditure growth fell from 6.8% in FY23 to 4.0% in FY24.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "6.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "private consumption expenditure growth rate",
+    "attributed_to": "Reserve Bank of India",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "private consumption expenditure growth fell from 6.8% in FY23 to 4.0% in FY24.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "4.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Gross Domestic Product",
+    "attributed_to": "IMF",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "2024",
+    "period_end": "2024-12-31",
+    "period_start": "2024-01-01",
+    "quote": "According to the IMF, India’s GDP was US$3.9 trillion in 2024",
+    "quote_source": "text",
+    "scale": "trillion",
+    "unit": "US$",
+    "value": "3.9",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Global logistics market size",
+    "confidence": 1,
+    "entity": "Global logistics market",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "2022",
+    "period_end": "2022-12-31",
+    "period_start": "2022-01-01",
+    "quote": "The global logistics market accounted for US$7.98 trillion in 2022",
+    "quote_source": "text",
+    "scale": "trillion",
+    "unit": "US$",
+    "value": "7.98",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Global logistics market size",
+    "confidence": 1,
+    "entity": "Global logistics market",
+    "estimate_type": "projection",
+    "measurement_basis": null,
+    "period": "2030",
+    "period_end": "2030-12-31",
+    "period_start": "2030-01-01",
+    "quote": "will likely grow to US$18.23 trillion by 2030",
+    "quote_source": "text",
+    "scale": "trillion",
+    "unit": "US$",
+    "value": "18.23",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "market CAGR",
+    "confidence": 1,
+    "entity": "Global logistics market",
+    "estimate_type": "projection",
+    "measurement_basis": null,
+    "period": "2023 to 2030",
+    "period_end": "2030-12-31",
+    "period_start": "2023-01-01",
+    "quote": "at a CAGR of 10.7% from 2023 to 2030.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "10.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "revenue from logistics sector",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-01-01",
+    "quote": "The revenue from logistics sector in India was US$382 billion in 2021,",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "382",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "revenue from logistics sector",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "projection",
+    "measurement_basis": null,
+    "period": "2026",
+    "period_end": "2026-12-31",
+    "period_start": "2026-01-01",
+    "quote": "and the market is predicted to increase to US$531 billion by 2026,",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "531",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "market CAGR",
+    "confidence": 1,
+    "entity": "India logistics sector",
+    "estimate_type": "projection",
+    "measurement_basis": null,
+    "period": "year-on-year",
+    "period_end": null,
+    "period_start": null,
+    "quote": "at a healthy 6-7% year-on-year growth rate.",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "6-7",
+    "value_kind": "range"
+   },
+   {
+    "attribute": "Logistics Performance Index rank",
+    "attributed_to": "World Bank",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "period": "2023",
+    "period_end": "2023-12-31",
+    "period_start": "2023-01-01",
+    "quote": "India jumped six places over last year to 38 out of 139 countries in the 7th edition of the Logistics Performance Index (LPI 2023)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "38",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "organized players market share",
+    "confidence": 1,
+    "entity": "road transportation sector",
+    "estimate_type": "actual",
+    "measurement_basis": "in terms of tonnage",
+    "period": "current",
+    "period_end": null,
+    "period_start": null,
+    "quote": "Currently, the road transportation sector has the largest share in terms of tonnage, around 66%, of total cargo movement,",
+    "quote_source": "text",
+    "scale": null,
+    "unit": "per cent",
+    "value": "66",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4917,
+  "output_tokens": 3060
+ }
+}

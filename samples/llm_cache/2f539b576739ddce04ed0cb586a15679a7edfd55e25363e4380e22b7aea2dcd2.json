@@ -1,0 +1,542 @@
+{
+ "key": "2f539b576739ddce04ed0cb586a15679a7edfd55e25363e4380e22b7aea2dcd2",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "93bf46abd6935fd4cc171c7e1f96a66e4f099e27dfe22888ee9f7107a466675f",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 01-delhivery-prospectus-2022-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2022-05-14; fiscal year starts in month 4.\nPage index 6, printed label 26.\nExisting attribute vocabulary (reuse a name when it means the same thing): Adjusted EBITDA, revenue from services, Adjusted EBITDA margin, Total revenue from customers, PTL freight tonnage, Weighted average cost of acquisition per Equity Share, Offer for Sale amount, NWC days, express parcel shipments, Networth, Capital Expenditure as % of Revenue from Services, Supply Chain Services revenue, Express Parcel revenue, PTL freight revenue, TL revenue, Cost of time-based options, Total borrowings, Equity share capital, EBITDA, EBITDA margin, Instruments entirely equity in nature, revenue from services growth rate, Active Customers, Cost of performance-based options, Cross Border Services revenue, Pin-code reach, Revenue from customers, Fresh Issue size, Infrastructure, Total cash balance, Reported EBITDA, TL YoY revenue growth, Offer for Sale size, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Total assets, Closing cash balance at the end of the year, Net change in cash, Cash & cash equivalents at the end of the year, Cash generated from / (used in) operations, Power, fuel & water charges, Contractual manpower expenses, Freight, Handling and Servicing Cost, Debt to Equity, Net debt, Service EBITDA margin, Service EBITDA, Total equity and liabilities, Total equity, Line haul expenses, Lost shipment expense (net), Vehicle rental expenses, Security expenses, Express parcel shipments growth rate, PTL freight tonnage growth rate, PTL YoY revenue growth, Total liabilities, Term loan, Packing material, Rent, Stores and spares, Automated sort centers, Fleet size - daily average, Cost of performance-based options total, Cost of time-based options total, Performance-based ESOPs ungranted as % of fully diluted shares, Time-based ESOPs ungranted as % of fully diluted shares, Performance-based ESOPs ungranted, Time-based ESOPs ungranted, market CAGR, Express delivery centers, Freight service centers, Processing centers, Supply Chain Services EBITDA, Corporate overheads, CWIP, ESOPs ungranted total as % of fully diluted shares, direct spend of logistics sector forecast, direct spend of logistics sector, Express Parcel EBITDA margin, Express Parcel EBITDA, Express Parcel Service EBITDA profitability, FY23 EBITDA, FY24 EBITDA, FY24 EBITDA increase, Total Service EBITDA margin, Part Truckload EBITDA, Total Service EBITDA, Employee Reservation Portion size, Employee Reservation Portion volume, Offer of Equity Shares size, Offer of Equity Shares volume, Team size holding ESOPs, ESOPs ungranted total, Express Parcel revenue growth rate, Express parcel shipments since inception, organized players market share forecast, PTL freight tonnage since inception, Fresh Issue volume, FY23 PAT loss, Gateways, PAT loss reduction, organized players market share, Net Offer size, Net Offer volume, Offer for Sale volume, Total Offer size, Team size\n\nTEXT LAYER:\n \n26 \n \n(in ₹ million) \nS. \nNo. \nName of the Related \nparty \nNature of \ntransactio\nns \nNine months \nperiod \nended  \nDecember \n31, 2021 \nNine \nmonths \nperiod \nended  \nDecember \n31, 2020 \nYear ended \nMarch 31, \n2021 \nYear \nended \nMarch \n31, 2020 \nYear \nended \nMarch \n31, \n2019 \n1 \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \nRemuneration to key \nmanagement personnel \nSalary and \nother \nemployee \nbenefits  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n \n \nSahil Barua \n   \n353.01 \n   \n20.94  \n43.31 \n22.79 \n8.00 \nMohit Tandon \n   \n-   \n   \n6.79  \n5.79 \n13.68 \n7.60 \nSuraj Saharan \n   \n62.81  \n   \n-   \n-  \n4.62  \n8.00  \nBhavesh Kishor \nManglani \n   \n-   \n   \n-   \n-  \n-  \n3.00  \nKapil Bharati \n   \n439.79  \n   \n17.40  \n39.25  \n66.15  \n7.74  \nAjith Pai Mangalore \n   \n367.09  \n   \n77.20  \n \n118.97 \n \n64.21 \n \n104.47 \nAmit Agarwal \n   \n343.33  \n   \n21.39  \n \n45.43 \n \n33.70 \n \n10.36 \nDeepak Manglani \n   \n-   \n   \n0.11  \n \n0.18 \n \n2.85 \n \n1.20  \nKriti Gupta \n   \n0.14  \n   \n0.32  \n \n0.29  \n \n-  \n \n-  \nVivek Kumar \n   \n0.95  \n   \n-   \n-  \n-  \n-  \nSunil Kumar Bansal \n   \n3.28  \n   \n-   \n   \n-   \n   \n-   \n   \n-   \nSandeep Kumar Barasia \n   \n381.21  \n   \n84.63  \n \n129.49  \n \n52.91  \n \n76.96  \n2 \n  \n  \n  \n  \nPayment to non-\nexecutive directors \nFees to \nnon-\nexecutive \ndirectors \n  \n  \n  \n  \n \n \n \n \n \nAnjali Bansal \n   \n3.02  \n   \n4.88  \n \n6.50  \n \n6.50  \n \n6.50  \nDeepak Kapoor \n   \n5.13  \n   \n4.88  \n \n6.50  \n \n6.50  \n \n6.50  \nHanne Birgitte \nBreinbjerg Sorensen \n   \n3.56  \n   \n5.61  \n \n7.50  \n \n6.90  \n \n6.90  \nRomesh Sobti \n   \n1.63  \n   \n-   \n \n \n \nSaugata Gupta  \n   \n1.63  \n   \n-   \n \n \n \nKalpana Morparia \n   \n1.42  \n   \n-   \n \n \n \nSrivatsan Ranjan \n   \n4.88  \n   \n4.88  \n \n6.50  \n \n6.50  \n \n6.50  \n3 \n  \n  \n  \n  \n  \nLoan and advances to \nkey management \npersonnel \nLoan and \nadvances \nto KMP \n  \n  \n  \n  \n  \n \n  \n  \n  \nSandeep Kumar Barasia \n   \n-   \n   \n28.00  \n \n51.40  \n-  \n-  \nSahil Barua \n   \n-   \n   \n-   \n23.50  \n-  \n-  \nKapil Bharati \n   \n-   \n   \n-   \n23.50  \n-  \n-  \nAjith Pai Mangalore \n   \n-   \n   \n-   \n23.50  \n-  \n-  \nAmit Agarwal \n   \n-   \n   \n-   \n23.50  \n-  \n- \n4 \n  \nLoan repayment from \nKMP \n \n \n \n \n \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Sahil Barua",
+    "period": "Nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "Sahil Barua 353.01",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "353.01",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Sahil Barua",
+    "period": "Nine months period ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "Sahil Barua 353.01 20.94",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "20.94",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Sahil Barua",
+    "period": "Year ended March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "Sahil Barua 43.31",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "43.31",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Sahil Barua",
+    "period": "Year ended March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "Sahil Barua 22.79",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "22.79",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Sahil Barua",
+    "period": "Year ended March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "Sahil Barua 8.00",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "8.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Mohit Tandon",
+    "period": "Nine months period ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "Mohit Tandon 6.79",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "6.79",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Mohit Tandon",
+    "period": "Year ended March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "Mohit Tandon 5.79",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "5.79",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Mohit Tandon",
+    "period": "Year ended March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "Mohit Tandon 13.68",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "13.68",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Mohit Tandon",
+    "period": "Year ended March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "Mohit Tandon 7.60",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "7.60",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Suraj Saharan",
+    "period": "Nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "Suraj Saharan 62.81",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "62.81",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Suraj Saharan",
+    "period": "Year ended March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "Suraj Saharan 4.62",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "4.62",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Suraj Saharan",
+    "period": "Year ended March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "Suraj Saharan 8.00",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "8.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Bhavesh Kishor Manglani",
+    "period": "Year ended March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "Bhavesh Kishor Manglani 3.00",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "3.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Kapil Bharati",
+    "period": "Nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "Kapil Bharati 439.79",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "439.79",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Kapil Bharati",
+    "period": "Nine months period ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "Kapil Bharati 17.40",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "17.40",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Kapil Bharati",
+    "period": "Year ended March 31, 2021",
+    "period_end": "2021-03-31",
+    "period_start": "2020-04-01",
+    "quote": "Kapil Bharati 39.25",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "39.25",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Kapil Bharati",
+    "period": "Year ended March 31, 2020",
+    "period_end": "2020-03-31",
+    "period_start": "2019-04-01",
+    "quote": "Kapil Bharati 66.15",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "66.15",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Kapil Bharati",
+    "period": "Year ended March 31, 2019",
+    "period_end": "2019-03-31",
+    "period_start": "2018-04-01",
+    "quote": "Kapil Bharati 7.74",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "7.74",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Ajith Pai Mangalore",
+    "period": "Nine months period ended December 31, 2021",
+    "period_end": "2021-12-31",
+    "period_start": "2021-04-01",
+    "quote": "Ajith Pai Mangalore 367.09",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "367.09",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Remuneration to key management personnel",
+    "confidence": 1,
+    "entity": "Ajith Pai Mangalore",
+    "period": "Nine months period ended December 31, 2020",
+    "period_end": "2020-12-31",
+    "period_start": "2020-04-01",
+    "quote": "Ajith Pai Mangalore 77.20",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "77.20",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "table",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4402,
+  "output_tokens": 2621
+ }
+}

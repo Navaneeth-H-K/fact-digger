@@ -1,0 +1,431 @@
+{
+ "key": "594a4987655b795f268fd1eeb347beba084937865c9c20bfba3c78c44a3f7bea",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "33afcf3468e2c76ba9ae1ff06f485e166b1c8654af205be72669d578cd7043ce",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 93, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Property, plant and equipment, Restated loss for the period / year, Active Customers, revenue from services, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, Total borrowings, EBITDA, EBITDA margin, Authorised share capital, Basic loss per share, Total revenue from customers, Equity Shares held, Total equity, Total liabilities, Number of preference shares acquired, Total assets, Cash & cash equivalents at the end of the year, Restated other comprehensive income / (loss) for the period / year, NWC days, Diluted loss per share, Gateways, Total income, Net cash from / (used in) operating activities, Automated sort centers, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Revenue from contracts with customers, Instruments entirely equity in nature, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Restated total comprehensive loss for the period / year, Other equity, Networth, Freight, handling and servicing cost, Other income, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Investments in bank deposits, Share based payment, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Profit/(loss) after tax, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Cost of time-based options, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, revenue from services growth rate, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Applications count, Attrition of Key Managerial Personnel, Attrition rate, Total cash balance, Revenue CAGR, Installed solar power capacity, Express delivery centers, Freight service centers, Compensation paid, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Deposits with original maturity for more than 12 months (Non-Current), Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Brought forward losses (including capital loss) above five years, Provision for compensated absence, Number of days of accounts payables, Accounting profit before income tax, Weighted average cost of acquisition, Waste intensity per rupee of turnover adjusted for Purchasing Power Parity, Capital advances - Unsecured, Considered good (Non-Current), Advance from Customers, Advance to employees (Current)\n\nTEXT LAYER:\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n37.1 Fair Values\nFinancial instruments by category\nThe carrying value and fair value of financial instruments by categories as of March 31, 2024 were as follows:\nParticulars\nAmortised cost\nFinancial assets/ liabilities at fair value \nthrough profit or loss\nCarrying value\nDesignated upon \ninitial recognition\nMandatory\nAssets:\nCash and cash equivalents (refer note 12)\n3,032.19\n-\n-\n3,032.19\nOther bank balances (refer note 13)\n1,000.00\n-\n-\n1,000.00\nInvestments (current) (refer note 5)\n-\n-\n17,781.34\n17,781.34\nInvestments (non-current) (refer note 5)\n-\n-\n6,771.16\n6,771.16\nInvestments in equity securities (non-current) (refer note 5)\n3,209.76\n-\n-\n3,209.76\nTrade receivables (refer note 7)\n14,296.90\n-\n-\n14,296.90\nLoans (current) (refer note 8)\n40.19\n-\n-\n40.19\nOther financial assets (refer note 9)\n29,785.92\n-\n-\n29,785.92\nTotal\n51,364.96\n-\n24,552.50\n75,917.46\nLiabilities:\nTrade payables (refer note 20)\n7,973.74\n-\n-\n7,973.74\nBorrowing (refer note 16)\n1,255.98\n-\n-\n1,255.98\nOther financial liabilities (refer note 17)\n1,091.14\n-\n-\n1,091.14\nLease liabilities (refer note 34)\n10,437.41\n-\n-\n10,437.41\nTotal\n20,758.27\n-\n-\n20,758.27\nThe carrying value and fair value of financial instruments by categories as of March 31, 2023 were as follows:\nParticulars\nAmortised cost\nFinancial assets/ liabilities at fair value \nthrough profit or loss\nCarrying value\nDesignated upon \ninitial recognition\nMandatory\nAssets:\nCash and cash equivalents (refer note 12)\n2,954.52\n-\n-\n2,954.52\nOther bank balances (refer note 13)\n3,500.00\n3,500.00\nInvestments (current) (refer note 5)\n-\n-\n14,817.20\n14,817.20\nInvestments (non-current) (refer note 5)\n-\n-\n3,502.21\n3,502.21\nInvestments in equity securities (non-current) (refer note 5)\n2,622.46\n-\n-\n2,622.46\nTrade receivables (refer note 7)\n15,238.07\n-\n-\n15,238.07\nLoans (current) (refer note 8)\n62.13\n-\n-\n62.13\nOther financial assets (refer note 9)\n34,071.37\n-\n-\n34,071.37\nTotal\n58,448.55\n-\n18,319.41\n76,767.96\nLiabilities:\nTrade payables (refer note 20)\n7,873.56\n-\n-\n7,873.56\nBorrowing (refer note 16)\n1,988.74\n-\n-\n1,988.74\nLease liabilities (refer note 34)\n7,245.69\n-\n-\n7,245.69\nOther financial liabilities (refer note 17)\n977.37\n-\n-\n977.37\nTotal\n18,085.36\n-\n-\n18,085.36\nThe following methods / assumptions were used to estimate the fair values:\ni)\t\n\u0007The carrying value of trade receivables, cash and cash equivalents, trade payables, security deposits, lease liabilities \nand other current financial assets and other current financial liabilities measured at amortised cost approximate their \nfair value due to the short-term maturities of these instruments.\nii)\t\n\u0007Fair value of quoted mutual funds and debt instruments is based on quoted market prices at the reporting date.\niii)\t\n\u0007Fair value of unquoted investments is estimated based on discounted cash flows valuation technique using the cash \nflow projections, discount rate and credit risk.\n37.2 (a) Fair value hierarchy\nThe following table provides the fair value measurement hierarchy of the Group’s assets and liabilities.\nLevel 1 – Quoted prices in active market for identical assets or liabilities.\nLevel 2 – Input other than quoted prices included within level 1 that are observable for the assets and liabilities, either directly \n(i.e. as prices) or indirectly i.e. derived from prices.\nLevel 3 – Inputs for the assets or liabilities that are not based on observable market data (unobservable inputs).\nThe following table presents fair value hierarchy of assets and liabilities measured at fair value on a recurring basis as of \nMarch 31, 2024:\nParticulars\nMarch 31, 2024\nFair value measurement at end of the \nreporting year using\nLevel 1\nLevel 2\nLevel 3\nAssets\nInvestments in unquoted preference shares (refer note 5)\n301.34\n-\n-\n301.34\nInvestments in bonds, non convertible debentures, mutual fund units \n(refer note 5)\n24,251.16\n24,251.16\n-\n-\nThe following table presents fair value hierarchy of assets and liabilities measured at fair value on a recurring basis as of \nMarch 31, 2023:\nParticulars\nMarch 31, 2023\nFair value measurement at end of the \nreporting year using\nLevel 1\nLevel 2\nLevel 3\nAssets\nInvestments in unquoted preference shares (refer note 5)\n197.90\n-\n-\n197.90\nInvestments in bonds, non convertible debentures, mutual fund units \n(refer note 5)\n18,121.51\n18,121.51\n-\n-\nThere have been no transfers between Level 1 and Level 2 during the current year and previous year.\n37.2 (b) Fair value hierarchy\nReconciliation of Level 3 fair value measurement is as follows: \nParticulars\nInvestments in unquoted preference \nshares (refer note 5)\nMarch 31, 2024\nMarch 31, 2023\nBalance at the beginning of the year\n197.90\n-\nAddition during the year\n250.00\n197.90\nFair value loss on financial instruments at fair value through profit or loss\n(146.56)\n-\nBalance at the end of the year\n301.34\n197.90\n37.2 (c) Fair value hierarchy\nFollowing table describes the valuation techniques used and key inputs thereto for the level 3 financial assets \n/ liabilities as of March 31, 2024 and March 31, 2023:\nFinancial Assets\nValuation \ntechnique(s)\nKey Input(s)\nSensitivity\nInvestments in unquoted preference \nshares (fully paid) in Boxseat \nVentures Private Limited\nDiscounted Cash \nFlows Method \n(DCF)*\n i)\t\n\u0007Weighted Average Cost of Capital (“WACC”)* - 21.03% \n(March 31, 2023- NA)\nii)\t\nTerminal Growth Rate - 5% (March 31, 2023 - NA)\nRefer note below#\n* The fair values of financial assets included in level 3 have been determined in accordance with generally accepted pricing models based on a \noption pricing method, with the most significant inputs being the risk free discount rate that reflects the credit risk of counter parties.\nAnnual Report 2023-24\n267\n2",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Total financial assets and liabilities carrying value",
+    "entity": "Financial instruments",
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Total 51,364.96 - 24,552.50 75,917.46",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "75,917.46",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total financial liabilities carrying value",
+    "entity": "Financial instruments",
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Total 20,758.27 - - 20,758.27",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "20,758.27",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total financial assets and liabilities carrying value",
+    "entity": "Financial instruments",
+    "period": "as on 31 March 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Total 58,448.55 - 18,319.41 76,767.96",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "76,767.96",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Total financial liabilities carrying value",
+    "entity": "Financial instruments",
+    "period": "as on 31 March 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Total 18,085.36 - - 18,085.36",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "18,085.36",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investments in unquoted preference shares fair value",
+    "entity": "Assets",
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Investments in unquoted preference shares (refer note 5) 301.34 - - 301.34",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "301.34",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investments in bonds, non convertible debentures, mutual fund units fair value",
+    "entity": "Assets",
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Investments in bonds, non convertible debentures, mutual fund units \n(refer note 5)\n24,251.16 24,251.16 - -",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "24,251.16",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investments in unquoted preference shares fair value",
+    "entity": "Assets",
+    "period": "as on 31 March 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Investments in unquoted preference shares (refer note 5) 197.90 - - 197.90",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "197.90",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Investments in bonds, non convertible debentures, mutual fund units fair value",
+    "entity": "Assets",
+    "period": "as on 31 March 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Investments in bonds, non convertible debentures, mutual fund units \n(refer note 5)\n18,121.51 18,121.51 - -",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "18,121.51",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Balance at the beginning of the year",
+    "entity": "Investments in unquoted preference shares",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Balance at the beginning of the year 197.90 -",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "197.90",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Addition during the year",
+    "entity": "Investments in unquoted preference shares",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Addition during the year 250.00 197.90",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "250.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Fair value loss on financial instruments at fair value through profit or loss",
+    "entity": "Investments in unquoted preference shares",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Fair value loss on financial instruments at fair value through profit or loss (146.56) -",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "(146.56)",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Balance at the end of the year",
+    "entity": "Investments in unquoted preference shares",
+    "period": "as on 31 March 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Balance at the end of the year 301.34 197.90",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "301.34",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Balance at the end of the year",
+    "entity": "Investments in unquoted preference shares",
+    "period": "as on 31 March 2023",
+    "period_end": "2023-03-31",
+    "period_start": "2023-03-31",
+    "quote": "Balance at the end of the year 301.34 197.90",
+    "quote_source": "text",
+    "scale": "million",
+    "unit": "₹",
+    "value": "197.90",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5687,
+  "output_tokens": 1882
+ }
+}

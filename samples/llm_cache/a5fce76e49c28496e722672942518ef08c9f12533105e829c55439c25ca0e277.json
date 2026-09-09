@@ -1,0 +1,438 @@
+{
+ "key": "a5fce76e49c28496e722672942518ef08c9f12533105e829c55439c25ca0e277",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "8bd40eef9534839b5bf7eff74aa4b3f04725817022e2d0c71b09d3da72a9d8db",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-imf-india-2025-article-iv-excerpt.pdf; title: unknown; publisher: International Monetary Fund; published: 2025-11-01; fiscal year starts in month 4.\nPage index 41, printed label A3: 37.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Headline inflation average, Equity share capital %, Inflation rate, gross fiscal deficit (GFD) as % of GDP, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Value of exports, Restated loss for the period / year, merchandise exports growth rate, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, merchandise imports growth rate, Real gross value added GVA growth rate, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, Total borrowings, merchandise trade deficit, Foreign exchange reserves, express parcel shipments, net FPI inflows, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, merchandise imports, Cash & cash equivalents at the end of the year, Total equity, Total liabilities, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Number of Observations, Total assets, Authorised share capital, Core inflation average, Basic loss per share, Current account deficit (CAD) as % of GDP, Total revenue from customers, External debt to GDP ratio, Revenue Deficit, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, Primary Deficit, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Total expenses, merchandise exports, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Net FDI, Money Supply growth rate, revenue from services growth rate, Other income, Networth, CBDC (Retail) amount outstanding, Freight, handling and servicing cost, Outstanding at the end of the year, Reserve money growth rate, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Capital expenditure, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, currency depreciation rate, Debt to Equity, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, 10-year generic G-sec yield, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, average tariff rate on dutiable items, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Gross fixed capital formation growth rate, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, R&D expenditure in GDP, Primary Revenue Deficit, Number of new markets explored, express parcel shipments since inception, FDI inflows, Investments in technology, R-squared, Retention rate, Return to work rate, Total (B), Yields, Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, Household financial saving (net) as % of gross national disposable income (GNDI), Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, Sortation capacity utilisation, fresh issuance of CDs, High consequence work-related injury or ill-health (excluding fatalities)\n\nTEXT LAYER:\nINDIA \nINTERNATIONAL MONETARY FUND 37 \nFigure 9. India: Banking and NBFC Sector Developments \nThe CAR for the banking system has improved, while \nPSB’s CARs have been consistently lower than those of \nother banks … \n \n… and the gross non-performing loans ratio has \ncontinued to decline.  \n \n \n \nConcentration risks moderated for PSBs to within Basel \nIII large exposure limit (25 percent of CET1) but rose for \nforeign banks. \n \nConcentration risks are particularly high for state-\nowned IFCs, with state-owned NBFCs being  exempted \nfrom large exposure limits on a case-by-case basis. \n  \n \n \nPVBs are the most active in unsecured retails loans and \nhave incurred the highest credit risks from the segment \nrecently. \n \nNBFC-IFCs increasingly rely on bank borrowings, both \ndomestically and internationally. \n \n \n  \n \n \n0%\n5%\n10%\n15%\n20%\n25%\n30%\n35%\n40%\n45%\nPSBs\nPrivate Banks\nForeign Banks\nAll SCBs\n2017\n2023\nTop 1: Large Credit Exposure by Type of Banks\n(In percent of Common Equity Tier1)\nSources: Reserve Bank of India; and IMF staff estimates. \n20.8\n7.8\n2.2\n60.1\n25.0\n4.3\n65.0\n26.1\n1.2\n31.0\n1.8\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nALL\nICC\nMFI\nIFC\nIDF\nNOGOVT\nGOVT\nND\nD\nMIDDLE\nUPPER\nSources: RBI returns; and IMF staff calculations.\nNotes: ICC = investment and credit companies; MFI =microfinance institutions; IFC = \ninfrastructure financing companies; IDF = infrastructure debt fund; NOGOVT = private sector \nowned; GOVT = government owned; ND = non deposit taking; D = deposit taking;  MIDDLE = \nmiddle layer (of the tiered supervisory framework); and UPPER = upper layer.\nTop 1: Large Credit Exposure as of June 2024\n(In percent of Tier 1 Capital)\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n35%\n40%\n45%\nHousing Loans\n(incl. priority, in\npercent of total\nloans)\nRetail Loans (excl.\nhousing, in\npercent of total\nloans)\nNew NPA,\nHousing (incl.\npriority, percent of\ntotal new NPA)\nNew NPAs, Retail\n(excl. housing, in\npercent of total\nnew NPA)\nPSBs\nPrivate Banks\nSectoral Credit Risks: Housing Loans and other Retail Loans\n(2022/2023)\nSource: IMF staff estimates. \n©International Monetary Fund. Not for Redistribution\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "ALL",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "20.8",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "20.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "ICC",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "7.8",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "7.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "MFI",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "2.2",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "2.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "IFC",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "60.1",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "60.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "IDF",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "25.0",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "25.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "NOGOVT",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "4.3",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "4.3",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "GOVT",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "65.0",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "65.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "ND",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "26.1",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "26.1",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "D",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "1.2",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "1.2",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "MIDDLE",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "31.0",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "31.0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Top 1: Large Credit Exposure as of June 2024",
+    "confidence": 0.9,
+    "entity": "UPPER",
+    "estimate_type": "actual",
+    "measurement_basis": "In percent of Tier 1 Capital",
+    "period": "June 2024",
+    "period_end": "2024-06-30",
+    "period_start": "2024-06-30",
+    "quote": "1.8",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "per cent",
+    "value": "1.8",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4138,
+  "output_tokens": 1628
+ }
+}

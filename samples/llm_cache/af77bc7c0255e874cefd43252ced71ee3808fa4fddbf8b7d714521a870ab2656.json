@@ -1,0 +1,370 @@
+{
+ "key": "af77bc7c0255e874cefd43252ced71ee3808fa4fddbf8b7d714521a870ab2656",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "fd471c92fd7b0053d623cefcdbfd549352ccd86064f30b55aff7d73716d23dc9",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 45, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Team size, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Automated sort centers, Revenue from contracts with customers, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, Networth, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, organized players market share, Count of 46-ft tractors, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, express parcel shipments since inception, Other income, Investments in technology, allowance for doubtful debts, Amount spent for the project, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Board members count, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, market CAGR, Sortation capacity utilisation, Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Property, plant and equipment, No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, No. of ESOPs vested as on March 31, 2024, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, private consumption expenditure growth rate, Contractual manpower expenses, Deferred tax credit, Current tax, Net debt, direct spend of logistics sector, No. of ESOPs exercised during FY24, Foreign exchange earnings, Foreign exchange outgo, Line haul expenses, Lost shipment expense (net), Other expenses, Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, GDP growth rate\n\nTEXT LAYER:\nFinancial \nYear Ended\nDate\nTime\nVenue\nSpecial Resolution(s) Passed\nMarch 31, \n2021\nSeptember \n29, 2021\n4.30 P.M.\nN24-N34, S24-S34, Air Cargo Logistics \nCentre-II, \nOpposite \nGate \n6 \nCargo \nTerminal, IGI Airport, New Delhi – \n110037\n1.\t\n\u0007To approve the sub-division of shares of the company into \nshares of smaller amount than fixed by the Memorandum \nof Association of the company and consequent alteration \nto the Memorandum of Association\n2.\t\n\u0007To approve the amendments to the existing Delhivery \nEmployee Stock Option Plan, 2012 of the Company\n3.\t\n\u0007To approve the amendments to the existing Delhivery \nEmployee Stock Option Plan II, 2020 of the Company\n4.\t\n\u0007To approve the amendments to the existing Delhivery \nEmployee Stock Option Plan III, 2020 of the Company\n5.\t\n\u0007To approve the Delhivery Employee Stock Option Plan IV, \n2021 of the Company\n6.\t\n\u0007To approve the Conversion of Company from private \nlimited to public limited company and alteration of \nMemorandum of Association and Articles of Association\nIn FY24, the Company has not passed any resolution through \npostal ballot.\nThere is no immediate proposal for passing any resolution \nthrough postal ballot.\nMeans of Communication\nThe Company promptly discloses information on material \ncorporate developments and other events as required under \nthe SEBI Listing Regulations. Such timely disclosures indicate \nthe good corporate governance practices of the Company. For \nthis purpose, it provides multiple channels of communications \nthrough dissemination of information on the online portal of \nthe Stock Exchanges, Press Releases, Annual Reports and by \nplacing relevant information on its website.\na)\t\nFinancial Results and newspaper publication\n\t\n\u0007The quarterly, half-yearly and annual financial results are \nregularly submitted to the National Stock Exchange of \nIndia Limited (“NSE”) and BSE Limited (“BSE”), where \nshares of the Company are listed. The financial results \nare generally published in Financial Express (English \nnewspaper-all India edition) and Jansatta (Hindi-\nRegional newspaper) and simultaneously uploaded on \nthe Company’s website.\nb)\t\nWebsite and New Releases\n\t\n\u0007In compliance with Regulation 46 of the SEBI Listing \nRegulations, the Company has an active website and has \na separate section for investors at https://www.delhivery.\ncom/company/investor-relations.The said section keep \ninvestors updated on the key and material developments \nof the Company by providing timely information like \npress release, financial results, presentations made \nto institutional investors or analysts, annual reports, \nshareholding pattern, codes and policies, stock exchange \nfilings, etc. It also displays official news releases.\n\t\n\u0007The Company’s official news releases and presentations \nmade to the institutional investors and analysts are also \navailable on the Company’s website at https://www.\ndelhivery.com/company/investor-relations\nc)\t\nInstitutional Investors/Analyst Meets\n\t\n\u0007In compliance with Regulation 46 of the SEBI Listing \nRegulations, the presentations, audio recordings and \ntranscripts of investors conference call on performance \nof the Company are placed on the Company’s website \nfor the benefit of the institutional investors, analysts and \nother shareholders.\n\t\n\u0007The Company also conducts calls/meetings with \ninvestors immediately after declaration of financial \nresults to brief them on the performance of the Company.\n\t\n\u0007The Company makes timely disclosures of necessary \ninformation to BSE and NSE, where equity shares of \nthe Company are listed, in terms of the SEBI Listing \nRegulations and other applicable rules and regulations \nissued by the Securities and Exchange Board of India \n(“SEBI”).\nGeneral Shareholders Information\na)\t\nAnnual General Meeting 2024\nDay & Date\nMonday, September 02, 2024\nTime\n11:00 A.M\nVenue\nVideo Conferencing (Deemed Venue for \nMeeting - N24-N34, S24-S34, Air Cargo \nLogistics Centre-II, Opposite Gate 6 \nCargo Terminal, IGI Airport,  \nNew Delhi-110037)\nFinancial Year\n2023-24\nCut-off Date\nMonday, August 26, 2024\nDividend Payment \nDate\nNot Applicable\nb)\t\nListing on Stock Exchanges\n\t\n\u0007The equity shares of the Company are listed on BSE and NSE with effect from May 24, 2022. The annual listing fees for \nFY24 and FY25 have been paid by the Company to the Stock Exchanges.\n\t\nISIN and Stock Code details\nStock Exchanges\nISIN\nStock Code\nBSE Limited, Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai - 400 001, \nMaharashtra, India\nINE148O01028\n543529\nNational Stock Exchange of India Limited, Exchange Plaza, 5th Floor, Plot No. C/1, G \nBlock, Bandra-Kurla Complex, Mumbai - 400 051, Maharashtra, India\nINE148O01028\nDELHIVERY\nc)\t\nMarket Price Data\n\t\n\u0007Market price data of the shares of the Company i.e. high, low during each month in FY24 on BSE and NSE\nMonth (FY24)\nBSE\nNSE\nHigh (J)\nLow (J)\nHigh (J)\nLow (J)\nApril\n382.50\n321.05\n382.75\n321.65\nMay\n384.80\n341.05\n384.95\n347.05\nJune\n416.75\n345.20\n416.25\n345.15\nJuly\n423.50\n378.75\n423.25\n378.50\nAugust\n444.70\n394.30\n445.00\n394.65\nSeptember\n452.00\n408.65\n452.40\n408.00\nOctober\n448.50\n401.75\n449.00\n401.55\nNovember\n419.15\n380.00\n419.55\n379.95\nDecember\n402.55\n354.50\n402.50\n354.20\nJanuary\n455.00\n381.55\n454.95\n381.35\nFebruary\n488.05\n412.20\n488.00\n412.20\nMarch\n478.00\n415.45\n478.40\n415.05\n\t\n(Source: The above information is compiled from the data available on the websites of BSE and NSE)\nd)\t\nPerformance in comparison to broad-based indices such as BSE Sensex and NSE Nifty during the FY24\n700\n600\n500\n400\n300\n200\n100\n24,000\n22,000\n20,000\n18,000\n16,000\n14,000\n12,000\n  NSE Nifty High (Index)                \n  Delhivery Limited High (₹) \nMar-24\nMay-23\nApr-23\nJun-23\nJul-23\nAug-23\nSep-23\nOct-23\nNov-23\nDec-23\nJan-24\nFeb-24\n(Index)\n(₹)\nCorporate Governance Report (Contd.)\nAnnual Report 2023-24\n91\n90\nDelhivery Limited\nStatutory Reports\nCorporate Overview\nFinancial Statements\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Stock Code",
+    "entity": "BSE Limited",
+    "quote": "BSE Limited, Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai - 400 001, \nMaharashtra, India\tINE148O01028\t543529",
+    "quote_source": "text",
+    "unit": "",
+    "value": "543529",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Stock Code",
+    "entity": "National Stock Exchange of India Limited",
+    "quote": "National Stock Exchange of India Limited, Exchange Plaza, 5th Floor, Plot No. C/1, G \nBlock, Bandra-Kurla Complex, Mumbai - 400 051, Maharashtra, India\tINE148O01028\tDELHIVERY",
+    "quote_source": "text",
+    "unit": "",
+    "value": "DELHIVERY",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "ISIN",
+    "entity": "BSE Limited",
+    "quote": "BSE Limited, Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai - 400 001, \nMaharashtra, India\tINE148O01028\t543529",
+    "quote_source": "text",
+    "unit": "",
+    "value": "INE148O01028",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "ISIN",
+    "entity": "National Stock Exchange of India Limited",
+    "quote": "National Stock Exchange of India Limited, Exchange Plaza, 5th Floor, Plot No. C/1, G \nBlock, Bandra-Kurla Complex, Mumbai - 400 051, Maharashtra, India\tINE148O01028\tDELHIVERY",
+    "quote_source": "text",
+    "unit": "",
+    "value": "INE148O01028",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Market share price high (BSE)",
+    "entity": "Delhivery Limited",
+    "period": "April FY24",
+    "period_end": "2024-04-30",
+    "period_start": "2024-04-01",
+    "quote": "April 382.50",
+    "quote_source": "text",
+    "unit": "₹",
+    "value": "382.50",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Market share price low (BSE)",
+    "entity": "Delhivery Limited",
+    "period": "April FY24",
+    "period_end": "2024-04-30",
+    "period_start": "2024-04-01",
+    "quote": "April 382.50 321.05",
+    "quote_source": "text",
+    "unit": "₹",
+    "value": "321.05",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Market share price high (BSE)",
+    "entity": "Delhivery Limited",
+    "period": "March FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-01",
+    "quote": "March 478.00 415.45",
+    "quote_source": "text",
+    "unit": "₹",
+    "value": "478.00",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Market share price low (BSE)",
+    "entity": "Delhivery Limited",
+    "period": "March FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-01",
+    "quote": "March 478.00 415.45",
+    "quote_source": "text",
+    "unit": "₹",
+    "value": "415.45",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Market share price high (NSE)",
+    "entity": "Delhivery Limited",
+    "period": "March FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-01",
+    "quote": "March 478.40 415.05",
+    "quote_source": "text",
+    "unit": "₹",
+    "value": "478.40",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Market share price low (NSE)",
+    "entity": "Delhivery Limited",
+    "period": "March FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-01",
+    "quote": "March 478.40 415.05",
+    "quote_source": "text",
+    "unit": "₹",
+    "value": "415.05",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 5325,
+  "output_tokens": 1166
+ }
+}

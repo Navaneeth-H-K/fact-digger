@@ -1,0 +1,382 @@
+{
+ "key": "49f804538355e437645d05b9f93509826b21f5168aeba82b12e0a47a86e86670",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "bccf81c3bf2843e50dd34372de347f192aa08f1d108f6729d956f24f458b56b3",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 03-imf-india-2025-article-iv-excerpt.pdf; title: unknown; publisher: International Monetary Fund; published: 2025-11-01; fiscal year starts in month 4.\nPage index 70, printed label A3: 66.\nExisting attribute vocabulary (reuse a name when it means the same thing): GDP growth rate, Headline inflation average, Inflation rate, gross fiscal deficit (GFD) as % of GDP, Equity share capital %, revenue from services, Property, plant and equipment, Value of exports, Remuneration to key management personnel, merchandise exports growth rate, Restated loss for the period / year, Active Customers, Foreign exchange reserves, merchandise imports growth rate, Team size, Weighted average cost of acquisition per Equity Share, Real gross value added GVA growth rate, Pin-code reach, merchandise trade deficit, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, Total borrowings, Primary Deficit, External debt to GDP ratio, express parcel shipments, Current account deficit (CAD) as % of GDP, net FPI inflows, merchandise imports, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Total assets, Cash & cash equivalents at the end of the year, Total equity, Total liabilities, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Money Supply growth rate, Number of Observations, Authorised share capital, Core inflation average, Basic loss per share, Total revenue from customers, Revenue Deficit, Total income, Top 1: Large Credit Exposure as of June 2024, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, merchandise exports, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, currency depreciation rate, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Total expenses, Express Parcel revenue, PTL freight revenue, Risk Likelihood, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Net FDI, Reserve money growth rate, revenue from services growth rate, Other income, Networth, CBDC (Retail) amount outstanding, Freight, handling and servicing cost, Outstanding at the end of the year, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Capital expenditure, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Debt to Equity, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, 10-year generic G-sec yield, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, average tariff rate on dutiable items, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Gross fixed capital formation growth rate, Fulfilment centres operated, Fresh issuances of commercial papers, Spread over corresponding risk-free rate, R&D expenditure in GDP, Primary Revenue Deficit, Number of new markets explored, express parcel shipments since inception, FDI inflows, Investments in technology, R-squared, Retention rate, Return to work rate, Total (B), Yields, Risk-weighted capital adequacy ratio (CAR), Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, Household financial saving (net) as % of gross national disposable income (GNDI), Revenue, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes\n\nTEXT LAYER:\nINDIA  \n66 \nINTERNATIONAL MONETARY FUND \nAnnex VII. Data Issues \nFigure 1. India: Data Adequacy Assessment for Surveillance  \n  \n \n \nNational \nAccounts 4/\nPrices\nGovernment \nFinance Statistics\nExternal Sector \nStatistics\nMonetary and \nFinancial \nStatistics\nInter-sectoral \nConsistency \nMedian Rating\nC\nB\nB\nB\nB\nB\nB\nCoverage\nC\nC\nC\nA\nC\nB\nB\nB\nB\nA\nB\nConsistency\nB\nB\nB\nFrequency and Timeliness\nA\nA\nC\nA\nB\nA\nB\nC\nD\nThe data provided to the Fund have some shortcomings that somewhat hamper surveillance.\nThe data provided to the Fund have serious shortcomings that significantly hamper surveillance.\nRationale for staff assessment. National accounts data are available at adequate frequency and timeliness and provide broadly adequate granularity. \nHowever, some methodological weaknesses somewhat hamper surveillance and warrant an overall sectoral rating for the national accounts of C. Main \nmethodological issues are related to coverage, including (i) an outdated base year (2011/12), (ii) use of wholesale price indices as data sources for \ndeflators due to the lack of producer prices indices, and excessive use of single deflation, which may introduce cyclical biases, (iii) at times sizable \ndiscrepancies between production and expenditure approaches, that may indicate the need to enhance the coverage of the expenditure approach data \nand the informal sector, and (iv) lack of seasonally adjusted data and room for improvement of other statistical techniques used in the quarterly national \naccounts compilation. On granularity, further breakdown of Gross Fixed Capital Formation by institutional sector (published with a significant lag) and \nfurther disaggregation of the quarterly production and expenditure approach estimates would allow for a more detailed analysis of economic trends. On \nprice statistics, CPI is available at adequate frequency and timeliness. The rating granted to coverage reflects the outdated CPI base year, items basket, \nand weights (2011/12), implying that the CPI basket likely fails to accurately represent current spending habits. \nOn government finance statistics, the granularity of available data is broadly adequate, while coverage and timeliness can be improved. Consolidated \ncentral and state government fiscal data have not been published since mid-2019 (covering outturns for FY2015-16), and consolidated general \ngovernment data, which would include local government and extrabudgetary funds, are not compiled. However, the RBI publishes a limited set of \nconsolidated fiscal aggregates with a lag of more than one year. Monthly data on fiscal operations for the central government and individual states are \npublished on a timely basis, but consolidated fiscal accounts across all states are available with a long lag.\nOn the external sector statistics, coverage, frequency and timeliness are adequate, while granularity and consistency present room for improvement. \nThe information on international reserves does not include pledged or encumbered assets and foreign exchange swaps, and additional granularity of \ndata on exports and imports of services would be useful for more detailed analysis.\nMonetary and financial sector statistics are broadly adequate for surveillance, with scope for improvement in coverage and timeliness. In particular, \nthere are limited data provided on NBFCs, households, and systemwide financial interconnectedness. Data reported to the IMF International Financial \nStatistics (IFS) database lack some granularity in terms of financial instruments and counterparts. Reported Financial Soundness Indicators (FSI) data use \noutdated reporting forms that lack granularity and could be upgraded based on FSI 2019 Guidelines. Banking sector data are available with a lag of \nabout three quarters, which is behind some other emerging and advanced economies. \nNote: When the questionnaire does not include a question on a specific dimension of data quality for a sector, the corresponding cell is blank.\n1/ The overall data adequacy assessment is based on staff's assessment of the adequacy of the country’s data for conducting analysis and formulating policy advice, and takes \ninto consideration country-specific characteristics.\n2/ The overall questionnaire assessment and the assessments for individual sectors reported in the heatmap are based on a standardized questionnaire and scoring system \n(see IMF Review of the Framework for Data Adequacy Assessment for Surveillance , January 2024, Appendix I).\n3/ The top cell for \"Granularity\" of Government Finance Statistics shows staff's assessment of the granularity of the reported government operations data, while the bottom \ncell shows that of public debt statistics. The top cell for \"Granularity\" of Monetary and Financial Statistics shows staff's assessment of the granularity of the reported \nMonetary and Financial Statistics data, while the bottom cell shows that of the Financial Soundness indicators.\n4/ Given the issues related to coverage, a higher weight is applied to coverage relative to granularity and frequency, thus resulting in an overall “C” rating for national \naccounts.  \nThe data provided to the Fund are adequate for surveillance.\nThe data provided to the Fund have some shortcomings but are broadly adequate for surveillance.\nData Quality Characteristics\nGranularity 3/\nData Adequacy Assessment Rating 1/\nB\nQuestionnaire Results 2/\nAssessment\nDetailed Questionnaire Results\n©International Monetary Fund. Not for Redistribution\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Data Adequacy Assessment Rating",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": "staff assessment",
+    "period": "2024",
+    "period_end": "2024-01-31",
+    "period_start": "2024-01-01",
+    "quote": "Data Adequacy Assessment Rating 1/ B",
+    "quote_source": "image",
+    "unit": null,
+    "value": "B",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Median Rating",
+    "confidence": 1,
+    "entity": "India",
+    "estimate_type": "actual",
+    "measurement_basis": "Questionnaire Results",
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "Median Rating B",
+    "quote_source": "image",
+    "unit": null,
+    "value": "B",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "National Accounts Rating",
+    "confidence": 1,
+    "entity": "National Accounts",
+    "estimate_type": "actual",
+    "measurement_basis": "Questionnaire Results",
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "National Accounts 4/ C",
+    "quote_source": "image",
+    "unit": null,
+    "value": "C",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Prices Rating",
+    "confidence": 1,
+    "entity": "Prices",
+    "estimate_type": "actual",
+    "measurement_basis": "Questionnaire Results",
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "Prices B",
+    "quote_source": "image",
+    "unit": null,
+    "value": "B",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Government Finance Statistics Rating",
+    "confidence": 1,
+    "entity": "Government Finance Statistics",
+    "estimate_type": "actual",
+    "measurement_basis": "Questionnaire Results",
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "Government Finance Statistics B",
+    "quote_source": "image",
+    "unit": null,
+    "value": "B",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "External Sector Statistics Rating",
+    "confidence": 1,
+    "entity": "External Sector Statistics",
+    "estimate_type": "actual",
+    "measurement_basis": "Questionnaire Results",
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "External Sector Statistics B",
+    "quote_source": "image",
+    "unit": null,
+    "value": "B",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Monetary and Financial Statistics Rating",
+    "confidence": 1,
+    "entity": "Monetary and Financial Statistics",
+    "estimate_type": "actual",
+    "measurement_basis": "Questionnaire Results",
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "Monetary and Financial Statistics B",
+    "quote_source": "image",
+    "unit": null,
+    "value": "B",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "Inter-sectoral Consistency Rating",
+    "confidence": 1,
+    "entity": "Inter-sectoral Consistency",
+    "estimate_type": "actual",
+    "measurement_basis": "Questionnaire Results",
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "Inter-sectoral Consistency B",
+    "quote_source": "image",
+    "unit": null,
+    "value": "B",
+    "value_kind": "text"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4551,
+  "output_tokens": 779
+ }
+}

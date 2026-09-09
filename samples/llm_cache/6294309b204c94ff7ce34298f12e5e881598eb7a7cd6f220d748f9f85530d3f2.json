@@ -1,0 +1,86 @@
+{
+ "key": "6294309b204c94ff7ce34298f12e5e881598eb7a7cd6f220d748f9f85530d3f2",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "adjudicate",
+ "request": {
+  "content": [
+   {
+    "text": "FACT A:\nentity: Delhivery Limited\nattribute: Pin-code reach\nvalue: 13,485 \nnormalised value: 13485.0 count\nperiod: Fiscal 2019 (2018-04-01 to 2019-03-31)\nestimate type: actual\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 01-delhivery-prospectus-2022-excerpt.pdf; publisher: Delhivery Limited; published: 2022-05-14\npage label: 214\nevidence verified: True (normalized)\nquote: \"PIN code reach 13,485 15,875 16,677 17,488\"\n\nFACT B:\nentity: Delhivery\nattribute: Pin-code reach\nvalue: 18,793\nnormalised value: 18793.0 count\nperiod: unknown\nestimate type: unknown\nmeasurement basis: not stated\nattributed to: the document itself\ndocument: 02-delhivery-annual-report-fy24-excerpt.pdf; publisher: Delhivery Limited; published: 2024-04-01\npage label: 12\nevidence verified: True (fuzzy)\nquote: \"18,793\\npin codes\"\n\nRule-engine hypothesis: period of a fact is unclear\n\nDecide the verdict.",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You compare two facts extracted from two documents and decide how they relate.\n\nVerdicts:\n- corroborates: same quantity, same period, same basis, compatible values (allow rounding).\n- superseded: same quantity and period, but a later data vintage or a revision replaces the\n  earlier value; name which fact is newer.\n- context_explained: the values differ because the period, scope/basis, unit or attribution\n  differs; name that dimension. This is not a contradiction.\n- contradicts: same quantity, period, basis and unit carry incompatible values.\n- unresolved: the evidence does not settle it; give your best hypothesis in the explanation.\n\nUse only the fields and quotes provided. Keep the explanation under 60 words and cite the\ndistinguishing phrase from each quote.",
+  "tool_name": "record_verdict",
+  "tool_schema": {
+   "additionalProperties": false,
+   "properties": {
+    "confidence": {
+     "default": 0.5,
+     "maximum": 1.0,
+     "minimum": 0.0,
+     "title": "Confidence",
+     "type": "number"
+    },
+    "dimension": {
+     "default": "none",
+     "enum": [
+      "period",
+      "estimate_type",
+      "basis",
+      "unit",
+      "vintage",
+      "attribution",
+      "value",
+      "none"
+     ],
+     "title": "Dimension",
+     "type": "string"
+    },
+    "explanation": {
+     "maxLength": 800,
+     "minLength": 1,
+     "title": "Explanation",
+     "type": "string"
+    },
+    "newer_fact": {
+     "default": "none",
+     "enum": [
+      "a",
+      "b",
+      "none"
+     ],
+     "title": "Newer Fact",
+     "type": "string"
+    },
+    "verdict": {
+     "enum": [
+      "corroborates",
+      "contradicts",
+      "superseded",
+      "context_explained",
+      "unresolved"
+     ],
+     "title": "Verdict",
+     "type": "string"
+    }
+   },
+   "required": [
+    "verdict",
+    "explanation"
+   ],
+   "title": "Verdict",
+   "type": "object"
+  }
+ },
+ "response": {
+  "dimension": "period",
+  "explanation": "Fact A gives a pin-code reach of 13,485 for Fiscal 2019 (\"PIN code reach 13,485\"), while Fact B gives 18,793 (\"18,793 pin codes\") for an unknown period. Because the time periods differ (or are unknown for Fact B), they are not directly comparable.",
+  "newer_fact": "none",
+  "verdict": "context_explained"
+ },
+ "usage": {
+  "input_tokens": 715,
+  "output_tokens": 119
+ }
+}

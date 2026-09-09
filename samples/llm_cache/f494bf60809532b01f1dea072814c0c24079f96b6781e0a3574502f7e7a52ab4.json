@@ -1,0 +1,415 @@
+{
+ "key": "f494bf60809532b01f1dea072814c0c24079f96b6781e0a3574502f7e7a52ab4",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "1b4f8ab660423e8395678e4e594b7d44cd0ef5b8d2aa4d7cc4715720e70ca97f",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 61, printed label 57.\nExisting attribute vocabulary (reuse a name when it means the same thing): Headline inflation average, GDP growth rate, Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, Inflation rate, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Value of exports, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Real gross value added GVA growth rate, Total borrowings, global market share of apparel exports, Infrastructure, Weight in CPI-Food and Beverages, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, merchandise exports growth rate, merchandise imports growth rate, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, merchandise trade deficit, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Change in Persistence Parameter, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Core inflation average, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, Outstanding at the end of the year, Foreign exchange reserves, Total expenses, net FPI inflows, Number of Observations, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share in Production, Share capital acquired in Falcon, CBDC (Retail) amount outstanding, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, R&D expenditure in GDP, Debt to Equity, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, bad debts written-off, Reserve Money share in Reserve Bank's balance sheet liabilities, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Gross fixed capital formation growth rate, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, gross fiscal deficit (GFD) as % of GDP, merchandise exports, Reserve money growth rate, Money Supply growth rate, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Current account deficit (CAD) as % of GDP, Sortation capacity utilisation, fresh issuance of CDs, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), currency depreciation rate, Revenue from customers, Household financial saving (net) as % of gross national disposable income (GNDI), Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, No. of fatalities, Net FDI, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given\n\nTEXT LAYER:\nECONOMIC REVIEW\n57\nand tightening phases of monetary policy as well as periods \nwhen credit growth lagged deposit growth and vice versa.\nUnder the GARCH (1,1)-X framework, the mean equation \nis modelled as follows:\nSpreadt = β0 + β1 Spreadt–1 + β2 Xt + Ɛt \t\n…. (1)\nThe spread of CD rate is influenced by past values, with \nXt as a vector of explanatory variables and an error term \nreflecting shocks that impact the CD rates. The error \nterm is a function of lagged information matrix Ω-1 and is \nassumed to be normally distributed with zero mean. The \nvariance ht is defined as:\n ht = α0 + α1Ɛ2 \nt-1 + α2ht-1 + α3 VIXt \t\n…. (2)\nwhere α1, α2 and α3 are coefficients of ARCH, GARCH \neffects and volatility in financial markets.\nThe regression results indicate that an improvement in \nsystem liquidity has a moderating (statistically significant) \nimpact on the spread of CDs, while increasing wedge \nbetween credit and deposit growth elongates the spread. \nThe interactive term of NLAF and DUM-CDGap31 suggest \nthat although the sobering impact of system liquidity \nremains statistically significant, the effect wanes when \ncredit growth is faster than that of deposits. Moreover, \nthe estimates of conditional volatility reveal that volatility \nof the spread was generally low, barring a few episodes \nincluding COVID-19 (Table 1 and Chart 3). The residual \ndiagnostics show no ARCH effects and no autocorrelation in \nresiduals.\nReferences:\n1.\t FBIL (2020), ‘Indian CD Market: 2013-2019’, FBIL \nThematic Study, July.\n2.\t Patra, M. Behera, H. and John, J. (2020), ‘Revisiting \nthe Determinants of the Term Premium in India’, RBI \nBulletin, November.\n3.\t Priyadarshini, P., Anshul, Sardar, S., Chaudhari, D.R., \nand Das, S. (2024), ‘Drivers of Commercial Paper Rate \nSpread - An Empirical Assessment’, RBI Working Paper \nSeries, March.\n31\t DUM-CDGAP dummy variable takes value 0 for the period when deposit grew faster than credit and 1 otherwise.\nTable 1: GARCH (1,1) Estimation Results\n Model 1\n Model 2\n Model 3\nMean equation:\nSpreadt = β0 + β1 Spreadt-1 + β2 Xt + Ɛt\nConstant \n 5.133***\n (0.659)\n2.743***\n (1.043)\n5.902***\n(0.655)\nSpreadt-1\n 0.922***\n (0.009)\n0.906***\n (0.010)\n0.910***\n(0.009)\nDUM-CDGapt\n3.617**\n(1.069)\nNLAFt\n -0.467***\n (0.114)\n -0.116\n(0.164)\n-0.653***\n(0.120)\nNLAFt \nX\nDUM -CDGapt\n0.612***\n(0.209)\nVariance equation:\nht = α0 + α1Ɛ2 \nt-1 + α2ht-1 + α3 VIXt\nARCH (1)\n0.380***\n (0.042)\n0.390***\n(0.044)\n0.384***\n(0.043)\nGARCH (1)\n0.294***\n (0.052)\n0.292***\n(0.053)\n0.300***\n(0.054)\nVIXt\n 5.344***\n (0.499)\n5.169***\n(0.486)\n5.185***\n(0.506)\nDiagnostics:\nLog likelihood:\n -3453.49\n-3449.29\n-3450.20\nTotal Observations:\n 907\n907\n907\nARCH (LM) Prob. (F):\n 0.920\n0.875\n0.893\nAkaike Info Criterion: \n 7.768\n7.760\n7.762\n***, **, and * indicate significance levels at 1 per cent, 5 per cent \nand 10 per cent, respectively.\nNote: Figures in parentheses are standard errors.\nSource: RBI staff estimates.\nChart 3: Time Varying Volatility of CD Rate Spread\nConditional standard deviation (bps)\n0\n20\n40\n60\n80\n100\n120\n140\n160\n01-Jan-20\n27-Feb-20\n24-Apr-20\n20-Jun-20\n16-Aug-20\n12-Oct-20\n08-Dec-20\n03-Feb-21\n01-Apr-21\n28-May-21\n24-Jul-21\n19-Sep-21\n15-Nov-21\n11-Jan-22\n09-Mar-22\n05-May-22\n01-Jul-22\n27-Aug-22\n23-Oct-22\n19-Dec-22\n14-Feb-23\n12-Apr-23\n08-Jun-23\n04-Aug-23\n30-Sep-23\n26-Nov-23\n22-Jan-24\n19-Mar-24\n15-May-24\n11-Jul-24\n06-Sep-24\nSource: RBI staff estimates.\n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "Constant",
+    "confidence": 1,
+    "entity": "Model 1 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "5.133***\n (0.659)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "5.133",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Constant",
+    "confidence": 1,
+    "entity": "Model 2 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "2.743***\n (1.043)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "2.743",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Constant",
+    "confidence": 1,
+    "entity": "Model 3 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "5.902***\n(0.655)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "5.902",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Spread t-1",
+    "confidence": 1,
+    "entity": "Model 1 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "0.922***\n (0.009)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "0.922",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Spread t-1",
+    "confidence": 1,
+    "entity": "Model 2 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "0.906***\n (0.010)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "0.906",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Spread t-1",
+    "confidence": 1,
+    "entity": "Model 3 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "0.910***\n(0.009)",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "0.910",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of Observations",
+    "confidence": 1,
+    "entity": "Model 1 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "907",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "907",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of Observations",
+    "confidence": 1,
+    "entity": "Model 2 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "907",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "907",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of Observations",
+    "confidence": 1,
+    "entity": "Model 3 (GARCH 1,1 Estimation)",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": null,
+    "period_end": null,
+    "period_start": null,
+    "quote": "907",
+    "quote_source": "text",
+    "scale": null,
+    "unit": null,
+    "value": "907",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4880,
+  "output_tokens": 1028
+ }
+}

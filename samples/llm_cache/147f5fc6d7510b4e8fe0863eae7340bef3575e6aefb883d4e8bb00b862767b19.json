@@ -1,0 +1,263 @@
+{
+ "key": "147f5fc6d7510b4e8fe0863eae7340bef3575e6aefb883d4e8bb00b862767b19",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "d75483b4715abe7c14217ecfac1019e515d6f7c188433a6bbc34a9ade46f25f1",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 76, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, revenue from services, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Total revenue from customers, Equity Shares held, Total equity, Number of preference shares acquired, Total assets, Restated other comprehensive income / (loss) for the period / year, NWC days, Gateways, Total income, Net cash from / (used in) operating activities, Authorised share capital, Automated sort centers, Basic loss per share, Restated loss before tax, Revenue from contracts with customers, Total equity and liabilities, Total liabilities, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cash & cash equivalents at the end of the year, Total Compensation, Restated total comprehensive loss for the period / year, Diluted loss per share, Networth, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, TL revenue, Count of 46-ft tractors, Offer for Sale amount, Share based payment, Board members count, Cross Border Services revenue, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Other equity, Granted Options (Not vested), organized players market share, Profit/(loss) after tax, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Freight, handling and servicing cost, express parcel shipments since inception, Other income, Investments in technology, Retention rate, Return to work rate, allowance for doubtful debts, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fair value loss on financial liabilities as % of revenue from contract with customers, Property, plant and equipment, Total expenses, Sale of traded goods revenue, revenue from services growth rate, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Percentage coverage by training and awareness programmes, Cost of performance-based options, market CAGR, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, No. of fatalities, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Revenue from operations, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Turnover rate for permanent employees (Male), No. of ESOPs granted, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Turnover rate for permanent workers (Male), Services provided, Total Scope 1 and Scope 2 emission intensity in terms of physical output, Total Scope 1 and Scope 2 emission intensity per rupee of turnover, Total Scope 1 emissions, Sales to top 10 dealers/distributors as % of total sales to dealers/distributors, Total Scope 2 emissions, Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH), No. of ESOPs vested as on March 31, 2024, Total Scope 3 emissions per rupee of turnover, Total Scope 3 emissions, Number of days of accounts payables, Weighted average cost of acquisition, Waste intensity per rupee of turnover adjusted for Purchasing Power Parity, Loans & advances given to related parties/Total loans & advances, Spoton fulfilment centres aggregate floor area, Carbon Monoxide (CO) air emissions, Hydrocarbons (HC) air emissions, Particulate matter (PM) air emissions, NOx air emissions, SOx air emissions, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count\n\nTEXT LAYER:\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\nNotes\nTo the Consolidated Financial Statements for the year ended March 31, 2024\nCIN: L63090DL2011PLC221234\n(All amounts in Indian Rupees in million, unless otherwise stated)\n\t\n\u0007Impairment of financial assets\n\t\n\u0007In accordance with Ind AS 109, the group applies \nexpected credit loss (ECL) model for measurement and \nrecognition of impairment loss on the following financial \nassets and credit risk exposure:\n\t\n\u0007i)\t\n\u0007Financial assets that are debt instruments, and \nare measured at amortised cost e.g., loans, debt \nsecurities, deposits and bank balance\n\t\n\u0007ii)\t\n\u0007Trade receivables or any contractual right to receive \ncash or another financial asset that result from \ntransactions that are within the scope of Ind AS 115.\n\t\n\u0007The group follows ‘simplified approach’ for recognition \nof impairment loss allowance on trade receivables. The \napplication of simplified approach does not require the \ngroup to track changes in credit risk. Rather, it recognises \nimpairment loss allowance based on lifetime ECLs at \neach reporting date, right from its initial recognition.\n\t\n\u0007ECLs are recognised in two stages. For credit exposures \nfor which there has not been a significant increase in \ncredit risk since initial recognition, ECLs are provided \nfor credit losses that result from default events that are \npossible within the next 12-months (a 12-month ECL). \nFor those credit exposures for which there has been a \nsignificant increase in credit risk since initial recognition, \na loss allowance is required for credit losses expected \nover the remaining life of the exposure, irrespective of \nthe timing of the default (a lifetime ECL).\n\t\n\u0007ECL is the difference between all contractual cash flows \nthat are due to the group in accordance with the contract \nand all the cash flows that the entity expects to receive \n(i.e., all cash shortfalls), discounted at the original EIR. \nWhen estimating the cash flows, an entity is required \nto consider:\n\t\n\u0007i)\t\n\u0007All contractual terms of the financial instrument \n(including prepayment, extension, call and similar \noptions) over the expected life of the financial \ninstrument. However, in rare cases when the \nexpected life of the financial instrument cannot \nbe estimated reliably, then the entity is required \nto use the remaining contractual term of the \nfinancial instrument.\n\t\n\u0007ii)\t\n\u0007Cash flows from the sale of collateral held or \nother credit enhancements that are integral to the \ncontractual terms.\n\t\n\u0007As a practical expedient, the group uses a provision \nmatrix to determine impairment loss allowance on \nportfolio of its trade receivables. The provision matrix \nis based on its historically observed default rates over \nthe expected life of the trade receivables and is adjusted \nfor forward-looking estimates. At every reporting date, \nthe historical observed default rates are updated and \nchanges in the forward-looking estimates are analysed.\n\t\n\u0007ECL impairment loss allowance (or reversal) recognised \nduring the period is recognised as income/ expense \nin the Consolidated statement of profit and loss. This \namount is reflected under the head ‘other expenses’ in \nthe Consolidated statement of profit and loss.\n\t\n\u0007The consolidated balance sheet presentation for various \nfinancial instruments is described below:\n\t\n\u0007Financial assets measured as at amortised cost, \ncontractual revenue receivables: ECL is presented as \nan allowance, i.e., as an integral part of the measurement \nof those assets in the consolidated Balance Sheet. The \nallowance reduces the net carrying amount. Until the \nasset meets write-off criteria, the group does not reduce \nimpairment allowance from the gross carrying amount.\n\t\n\u0007For assessing increase in credit risk and impairment \nloss, the group combines financial instruments on \nthe basis of shared credit risk characteristics with the \nobjective of facilitating an analysis that is designed to \nenable significant increases in credit risk to be identified \non a timely basis.\n\t\n\u0007Financial liabilities\n\t\n\u0007Initial recognition and measurement\n\t\n\u0007Financial liabilities are classified, at initial recognition, as \nfinancial liabilities at fair value through profit and loss, \nloans and borrowings, payables, as appropriate.\n\t\n\u0007All financial liabilities are recognised initially at fair value \nand, in the case of loans and borrowings and payables, \nnet of directly attributable transaction costs.\n\t\n\u0007The Group’s financial liabilities include trade and \nother payables, loans and borrowings including \nbank overdrafts.\n\t\n\u0007Subsequent measurement\n\t\n\u0007The measurement of financial liabilities depends on their \nclassification, as described below:\n\t\n\u0007Financial liabilities at amortised cost (Loans and \nborrowings)\n\t\n\u0007After initial recognition, interest-bearing loans \nand borrowings are subsequently measured at \namortised cost using the EIR method. Gains and \nlosses are recognised in profit or loss when the \nliabilities are derecognised as well as through the EIR \namortisation process.\n\t\n\u0007Amortised cost is calculated by taking into account any \ndiscount or premium on acquisition and fees or costs \nthat are an integral part of the EIR. The EIR amortisation \nis included as finance costs in the statement of profit \nand loss. This category generally applies to borrowings.\n\t\n\u0007Financial liabilities at fair value through profit and loss\n\t\n\u0007Financial liabilities at fair value through profit or loss \ninclude financial liabilities held for trading or financial \nliabilities designated upon initial recognition as at fair \nvalue through profit or loss.\n\t\n\u0007Financial liabilities are classified as held for trading if \nthey are incurred for the purpose of repurchasing in \nthe near term. This category also includes derivative \nfinancial instruments entered into by the group that \nare not designated as hedging instruments in hedge \nrelationships as",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [],
+  "page_kind": "prose",
+  "problems": [
+   "No numerical facts on this page, only accounting notes and policy descriptions."
+  ]
+ },
+ "usage": {
+  "input_tokens": 4885,
+  "output_tokens": 43
+ }
+}

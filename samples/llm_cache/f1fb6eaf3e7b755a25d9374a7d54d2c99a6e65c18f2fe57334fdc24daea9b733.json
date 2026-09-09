@@ -1,0 +1,412 @@
+{
+ "key": "f1fb6eaf3e7b755a25d9374a7d54d2c99a6e65c18f2fe57334fdc24daea9b733",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "85606b357dbd87d33380ca7ab730d147c43eca1a9fdad64d9153e61dddd5462a",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-delhivery-annual-report-fy24-excerpt.pdf; title: unknown; publisher: Delhivery Limited; published: 2024-04-01; fiscal year starts in month 4.\nPage index 43, printed label none.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, Remuneration to key management personnel, Restated loss for the period / year, Active Customers, Weighted average cost of acquisition per Equity Share, revenue from services, Team size, Pin-code reach, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Infrastructure, EBITDA, EBITDA margin, Equity Shares held, Number of preference shares acquired, Total revenue from customers, NWC days, Gateways, Restated other comprehensive income / (loss) for the period / year, Total equity and liabilities, Total equity, Total income, Automated sort centers, Revenue from contracts with customers, Total assets, Basic loss per share, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Restated total comprehensive loss for the period / year, Instruments entirely equity in nature, Express Parcel revenue, PTL freight revenue, Total liabilities, Networth, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Net cash from / (used in) operating activities, Offer for Sale amount, Authorised share capital, Share based payment, Cross Border Services revenue, Cash & cash equivalents at the end of the year, Diluted loss per share, Service EBITDA margin, Service EBITDA, organized players market share, Count of 46-ft tractors, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, Total borrowings, Capital Expenditure as % of Revenue from Services, express parcel shipments since inception, Other income, Investments in technology, allowance for doubtful debts, Amount spent for the project, Fixed annual remuneration, bad debts written-off, Investments in bank deposits, Cost of time-based options, Fulfilment centres operated, Fair value loss on financial liabilities as % of revenue from contract with customers, Freight, handling and servicing cost, Total expenses, Sale of traded goods revenue, Granted Options (Not vested), revenue from services growth rate, Profit/(loss) after tax, Share capital acquired in Falcon, Age, Aggregate amount involved in litigation, Fulfilment centres aggregate floor area, Aggregate compensation, Rated Automated Sort Capacity, Cost of performance-based options, Board members count, market CAGR, Sortation capacity utilisation, Revenue from customers, Debt to Equity, Ratio of remuneration to the Median Remuneration of Employees, Other equity, PTL freight tonnage growth rate, Fresh Issue size, Loan given, Logistics intensity, Depreciation and amortisation expense, Applications count, Attrition of Key Managerial Personnel, Total cash balance, Employee benefit expense, Revenue CAGR, Installed solar power capacity, Capital work in progress, Express delivery centers, Freight service centers, Compensation paid, Finance costs, Deemed investment, direct spend of logistics sector forecast, Reported EBITDA, Property, plant and equipment, PTL freight tonnage since inception, Fresh Issue volume, Funds utilised for Organic Growth Initiatives (Upgrading and improving proprietary logistics...), PTL YoY revenue growth, TL YoY revenue growth, Offer for Sale size, Revenue from operations, Services provided, Weighted average cost of acquisition, Spoton fulfilment centres aggregate floor area, Median remuneration of all employees per annum, Gross termination compensation amount, Countries reached via partnership with FedEx and Aramex count, Right of use asset, Authorised share capital - Preference Shares (₹100 each), Average shipments daily per centre, Closing cash balance at the end of the year, Issued, Subscribed and Paid-up Equity Share Capital, Net change in cash, Cash generated from / (used in) operations, Processing centers, Spoton fulfilment centres operated, Power, fuel & water charges, private consumption expenditure growth rate, Contractual manpower expenses, Deferred tax credit, Current tax, Net debt, direct spend of logistics sector, Foreign exchange earnings, Foreign exchange outgo, Line haul expenses, Lost shipment expense (net), Other expenses, Vehicle rental expenses, Security expenses, Total tax expense, Express parcel shipments growth rate, organized players market share forecast, GDP growth rate, Global logistics market size, Goodwill, Interest income\n\nTEXT LAYER:\nParticulars\nMr. Kapil Bharati, Executive Director & Chief Technology Officer\nESOP Plan I\nESOP Plan II\nESOP Plan III\nESOP Plan IV\nNo. of ESOPs granted\n1,499,800\n1,068,000\n-\n1,575,000\nExercise price and period\nOptions: Exercise Price in ₹\n824,800: 29.85*,\n675,000: 1\nExercise Period: within four \nyears from date of vesting\nExercise Price: ₹0.1*; \nExercise Period: as provided in \nthe Grant Letter\n-\nExercise Price: ₹1*; \nExercise Period: as provided in \nthe Grant Letter\nEffective date of grant\nOptions: Effective date of grant\n824,800: June 30, 2021,\n675,000: November 20, 2022\nFebruary 01, 2021\n-\nNovember 20, 2022\nVesting period\n1 year to 4 year\nPerformance based vesting \nas defined in the grant letter\n-\nPerformance and time based \nvesting as defined in the grant \nletter\nVesting Conditions\nTime-based vesting as per\nterms of grant approved by\nthe NRC.\nOptions shall vest as per \nterms of grant approved by \nthe NRC.\n-\nOptions shall vest as per terms \nof grant approved by the NRC.\nNo. of ESOPs vested as \non March 31, 2024\n-\n534,000\n-\nNil\nNo. of ESOPs exercised \nduring FY24\n67,500\n534,000\n-\nNil\n* Pursuant to the issuance and allotment of bonus shares (in the proportion of 9:1 i.e. nine equity shares of ₹10 each for every one equity share of \n₹10 each) vide a resolution passed at the extra-ordinary general meeting dated September 27, 2021 and sub-division of face value of equity shares \n(in the proportion of 1 equity share of ₹10/- each to 10 equity shares of ₹1/- each) vide a resolution passed at the annual general meeting dated \nSeptember 29, 2021, appropriate adjustments were made to the outstanding options granted to the employees of the Company under and in terms of \nthe Delhivery Employees Stock Option Plans  such that the exercise price for all outstanding options as on relevant record date (vested and unvested \noptions, including lapsed and forfeited options available for reissue) was proportionately adjusted and the number of options which are available for \ngrant and those already granted but not exercised as on relevant record date was appropriately adjusted. \nDuring FY24, the Company did not have any pecuniary \nrelationship or transactions with Non-Executive Directors \napart from paying remuneration and sitting fees to \nattend Board/Committee meeting(s) to them. The annual \nremuneration paid to a single Non-Executive Director did not \nexceed fifty per cent of the total annual remuneration paid to \nall the Non-Executive Directors of the Company. \nThe annual remuneration of Mr. Sahil Barua, Managing Director \nand Chief Executive Officer, Mr. Sandeep Kumar Barasia, \nExecutive Director and Chief Business Officer and Mr. Kapil \nBharati, Executive Director and Chief Technology Officer, \ncomprises fixed salary, performance related pay & annual \nbonus, perquisites and additional benefits components. The \nterms of severance, notice period and termination for the \nExecutive Directors of the Company will be governed by terms \nand conditions of the service agreements entered with the \nCompany. Further, no notice period or severance fee is paid \nto any other Director.\nThe criteria for making payments to non-executive directors \nis available on Company’s website and can be accessed at \nhttps://www.delhivery.com/company/investor-relations.\nFurther, the annual remuneration of Mr. Deepak Kapoor, \nMr. Srivastan Rajan, Mr. Romesh Sobti, Mr. Saugata \nGupta, Ms. Aruna Sundararajan and Mr. Anindya Ghose, \nNon-Executive Independent Directors comprises a fixed \nannual remuneration being paid on quarterly basis and sitting \nfees at ₹1 lakh per Board/Committee meeting attended \nby them.\nStakeholders’ Relationship Committee (“SRC”)\nThe constitution and the terms of reference of the SRC are in \ncompliance with Section 178 of the Act and Regulation 20 of \nthe SEBI Listing Regulations. As on March 31, 2024, the SRC \ncomprises 3 members, 2 of which are Independent Directors \nand 1 Executive Director.\nDuring FY24, 1 (one) meeting of the Committee was held, \ni.e., on May 19, 2023. The composition of the SRC of the \nCompany along with the details of the meeting held during \nFY24 and attendance of the members of the Committee, is \ndetailed below:\nThe composition of the SRC and the attendance \ndetails of the members during FY24 are given below:\nName of the \nMembers\nCategory\nNo. of \nmeeting \nheld during \ntenure\nNo. of \nmeeting \nattended\nMr. Saugata Gupta \n(Chairperson)\nNon-Executive \nIndependent Director\n1\n1\nMr. Kapil Bharati\nExecutive Director\n1\n1\nM. Romesh Sobti Non-Executive \nIndependent Director\n1\n1\nTerms of Reference\nThe purpose of the SRC is to consider the grievances of \nshareholders and other security holders of your Company, \nincluding complaints relating to non-receipt of annual \nreport, transfer and transmission of securities, non-receipt \nof dividends/interests, issue of new/duplicate certificates, \ngeneral meetings and such other grievances as may be raised \nby the security holders from time to time.\nExtract of the terms of reference of SRC includes the following:\n\t\ny Considering and looking into various aspects of interest of \nshareholders, debenture holders and other security holders;\n\t\ny Resolving the grievances of the security holders of the \nlisted entity including complaints related to transfer/\ntransmission of shares, non-receipt of annual report, \nnon-receipt of declared dividends, issue of new/duplicate \ncertificates, general meetings etc.;\n\t\ny Giving effect to allotment of Equity Shares, approval of \ntransfer or transmission of Equity Shares, debentures or \nany other securities;\n\t\ny Issue of duplicate certificates and new certificates on split/\nconsolidation/renewal, etc.;\n\t\ny Review of measures taken for effective exercise of voting \nrights by shareholders;\n\t\ny Review of adherence to the service standards adopted by \nthe Company in respect of various services being rendered \nby the Registrar & Share Transfer Agent;\n\t\ny Review of the various measures and initiatives taken by \nthe Company for reducing ",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "No. of ESOPs granted",
+    "confidence": 1,
+    "entity": "Mr. Kapil Bharati, Executive Director & Chief Technology Officer (ESOP Plan I)",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "No. of ESOPs granted 1,499,800",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "1,499,800",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of ESOPs granted",
+    "confidence": 1,
+    "entity": "Mr. Kapil Bharati, Executive Director & Chief Technology Officer (ESOP Plan II)",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "1,068,000",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "1,068,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of ESOPs granted",
+    "confidence": 1,
+    "entity": "Mr. Kapil Bharati, Executive Director & Chief Technology Officer (ESOP Plan IV)",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "1,575,000",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "1,575,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of ESOPs vested as on March 31, 2024",
+    "confidence": 1,
+    "entity": "Mr. Kapil Bharati, Executive Director & Chief Technology Officer (ESOP Plan II)",
+    "estimate_type": "actual",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "No. of ESOPs vested as \non March 31, 2024 - 534,000",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "534,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of ESOPs vested as on March 31, 2024",
+    "confidence": 1,
+    "entity": "Mr. Kapil Bharati, Executive Director & Chief Technology Officer (ESOP Plan IV)",
+    "estimate_type": "actual",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Nil",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "Nil",
+    "value_kind": "text"
+   },
+   {
+    "attribute": "No. of ESOPs exercised during FY24",
+    "confidence": 1,
+    "entity": "Mr. Kapil Bharati, Executive Director & Chief Technology Officer (ESOP Plan I)",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "No. of ESOPs exercised \nduring FY24 67,500",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "67,500",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "No. of ESOPs exercised during FY24",
+    "confidence": 1,
+    "entity": "Mr. Kapil Bharati, Executive Director & Chief Technology Officer (ESOP Plan II)",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "534,000",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "534,000",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of shareholders' complaints received during the financial year",
+    "confidence": 1,
+    "entity": "Stakeholders' Relationship Committee",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Number of shareholders' complaints received \nduring the financial year 0",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of complaints not solved to the satisfaction of shareholders",
+    "confidence": 1,
+    "entity": "Stakeholders' Relationship Committee",
+    "estimate_type": "actual",
+    "period": "FY24",
+    "period_end": "2024-03-31",
+    "period_start": "2023-04-01",
+    "quote": "Number of complaints not solved to the \nsatisfaction of shareholders 0",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "0",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Number of pending complaints",
+    "confidence": 1,
+    "entity": "Stakeholders' Relationship Committee",
+    "estimate_type": "actual",
+    "period": "as on March 31, 2024",
+    "period_end": "2024-03-31",
+    "period_start": "2024-03-31",
+    "quote": "Number of pending complaints 0",
+    "quote_source": "text",
+    "scale": "one",
+    "unit": "None",
+    "value": "0",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "mixed",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4952,
+  "output_tokens": 1491
+ }
+}

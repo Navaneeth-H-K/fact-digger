@@ -1,0 +1,381 @@
+{
+ "key": "555e7fbfba0fda63f6a3dc51d9364cc52719b7e0972131fba59b2f5b023ac3a8",
+ "model": "gemini-3.5-flash-lite",
+ "purpose": "extract",
+ "request": {
+  "content": [
+   {
+    "data": "4ff73ac97e5b3b64bb5f404f6d2539800f15d2f3dbd7afa3ceab9ee1d1fde74d",
+    "media_type": "image/jpeg",
+    "type": "image"
+   },
+   {
+    "text": "Document: 02-rbi-annual-report-2024-25-excerpt.pdf; title: unknown; publisher: Reserve Bank of India; published: unknown; fiscal year starts in month 7.\nPage index 11, printed label 7.\nExisting attribute vocabulary (reuse a name when it means the same thing): Equity share capital %, revenue from services, Property, plant and equipment, Remuneration to key management personnel, GDP growth rate, Restated loss for the period / year, Active Customers, Team size, Weighted average cost of acquisition per Equity Share, Pin-code reach, Value of exports, PTL freight tonnage, Adjusted EBITDA, Adjusted EBITDA margin, express parcel shipments, Total borrowings, Infrastructure, Headline inflation average, global market share of apparel exports, Cash & cash equivalents at the end of the year, Total equity, Restated total comprehensive loss for the period / year, EBITDA, EBITDA margin, Equity Shares held, Total liabilities, Total assets, Authorised share capital, Basic loss per share, Total revenue from customers, Total income, Number of preference shares acquired, Restated other comprehensive income / (loss) for the period / year, Revenue from contracts with customers, NWC days, Diluted loss per share, Gateways, Net cash from / (used in) operating activities, Aggregate amount involved in litigation, Automated sort centers, Share based payment, Restated loss before tax, Re-measurement (loss) / gain on defined benefit plans, Supply Chain Services revenue, Instruments entirely equity in nature, FDI equity inflows share, Total equity and liabilities, Express Parcel revenue, PTL freight revenue, TL revenue, Net cash from / (used in) financing activities, Net cash from / (used in) investing activities, Cross Border Services revenue, Total Compensation, Other equity, Other income, Networth, Freight, handling and servicing cost, merchandise trade deficit, Total expenses, Revenue from operations, Profit/(loss) after tax, Count of 46-ft tractors, allowance for doubtful debts, Depreciation and amortisation expense, Offer for Sale amount, Apparel exports consumption share percentage, Investments in bank deposits, Board members count, Median remuneration/salary/wages of respective category, Employees and workers covered by human rights training percentage, Service EBITDA margin, Service EBITDA, Sale of traded goods revenue, Granted Options (Not vested), organized players market share, Share capital acquired in Falcon, Amount spent for the project, Amount underwritten, Fleet size - daily average, Indicative number of Equity Shares to be Underwritten, market CAGR, Capital Expenditure as % of Revenue from Services, Fulfilment centres operated, Debt to Equity, Outstanding at the end of the year, Number of new markets explored, express parcel shipments since inception, Investments in technology, Retention rate, Return to work rate, Total (B), Fixed annual remuneration, Core inflation average, bad debts written-off, Cost of time-based options, Outstanding at the beginning of the year, Employee benefit expense, Capital work in progress, Fair value loss on financial liabilities as % of revenue from contract with customers, Finance costs, Number of days with heatwaves, Deemed investment, merchandise exports, net FPI inflows, revenue from services growth rate, merchandise imports, Capital advances - Unsecured, Considered good (Non-Current), Age, Fulfilment centres aggregate floor area, Aggregate compensation, Total assets minus total liabilities, Rated Automated Sort Capacity, average tariff rate on dutiable items, Percentage coverage by training and awareness programmes, Cost of performance-based options, Sortation capacity utilisation, High consequence work-related injury or ill-health (excluding fatalities), Security deposits - Unsecured, Considered good (Non-Current), currency depreciation rate, Revenue from customers, Exercised during the year, Granted during the year, Ratio of remuneration to the Median Remuneration of Employees, Exercisable at the end of the year, Foreign exchange reserves, No. of fatalities, Net FDI, PTL freight tonnage growth rate, Lost Time Injury Frequency Rate (LTIFR), Fresh Issue size, Loan given, Total recordable work-related injuries, Logistics intensity, Trade payables, Share in Production, Repatriation amount, Applications count, Non - current operating assets, Attrition of Key Managerial Personnel, Attrition rate, Average global food inflation, Total cash balance, Revenue CAGR, Installed solar power capacity, Gross fixed capital formation growth rate, Express delivery centers, Freight service centers, Compensation paid, CRAR\n\nTEXT LAYER:\nASSESSMENT AND PROSPECTS\n7\ninflows stood at US$ 0.4 billion during 2024-25, \nlower than US$ 10.1 billion a year ago, and FPI \nrecorded net inflows of US$ 1.7 billion during \n2024-25 (US$ 41.6 billion a year ago). In terms of \nexternal financing needs, net capital flows were \nmore than sufficient to finance CAD in H1:2024-\n25, and accordingly, there was an accretion to \nforeign exchange reserves (on a BoP basis) of \nUS$ 23.8 billion. However, the situation reversed \nin H2. Foreign portfolio investors turned net \nsellers in the domestic market with net outflows \nat US$ 18.5 billion during October 2024 to March \n2025. Notably, net FPI flows in the debt segment \nexhibited resilience with US$ 17.4 billion of inflows \nduring 2024-25. Although other forms of capital \nflows, such as external commercial borrowings \n(ECB) and non-resident deposits remained \nrobust, net capital flows fell short of CAD during \nQ3:2024-25, leading to a depletion in reserves \n(on a BoP basis) to the tune of US$ 37.7 billion. \nOverall, there was a depletion in reserves to the \ntune of US$ 13.8 billion during April-December \n2024. Nonetheless, strong buffers in the form \nof ample forex reserves at US$ 668.3 billion \n(as at end-March 2025), covering 11 months of \nmerchandise imports, helped mitigate external \nfinancing needs and adverse global spillovers.\nI.24\t\nDuring the year, credit-to-deposit ratio of \nscheduled commercial banks (SCBs) marginally \nincreased, as bank credit growth outpaced \ndeposit growth. The gap between credit and \ndeposit growth, however, narrowed, with banks \ncontinuing to increase their term deposit rates \nto mobilise deposits to bridge the funding gap. \nSCBs witnessed further improvement in asset \nquality, as evident from reduction in both gross \nNPA (GNPA) ratio and net NPA (NNPA) ratio, \nalong with a steady decline in the slippage ratio. \nThe provision coverage ratio (PCR) as well as \nprofitability indicators, viz., return on asset (RoA) \nand return on equity (RoE) remained robust, \nwhile the net interest margin (NIM) softened. \nCapital and liquidity buffers remained well above \nthe regulatory requirements. Macro stress tests \nsuggest that banks’ aggregate capital would \nremain above the regulatory minimum under all \nadverse scenarios.\nI.25\t\nAggregate credit extended by non-banking \nfinancial companies (NBFCs) expanded in double \ndigits as at end-December 2024 although growth \nin unsecured lending moderated. Profitability \nindicators and NPA ratios continued to improve \nfurther during this period, while capital adequacy \nratio remained robust. Risk weights on bank \ncredit to NBFCs were reduced effective April \n1, 2025 to facilitate credit offtake and support \neconomic growth.\nI.26\t\nThe credit growth of urban cooperative \nbanks (UCBs) improved as at end-December \n2024. The financial performance of UCBs also \nimproved on the back of strengthened capital \nbuffers and lower GNPA ratio as compared to the \ncorresponding period of the previous year.\nI.27\t\nSeveral \nregulatory \nand \nsupervisory \nguidelines were issued during the year in line \nwith global best practices towards strengthening \ngovernance, risk management practices and \noperational resilience. These, inter alia, relate to: \n(a) principles for management of model risks in \ncredit; (b) eligibility criteria for voluntary transition \nof small finance banks (SFBs) to universal banks; \n(c) harmonisation of regulations applicable to \nhousing finance companies (HFCs) and NBFCs; \n",
+    "type": "text"
+   }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "system": "You extract checkable facts from one page of a document.\n\nYou see the rendered page image and the machine-extracted text layer. The text layer is often\ncorrupted: table rows shift, columns interleave, currency glyphs vanish or turn into stray letters,\nfootnote markers glue onto numbers. Trust the IMAGE for what a number is and where it sits in a\ntable; use the TEXT LAYER only to copy quotes.\n\nWhat counts as a fact: a specific claim about a named entity with a numeric value (or a definite\ncategorical statement such as a rating, a rank or a classification) that another document could\nagree or disagree with. Include prose numbers, headline table cells (totals, latest period, named\nindicators) and KPIs on slides. Exclude page numbers, section numbers, table-of-contents lines,\nchart axis ticks, dates on their own, boilerplate and values that are only labels. In dense tables\nprefer the latest period and totals. Return at most 25 facts, most important first.\n\nFields:\n- entity: who or what the fact is about. attribute: the measured quantity as a short noun phrase\n  with no period or unit in it. Reuse names from the existing vocabulary when they mean the same.\n- value: exactly as printed, including brackets or \"(-)\". unit: as printed. scale: the scale word\n  from the row, column or table header (\"million\", \"crore\", \"lakh\", \"billion\"), never guessed.\n- period: as printed. period_start/period_end: your ISO-date reading using the document's fiscal\n  year convention. Quarters, halves and cumulative spans are their own periods; \"as on\" dates are\n  points in time (start = end).\n- estimate_type: from the document's own labels (provisional, advance estimate, revised, budget,\n  projection, target, scenario). Use third_party and fill attributed_to when the document reports\n  another organisation's figure.\n- measurement_basis: any qualifier that changes comparability (\"consolidated\", \"standalone\",\n  \"BoP basis\", \"as % of GDP\", \"excluding X\", \"pro forma\", \"authorities' definition\").\n- quote: a contiguous verbatim substring of the TEXT LAYER that contains the value (≤300 chars,\n  may include the row label). If the value is visible in the image but absent or garbled in the\n  text layer, set quote_source to \"image\" and write the label and value as you read them.\n  Never paraphrase a quote.\n- confidence: how sure you are the value, unit, period and entity are all right.\n\nAlso report page_kind and a short list of problems you noticed while reading the page.",
+  "tool_name": "record_page_facts",
+  "tool_schema": {
+   "$defs": {
+    "ExtractedFact": {
+     "additionalProperties": false,
+     "properties": {
+      "attribute": {
+       "description": "The measured quantity as a short noun phrase, without period or unit.",
+       "minLength": 1,
+       "title": "Attribute",
+       "type": "string"
+      },
+      "attributed_to": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "The organisation the document credits when reporting someone else's figure.",
+       "title": "Attributed To"
+      },
+      "confidence": {
+       "default": 0.5,
+       "maximum": 1.0,
+       "minimum": 0.0,
+       "title": "Confidence",
+       "type": "number"
+      },
+      "entity": {
+       "description": "Who or what the fact is about, as named on the page.",
+       "minLength": 1,
+       "title": "Entity",
+       "type": "string"
+      },
+      "estimate_type": {
+       "default": "unknown",
+       "enum": [
+        "actual",
+        "provisional",
+        "advance_estimate",
+        "revised",
+        "budget",
+        "projection",
+        "target",
+        "scenario",
+        "third_party",
+        "unknown"
+       ],
+       "title": "Estimate Type",
+       "type": "string"
+      },
+      "measurement_basis": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Any qualifier that affects comparability: 'consolidated', 'BoP basis', 'as % of GDP'.",
+       "title": "Measurement Basis"
+      },
+      "notes": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Notes"
+      },
+      "period": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Period as printed: 'FY24', 'Q1 FY25', 'as on 31 March 2025'.",
+       "title": "Period"
+      },
+      "period_end": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period end.",
+       "title": "Period End"
+      },
+      "period_start": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "ISO date guess for the period start.",
+       "title": "Period Start"
+      },
+      "quote": {
+       "description": "Verbatim contiguous text from the page containing the value (≤300 chars).",
+       "maxLength": 600,
+       "minLength": 1,
+       "title": "Quote",
+       "type": "string"
+      },
+      "quote_source": {
+       "default": "text",
+       "enum": [
+        "text",
+        "image"
+       ],
+       "title": "Quote Source",
+       "type": "string"
+      },
+      "scale": {
+       "anyOf": [
+        {
+         "enum": [
+          "one",
+          "thousand",
+          "lakh",
+          "million",
+          "crore",
+          "billion",
+          "trillion"
+         ],
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Scale word from the row/column/table header.",
+       "title": "Scale"
+      },
+      "unit": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "description": "Unit as printed: 'per cent', '₹', 'US$', 'months'.",
+       "title": "Unit"
+      },
+      "value": {
+       "description": "The value exactly as printed, e.g. '(-) 2.5' or '3,25,540'.",
+       "minLength": 1,
+       "title": "Value",
+       "type": "string"
+      },
+      "value_kind": {
+       "default": "number",
+       "enum": [
+        "number",
+        "text",
+        "range"
+       ],
+       "title": "Value Kind",
+       "type": "string"
+      }
+     },
+     "required": [
+      "entity",
+      "attribute",
+      "value",
+      "quote"
+     ],
+     "title": "ExtractedFact",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "facts": {
+     "items": {
+      "$ref": "#/$defs/ExtractedFact"
+     },
+     "maxItems": 25,
+     "title": "Facts",
+     "type": "array"
+    },
+    "page_kind": {
+     "default": "mixed",
+     "enum": [
+      "prose",
+      "table",
+      "chart",
+      "mixed",
+      "cover_or_toc",
+      "blank_or_image_only"
+     ],
+     "title": "Page Kind",
+     "type": "string"
+    },
+    "problems": {
+     "description": "What was hard to read on this page.",
+     "items": {
+      "type": "string"
+     },
+     "title": "Problems",
+     "type": "array"
+    }
+   },
+   "title": "PageExtraction",
+   "type": "object"
+  }
+ },
+ "response": {
+  "facts": [
+   {
+    "attribute": "net FPI inflows",
+    "confidence": 1,
+    "entity": "Foreign portfolio investors",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "inflows stood at US$ 0.4 billion during 2024-25, lower than US$ 10.1 billion a year ago, and FPI recorded net inflows of US$ 1.7 billion during 2024-25 (US$ 41.6 billion a year ago).",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "1.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foreign exchange reserves",
+    "confidence": 1,
+    "entity": "foreign exchange reserves",
+    "estimate_type": "actual",
+    "measurement_basis": "on a BoP basis",
+    "notes": null,
+    "period": "H1:2024-25",
+    "period_end": "2024-09-30",
+    "period_start": "2024-04-01",
+    "quote": "accretion to foreign exchange reserves (on a BoP basis) of US$ 23.8 billion.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "23.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "net FPI inflows",
+    "confidence": 1,
+    "entity": "Foreign portfolio investors",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "October 2024 to March 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2024-10-01",
+    "quote": "net outflows at US$ 18.5 billion during October 2024 to March 2025.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "(-) 18.5",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "net FPI inflows",
+    "confidence": 1,
+    "entity": "debt segment",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "2024-25",
+    "period_end": "2025-03-31",
+    "period_start": "2024-04-01",
+    "quote": "net FPI flows in the debt segment exhibited resilience with US$ 17.4 billion of inflows during 2024-25.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "17.4",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foreign exchange reserves",
+    "confidence": 1,
+    "entity": "reserves",
+    "estimate_type": "actual",
+    "measurement_basis": "on a BoP basis",
+    "notes": null,
+    "period": "Q3:2024-25",
+    "period_end": "2024-12-31",
+    "period_start": "2024-10-01",
+    "quote": "depletion in reserves (on a BoP basis) to the tune of US$ 37.7 billion.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "(-) 37.7",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foreign exchange reserves",
+    "confidence": 1,
+    "entity": "reserves",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "April-December 2024",
+    "period_end": "2024-12-31",
+    "period_start": "2024-04-01",
+    "quote": "depletion in reserves to the tune of US$ 13.8 billion during April-December 2024.",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "(-) 13.8",
+    "value_kind": "number"
+   },
+   {
+    "attribute": "Foreign exchange reserves",
+    "confidence": 1,
+    "entity": "forex reserves",
+    "estimate_type": "actual",
+    "measurement_basis": null,
+    "notes": null,
+    "period": "as on 31 March 2025",
+    "period_end": "2025-03-31",
+    "period_start": "2025-03-31",
+    "quote": "ample forex reserves at US$ 668.3 billion (as at end-March 2025), covering 11 months of merchandise imports",
+    "quote_source": "text",
+    "scale": "billion",
+    "unit": "US$",
+    "value": "668.3",
+    "value_kind": "number"
+   }
+  ],
+  "page_kind": "prose",
+  "problems": []
+ },
+ "usage": {
+  "input_tokens": 4336,
+  "output_tokens": 1185
+ }
+}
